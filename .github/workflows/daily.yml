@@ -69,21 +69,23 @@ jobs:
       - name: 결과를 저장소에 남기기
         # 메일 보내기가 실패해도 만든 시트는 남겨야 한다.
         if: always()
-        # 윈도우 러너의 기본 셸은 PowerShell 이다.
-        # Git 과 함께 깔린 bash 를 써서 아래 스크립트를 그대로 쓴다.
-        shell: bash
+        # 윈도우 러너에서 돈다. bash 는 Git 과 함께 깔리지만 PATH 에 없으므로
+        # 항상 있는 Windows PowerShell 을 쓴다.
+        # 메시지를 영어로 둔 것은 .ps1 로 넘어갈 때 한글이 깨지는 걸 피하기 위해서다.
+        shell: powershell
         run: |
+          $ErrorActionPreference = "Continue"   # git 이 진행률을 stderr 로 찍어도 멈추지 않게
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config core.quotepath false
           # .gitignore 가 중간 파일을 걸러 주므로, 남는 것은 words.json 과 결과/ 뿐이다.
           # 실행이 중간에 멈춰 그 둘이 아직 없어도 여기서 에러가 나지 않는다.
           git add -A
-          if git diff --cached --quiet; then
-            echo "바뀐 것이 없습니다."
-            exit 0
-          fi
-          git commit -m "시트 추가: $(date +%Y-%m-%d)"
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 0) { Write-Host "Nothing to commit."; exit 0 }
+          git commit -m ("Add sheet: " + (Get-Date -Format "yyyy-MM-dd"))
+          if ($LASTEXITCODE -ne 0) { Write-Host "Commit failed."; exit 1 }
           # 그 사이 다른 실행이 밀어 넣었을 수 있으니 한 번 당겨 붙인다.
           git pull --rebase --autostash
           git push
+          exit $LASTEXITCODE
