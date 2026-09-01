@@ -61,6 +61,19 @@ def explicit_url():
 
 # ── 메일 보내기 ──────────────────────────────────────────────
 
+def _hint(addr):
+    """주소를 알아볼 만큼만 보여 준다. 'ua1***@gmail.com' 처럼.
+
+    통째로 찍으면 GitHub 이 Secret 과 같은 문자열이라며 *** 로 가려 버려
+    무엇이 잘못됐는지 알 수 없게 된다. 그래서 일부러 변형해서 찍는다.
+    """
+    addr = (addr or "").strip()
+    if "@" not in addr:
+        return f"{addr[:3]}... (@ 가 없습니다 — 주소 전체를 넣어야 합니다)"
+    name, dom = addr.split("@", 1)
+    return f"{name[:3]}***@{dom}"
+
+
 def _plain_summary(title, url, path):
     return (f"오늘의 영어 복습 시트입니다.\n\n"
             f"영상: {title}\n"
@@ -102,11 +115,23 @@ def send_mail(path, title, url):
                               timeout=60) as s:
             s.login(user, pw)
             s.send_message(msg)
-    except smtplib.SMTPAuthenticationError:
-        sys.exit("[!] 지메일 로그인에 실패했습니다.\n"
-                 "    GMAIL_APP_PASSWORD 는 평소 비밀번호가 아니라\n"
-                 "    구글 계정 → 보안 → 2단계 인증 → 앱 비밀번호 에서\n"
-                 "    새로 만든 16자리입니다.")
+    except smtplib.SMTPAuthenticationError as e:
+        # '실패했다' 만으로는 무엇을 고쳐야 할지 알 수 없다.
+        # 값 자체는 찍지 않고, 판단에 필요한 만큼만 보여 준다.
+        # (GitHub 은 Secret 과 똑같은 문자열을 *** 로 가리므로 변형해서 찍는다)
+        say = e.smtp_error.decode("utf-8", "replace") if isinstance(
+            e.smtp_error, bytes) else str(e.smtp_error)
+        sys.exit(
+            "[!] 지메일 로그인에 실패했습니다.\n"
+            f"    보내는 계정 : {_hint(user)}\n"
+            f"    앱 비밀번호 : {len(pw)}자 "
+            f"{'(정상)' if len(pw) == 16 else '(16자가 아닙니다 !!)'}\n"
+            f"    구글 응답   : {say[:200]}\n"
+            "\n"
+            "    가장 흔한 원인 두 가지:\n"
+            "    1) GMAIL_USER 의 계정과 앱 비밀번호를 만든 계정이 다르다.\n"
+            "       둘은 반드시 같은 구글 계정이어야 합니다.\n"
+            "    2) GMAIL_USER 에 @gmail.com 까지 넣지 않았다.")
     except (smtplib.SMTPException, OSError) as e:
         sys.exit(f"[!] 메일을 보내지 못했습니다: {type(e).__name__}: {e}")
 
