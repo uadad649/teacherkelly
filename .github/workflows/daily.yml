@@ -75,17 +75,25 @@ jobs:
         shell: powershell
         run: |
           $ErrorActionPreference = "Continue"   # git 이 진행률을 stderr 로 찍어도 멈추지 않게
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config core.quotepath false
+
+          # git 을 PATH 에만 의존해 찾지 않는다.
+          # 러너가 오래된 PATH 를 물고 있으면 'git 을 찾을 수 없다' 로 죽는다.
+          $g = (Get-Command git -ErrorAction SilentlyContinue).Source
+          if (-not $g) { $g = "C:\Program Files\Git\cmd\git.exe" }
+          if (-not (Test-Path $g)) { Write-Host "git not found."; exit 1 }
+          Write-Host "git: $g"
+
+          & $g config user.name  "github-actions[bot]"
+          & $g config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          & $g config core.quotepath false
           # .gitignore 가 중간 파일을 걸러 주므로, 남는 것은 words.json 과 결과/ 뿐이다.
           # 실행이 중간에 멈춰 그 둘이 아직 없어도 여기서 에러가 나지 않는다.
-          git add -A
-          git diff --cached --quiet
+          & $g add -A
+          & $g diff --cached --quiet
           if ($LASTEXITCODE -eq 0) { Write-Host "Nothing to commit."; exit 0 }
-          git commit -m ("Add sheet: " + (Get-Date -Format "yyyy-MM-dd"))
+          & $g commit -m ("Add sheet: " + (Get-Date -Format "yyyy-MM-dd"))
           if ($LASTEXITCODE -ne 0) { Write-Host "Commit failed."; exit 1 }
           # 그 사이 다른 실행이 밀어 넣었을 수 있으니 한 번 당겨 붙인다.
-          git pull --rebase --autostash
-          git push
+          & $g pull --rebase --autostash
+          & $g push
           exit $LASTEXITCODE
