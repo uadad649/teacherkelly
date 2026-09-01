@@ -24,26 +24,25 @@ concurrency:
 
 jobs:
   make-sheet:
-    runs-on: ubuntu-latest
-    timeout-minutes: 20
+    # 깃허브가 빌려주는 우분투 서버가 아니라 '내 PC' 에서 돈다.
+    #
+    # 유튜브는 데이터센터(AWS·GitHub 등)에서 오는 자막 요청을 막는다.
+    # 우분투 러너로는 RequestBlocked 가 나서 한 발짝도 못 간다.
+    # 집 인터넷 IP 는 막히지 않으므로 내 PC 를 러너로 쓴다.
+    #
+    # PC 가 꺼져 있으면 작업이 큐에서 기다린다. 24시간 안에 켜면 그때 돈다.
+    runs-on: [self-hosted, windows]
+    timeout-minutes: 30
     permissions:
       contents: write        # words.json / 결과 폴더를 저장소에 되돌려 쓰기 위해
 
     steps:
       - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v7
-        with:
-          python-version: "3.12"
-          cache: pip
-
-      - name: 라이브러리 설치
-        run: pip install -r requirements.txt
-
-      # 시트는 Claude Code 가 만든다. 구독 토큰으로 인증하므로
-      # API 키를 따로 사지 않아도 된다. (Pro 구독에 API 사용권은 없다)
-      - name: Claude Code 설치
-        run: npm install -g @anthropic-ai/claude-code
+      # 파이썬과 Claude Code 는 이 PC 에 이미 깔려 있으므로 설치하지 않는다.
+      # (우분투 러너였다면 매번 내려받아야 했다)
+      - name: 라이브러리 확인
+        run: python -m pip install --quiet -r requirements.txt
 
       - name: 시트 만들고 메일 보내기
         env:
@@ -70,6 +69,9 @@ jobs:
       - name: 결과를 저장소에 남기기
         # 메일 보내기가 실패해도 만든 시트는 남겨야 한다.
         if: always()
+        # 윈도우 러너의 기본 셸은 PowerShell 이다.
+        # Git 과 함께 깔린 bash 를 써서 아래 스크립트를 그대로 쓴다.
+        shell: bash
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
