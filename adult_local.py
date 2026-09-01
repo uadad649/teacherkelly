@@ -82,6 +82,9 @@ N_REVIEW = 8
 
 # 유튜브는 데이터센터 IP(=GitHub 서버)에서 오는 자막 요청을 자주 막는다.
 # 프록시를 넣어 두면 그때 대신 나간다. 없으면 그냥 직접 나간다.
+# 자막을 못 받았을 때 마지막 사유. 실패 메시지에 그대로 실어 보낸다.
+LAST_TRANSCRIPT_ERROR = ""
+
 WEBSHARE_USER = os.environ.get("WEBSHARE_PROXY_USERNAME", "").strip()
 WEBSHARE_PASS = os.environ.get("WEBSHARE_PROXY_PASSWORD", "").strip()
 PROXY_URL = os.environ.get("YT_PROXY_URL", "").strip()
@@ -463,12 +466,16 @@ def get_transcript(video_id, allow_whisper=None):
     if allow_whisper is None:
         allow_whisper = ALLOW_WHISPER
 
+    global LAST_TRANSCRIPT_ERROR
+    LAST_TRANSCRIPT_ERROR = ""
+
     listing = None
     try:
         listing = _listing(video_id)
-    except (TranscriptsDisabled, NoTranscriptFound):
-        pass
+    except (TranscriptsDisabled, NoTranscriptFound) as e:
+        LAST_TRANSCRIPT_ERROR = f"{type(e).__name__} (이 영상에 자막이 없습니다)"
     except Exception as e:
+        LAST_TRANSCRIPT_ERROR = f"{type(e).__name__}: {str(e)[:400]}"
         print(f"    자막 조회 실패: {type(e).__name__}: {e}")
 
     existed = False          # 쓸 만한 자막이 목록에 '있었는가'
@@ -712,7 +719,16 @@ def prep(url, interactive=True):
 
     chunks, src, lang = get_transcript(v)
     if not chunks:
-        raise PrepFailed("자막을 못 받았습니다. 다른 영상을 골라주세요.")
+        why = LAST_TRANSCRIPT_ERROR
+        if "Blocked" in why or "IpBlocked" in why:
+            raise PrepFailed(
+                "유튜브가 이 서버의 IP 를 막았습니다.\n"
+                "코드 문제가 아니라 유튜브가 데이터센터에서 오는 요청을 "
+                "차단하는 것입니다.\n"
+                "프록시를 넣거나(README 5번), 내 PC 에서 돌리면 됩니다.\n"
+                f"원문: {why}")
+        raise PrepFailed(f"자막을 못 받았습니다. 다른 영상을 골라주세요."
+                         + (f"\n사유: {why}" if why else ""))
     if MIN_TRANSCRIPT_LINES and len(chunks) < MIN_TRANSCRIPT_LINES:
         raise PrepFailed(f"자막이 {len(chunks)}줄뿐이라 건너뜁니다. "
                          f"(쇼츠이거나 너무 짧은 영상)")

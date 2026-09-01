@@ -194,8 +194,32 @@ def main():
     deliver(core.auto(url), url)      # 사람이 주소를 준 실행
 
 
+def _report_failure(msg):
+    """실패 사유를 실행 화면 맨 위에 크게 남긴다.
+
+    Actions 로그는 접어 놓은 단계를 펼쳐야 보이고 저장소 주인만 볼 수 있다.
+    무엇 때문에 죽었는지는 한눈에 보여야 한다.
+    """
+    step_summary([
+        f"### 실패 — {dt.date.today().isoformat()}",
+        "",
+        "```",
+        str(msg).strip(),
+        "```",
+    ])
+
+
 if __name__ == "__main__":
     try:
         main()
     except core.PrepFailed as e:
+        _report_failure(e)
         sys.exit(f"[!] {e}")
+    except SystemExit as e:
+        if isinstance(e.code, str):        # sys.exit("사유") 로 죽은 경우
+            _report_failure(e.code)
+        raise
+    except Exception as e:                 # 예상 못 한 오류도 사유를 남긴다
+        import traceback
+        _report_failure(traceback.format_exc()[-1500:])
+        raise
