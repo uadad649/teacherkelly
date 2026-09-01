@@ -196,5 +196,203 @@
   "kind": "word",
   "date": "2026-09-01",
   "vid": "JlgkaAiKvRQ"
+ },
+ {
+  "en": "What are you up to this weekend?",
+  "ko": "이번 주말에 뭐 해요?",
+  "when_ko": "친구나 동료에게 주말 계획을 물을 때",
+  "timecode": "10:30",
+  "example_en": "Hey, what are you up to this weekend?",
+  "example_ko": "야, 이번 주말에 뭐 해?",
+  "kind": "expr",
+  "date": "2026-09-01",
+  "vid": "OigyGpbR36U"
+ },
+ {
+  "en": "How you doing?",
+  "ko": "잘 지내요?",
+  "when_ko": "아는 사람을 만나 가볍게 인사할 때",
+  "timecode": "07:27",
+  "example_en": "Hey, how you doing?",
+  "example_ko": "안녕, 잘 지내?",
+  "kind": "expr",
+  "date": "2026-09-01",
+  "vid": "OigyGpbR36U"
+ },
+ {
+  "en": "I'm from Korea.",
+  "ko": "저는 한국에서 왔어요.",
+  "when_ko": "처음 만난 사람이 어디서 왔냐고 물을 때",
+  "timecode": "08:26",
+  "example_en": "Nice to meet you. I'm from Korea.",
+  "example_ko": "만나서 반가워요. 저는 한국에서 왔어요.",
+  "kind": "expr",
+  "date": "2026-09-01",
+  "vid": "OigyGpbR36U"
+ },
+ {
+  "en": "It's kind of late.",
+  "ko": "좀 늦었네요.",
+  "when_ko": "시간이 늦어서 이제 가야겠다고 말할 때",
+  "timecode": "11:01",
+  "example_en": "It's kind of late. I should go home.",
+  "example_ko": "좀 늦었네요. 집에 가야겠어요.",
+  "kind": "expr",
+  "date": "2026-09-01",
+  "vid": "OigyGpbR36U"
+ },
+ {
+  "en": "I'm kind of tired of waiting.",
+  "ko": "기다리는 거 좀 지쳤어요.",
+  "when_ko": "줄이 길거나 오래 기다려서 지칠 때",
+  "timecode": "07:08",
+  "example_en": "I'm kind of tired of waiting here.",
+  "example_ko": "여기서 기다리는 거 좀 지치네요.",
+  "kind": "expr",
+  "date": "2026-09-01",
+  "vid": "OigyGpbR36U"
+ },
+ {
+  "en": "It's gonna be good.",
+  "ko": "괜찮을 거예요. / 맛있을 거예요.",
+  "when_ko": "식당이나 영화가 괜찮을 것 같다고 기대할 때",
+  "timecode": "05:46",
+  "example_en": "Look at that line. It's gonna be good.",
+  "example_ko": "저 줄 좀 봐. 맛있을 거야.",
+  "kind": "expr",
+  "date": "2026-09-01",
+  "vid": "OigyGpbR36U"
+ },
+ {
+  "en": "a little bit of",
+  "ko": "조금, 약간",
+  "when_ko": "영어를 조금 한다고 말하거나 양이 적다고 할 때",
+  "timecode": "07:59",
+  "example_en": "I speak a little bit of English.",
+  "example_ko": "저 영어 조금 해요.",
+  "kind": "expr",
+  "date": "2026-09-01",
+  "vid": "OigyGpbR36U"
+ },
+ {
+  "en": "That one's hard to pronounce.",
+  "ko": "그건 발음하기 어렵네요.",
+  "when_ko": "어떤 단어를 따라 말하기 힘들다고 할 때",
+  "timecode": "04:12",
+  "example_en": "That one's hard to pronounce. Can you say it again?",
+  "example_ko": "그건 발음하기 어렵네요. 다시 말해 줄래요?",
+  "kind": "expr",
+  "date": "2026-09-01",
+  "vid": "OigyGpbR36U"
+ },
+ {
+  "en": "restaurant",
+  "ko": "식당",
+  "pos": "명사",
+  "timecode": "05:25",
+  "example_en": "This restaurant is very good.",
+  "example_ko": "이 식당 정말 괜찮아요.",
+  "kind": "word",
+  "date": "2026-09-01",
+  "vid": "OigyGpbR36U"
+ },
+ {
+  "en": "mall",
+  "ko": "쇼핑몰",
+  "pos": "명사",
+  "timecode": "06:13",
+  "example_en": "I go to the mall.",
+  "example_ko": "저는 쇼핑몰에 가요.",
+  "kind": "word",
+  "date": "2026-09-01",
+  "vid": "OigyGpbR36U"
+ },
+ {
+  "en": "teacher",
+  "ko": "선생님",
+  "pos": "명사",
+  "timecode": "13:01",
+  "example_en": "My teacher speaks very fast.",
+  "example_ko": "제 선생님은 말이 아주 빨라요.",
+  "kind": "word",
+  "date": "2026-09-01",
+  "vid": "OigyGpbR36U"
+ },
+ {
+  "en": "voice",
+  "ko": "목소리",
+  "pos": "명사",
+  "timecode": "13:03",
+  "example_en": "I hear a voice outside.",
+  "example_ko": "밖에서 목소리가 들려요.",
+  "kind": "word",
+  "date": "2026-09-01",
+  "vid": "OigyGpbR36U"
+ },
+ {
+  "en": "word",
+  "ko": "단어",
+  "pos": "명사",
+  "timecode": "02:42",
+  "example_en": "I don't know this word.",
+  "example_ko": "이 단어를 몰라요.",
+  "kind": "word",
+  "date": "2026-09-01",
+  "vid": "OigyGpbR36U"
+ },
+ {
+  "en": "sentence",
+  "ko": "문장",
+  "pos": "명사",
+  "timecode": "05:29",
+  "example_en": "Say this sentence again.",
+  "example_ko": "이 문장 다시 말해 보세요.",
+  "kind": "word",
+  "date": "2026-09-01",
+  "vid": "OigyGpbR36U"
+ },
+ {
+  "en": "young",
+  "ko": "어린, 젊은",
+  "pos": "형용사",
+  "timecode": "02:23",
+  "example_en": "My brother is very young.",
+  "example_ko": "제 동생은 아주 어려요.",
+  "kind": "word",
+  "date": "2026-09-01",
+  "vid": "OigyGpbR36U"
+ },
+ {
+  "en": "say",
+  "ko": "말하다",
+  "pos": "동사",
+  "timecode": "02:34",
+  "example_en": "Say it one more time.",
+  "example_ko": "한 번만 더 말해 주세요.",
+  "kind": "word",
+  "date": "2026-09-01",
+  "vid": "OigyGpbR36U"
+ },
+ {
+  "en": "change",
+  "ko": "바꾸다",
+  "pos": "동사",
+  "timecode": "05:38",
+  "example_en": "I want to change seats.",
+  "example_ko": "자리를 바꾸고 싶어요.",
+  "kind": "word",
+  "date": "2026-09-01",
+  "vid": "OigyGpbR36U"
+ },
+ {
+  "en": "helpful",
+  "ko": "도움이 되는",
+  "pos": "형용사",
+  "timecode": "13:04",
+  "example_en": "This book is very helpful.",
+  "example_ko": "이 책은 아주 도움이 돼요.",
+  "kind": "word",
+  "date": "2026-09-01",
+  "vid": "OigyGpbR36U"
  }
 ]
