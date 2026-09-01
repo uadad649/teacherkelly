@@ -1,0 +1,200 @@
+[
+ {
+  "en": "I slept in today.",
+  "ko": "나 오늘 늦잠 잤어.",
+  "when_ko": "아침에 늦잠 잤다고 말할 때",
+  "timecode": "00:29",
+  "example_en": "I slept in today, so I'm late.",
+  "example_ko": "오늘 늦잠 자서 늦었어.",
+  "kind": "expr",
+  "date": "2026-09-01",
+  "vid": "JlgkaAiKvRQ"
+ },
+ {
+  "en": "I have bad bed head.",
+  "ko": "머리가 완전 눌렸어.",
+  "when_ko": "자고 일어나 머리가 눌려 있을 때",
+  "timecode": "00:31",
+  "example_en": "Don't look at me, I have bad bed head.",
+  "example_ko": "보지 마, 머리가 완전 눌렸어.",
+  "kind": "expr",
+  "date": "2026-09-01",
+  "vid": "JlgkaAiKvRQ"
+ },
+ {
+  "en": "I'm making the bed.",
+  "ko": "침대 정리하는 중이야.",
+  "when_ko": "일어나서 이불을 정리하고 있을 때",
+  "timecode": "00:33",
+  "example_en": "Wait a second, I'm making the bed.",
+  "example_ko": "잠깐만, 침대 정리하는 중이야.",
+  "kind": "expr",
+  "date": "2026-09-01",
+  "vid": "JlgkaAiKvRQ"
+ },
+ {
+  "en": "I need to brush my teeth.",
+  "ko": "나 양치해야 해.",
+  "when_ko": "양치하러 가야 한다고 말할 때",
+  "timecode": "00:41",
+  "example_en": "I need to brush my teeth before we go.",
+  "example_ko": "나가기 전에 양치해야 해.",
+  "kind": "expr",
+  "date": "2026-09-01",
+  "vid": "JlgkaAiKvRQ"
+ },
+ {
+  "en": "I have bad morning breath.",
+  "ko": "아침이라 입냄새가 나.",
+  "when_ko": "아침에 입냄새가 난다고 말할 때",
+  "timecode": "00:45",
+  "example_en": "Sorry, I have bad morning breath.",
+  "example_ko": "미안, 아침이라 입냄새가 나.",
+  "kind": "expr",
+  "date": "2026-09-01",
+  "vid": "JlgkaAiKvRQ"
+ },
+ {
+  "en": "I'm going to pick out my clothes.",
+  "ko": "입을 옷 고를 거야.",
+  "when_ko": "오늘 입을 옷을 고르려고 할 때",
+  "timecode": "00:50",
+  "example_en": "I'm going to pick out my clothes now.",
+  "example_ko": "지금 입을 옷 고를 거야.",
+  "kind": "expr",
+  "date": "2026-09-01",
+  "vid": "JlgkaAiKvRQ"
+ },
+ {
+  "en": "I'm gonna take a sip of coffee.",
+  "ko": "커피 한 모금 마실게.",
+  "when_ko": "음료를 한 모금 마시겠다고 말할 때",
+  "timecode": "00:57",
+  "example_en": "Hold on, I'm gonna take a sip of coffee.",
+  "example_ko": "잠깐만, 커피 한 모금 마실게.",
+  "kind": "expr",
+  "date": "2026-09-01",
+  "vid": "JlgkaAiKvRQ"
+ },
+ {
+  "en": "It's time to head out for work.",
+  "ko": "이제 출근할 시간이야.",
+  "when_ko": "준비 끝내고 나갈 시간이 됐을 때",
+  "timecode": "01:45",
+  "example_en": "It's time to head out for work. See you tonight.",
+  "example_ko": "이제 출근할 시간이야. 저녁에 봐.",
+  "kind": "expr",
+  "date": "2026-09-01",
+  "vid": "JlgkaAiKvRQ"
+ },
+ {
+  "en": "try",
+  "ko": "해 보다",
+  "pos": "동사",
+  "timecode": "01:14",
+  "example_en": "Let's try it again.",
+  "example_ko": "다시 한번 해 보자.",
+  "kind": "word",
+  "date": "2026-09-01",
+  "vid": "JlgkaAiKvRQ"
+ },
+ {
+  "en": "learn",
+  "ko": "배우다",
+  "pos": "동사",
+  "timecode": "07:24",
+  "example_en": "I want to learn English.",
+  "example_ko": "영어를 배우고 싶어.",
+  "kind": "word",
+  "date": "2026-09-01",
+  "vid": "JlgkaAiKvRQ"
+ },
+ {
+  "en": "forget",
+  "ko": "잊다",
+  "pos": "동사",
+  "timecode": "07:24",
+  "example_en": "Don't forget your phone.",
+  "example_ko": "핸드폰 잊지 마.",
+  "kind": "word",
+  "date": "2026-09-01",
+  "vid": "JlgkaAiKvRQ"
+ },
+ {
+  "en": "focus",
+  "ko": "집중하다",
+  "pos": "동사",
+  "timecode": "03:32",
+  "example_en": "I need to focus now.",
+  "example_ko": "지금 집중해야 해.",
+  "kind": "word",
+  "date": "2026-09-01",
+  "vid": "JlgkaAiKvRQ"
+ },
+ {
+  "en": "stay",
+  "ko": "머무르다",
+  "pos": "동사",
+  "timecode": "12:54",
+  "example_en": "Please stay here.",
+  "example_ko": "여기 있어 줘.",
+  "kind": "word",
+  "date": "2026-09-01",
+  "vid": "JlgkaAiKvRQ"
+ },
+ {
+  "en": "step",
+  "ko": "단계",
+  "pos": "명사",
+  "timecode": "04:53",
+  "example_en": "What's the next step?",
+  "example_ko": "다음 단계가 뭐야?",
+  "kind": "word",
+  "date": "2026-09-01",
+  "vid": "JlgkaAiKvRQ"
+ },
+ {
+  "en": "next",
+  "ko": "다음의",
+  "pos": "형용사",
+  "timecode": "04:53",
+  "example_en": "See you next week.",
+  "example_ko": "다음 주에 보자.",
+  "kind": "word",
+  "date": "2026-09-01",
+  "vid": "JlgkaAiKvRQ"
+ },
+ {
+  "en": "helpful",
+  "ko": "도움이 되는",
+  "pos": "형용사",
+  "timecode": "11:17",
+  "example_en": "This app is very helpful.",
+  "example_ko": "이 앱 정말 도움이 돼.",
+  "kind": "word",
+  "date": "2026-09-01",
+  "vid": "JlgkaAiKvRQ"
+ },
+ {
+  "en": "expert",
+  "ko": "전문가",
+  "pos": "명사",
+  "timecode": "02:39",
+  "example_en": "She is a coffee expert.",
+  "example_ko": "그녀는 커피 전문가야.",
+  "kind": "word",
+  "date": "2026-09-01",
+  "vid": "JlgkaAiKvRQ"
+ },
+ {
+  "en": "luck",
+  "ko": "운",
+  "pos": "명사",
+  "timecode": "12:58",
+  "example_en": "Good luck with your test.",
+  "example_ko": "시험 잘 봐.",
+  "kind": "word",
+  "date": "2026-09-01",
+  "vid": "JlgkaAiKvRQ"
+ }
+]

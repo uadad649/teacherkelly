@@ -1,0 +1,71 @@
+name: 영어 시트 만들기
+
+# Actions 탭 → 왼쪽에서 이 워크플로 고르기 → 오른쪽 'Run workflow' 버튼
+# → 유튜브 주소 붙여넣고 실행.
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "유튜브 주소 (예: https://www.youtube.com/watch?v=xxxxxxxxxxx)"
+        required: true
+        type: string
+
+  # 나중에 매일 자동으로 돌리고 싶어지면 아래 3줄의 주석을 푼다.
+  # 그때는 main.py 가 주소를 어디서 가져올지 정해 줘야 한다.
+  # schedule:
+  #   - cron: "0 22 * * *"   # UTC 22:00 = 한국 아침 7시
+
+# 같은 저장소에 두 번 겹쳐 돌면 커밋이 서로를 덮어쓴다. 한 번에 하나만.
+concurrency:
+  group: sheet
+  cancel-in-progress: false
+
+jobs:
+  make-sheet:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write        # words.json / 결과 폴더를 저장소에 되돌려 쓰기 위해
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 라이브러리 설치
+        run: pip install -r requirements.txt
+
+      - name: 시트 만들고 메일 보내기
+        env:
+          VIDEO_URL: ${{ inputs.url }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          # 유튜브가 GitHub 서버 IP 를 막을 때만 쓴다. 없으면 그냥 비워 둔다.
+          WEBSHARE_PROXY_USERNAME: ${{ secrets.WEBSHARE_PROXY_USERNAME }}
+          WEBSHARE_PROXY_PASSWORD: ${{ secrets.WEBSHARE_PROXY_PASSWORD }}
+          PYTHONUNBUFFERED: "1"
+        run: python main.py
+
+      - name: 결과를 저장소에 남기기
+        # 메일 보내기가 실패해도 만든 시트는 남겨야 한다.
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config core.quotepath false
+          # .gitignore 가 중간 파일을 걸러 주므로, 남는 것은 words.json 과 결과/ 뿐이다.
+          # 실행이 중간에 멈춰 그 둘이 아직 없어도 여기서 에러가 나지 않는다.
+          git add -A
+          if git diff --cached --quiet; then
+            echo "바뀐 것이 없습니다."
+            exit 0
+          fi
+          git commit -m "시트 추가: $(date +%Y-%m-%d)"
+          # 그 사이 다른 실행이 밀어 넣었을 수 있으니 한 번 당겨 붙인다.
+          git pull --rebase --autostash
+          git push

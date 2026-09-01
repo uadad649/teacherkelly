@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026-09-01 영어 복습 · 아침루틴</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans+KR:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1C2118;
+    --ink-2:#3A4436;
+    --slate:#6B7566;
+    --paper:#F3F1EA;
+    --card:#FFFFFF;
+    --line:#DCD9CE;
+    --accent:#2E5D4B;      /* 깊은 초록 — 제목·표현 */
+    --live:#B4531F;        /* 타임코드 */
+    --rail:56px;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:"IBM Plex Sans KR",system-ui,sans-serif;
+    font-size:16px;line-height:1.65;
+    -webkit-text-size-adjust:100%;
+  }
+  .wrap{max-width:780px;margin:0 auto;padding:0 20px 80px}
+
+  /* ── 상단 바 ───────────────────────────────── */
+  .bar{
+    background:var(--ink);color:#E9E4D6;
+    margin:0 -20px 32px;padding:11px 20px;
+    display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+    font-family:"IBM Plex Mono",monospace;
+    font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  }
+  .bar .sp{margin-left:auto;color:#9AA593;text-transform:none;letter-spacing:.04em}
+  .tag{padding:2px 7px;border-radius:2px;letter-spacing:.1em}
+  .tag.manual{background:#2E7D5B;color:#fff}
+  .tag.asr{background:#7C6624;color:#FFEDB8}
+  .tag.whisper{background:#7A3B2E;color:#FFD9CC}
+  .lang{background:#3C4A3A;color:#D8E2D2;padding:2px 7px;border-radius:2px}
+
+  /* ── 헤더 ──────────────────────────────────── */
+  h1{
+    font-family:"Source Serif 4",Georgia,serif;font-weight:600;
+    font-size:clamp(26px,5vw,38px);line-height:1.18;
+    letter-spacing:-.01em;margin:0 0 18px;
+  }
+  .watch{
+    display:inline-flex;align-items:center;gap:9px;
+    background:var(--accent);color:#fff;text-decoration:none;
+    padding:9px 18px 9px 15px;border-radius:2px;
+    font-size:13px;font-weight:500;
+  }
+  .watch:hover{background:var(--ink)}
+  .watch::before{content:"▶";font-size:10px}
+
+  .brief{
+    background:var(--card);border-left:3px solid var(--accent);
+    padding:20px 22px;margin:26px 0 42px;
+    font-size:15px;color:var(--ink-2);
+  }
+  .brief b{
+    display:block;font-family:"IBM Plex Mono",monospace;
+    font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--slate);margin-bottom:9px;font-weight:600;
+  }
+
+  h2{
+    font-family:"IBM Plex Mono",monospace;font-weight:600;
+    font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--slate);margin:0 0 16px;
+    padding-bottom:9px;border-bottom:1px solid var(--line);
+  }
+
+  /* ── 타임코드 공통 ─────────────────────────── */
+  .xtc,.wtc,.stc,.dtc{
+    font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;
+    text-decoration:none;padding:3px 6px;border-radius:2px;
+    background:var(--live);color:#fff;white-space:nowrap;
+  }
+  a.xtc:hover,a.wtc:hover,a.stc:hover,a.dtc:hover{background:var(--ink)}
+  span.xtc,span.wtc,span.stc,span.dtc{background:#C9C6BB;color:#5F5B50}
+
+  /* ── 오늘의 표현 ───────────────────────────── */
+  .exprs{list-style:none;margin:0 0 44px;padding:0;display:grid;gap:10px}
+  .x{
+    background:var(--card);padding:15px 18px 13px;
+    display:grid;grid-template-columns:auto 1fr;gap:2px 12px;
+    align-items:baseline;border-left:3px solid var(--accent);
+  }
+  .x .xtc{grid-row:1/4;align-self:start;margin-top:5px}
+  .x b{
+    font-family:"Source Serif 4",Georgia,serif;
+    font-size:22px;font-weight:600;line-height:1.3;letter-spacing:-.01em;
+  }
+  .x .ko{grid-column:2;font-size:15px;color:var(--ink-2);font-weight:500}
+  .x .when{
+    grid-column:2;font-size:12.5px;color:var(--accent);margin-top:3px;
+  }
+  .x .when::before{content:"쓸 때 · ";opacity:.6}
+  .x em{
+    grid-column:1/-1;font-style:normal;font-size:14px;
+    color:var(--ink-2);margin-top:11px;padding-top:11px;
+    border-top:1px solid #ECEAE1;
+    font-family:"Source Serif 4",Georgia,serif;
+  }
+  .x em i{
+    display:block;font-style:normal;font-size:12.5px;
+    color:var(--slate);font-family:"IBM Plex Sans KR",sans-serif;
+  }
+
+  /* ── 눌러서 표시하는 단추 ───────────────────── */
+  .mark{grid-column:1/-1;display:flex;gap:5px;margin-top:12px}
+  .mark button{
+    flex:1;font-family:inherit;font-size:11.5px;padding:5px 2px;
+    border:1px solid var(--line);background:#FAF9F5;color:var(--slate);
+    border-radius:2px;cursor:pointer;
+  }
+  .mark button:hover{border-color:var(--ink)}
+  .mark button[aria-pressed="true"]{
+    background:var(--accent);border-color:var(--accent);color:#fff;
+  }
+
+  /* ── 쉐도잉 ────────────────────────────────── */
+  .shadow{list-style:none;margin:0 0 44px;padding:0;display:grid;gap:8px}
+  .s{
+    background:var(--card);padding:14px 16px;
+    display:grid;grid-template-columns:auto 1fr auto;gap:0 13px;align-items:start;
+  }
+  .s .stc{margin-top:4px}
+  .sbody .en{
+    margin:0;font-family:"Source Serif 4",Georgia,serif;
+    font-size:19px;font-weight:600;line-height:1.4;
+  }
+  .sbody .ko{margin:3px 0 0;font-size:13.5px;color:var(--ink-2)}
+  .sbody .tip{
+    margin:8px 0 0;font-size:12.5px;color:var(--slate);
+    padding-left:11px;border-left:2px solid var(--line);
+  }
+  .reps{display:flex;flex-direction:column;align-items:center;gap:4px}
+  .rep{
+    font-family:inherit;font-size:11px;padding:5px 10px;white-space:nowrap;
+    border:1px solid var(--line);background:#FAF9F5;color:var(--slate);
+    border-radius:2px;cursor:pointer;
+  }
+  .rep:hover{border-color:var(--ink)}
+  .cnt{
+    font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:600;
+    color:var(--line);
+  }
+  .reps[data-n="1"] .cnt{color:var(--slate)}
+  .reps[data-n="2"] .cnt{color:var(--live)}
+  .reps[data-n="3"] .cnt,.reps[data-n="4"] .cnt,.reps[data-n="5"] .cnt{color:var(--accent)}
+
+  /* ── 받아쓰기 ──────────────────────────────── */
+  .dict{list-style:none;margin:0 0 44px;padding:0;display:grid;gap:8px;counter-reset:d}
+  .d{
+    background:var(--card);padding:14px 16px;
+    display:grid;grid-template-columns:auto 1fr;gap:0 13px;align-items:start;
+  }
+  .d .dtc{margin-top:4px}
+  .dbody .hint{margin:0 0 8px;font-size:14px;color:var(--ink-2)}
+  .dbody .hint::before{
+    counter-increment:d;content:counter(d) ". ";
+    font-family:"IBM Plex Mono",monospace;color:var(--slate);
+  }
+  .dbody textarea{
+    width:100%;font-family:"Source Serif 4",Georgia,serif;font-size:16px;
+    padding:9px 11px;border:1px solid var(--line);border-radius:2px;
+    background:#FAF9F5;color:var(--ink);resize:vertical;
+  }
+  .dbody textarea:focus{outline:2px solid var(--accent);outline-offset:-1px}
+  .d details{margin-top:9px;font-size:13px}
+  .d summary{cursor:pointer;color:var(--slate);width:fit-content}
+  .d .ans{
+    margin:8px 0 0;font-family:"Source Serif 4",Georgia,serif;
+    font-size:17px;font-weight:600;color:var(--accent);
+  }
+
+  /* ── 단어 ──────────────────────────────────── */
+  .words{
+    list-style:none;margin:0 0 44px;padding:0;
+    display:grid;grid-template-columns:1fr 1fr;gap:8px;
+  }
+  .w{
+    background:var(--card);padding:13px 15px 11px;
+    display:grid;grid-template-columns:auto 1fr;gap:2px 10px;align-items:baseline;
+  }
+  .w .wtc{grid-row:1/3;align-self:start;margin-top:4px;
+    background:var(--ink);color:#E9E4D6}
+  a.w .wtc:hover{background:var(--live)}
+  .w b{
+    font-family:"Source Serif 4",Georgia,serif;
+    font-size:19px;font-weight:600;letter-spacing:-.01em;
+  }
+  .w .pos{
+    font-family:"IBM Plex Mono",monospace;font-size:9px;
+    color:var(--slate);margin-left:6px;letter-spacing:.08em;
+  }
+  .w .ko{grid-column:2;font-size:14px;color:var(--ink-2);font-weight:500}
+  .w em{
+    grid-column:1/-1;font-style:normal;font-size:13px;
+    color:var(--slate);margin-top:9px;padding-top:9px;
+    border-top:1px solid #ECEAE1;
+    font-family:"Source Serif 4",Georgia,serif;
+  }
+  .w em i{
+    display:block;font-style:normal;font-size:12px;opacity:.8;
+    font-family:"IBM Plex Sans KR",sans-serif;
+  }
+
+  /* ── 지난 시트 ─────────────────────────────── */
+  .rev{list-style:none;margin:0 0 44px;padding:0;display:flex;flex-wrap:wrap;gap:7px}
+  .rev a{
+    display:flex;gap:8px;align-items:baseline;text-decoration:none;
+    background:var(--card);border:1px dashed #C6C2B4;
+    padding:7px 13px;border-radius:2px;
+  }
+  .rev a:hover{border-style:solid;border-color:var(--accent)}
+  .rev b{font-size:15px;color:var(--ink);font-family:"Source Serif 4",Georgia,serif}
+  .rev span{font-size:12px;color:var(--slate)}
+
+  /* ── 말하기 미션 ───────────────────────────── */
+  .mhead{
+    background:var(--ink);color:#E9E4D6;
+    padding:12px 22px;margin:0;border:0;
+    font-family:"IBM Plex Mono",monospace;font-weight:600;
+    font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+  }
+  .missions{list-style:none;margin:0;padding:0;background:var(--accent);color:#F1F5EE}
+  .missions>li{
+    display:grid;grid-template-columns:auto 1fr auto;
+    gap:0 15px;align-items:start;padding:18px 22px;
+  }
+  .missions>li+li{border-top:1px solid rgba(255,255,255,.16)}
+  .lv{
+    font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:26px;
+    line-height:1.1;color:rgba(255,255,255,.42);width:20px;
+  }
+  .m b{
+    display:block;font-family:"IBM Plex Mono",monospace;
+    font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+    margin-bottom:6px;color:rgba(255,255,255,.7);
+  }
+  .m p{margin:0;font-size:16px;font-weight:500;line-height:1.5}
+  .m code{
+    display:block;margin-top:9px;
+    font-family:"Source Serif 4",Georgia,serif;font-size:15px;
+    color:rgba(255,255,255,.86);
+  }
+  .done{
+    font-family:inherit;font-size:11px;padding:5px 11px;
+    border:1px solid rgba(255,255,255,.42);background:transparent;
+    color:#F1F5EE;border-radius:2px;cursor:pointer;white-space:nowrap;
+  }
+  .done:hover{border-color:#fff}
+  .done[aria-pressed="true"]{background:#fff;color:var(--accent);border-color:#fff}
+
+  .foot{
+    margin-top:28px;font-size:12px;color:var(--slate);
+    font-family:"IBM Plex Mono",monospace;letter-spacing:.04em;
+  }
+
+  @media (max-width:600px){
+    .words{grid-template-columns:1fr}
+    .s{grid-template-columns:auto 1fr}
+    .reps{grid-column:2;flex-direction:row;align-items:center;margin-top:10px}
+    .missions>li{grid-template-columns:auto 1fr;gap:0 12px}
+    .done{grid-column:2;justify-self:start;margin-top:11px}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="bar">
+    <span>성인 영어 복습</span>
+    <span>2026-09-01</span>
+    <span class="lang">한국어 강의</span>
+    <span class="tag asr">자동자막</span>
+    <span class="sp">아침루틴</span>
+  </div>
+
+  <h1>나이 상관없이 100% 영어가 느는 3가지 공부 루틴! 왕초보도 단기간에 입이 트이는 하루 30분 영어 학습법 알려드려요!</h1>
+  <a class="watch" href="https://youtu.be/JlgkaAiKvRQ" target="_blank" rel="noopener">영상 보기</a>
+
+  <div class="brief">
+    <b>이 영상은</b>
+    미국 브이로그 속 아침 장면으로 영어 문장을 익히는 방법을 소개하는 영상입니다. 자막 있는 영상 보기(인풋) → 입으로 따라 말하기(쉐도잉) → 실제 상황에서 혼잣말로 써먹기(액팅), 이 세 단계를 반복하라고 말합니다. 여기서 건질 것은 늦잠, 침대 정리, 양치, 옷 입기, 커피, 출근까지 이어지는 아침 문장 여덟 개입니다.
+  </div>
+
+  <h2>오늘의 표현 — 8개 · 통째로 외우기</h2>
+  <ul class="exprs">
+    <li class="x">
+  <a class="xtc" href="https://youtu.be/JlgkaAiKvRQ?t=29" target="_blank" rel="noopener" title="영상에서 듣기">00:29</a>
+  <b>I slept in today.</b>
+  <span class="ko">나 오늘 늦잠 잤어.</span>
+  <span class="when">아침에 늦잠 잤다고 말할 때</span>
+  <em>I slept in today, so I&#x27;m late.<i>오늘 늦잠 자서 늦었어.</i></em>
+  <div class="mark"><button>입에서 나온다</button><button>알긴 안다</button><button>처음</button></div>
+</li>
+<li class="x">
+  <a class="xtc" href="https://youtu.be/JlgkaAiKvRQ?t=31" target="_blank" rel="noopener" title="영상에서 듣기">00:31</a>
+  <b>I have bad bed head.</b>
+  <span class="ko">머리가 완전 눌렸어.</span>
+  <span class="when">자고 일어나 머리가 눌려 있을 때</span>
+  <em>Don&#x27;t look at me, I have bad bed head.<i>보지 마, 머리가 완전 눌렸어.</i></em>
+  <div class="mark"><button>입에서 나온다</button><button>알긴 안다</button><button>처음</button></div>
+</li>
+<li class="x">
+  <a class="xtc" href="https://youtu.be/JlgkaAiKvRQ?t=33" target="_blank" rel="noopener" title="영상에서 듣기">00:33</a>
+  <b>I&#x27;m making the bed.</b>
+  <span class="ko">침대 정리하는 중이야.</span>
+  <span class="when">일어나서 이불을 정리하고 있을 때</span>
+  <em>Wait a second, I&#x27;m making the bed.<i>잠깐만, 침대 정리하는 중이야.</i></em>
+  <div class="mark"><button>입에서 나온다</button><button>알긴 안다</button><button>처음</button></div>
+</li>
+<li class="x">
+  <a class="xtc" href="https://youtu.be/JlgkaAiKvRQ?t=41" target="_blank" rel="noopener" title="영상에서 듣기">00:41</a>
+  <b>I need to brush my teeth.</b>
+  <span class="ko">나 양치해야 해.</span>
+  <span class="when">양치하러 가야 한다고 말할 때</span>
+  <em>I need to brush my teeth before we go.<i>나가기 전에 양치해야 해.</i></em>
+  <div class="mark"><button>입에서 나온다</button><button>알긴 안다</button><button>처음</button></div>
+</li>
+<li class="x">
+  <a class="xtc" href="https://youtu.be/JlgkaAiKvRQ?t=45" target="_blank" rel="noopener" title="영상에서 듣기">00:45</a>
+  <b>I have bad morning breath.</b>
+  <span class="ko">아침이라 입냄새가 나.</span>
+  <span class="when">아침에 입냄새가 난다고 말할 때</span>
+  <em>Sorry, I have bad morning breath.<i>미안, 아침이라 입냄새가 나.</i></em>
+  <div class="mark"><button>입에서 나온다</button><button>알긴 안다</button><button>처음</button></div>
+</li>
+<li class="x">
+  <a class="xtc" href="https://youtu.be/JlgkaAiKvRQ?t=50" target="_blank" rel="noopener" title="영상에서 듣기">00:50</a>
+  <b>I&#x27;m going to pick out my clothes.</b>
+  <span class="ko">입을 옷 고를 거야.</span>
+  <span class="when">오늘 입을 옷을 고르려고 할 때</span>
+  <em>I&#x27;m going to pick out my clothes now.<i>지금 입을 옷 고를 거야.</i></em>
+  <div class="mark"><button>입에서 나온다</button><button>알긴 안다</button><button>처음</button></div>
+</li>
+<li class="x">
+  <a class="xtc" href="https://youtu.be/JlgkaAiKvRQ?t=57" target="_blank" rel="noopener" title="영상에서 듣기">00:57</a>
+  <b>I&#x27;m gonna take a sip of coffee.</b>
+  <span class="ko">커피 한 모금 마실게.</span>
+  <span class="when">음료를 한 모금 마시겠다고 말할 때</span>
+  <em>Hold on, I&#x27;m gonna take a sip of coffee.<i>잠깐만, 커피 한 모금 마실게.</i></em>
+  <div class="mark"><button>입에서 나온다</button><button>알긴 안다</button><button>처음</button></div>
+</li>
+<li class="x">
+  <a class="xtc" href="https://youtu.be/JlgkaAiKvRQ?t=105" target="_blank" rel="noopener" title="영상에서 듣기">01:45</a>
+  <b>It&#x27;s time to head out for work.</b>
+  <span class="ko">이제 출근할 시간이야.</span>
+  <span class="when">준비 끝내고 나갈 시간이 됐을 때</span>
+  <em>It&#x27;s time to head out for work. See you tonight.<i>이제 출근할 시간이야. 저녁에 봐.</i></em>
+  <div class="mark"><button>입에서 나온다</button><button>알긴 안다</button><button>처음</button></div>
+</li>
+  </ul>
+
+  <h2>쉐도잉 — 소리 내서 따라 말하기</h2><ul class="shadow"><li class="s">
+  <a class="stc" href="https://youtu.be/JlgkaAiKvRQ?t=29" target="_blank" rel="noopener">00:29</a>
+  <div class="sbody"><p class="en">I slept in today.</p><p class="ko">나 오늘 늦잠 잤어.</p>
+    <p class="tip">slept in을 붙여서 &quot;슬렙틴&quot;으로. slept에 힘을 주세요.</p></div>
+  <div class="reps" data-n="0"><button class="rep">따라 말했다</button><span class="cnt">0</span></div>
+</li>
+<li class="s">
+  <a class="stc" href="https://youtu.be/JlgkaAiKvRQ?t=33" target="_blank" rel="noopener">00:33</a>
+  <div class="sbody"><p class="en">I&#x27;m making the bed.</p><p class="ko">침대 정리하는 중이야.</p>
+    <p class="tip">the는 거의 안 들리게 &quot;메이킹더&quot;, bed에 힘을 주세요.</p></div>
+  <div class="reps" data-n="0"><button class="rep">따라 말했다</button><span class="cnt">0</span></div>
+</li>
+<li class="s">
+  <a class="stc" href="https://youtu.be/JlgkaAiKvRQ?t=77" target="_blank" rel="noopener">01:17</a>
+  <div class="sbody"><p class="en">You can do it.</p><p class="ko">할 수 있어.</p>
+    <p class="tip">can은 약하게 &quot;큰&quot;, do it은 붙여서 &quot;두잇&quot;.</p></div>
+  <div class="reps" data-n="0"><button class="rep">따라 말했다</button><span class="cnt">0</span></div>
+</li>
+<li class="s">
+  <a class="stc" href="https://youtu.be/JlgkaAiKvRQ?t=57" target="_blank" rel="noopener">00:57</a>
+  <div class="sbody"><p class="en">I&#x27;m gonna take a sip of coffee.</p><p class="ko">커피 한 모금 마실게.</p>
+    <p class="tip">take a는 &quot;테이커&quot;, of는 거의 &quot;어&quot; 소리만 남습니다.</p></div>
+  <div class="reps" data-n="0"><button class="rep">따라 말했다</button><span class="cnt">0</span></div>
+</li>
+<li class="s">
+  <a class="stc" href="https://youtu.be/JlgkaAiKvRQ?t=105" target="_blank" rel="noopener">01:45</a>
+  <div class="sbody"><p class="en">It&#x27;s time to head out for work.</p><p class="ko">이제 출근할 시간이야.</p>
+    <p class="tip">head out은 붙여서 &quot;헤다웃&quot;, to는 짧게 &quot;트&quot;.</p></div>
+  <div class="reps" data-n="0"><button class="rep">따라 말했다</button><span class="cnt">0</span></div>
+</li></ul>
+
+  <h2>받아쓰기 — 그 지점을 다시 듣고</h2><ol class="dict"><li class="d">
+  <a class="dtc" href="https://youtu.be/JlgkaAiKvRQ?t=316" target="_blank" rel="noopener">05:16</a>
+  <div class="dbody"><p class="hint">입냄새 때문에 지금 해야 할 일을 말합니다.</p>
+    <textarea rows="2" placeholder="들리는 대로 적어보세요"></textarea>
+    <details><summary>정답 보기</summary><p class="ans">I need to brush my teeth.</p></details></div>
+</li>
+<li class="d">
+  <a class="dtc" href="https://youtu.be/JlgkaAiKvRQ?t=50" target="_blank" rel="noopener">00:50</a>
+  <div class="dbody"><p class="hint">세수 후에 옷장 앞에서 하는 말입니다.</p>
+    <textarea rows="2" placeholder="들리는 대로 적어보세요"></textarea>
+    <details><summary>정답 보기</summary><p class="ans">I&#x27;m going to pick out my clothes and get dressed.</p></details></div>
+</li>
+<li class="d">
+  <a class="dtc" href="https://youtu.be/JlgkaAiKvRQ?t=57" target="_blank" rel="noopener">00:57</a>
+  <div class="dbody"><p class="hint">부엌에서 컵을 들고 하는 말입니다.</p>
+    <textarea rows="2" placeholder="들리는 대로 적어보세요"></textarea>
+    <details><summary>정답 보기</summary><p class="ans">I&#x27;m gonna take a sip of coffee.</p></details></div>
+</li>
+<li class="d">
+  <a class="dtc" href="https://youtu.be/JlgkaAiKvRQ?t=105" target="_blank" rel="noopener">01:45</a>
+  <div class="dbody"><p class="hint">준비를 다 마치고 현관으로 가면서 하는 말입니다.</p>
+    <textarea rows="2" placeholder="들리는 대로 적어보세요"></textarea>
+    <details><summary>정답 보기</summary><p class="ans">It&#x27;s time to head out for work.</p></details></div>
+</li></ol>
+
+  <h2>단어 — 10개</h2>
+  <ul class="words">
+    <li class="w">
+  <a class="wtc" href="https://youtu.be/JlgkaAiKvRQ?t=74" target="_blank" rel="noopener" title="영상에서 듣기">01:14</a>
+  <b>try</b><span class="pos">동사</span>
+  <span class="ko">해 보다</span>
+  <em>Let&#x27;s try it again.<i>다시 한번 해 보자.</i></em>
+  <div class="mark"><button>안다</button><button>가물</button><button>처음</button></div>
+</li>
+<li class="w">
+  <a class="wtc" href="https://youtu.be/JlgkaAiKvRQ?t=444" target="_blank" rel="noopener" title="영상에서 듣기">07:24</a>
+  <b>learn</b><span class="pos">동사</span>
+  <span class="ko">배우다</span>
+  <em>I want to learn English.<i>영어를 배우고 싶어.</i></em>
+  <div class="mark"><button>안다</button><button>가물</button><button>처음</button></div>
+</li>
+<li class="w">
+  <a class="wtc" href="https://youtu.be/JlgkaAiKvRQ?t=444" target="_blank" rel="noopener" title="영상에서 듣기">07:24</a>
+  <b>forget</b><span class="pos">동사</span>
+  <span class="ko">잊다</span>
+  <em>Don&#x27;t forget your phone.<i>핸드폰 잊지 마.</i></em>
+  <div class="mark"><button>안다</button><button>가물</button><button>처음</button></div>
+</li>
+<li class="w">
+  <a class="wtc" href="https://youtu.be/JlgkaAiKvRQ?t=212" target="_blank" rel="noopener" title="영상에서 듣기">03:32</a>
+  <b>focus</b><span class="pos">동사</span>
+  <span class="ko">집중하다</span>
+  <em>I need to focus now.<i>지금 집중해야 해.</i></em>
+  <div class="mark"><button>안다</button><button>가물</button><button>처음</button></div>
+</li>
+<li class="w">
+  <a class="wtc" href="https://youtu.be/JlgkaAiKvRQ?t=774" target="_blank" rel="noopener" title="영상에서 듣기">12:54</a>
+  <b>stay</b><span class="pos">동사</span>
+  <span class="ko">머무르다</span>
+  <em>Please stay here.<i>여기 있어 줘.</i></em>
+  <div class="mark"><button>안다</button><button>가물</button><button>처음</button></div>
+</li>
+<li class="w">
+  <a class="wtc" href="https://youtu.be/JlgkaAiKvRQ?t=293" target="_blank" rel="noopener" title="영상에서 듣기">04:53</a>
+  <b>step</b><span class="pos">명사</span>
+  <span class="ko">단계</span>
+  <em>What&#x27;s the next step?<i>다음 단계가 뭐야?</i></em>
+  <div class="mark"><button>안다</button><button>가물</button><button>처음</button></div>
+</li>
+<li class="w">
+  <a class="wtc" href="https://youtu.be/JlgkaAiKvRQ?t=293" target="_blank" rel="noopener" title="영상에서 듣기">04:53</a>
+  <b>next</b><span class="pos">형용사</span>
+  <span class="ko">다음의</span>
+  <em>See you next week.<i>다음 주에 보자.</i></em>
+  <div class="mark"><button>안다</button><button>가물</button><button>처음</button></div>
+</li>
+<li class="w">
+  <a class="wtc" href="https://youtu.be/JlgkaAiKvRQ?t=677" target="_blank" rel="noopener" title="영상에서 듣기">11:17</a>
+  <b>helpful</b><span class="pos">형용사</span>
+  <span class="ko">도움이 되는</span>
+  <em>This app is very helpful.<i>이 앱 정말 도움이 돼.</i></em>
+  <div class="mark"><button>안다</button><button>가물</button><button>처음</button></div>
+</li>
+<li class="w">
+  <a class="wtc" href="https://youtu.be/JlgkaAiKvRQ?t=159" target="_blank" rel="noopener" title="영상에서 듣기">02:39</a>
+  <b>expert</b><span class="pos">명사</span>
+  <span class="ko">전문가</span>
+  <em>She is a coffee expert.<i>그녀는 커피 전문가야.</i></em>
+  <div class="mark"><button>안다</button><button>가물</button><button>처음</button></div>
+</li>
+<li class="w">
+  <a class="wtc" href="https://youtu.be/JlgkaAiKvRQ?t=778" target="_blank" rel="noopener" title="영상에서 듣기">12:58</a>
+  <b>luck</b><span class="pos">명사</span>
+  <span class="ko">운</span>
+  <em>Good luck with your test.<i>시험 잘 봐.</i></em>
+  <div class="mark"><button>안다</button><button>가물</button><button>처음</button></div>
+</li>
+  </ul>
+
+  
+
+  <h2 class="mhead">말하기 — 1단은 반드시 소리 내서</h2>
+  <ul class="missions">
+    <li class="m"><span class="lv">1</span>
+  <div><b>그대로 말하기</b><p>오늘 늦잠 잤다고 소리 내어 세 번 말해 보세요.</p><code>I slept in today.</code></div>
+  <button class="done" aria-pressed="false">했다</button></li><li class="m"><span class="lv">2</span>
+  <div><b>바꿔 말하기</b><p>today 자리에 yesterday를 넣어 말해 보세요.</p><code>I slept in yesterday.</code></div>
+  <button class="done" aria-pressed="false">했다</button></li><li class="m"><span class="lv">3</span>
+  <div><b>내 말로 말하기</b><p>오늘 아침 내 이야기를 오늘 표현으로 한 문장 만들어 말해 보세요.</p><code>I slept in today, so I had no time for coffee.</code></div>
+  <button class="done" aria-pressed="false">했다</button></li>
+  </ul>
+
+  <p class="foot">체크·받아쓰기는 이 브라우저에 저장됩니다.</p>
+
+</div>
+<script>
+(function () {
+  var KEY = 'sheet:JlgkaAiKvRQ';
+  var store = {};
+  try { store = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { store = {}; }
+  function save() {
+    try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) {}
+  }
+
+  /* 3지선다 단추 — 한 줄에 하나만 눌린다 */
+  document.querySelectorAll('.mark').forEach(function (row, i) {
+    var id = 'm' + i;
+    row.querySelectorAll('button').forEach(function (b, j) {
+      b.setAttribute('aria-pressed', store[id] === j ? 'true' : 'false');
+      b.addEventListener('click', function () {
+        var on = b.getAttribute('aria-pressed') === 'true';
+        row.querySelectorAll('button').forEach(function (x) {
+          x.setAttribute('aria-pressed', 'false');
+        });
+        if (on) { delete store[id]; } else {
+          b.setAttribute('aria-pressed', 'true');
+          store[id] = j;
+        }
+        save();
+      });
+    });
+  });
+
+  /* 쉐도잉 횟수 — 누를 때마다 1씩, 5에서 0으로 */
+  document.querySelectorAll('.reps').forEach(function (box, i) {
+    var id = 'r' + i, cnt = box.querySelector('.cnt');
+    function draw(n) { box.setAttribute('data-n', n); cnt.textContent = n; }
+    draw(store[id] || 0);
+    box.querySelector('.rep').addEventListener('click', function () {
+      var n = ((store[id] || 0) + 1) % 6;
+      store[id] = n; draw(n); save();
+    });
+  });
+
+  /* 받아쓰기 — 적어둔 것을 잃지 않게 */
+  document.querySelectorAll('.dbody textarea').forEach(function (t, i) {
+    var id = 'd' + i;
+    if (store[id]) { t.value = store[id]; }
+    t.addEventListener('input', function () { store[id] = t.value; save(); });
+  });
+
+  /* 미션 — 켜고 끄기 */
+  document.querySelectorAll('.done').forEach(function (b, i) {
+    var id = 'k' + i;
+    b.setAttribute('aria-pressed', store[id] ? 'true' : 'false');
+    b.addEventListener('click', function () {
+      var on = b.getAttribute('aria-pressed') === 'true';
+      b.setAttribute('aria-pressed', on ? 'false' : 'true');
+      if (on) { delete store[id]; } else { store[id] = 1; }
+      save();
+    });
+  });
+})();
+</script>
+</body>
+</html>

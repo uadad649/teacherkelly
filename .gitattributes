@@ -1,0 +1,11 @@
+# 줄바꿈을 저장소가 직접 못 박는다.
+# .bat 파일이 LF 로 내려오면 cmd 가 명령어를 중간부터 잘라 읽어
+# '1단계'은(는) 내부 또는 외부 명령이 아닙니다 같은 오류가 난다.
+# 어디서 내려받든(clone, ZIP) .bat 은 반드시 CRLF 로.
+
+* text=auto
+*.bat text eol=crlf
+
+# 파이썬과 워크플로는 리눅스에서 도니 LF 로 고정한다.
+*.py  text eol=lf
+*.yml text eol=lf
