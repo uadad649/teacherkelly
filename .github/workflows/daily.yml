@@ -38,9 +38,17 @@ jobs:
       - name: 라이브러리 설치
         run: pip install -r requirements.txt
 
+      # 시트는 Claude Code 가 만든다. 구독 토큰으로 인증하므로
+      # API 키를 따로 사지 않아도 된다. (Pro 구독에 API 사용권은 없다)
+      - name: Claude Code 설치
+        run: npm install -g @anthropic-ai/claude-code
+
       - name: 시트 만들고 메일 보내기
         env:
           VIDEO_URL: ${{ inputs.url }}
+          # 'claude setup-token' 으로 만든 1년짜리 구독 토큰
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          # API 키를 따로 쓸 사람만. 있으면 이쪽이 먼저 쓰인다.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}

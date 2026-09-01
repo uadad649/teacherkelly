@@ -790,16 +790,23 @@ def ask_claude_api(prompt):
 
 
 def ask_claude(prompt):
-    """시트 JSON 을 받아온다. 어디서 도는지에 따라 길이 갈린다.
+    """시트 JSON 을 받아온다. 가진 인증 수단에 따라 길이 갈린다.
 
-    API 키가 있으면 API 로, 없으면 내 PC 의 Claude Code CLI 로.
+      1) ANTHROPIC_API_KEY  → API 로 직접. 쓴 만큼 따로 과금된다.
+      2) 그 외              → Claude Code CLI 로.
+         내 PC 에서는 로그인해 둔 구독으로,
+         서버에서는 CLAUDE_CODE_OAUTH_TOKEN 으로 같은 구독을 쓴다.
+
+    구독만 있고 API 키가 없어도 되도록 2번을 남겨 두었다.
+    Pro 구독에 API 사용권은 들어 있지 않다 — 둘은 별개 요금이다.
     """
     if os.environ.get("ANTHROPIC_API_KEY", "").strip():
         return ask_claude_api(prompt)
-    if HEADLESS:
-        sys.exit("[!] ANTHROPIC_API_KEY 가 없습니다.\n"
-                 "    저장소 Settings → Secrets and variables → Actions 에서\n"
-                 "    ANTHROPIC_API_KEY 를 등록해 주세요.")
+    if HEADLESS and not os.environ.get("CLAUDE_CODE_OAUTH_TOKEN", "").strip():
+        sys.exit("[!] 인증 정보가 없습니다. 둘 중 하나를 Secrets 에 넣어 주세요.\n"
+                 "    CLAUDE_CODE_OAUTH_TOKEN — 지금 쓰는 Claude 구독으로.\n"
+                 "        내 PC 에서 'claude setup-token' 을 실행하면 나옵니다.\n"
+                 "    ANTHROPIC_API_KEY — 콘솔에서 발급받은 키로. (따로 과금)")
     return ask_claude_cli(prompt)
 
 
@@ -822,11 +829,13 @@ def ask_claude_cli(prompt):
         p = subprocess.run(["claude", "-p", "--tools", ""],
                            input=prompt.encode("utf-8"),
                            stdout=subprocess.PIPE, stderr=subprocess.PIPE,
-                           cwd=safe_dir)
+                           cwd=safe_dir, timeout=900)
     except FileNotFoundError:
         sys.exit("[!] 'claude' 명령을 찾지 못했습니다.\n"
-                 "    Claude Code 가 설치되어 있어야 이 방식이 됩니다.\n"
-                 "    1단계/2단계 를 따로 쓰는 방법은 그대로 됩니다.")
+                 "    내 PC 라면 Claude Code 가 설치되어 있어야 합니다.\n"
+                 "    (1단계/2단계 를 따로 쓰는 방법은 그대로 됩니다.)")
+    except subprocess.TimeoutExpired:
+        sys.exit("[!] Claude 응답이 15분을 넘겨 중단했습니다. 다시 실행해 주세요.")
     finally:
         try:
             Path(safe_dir).rmdir()

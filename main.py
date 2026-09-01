@@ -15,7 +15,10 @@ GitHub 서버에는 눌러 줄 사람도, 열어 볼 브라우저도 없다.
   2) 환경변수         VIDEO_URL=<유튜브주소> python main.py
 
 필요한 Secrets
-  ANTHROPIC_API_KEY     — 시트를 만들 때 (필수)
+  CLAUDE_CODE_OAUTH_TOKEN — 시트를 만들 때 (필수)
+                            내 PC 에서 'claude setup-token' 으로 만든다.
+                            지금 쓰는 Claude 구독을 그대로 쓴다.
+  ANTHROPIC_API_KEY     — API 키로 쓰고 싶을 때만 (선택, 따로 과금)
   GMAIL_USER            — 보내는 지메일 주소
   GMAIL_APP_PASSWORD    — 지메일 '앱 비밀번호' 16자리
   MAIL_TO               — 받을 주소. 없으면 GMAIL_USER 로 보낸다.

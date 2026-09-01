@@ -34,12 +34,31 @@ words.json                     ← 지금까지 배운 표현·단어 (복습에
 
 | 이름 | 필수 | 무엇 |
 |---|---|---|
-| `ANTHROPIC_API_KEY` | **필수** | console.anthropic.com 에서 발급. `sk-ant-...` |
+| `CLAUDE_CODE_OAUTH_TOKEN` | **필수** | 지금 쓰는 Claude 구독으로 인증. 아래 설명 참고 |
 | `GMAIL_USER` | 메일 받으려면 | 보내는 지메일 주소 |
 | `GMAIL_APP_PASSWORD` | 메일 받으려면 | 아래 설명 참고 |
 | `MAIL_TO` | 선택 | 받을 주소. 없으면 `GMAIL_USER` 로 온다 |
+| `ANTHROPIC_API_KEY` | 선택 | API 키로 쓰고 싶을 때만. 있으면 이쪽이 먼저 쓰인다 |
 | `WEBSHARE_PROXY_USERNAME` | 선택 | 자막이 계속 막힐 때만 (5번 참고) |
 | `WEBSHARE_PROXY_PASSWORD` | 선택 | 〃 |
+
+### Claude 구독 토큰
+
+**Claude Pro 구독에 API 사용권은 들어 있지 않다.** 둘은 완전히 별개 요금이다.
+대신 구독을 그대로 쓰는 공식 방법이 있다 — Pro·Max·Team·Enterprise 에서 된다.
+
+내 PC 의 터미널(PowerShell)에서:
+
+```
+claude setup-token
+```
+
+브라우저가 열리고 승인하면 **1년짜리 토큰**이 터미널에 찍힌다.
+이 값을 `CLAUDE_CODE_OAUTH_TOKEN` Secret 에 넣는다.
+어디에도 저장되지 않으니 창을 닫기 전에 복사할 것.
+
+이 토큰은 모델에게 묻는 일만 할 수 있다. 내 PC 나 다른 계정 자원에는
+접근하지 못한다. 1년 뒤에는 같은 명령으로 새로 만들어 Secret 을 갱신하면 된다.
 
 ### 지메일 앱 비밀번호
 
@@ -53,10 +72,9 @@ words.json                     ← 지금까지 배운 표현·단어 (복습에
 화면에 `abcd efgh ijkl mnop` 처럼 띄어서 나오는데, 띄어쓰기째로 붙여넣어도
 코드가 알아서 지운다.
 
-> Claude 구독료와 API 키는 별개다. API 키는 쓴 만큼 따로 과금된다.
-> 시트 한 장에 대략 몇 백 원 수준이고, 자막이 길수록 올라간다.
-> 더 싸게 쓰려면 워크플로의 `시트 만들고 메일 보내기` 단계에
-> `ANTHROPIC_MODEL: claude-sonnet-5` 를 넣으면 된다.
+> 구독 토큰으로 돌리면 시트를 만들 때마다 구독 사용량을 쓴다. 추가 요금은 없다.
+> 굳이 API 키(`ANTHROPIC_API_KEY`)를 쓰겠다면 쓴 만큼 따로 과금되고,
+> 그때는 워크플로에 `ANTHROPIC_MODEL: claude-sonnet-5` 를 넣어 비용을 줄일 수 있다.
 
 ---
 
@@ -109,9 +127,11 @@ Webshare 가 아닌 프록시를 쓴다면 `YT_PROXY_URL` 에
 돈을 들이고 싶지 않다면, 자막이 안 될 때만 내 PC 에서 `한번에.bat` 으로
 돌리면 된다. 같은 코드가 그대로 동작한다.
 
-### `ANTHROPIC_API_KEY 가 틀렸습니다`
+### `인증 정보가 없습니다` / Claude 호출이 실패한다
 
-Secret 이름의 철자와, 값 앞뒤에 공백이나 줄바꿈이 딸려 들어가지 않았는지 확인.
+`CLAUDE_CODE_OAUTH_TOKEN` Secret 의 철자와, 값 앞뒤에 공백이나 줄바꿈이
+딸려 들어가지 않았는지 확인한다. 토큰은 1년이 지나면 만료되므로
+`claude setup-token` 을 다시 실행해 Secret 을 갱신한다.
 
 ### 메일이 안 온다
 
