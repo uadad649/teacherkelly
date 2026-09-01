@@ -50,9 +50,10 @@ jobs:
           # 수동 실행이면 주소가 들어오고, 스케줄 실행이면 빈 값이 된다.
           # 빈 값일 때 main.py 가 channels.txt 에서 고른다.
           VIDEO_URL: ${{ inputs.url }}
-          # 자동으로 고를 때만 짧은 영상(쇼츠)을 거른다.
-          # 사람이 직접 고른 영상은 짧아도 그대로 만든다.
+          # 자동으로 고를 때만 쇼츠(너무 짧음)와 라이브·설명회(너무 김)를 거른다.
+          # 사람이 직접 고른 영상은 길이와 상관없이 그대로 만든다.
           MIN_TRANSCRIPT_LINES: ${{ github.event_name == 'schedule' && '30' || '0' }}
+          MAX_TRANSCRIPT_LINES: ${{ github.event_name == 'schedule' && '1500' || '0' }}
           # 'claude setup-token' 으로 만든 1년짜리 구독 토큰
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           # API 키를 따로 쓸 사람만. 있으면 이쪽이 먼저 쓰인다.

@@ -182,9 +182,15 @@ class PrepFailed(Exception):
     """
 
 
-# 자막이 이보다 짧으면 배울 게 없다고 보고 건너뛴다.
-# 0 이면 검사하지 않는다. 자동 실행에서 쇼츠를 거르는 데 쓴다.
+# 자동 실행이 고른 영상이 배울 만한 것인지 자막 길이로 걸러 낸다.
+# 둘 다 0 이면 검사하지 않는다. 사람이 직접 고른 영상은 검사하지 않는다.
+#
+#   너무 짧다 → 쇼츠. 한두 마디뿐이라 시트가 안 나온다.
+#   너무 길다 → 라이브·설명회·홍보 영상. 강의가 아닌 데다
+#               프롬프트가 지나치게 커져 응답 품질도 떨어진다.
+# 10~20분짜리 보통 강의가 200~600줄쯤 된다.
 MIN_TRANSCRIPT_LINES = int(os.environ.get("MIN_TRANSCRIPT_LINES", "0") or 0)
+MAX_TRANSCRIPT_LINES = int(os.environ.get("MAX_TRANSCRIPT_LINES", "0") or 0)
 
 
 def vid_of(u):
@@ -710,6 +716,9 @@ def prep(url, interactive=True):
     if MIN_TRANSCRIPT_LINES and len(chunks) < MIN_TRANSCRIPT_LINES:
         raise PrepFailed(f"자막이 {len(chunks)}줄뿐이라 건너뜁니다. "
                          f"(쇼츠이거나 너무 짧은 영상)")
+    if MAX_TRANSCRIPT_LINES and len(chunks) > MAX_TRANSCRIPT_LINES:
+        raise PrepFailed(f"자막이 {len(chunks)}줄이나 되어 건너뜁니다. "
+                         f"(라이브·설명회처럼 강의가 아닌 영상)")
     print(f"  {title}")
     print(f"  자막 {LANG_KO[lang]} {SRC_KO[src]} · {len(chunks)}줄")
     if lang == "ko":
