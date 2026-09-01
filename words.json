@@ -938,5 +938,277 @@
   "kind": "word",
   "date": "2026-09-02",
   "vid": "ga_hrBCW--A"
+ },
+ {
+  "en": "For here, please.",
+  "ko": "여기서 먹을게요.",
+  "when_ko": "가게에서 주문할 때 포장이 아니라 매장에서 먹겠다고 말할 때",
+  "why_ko": "here 앞에 for 가 붙어야 '먹고 가는 자리'라는 뜻이 됩니다. 포장은 to go 라고 합니다.",
+  "timecode": "00:57",
+  "example_en": "Two coffees, for here, please.",
+  "example_ko": "커피 두 잔, 여기서 먹고 갈게요.",
+  "cloze_en": "Two coffees, ___ here, please.",
+  "cloze_answer": "for",
+  "cloze_wrong": [
+   "to",
+   "at",
+   "in"
+  ],
+  "kind": "expr",
+  "date": "2026-09-02",
+  "vid": "FDW6dtpjOfY"
+ },
+ {
+  "en": "Can we get wasabi, too?",
+  "ko": "와사비도 주실 수 있나요?",
+  "when_ko": "이미 시킨 음식에 뭔가를 하나 더 달라고 할 때",
+  "why_ko": "get 은 '받다, 가져다 달라'는 뜻이라 주문에 씁니다. too 는 문장 맨 뒤에 붙습니다.",
+  "timecode": "02:38",
+  "example_en": "Can we get some water, too?",
+  "example_ko": "물도 좀 주실 수 있나요?",
+  "cloze_en": "Can we ___ some water, too?",
+  "cloze_answer": "get",
+  "cloze_wrong": [
+   "take",
+   "bring",
+   "give"
+  ],
+  "kind": "expr",
+  "date": "2026-09-02",
+  "vid": "FDW6dtpjOfY"
+ },
+ {
+  "en": "How much is it?",
+  "ko": "이거 얼마예요?",
+  "when_ko": "가게에서 물건이나 음식 값을 물어볼 때",
+  "why_ko": "much 는 값처럼 세지 않는 것에 쓰고, many 는 개수를 셀 때 씁니다.",
+  "timecode": "08:19",
+  "example_en": "Excuse me, how much is it?",
+  "example_ko": "실례합니다, 이거 얼마예요?",
+  "cloze_en": "Excuse me, how ___ is it?",
+  "cloze_answer": "much",
+  "cloze_wrong": [
+   "many",
+   "long",
+   "big"
+  ],
+  "kind": "expr",
+  "date": "2026-09-02",
+  "vid": "FDW6dtpjOfY"
+ },
+ {
+  "en": "That's a steal.",
+  "ko": "이거 완전 싸네요.",
+  "when_ko": "생각보다 값이 너무 싸서 놀랐을 때",
+  "why_ko": "steal 은 훔치다지만, a steal 이 되면 훔친 것처럼 싸게 샀다는 말이 됩니다.",
+  "timecode": "10:18",
+  "example_en": "Wow, that's a steal!",
+  "example_ko": "와, 이거 완전 싸다!",
+  "cloze_en": "Wow, that's a ___!",
+  "cloze_answer": "steal",
+  "cloze_wrong": [
+   "stealing",
+   "stolen",
+   "steel"
+  ],
+  "kind": "expr",
+  "date": "2026-09-02",
+  "vid": "FDW6dtpjOfY"
+ },
+ {
+  "en": "I have a reservation.",
+  "ko": "예약했어요.",
+  "when_ko": "예약한 식당이나 호텔에 도착해서 처음 말할 때",
+  "why_ko": "reserve 는 예약하는 동작이고, have a reservation 은 예약을 이미 해둔 상태를 말합니다.",
+  "timecode": "09:43",
+  "example_en": "Hi, I have a reservation at seven.",
+  "example_ko": "안녕하세요, 7시에 예약했어요.",
+  "cloze_en": "Hi, I have a ___ at seven.",
+  "cloze_answer": "reservation",
+  "cloze_wrong": [
+   "reserve",
+   "reserved",
+   "reserving"
+  ],
+  "kind": "expr",
+  "date": "2026-09-02",
+  "vid": "FDW6dtpjOfY"
+ },
+ {
+  "en": "Let's go check it out.",
+  "ko": "가서 한번 보자.",
+  "when_ko": "괜찮아 보이는 가게나 장소를 같이 가보자고 할 때",
+  "why_ko": "check 뒤에 out 이 붙어야 '가서 구경해 보다'가 됩니다. check in 은 숙소에 들어갈 때 씁니다.",
+  "timecode": "00:33",
+  "example_en": "Let's go check it out before it closes.",
+  "example_ko": "문 닫기 전에 가서 한번 보자.",
+  "cloze_en": "Let's go check it ___ before it closes.",
+  "cloze_answer": "out",
+  "cloze_wrong": [
+   "up",
+   "in",
+   "on"
+  ],
+  "kind": "expr",
+  "date": "2026-09-02",
+  "vid": "FDW6dtpjOfY"
+ },
+ {
+  "en": "I highly recommend that place.",
+  "ko": "그 집 정말 추천해요.",
+  "when_ko": "가본 식당이나 가게를 다른 사람에게 추천할 때",
+  "why_ko": "강하게 추천할 때는 recommend 앞에 highly 를 붙입니다. very recommend 라고는 하지 않습니다.",
+  "timecode": "10:25",
+  "example_en": "I highly recommend that place for dinner.",
+  "example_ko": "저녁 먹기에 그 집 정말 추천해요.",
+  "cloze_en": "I highly ___ that place for dinner.",
+  "cloze_answer": "recommend",
+  "cloze_wrong": [
+   "recommended",
+   "recommends",
+   "recommending"
+  ],
+  "kind": "expr",
+  "date": "2026-09-02",
+  "vid": "FDW6dtpjOfY"
+ },
+ {
+  "en": "It melts in your mouth.",
+  "ko": "입에서 살살 녹아요.",
+  "when_ko": "고기나 생선이 아주 부드러울 때 감탄하며",
+  "why_ko": "주어가 it 이면 melt 에 s 가 붙습니다. 그리고 my 가 아니라 your mouth 라고 해야 '누가 먹어도 그렇다'는 말이 됩니다.",
+  "timecode": "00:04",
+  "example_en": "This beef is so soft, it melts in your mouth.",
+  "example_ko": "이 고기 정말 부드러워서 입에서 살살 녹아요.",
+  "cloze_en": "This beef is so soft, it ___ in your mouth.",
+  "cloze_answer": "melts",
+  "cloze_wrong": [
+   "melt",
+   "melted",
+   "melting"
+  ],
+  "kind": "expr",
+  "date": "2026-09-02",
+  "vid": "FDW6dtpjOfY"
+ },
+ {
+  "en": "fresh",
+  "ko": "신선한",
+  "pos": "형용사",
+  "why_ko": "new 는 새로 나온 것이고, fresh 는 갓 잡거나 갓 만들어 상하지 않은 것에 씁니다.",
+  "timecode": "01:15",
+  "example_en": "This fish is very fresh.",
+  "example_ko": "이 생선 아주 신선해요.",
+  "kind": "word",
+  "date": "2026-09-02",
+  "vid": "FDW6dtpjOfY"
+ },
+ {
+  "en": "tender",
+  "ko": "(고기가) 연한, 부드러운",
+  "pos": "형용사",
+  "why_ko": "soft 는 만졌을 때 말랑한 것이고, tender 는 씹을 때 부드러운 고기에 씁니다.",
+  "timecode": "03:07",
+  "example_en": "The beef was so tender.",
+  "example_ko": "그 고기 정말 연했어요.",
+  "kind": "word",
+  "date": "2026-09-02",
+  "vid": "FDW6dtpjOfY"
+ },
+ {
+  "en": "packed",
+  "ko": "사람이 꽉 찬",
+  "pos": "형용사",
+  "why_ko": "full 은 그릇이나 배가 찬 것이고, packed 는 사람이 빽빽하게 들어찬 곳에 씁니다.",
+  "timecode": "00:29",
+  "example_en": "The market is already packed.",
+  "example_ko": "시장이 벌써 사람으로 꽉 찼어요.",
+  "kind": "word",
+  "date": "2026-09-02",
+  "vid": "FDW6dtpjOfY"
+ },
+ {
+  "en": "expensive",
+  "ko": "비싼",
+  "pos": "형용사",
+  "why_ko": "high 는 가격이라는 말과 함께 쓰고, 물건을 두고 비싸다고 할 때는 expensive 를 씁니다.",
+  "timecode": "08:22",
+  "example_en": "That bag is too expensive.",
+  "example_ko": "저 가방은 너무 비싸요.",
+  "kind": "word",
+  "date": "2026-09-02",
+  "vid": "FDW6dtpjOfY"
+ },
+ {
+  "en": "almost",
+  "ko": "거의",
+  "pos": "부사",
+  "why_ko": "almost 는 다 되기 직전이라 아직 아니라는 뜻이고, most 는 여럿 중 대부분입니다.",
+  "timecode": "04:06",
+  "example_en": "I'm almost there.",
+  "example_ko": "거의 다 왔어요.",
+  "kind": "word",
+  "date": "2026-09-02",
+  "vid": "FDW6dtpjOfY"
+ },
+ {
+  "en": "change",
+  "ko": "거스름돈, 잔돈",
+  "pos": "명사",
+  "why_ko": "money 는 돈 전체를 말하고, change 는 내고 나서 돌려받는 잔돈입니다.",
+  "timecode": "04:47",
+  "example_en": "Here is your change.",
+  "example_ko": "거스름돈 여기 있습니다.",
+  "kind": "word",
+  "date": "2026-09-02",
+  "vid": "FDW6dtpjOfY"
+ },
+ {
+  "en": "market",
+  "ko": "시장",
+  "pos": "명사",
+  "why_ko": "store 는 가게 한 곳이고, market 은 가게가 여럿 모인 시장입니다.",
+  "timecode": "01:04",
+  "example_en": "Let's walk around the market.",
+  "example_ko": "시장 좀 둘러보자.",
+  "kind": "word",
+  "date": "2026-09-02",
+  "vid": "FDW6dtpjOfY"
+ },
+ {
+  "en": "street",
+  "ko": "거리, 길",
+  "pos": "명사",
+  "why_ko": "road 는 차가 다니는 길이고, street 은 가게와 건물이 늘어선 도시의 길입니다.",
+  "timecode": "07:33",
+  "example_en": "This street has many shops.",
+  "example_ko": "이 거리에는 가게가 많아요.",
+  "kind": "word",
+  "date": "2026-09-02",
+  "vid": "FDW6dtpjOfY"
+ },
+ {
+  "en": "try",
+  "ko": "먹어보다, 해보다",
+  "pos": "동사",
+  "why_ko": "eat 은 그냥 먹는 것이고, try 는 처음 먹어보거나 시험 삼아 해보는 것입니다.",
+  "timecode": "03:00",
+  "example_en": "Can I try this one?",
+  "example_ko": "이거 한번 먹어봐도 될까요?",
+  "kind": "word",
+  "date": "2026-09-02",
+  "vid": "FDW6dtpjOfY"
+ },
+ {
+  "en": "buy",
+  "ko": "사다",
+  "pos": "동사",
+  "why_ko": "get 도 사다로 쓰이지만, buy 는 돈을 내고 산다는 뜻이 분명합니다.",
+  "timecode": "07:50",
+  "example_en": "I'll buy two of these.",
+  "example_ko": "이거 두 개 살게요.",
+  "kind": "word",
+  "date": "2026-09-02",
+  "vid": "FDW6dtpjOfY"
  }
 ]
