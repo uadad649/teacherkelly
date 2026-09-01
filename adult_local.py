@@ -56,6 +56,8 @@ REPLY = HERE / "응답.json"
 STATE = HERE / "진행중.json"
 WORDS_DB = HERE / "words.json"
 TEMPLATE = HERE / "sheet_template.html"
+MAIL_TEMPLATE = HERE / "mail_template.html"
+MAIL_BODY = HERE / "메일본문.html"
 
 def _flag(name, default):
     """환경변수로 켜고 끄기. 없으면 기본값."""
@@ -67,6 +69,15 @@ def _flag(name, default):
 # GitHub Actions 같은 서버에는 화면도 브라우저도 메모장도 없다.
 # 파일을 열려고 하면 조용히 아무 일도 안 일어나거나 멈춘다.
 HEADLESS = _flag("ADULT_HEADLESS", os.environ.get("GITHUB_ACTIONS") == "true")
+
+# 한글 윈도우 콘솔은 cp949 다. 거기 없는 글자('—' 같은 것)를 찍으려 하면
+# UnicodeEncodeError 로 죽는다. 자막도 시트도 다 만들어 놓고 글자 하나
+# 때문에 멈추는 일은 없어야 한다. 못 찍는 글자는 '?' 로 넘긴다.
+for _s in (sys.stdout, sys.stderr):
+    try:
+        _s.reconfigure(errors="replace")
+    except Exception:
+        pass
 
 MIN_REPEAT = 2
 ALLOW_ASR = True
@@ -578,7 +589,11 @@ MODE_NOTE = {
 }
 
 PROMPT_HEAD = """아래는 유튜브 영상의 자막입니다.
-성인 영어 학습자가 영상을 본 뒤 복습할 시트를 만들어 주세요.
+성인 영어 학습자가 영상을 본 뒤 풀 문제 시트를 만들어 주세요.
+
+여기서 만든 표현과 단어는 그대로 문제가 됩니다.
+단어는 4지선다(뜻 → 영어), 표현은 낱말을 순서대로 놓는 문제로 바뀌고,
+**틀렸을 때만** why_ko 가 해설로 나옵니다. 그것을 염두에 두고 쓰세요.
 
 <배우는 사람>
 이름: {name}
@@ -618,7 +633,22 @@ PROMPT_HEAD = """아래는 유튜브 영상의 자막입니다.
   "아침에 늦잠 잤다고 말할 때" 처럼 상황을 적으세요.
 - example_en: 그 표현을 넣은 완전한 문장 하나. 원어민이 실제로 쓰는 문장으로.
   "/" 로 여러 개 늘어놓지 마세요.
+- why_ko: **틀린 사람만 보는 한 줄.** 왜 이 순서, 왜 이 낱말인지.
+  "sleep 은 자는 동작이고, sleep in 은 늦게까지 자는 것입니다" 처럼
+  문법 용어 없이. 뜻을 다시 적지 마세요. 그건 ko 에 이미 있습니다.
 - 한글 발음 표기 금지. (발음 요령은 3번 쉐도잉에서만 씁니다.)
+
+  ── 빈칸 문제 재료 (cloze_en · cloze_answer · cloze_wrong) ──
+  example_en 문장에서 **핵심 한 곳**을 `___`(밑줄 3개)로 비운 것이 cloze_en,
+  그 자리에 들어갈 말이 cloze_answer 입니다.
+  - 비우는 자리는 이 표현의 심장이어야 합니다. the, a, my 같은 곳을 비우지 마세요.
+  - cloze_wrong 은 **그럴듯한 오답 3개**입니다. 아무 낱말이나 넣으면
+    문제가 아니라 눈속임이 됩니다. 같은 낱말의 다른 꼴이나,
+    왕초보가 실제로 헷갈리는 말로 채우세요.
+      answer "slept"  → wrong ["sleep", "sleeping", "sleeps"]
+      answer "make"   → wrong ["do", "take", "get"]
+      answer "for"    → wrong ["to", "at", "on"]
+  - 오답도 그 자리에 넣으면 **문장이 되기는 해야** 합니다. 뜻만 틀린 것으로.
 
 ━━ 2. 단어 {n_words}개 ━━
 - 1번 표현에 이미 들어간 낱말은 빼세요. 같은 것을 두 번 싣지 않습니다.
@@ -626,6 +656,8 @@ PROMPT_HEAD = """아래는 유튜브 영상의 자막입니다.
 - 손에 잡히는 말, 자주 쓰는 말 우선. 추상어(system, aspect)는 뒤로.
 - pos 는 "명사" "동사" "형용사" "부사" 중 하나로만.
 - 예문은 6단어 이내.
+- why_ko: **틀린 사람만 보는 한 줄.** 헷갈릴 만한 비슷한 말과 무엇이 다른지.
+  "비슷한 말로 X 가 있지만 이건 …할 때 씁니다" 처럼. 뜻을 다시 적지 마세요.
 
 ━━ 3. 쉐도잉 문장 {n_shadow}개 ━━
 소리 내어 따라 말할 문장입니다.
@@ -661,9 +693,13 @@ timecode 는 **반드시** 자막에 있는 "분:초" 숫자로 (예: "01:12").
 {{
  "summary_ko":"...", "topic_ko":"한 단어 주제",
  "expressions":[{{"en":"...","ko":"...","when_ko":"언제 쓰는 말인지",
-                 "timecode":"01:12","example_en":"...","example_ko":"..."}}],
- "words":[{{"en":"...","ko":"...","pos":"명사","timecode":"01:12",
-            "example_en":"...","example_ko":"..."}}],
+                 "why_ko":"틀렸을 때 볼 한 줄","timecode":"01:12",
+                 "example_en":"...","example_ko":"...",
+                 "cloze_en":"I ___ in today, so I'm late.",
+                 "cloze_answer":"slept",
+                 "cloze_wrong":["sleep","sleeping","sleeps"]}}],
+ "words":[{{"en":"...","ko":"...","pos":"명사","why_ko":"틀렸을 때 볼 한 줄",
+            "timecode":"01:12","example_en":"...","example_ko":"..."}}],
  "shadow":[{{"timecode":"01:12","en":"...","ko":"...","tip_ko":"소리 요령"}}],
  "dictation":[{{"timecode":"01:12","hint_ko":"무슨 상황인지","answer_en":"..."}}],
  "missions":[{{"level":1,"label":"그대로 말하기","prompt_ko":"...","example_en":"..."}}]
@@ -903,6 +939,77 @@ def auto(url):
     return build()
 
 
+def serve(name=None):
+    """결과 폴더를 localhost 로 띄우고 시트를 연다.
+
+    파일을 두 번 눌러 여는 것(file://)과 이 길의 차이는 하나뿐이다 —
+    유튜브가 임베드를 받아 주느냐. file:// 은 리퍼러가 없어 거절당하고
+    '동영상 플레이어 구성 오류 153' 이 뜬다. 같은 파일을 http 로 열면
+    영상이 시트 안에서 그대로 나온다.
+
+    창을 닫으면 서버도 끝난다. 남는 것이 없다.
+    """
+    import functools
+    import http.server
+    import socketserver
+    import urllib.parse
+
+    OUT.mkdir(exist_ok=True)
+    sheets = sorted(OUT.glob("*.html"), key=lambda p: p.stat().st_mtime, reverse=True)
+    if not sheets:
+        sys.exit(f"[!] {OUT.name} 폴더에 시트가 없습니다. 먼저 시트를 만드세요.")
+
+    if name:
+        hit = [p for p in sheets if name in p.name]
+        if not hit:
+            sys.exit(f"[!] '{name}' 이 이름에 든 시트를 찾지 못했습니다.")
+        target = hit[0]
+    else:
+        target = sheets[0]
+
+    class Quiet(http.server.SimpleHTTPRequestHandler):
+        def log_message(self, *a):        # 접속 기록을 찍지 않는다
+            pass
+
+    handler = functools.partial(Quiet, directory=str(OUT))
+    with socketserver.TCPServer(("127.0.0.1", 0), handler) as srv:
+        url = (f"http://127.0.0.1:{srv.server_address[1]}/"
+               + urllib.parse.quote(target.name))
+        print(f"\n  시트를 엽니다 · {target.name}")
+        print(f"  {url}")
+        print("\n  영상이 시트 안에서 재생됩니다.")
+        print("  다 하면 이 검은 창을 닫으세요. (Ctrl+C 도 됩니다)\n")
+        if not HEADLESS:
+            webbrowser.open(url)
+        try:
+            srv.serve_forever()
+        except KeyboardInterrupt:
+            print("\n  닫았습니다.\n")
+
+
+def ask_only():
+    """1단계로 만들어 둔 붙여넣기.txt 를 그대로 써서 시트까지 만든다.
+
+    1단계까지만 눌러 놓고 '결과가 안 나온다' 는 일이 잦다.
+    1단계는 자막만 받고 멈추는 것이 맞지만, 그다음이 사람이 직접
+    붙여넣는 길뿐이면 거기서 멈춰 버린다. 이 길로 오면 자막을 다시
+    받지 않고 이어서 간다.
+    """
+    if not PASTE.exists() or not STATE.exists():
+        sys.exit("[!] 1단계를 먼저 실행하세요. "
+                 f"({PASTE.name} 과 {STATE.name} 이 있어야 합니다.)")
+
+    vi = json.loads(STATE.read_text(encoding="utf-8"))
+    print(f"\n  1단계에서 받아 둔 자막을 씁니다.")
+    print(f"  {vi.get('title', '')[:60]}")
+    print(f"  자막 {LANG_KO.get(vi.get('lang'), '?')} "
+          f"{SRC_KO.get(vi.get('source'), '?')}")
+
+    reply = ask_claude(PASTE.read_text(encoding="utf-8"))
+    REPLY.write_text(reply, encoding="utf-8")
+    return build()
+
+
 # ══════════════════════════════════════════════ 2단계 · build
 
 def load_reply():
@@ -944,6 +1051,113 @@ def review_items(n, skip_vid=None):
     return out
 
 
+# ── 메일 본문 ────────────────────────────────────────────────
+#
+# 시트 본체는 자바스크립트로 도는 퀴즈 앱이라 지메일 본문에서 한 글자도
+# 움직이지 않는다. 지메일은 <script> 를 지우고, CSS 변수와 grid 를 모르고,
+# 웹폰트를 막는다. 그래서 본문은 '읽기 전용' 으로 따로 만든다.
+# 푸는 것은 첨부 파일에서 한다.
+
+_M_CARD = ('<table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
+           'border="0" style="background:#ffffff;border:1px solid #DCD9CE;'
+           'border-radius:10px;margin-bottom:9px;"><tr><td style="padding:15px 17px;">')
+
+
+def _m_tc(vid, it):
+    """메일 안에서도 그 장면으로 바로 갈 수 있게."""
+    if not it.get("tc"):
+        return ('<span style="display:inline-block;background:#C9C6BB;color:#5F5B50;'
+                'font-size:11px;font-weight:700;padding:3px 7px;border-radius:6px;">--:--</span>')
+    return (f'<a href="https://youtu.be/{vid}?t={it["sec"]}" '
+            'style="display:inline-block;background:#B4531F;color:#ffffff;'
+            'text-decoration:none;font-size:11px;font-weight:700;padding:3px 7px;'
+            f'border-radius:6px;">{esc(it["tc"])}</a>')
+
+
+def _m_example(it):
+    if not it.get("exEn"):
+        return ""
+    ko = (f'<br><span style="color:#6B7566;font-size:12.5px;">{esc(it["exKo"])}</span>'
+          if it.get("exKo") else "")
+    return ('<div style="margin-top:11px;padding-top:11px;border-top:1px solid #ECEAE1;'
+            f'font-size:13.5px;color:#3A4436;">{esc(it["exEn"])}{ko}</div>')
+
+
+def write_mail_body(data, vi, sheet_path):
+    """메일 본문 HTML 을 만들어 둔다. 템플릿이 없으면 조용히 넘어간다."""
+    if not MAIL_TEMPLATE.exists():
+        return None
+    v = data["video"]["id"]
+
+    exprs = "".join(
+        _M_CARD + _m_tc(v, e) +
+        f'<div style="font-size:19px;font-weight:700;line-height:1.4;margin-top:8px;">{esc(e["en"])}</div>'
+        f'<div style="font-size:14px;color:#3A4436;margin-top:3px;">{esc(e["ko"])}</div>' +
+        (f'<div style="font-size:13px;color:#2E5D4B;margin-top:5px;">쓸 때 · {esc(e["when"])}</div>'
+         if e.get("when") else "") +
+        _m_example(e) + "</td></tr></table>"
+        for e in data["exprs"])
+
+    words = "".join(
+        _M_CARD + _m_tc(v, w) +
+        f'<div style="font-size:17px;font-weight:700;margin-top:8px;">{esc(w["en"])}'
+        + (f'<span style="font-size:11px;color:#6B7566;font-weight:400;margin-left:7px;">'
+           f'{esc(w["pos"])}</span>' if w.get("pos") else "") + "</div>"
+        f'<div style="font-size:13.5px;color:#3A4436;margin-top:2px;">{esc(w["ko"])}</div>' +
+        _m_example(w) + "</td></tr></table>"
+        for w in data["words"])
+
+    shadow = ""
+    if data["shadow"]:
+        rows = "".join(
+            _M_CARD + _m_tc(v, s) +
+            f'<div style="font-size:17px;font-weight:700;margin-top:8px;">{esc(s["en"])}</div>'
+            f'<div style="font-size:13.5px;color:#3A4436;margin-top:2px;">{esc(s["ko"])}</div>' +
+            (f'<div style="margin-top:9px;padding-left:11px;border-left:2px solid #DCD9CE;'
+             f'font-size:13px;color:#6B7566;">{esc(s["tip"])}</div>' if s.get("tip") else "") +
+            "</td></tr></table>"
+            for s in data["shadow"])
+        shadow = ('<tr><td style="padding:30px 20px 0;">'
+                  '<div style="font-size:11px;letter-spacing:.16em;color:#6B7566;font-weight:700;'
+                  'border-bottom:1px solid #DCD9CE;padding-bottom:8px;margin-bottom:14px;">'
+                  f'쉐도잉 — {len(data["shadow"])}문장</div>{rows}</td></tr>')
+
+    missions = ""
+    if data["missions"]:
+        rows = "".join(
+            '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" '
+            'style="background:#2E5D4B;border-radius:10px;margin-bottom:9px;">'
+            '<tr><td style="padding:16px 18px;color:#F1F5EE;">'
+            f'<div style="font-size:10.5px;letter-spacing:.12em;color:#B9CFC0;">'
+            f'{esc(m["level"])}단 · {esc(m["label"])}</div>'
+            f'<div style="font-size:15.5px;margin-top:5px;">{esc(m["prompt"])}</div>' +
+            (f'<div style="font-size:15px;color:#DCE8DF;margin-top:8px;">{esc(m["example"])}</div>'
+             if m.get("example") else "") +
+            "</td></tr></table>"
+            for m in data["missions"])
+        missions = ('<tr><td style="padding:30px 20px 0;">'
+                    '<div style="font-size:11px;letter-spacing:.16em;color:#6B7566;font-weight:700;'
+                    'border-bottom:1px solid #DCD9CE;padding-bottom:8px;margin-bottom:14px;">'
+                    f'말하기 미션 — {len(data["missions"])}개</div>{rows}</td></tr>')
+
+    h = MAIL_TEMPLATE.read_text(encoding="utf-8")
+    for k, val in {
+        "{{DATE}}": data["video"]["date"], "{{TOPIC}}": esc(data["video"]["topic"]),
+        "{{LANG_LABEL}}": esc(data["video"]["lang"]),
+        "{{SRC_LABEL}}": esc(data["video"]["src"]),
+        "{{TITLE}}": esc(data["video"]["title"]), "{{VIDEO_ID}}": v,
+        "{{SUMMARY}}": esc(data["video"]["summary"]),
+        "{{FILE}}": esc(sheet_path.name),
+        "{{EXPRESSIONS}}": exprs, "{{EXPR_COUNT}}": str(len(data["exprs"])),
+        "{{WORDS}}": words, "{{WORD_COUNT}}": str(len(data["words"])),
+        "{{SHADOW}}": shadow, "{{MISSIONS}}": missions,
+    }.items():
+        h = h.replace(k, val)
+
+    MAIL_BODY.write_text(h, encoding="utf-8")
+    return MAIL_BODY
+
+
 def build():
     if not STATE.exists():
         sys.exit("[!] 먼저 1단계를 실행하세요.")
@@ -958,83 +1172,80 @@ def build():
         if key not in sh:
             sys.exit(f"[!] 응답에 '{key}' 가 없습니다. 다시 받아주세요.")
 
-    def tc_tag(tc, cls, extra=""):
-        """시간이면 영상 링크, 아니면 그냥 글자."""
-        if not has_tc(tc):
-            return f'<span class="{cls}">{esc(tc) or "--:--"}</span>'
-        return (f'<a class="{cls}" href="https://youtu.be/{v}?t={sec_of(tc)}" '
-                f'target="_blank" rel="noopener"{extra}>{esc(tc)}</a>')
-
-    def g(d, k):
-        return esc(d.get(k, ""))
-
-    ex = "\n".join(f"""<li class="x">
-  {tc_tag(e.get('timecode'), "xtc", ' title="영상에서 듣기"')}
-  <b>{g(e, 'en')}</b>
-  <span class="ko">{g(e, 'ko')}</span>
-  <span class="when">{g(e, 'when_ko')}</span>
-  <em>{g(e, 'example_en')}<i>{g(e, 'example_ko')}</i></em>
-  <div class="mark"><button>입에서 나온다</button><button>알긴 안다</button><button>처음</button></div>
-</li>""" for e in sh["expressions"])
-
-    ws = "\n".join(f"""<li class="w">
-  {tc_tag(w.get('timecode'), "wtc", ' title="영상에서 듣기"')}
-  <b>{g(w, 'en')}</b><span class="pos">{g(w, 'pos')}</span>
-  <span class="ko">{g(w, 'ko')}</span>
-  <em>{g(w, 'example_en')}<i>{g(w, 'example_ko')}</i></em>
-  <div class="mark"><button>안다</button><button>가물</button><button>처음</button></div>
-</li>""" for w in sh["words"])
-
-    sd = "\n".join(f"""<li class="s">
-  {tc_tag(s.get('timecode'), "stc")}
-  <div class="sbody"><p class="en">{g(s, 'en')}</p><p class="ko">{g(s, 'ko')}</p>
-    <p class="tip">{g(s, 'tip_ko')}</p></div>
-  <div class="reps" data-n="0"><button class="rep">따라 말했다</button><span class="cnt">0</span></div>
-</li>""" for s in sh.get("shadow", []))
-    shadow_block = (f'<h2>쉐도잉 — 소리 내서 따라 말하기</h2>'
-                    f'<ul class="shadow">{sd}</ul>') if sd else ""
-
-    dc = "\n".join(f"""<li class="d">
-  {tc_tag(d.get('timecode'), "dtc")}
-  <div class="dbody"><p class="hint">{g(d, 'hint_ko')}</p>
-    <textarea rows="2" placeholder="들리는 대로 적어보세요"></textarea>
-    <details><summary>정답 보기</summary><p class="ans">{g(d, 'answer_en')}</p></details></div>
-</li>""" for d in sh.get("dictation", []))
-    dict_block = (f'<h2>받아쓰기 — 그 지점을 다시 듣고</h2>'
-                  f'<ol class="dict">{dc}</ol>') if dc else ""
-
-    rv = "".join(
-        f"""<li><a href="https://youtu.be/{esc(w.get('vid'))}?t={sec_of(w.get('timecode'))}" """
-        f"""target="_blank" rel="noopener"><b>{esc(w.get('en'))}</b>"""
-        f"""<span>{esc(w.get('ko'))}</span></a></li>"""
-        for w in review_items(N_REVIEW, skip_vid=v))
-    review_block = (f'<h2>지난 시트 — 아직 입에 붙었나</h2>'
-                    f'<ul class="rev">{rv}</ul>') if rv else ""
-
-    ms = "".join(f"""<li class="m"><span class="lv">{g(m, 'level')}</span>
-  <div><b>{g(m, 'label')}</b><p>{g(m, 'prompt_ko')}</p><code>{g(m, 'example_en')}</code></div>
-  <button class="done" aria-pressed="false">했다</button></li>""" for m in sh["missions"])
-
     lang = vi.get("lang", "en")
+    lang_label = {"en": "영어 영상", "ko": "한국어 강의"}.get(lang, lang)
+    src_label = {"manual": "수동자막", "asr": "자동자막",
+                 "whisper": "음성인식"}.get(vi["source"], vi["source"])
+
+    # ── 시트 본체에 넣을 자료 ────────────────────────────────
+    # 예전에는 여기서 HTML 조각을 손으로 이어 붙였다. 지금은 자료만 넘긴다.
+    # 화면(표지·문제·결과·연습)은 템플릿 쪽 스크립트가 이 자료로 그린다.
+    # 그래야 같은 자료를 '읽는 시트' 와 '푸는 문제' 양쪽으로 쓸 수 있다.
+
+    def when(d):
+        """영상으로 건너뛸 수 있는 시간이면 (표기, 초), 아니면 ('', 0)."""
+        t = d.get("timecode")
+        return (str(t).strip(), sec_of(t)) if has_tc(t) else ("", 0)
+
+    def pack(d, **fields):
+        tc, sec = when(d)
+        out = {"tc": tc, "sec": sec}
+        for name, key in fields.items():
+            out[name] = str(d.get(key, "") or "").strip()
+        return out
+
+    def pack_expr(e):
+        """표현 하나. 빈칸 문제 재료는 없을 수도 있어 따로 챙긴다."""
+        out = pack(e, en="en", ko="ko", when="when_ko",
+                   exEn="example_en", exKo="example_ko", why="why_ko",
+                   clozeEn="cloze_en", clozeAns="cloze_answer")
+        wrong = e.get("cloze_wrong") or []
+        if isinstance(wrong, str):
+            wrong = [wrong]
+        out["clozeWrong"] = [str(w).strip() for w in wrong if str(w).strip()][:3]
+        return out
+
+    data = {
+        "video": {
+            "id": v, "title": vi["title"], "date": today,
+            "topic": sh["topic_ko"], "summary": sh["summary_ko"],
+            "lang": lang_label, "src": src_label,
+        },
+        "words": [pack(w, en="en", ko="ko", pos="pos",
+                       exEn="example_en", exKo="example_ko", why="why_ko")
+                  for w in sh["words"]],
+        "exprs": [pack_expr(e) for e in sh["expressions"]],
+        "shadow": [pack(s, en="en", ko="ko", tip="tip_ko")
+                   for s in sh.get("shadow", [])],
+        "dictation": [pack(d, hint="hint_ko", answer="answer_en")
+                      for d in sh.get("dictation", [])],
+        "missions": [{"level": str(m.get("level", "")),
+                      "label": str(m.get("label", "")),
+                      "prompt": str(m.get("prompt_ko", "")),
+                      "example": str(m.get("example_en", ""))}
+                     for m in sh["missions"]],
+        "review": [{**pack(w, en="en", ko="ko"), "vid": w.get("vid", "")}
+                   for w in review_items(N_REVIEW, skip_vid=v)],
+    }
+    # '<' 만 막으면 </script> 로 빠져나가는 일도, 주석으로 새는 일도 없다.
+    blob = json.dumps(data, ensure_ascii=False).replace("<", "\\u003c")
+
     h = TEMPLATE.read_text(encoding="utf-8")
     for k, val in {
         "{{DATE}}": today, "{{TOPIC}}": esc(sh["topic_ko"]),
-        "{{SRC_CLASS}}": vi["source"],
-        "{{SRC_LABEL}}": {"manual": "수동자막", "asr": "자동자막",
-                          "whisper": "음성인식"}.get(vi["source"], vi["source"]),
-        "{{LANG_LABEL}}": {"en": "영어 영상", "ko": "한국어 강의"}.get(lang, lang),
+        "{{SRC_CLASS}}": vi["source"], "{{SRC_LABEL}}": src_label,
+        "{{LANG_LABEL}}": lang_label,
         "{{TITLE}}": esc(vi["title"]), "{{VIDEO_ID}}": v,
+        "{{CHANNEL}}": esc(f"{lang_label} · {src_label} · {sh['topic_ko']}"),
         "{{SUMMARY}}": esc(sh["summary_ko"]),
-        "{{EXPRESSIONS}}": ex, "{{EXPR_COUNT}}": str(len(sh["expressions"])),
-        "{{WORDS}}": ws, "{{WORD_COUNT}}": str(len(sh["words"])),
-        "{{SHADOW}}": shadow_block, "{{DICTATION}}": dict_block,
-        "{{REVIEW}}": review_block, "{{MISSIONS}}": ms,
+        "{{DATA}}": blob,
     }.items():
         h = h.replace(k, val)
 
     OUT.mkdir(exist_ok=True)
     path = OUT / f"{today}_{LEARNER['name']}_{v}.html"
     path.write_text(h, encoding="utf-8")
+    write_mail_body(data, vi, path)
 
     led = json.loads(WORDS_DB.read_text(encoding="utf-8")) if WORDS_DB.exists() else []
     # 같은 영상으로 다시 만들면 덧붙이지 않고 그 영상 몫을 갈아끼운다.
@@ -1047,7 +1258,13 @@ def build():
     print(f"  표현 {len(sh['expressions'])}개 · 단어 {len(sh['words'])}개 · "
           f"쉐도잉 {len(sh.get('shadow', []))}개 · 받아쓰기 {len(sh.get('dictation', []))}개\n")
     if not HEADLESS:
-        webbrowser.open(path.resolve().as_uri())
+        # 파일을 그냥 열면 유튜브가 임베드를 거절한다(오류 153).
+        # 그래서 localhost 로 띄워 연다. 창을 닫으면 같이 끝난다.
+        try:
+            serve(path.name)
+        except OSError as e:
+            print(f"  [i] 서버를 못 띄워 파일로 엽니다. 영상은 유튜브에서 봅니다. ({e})")
+            webbrowser.open(path.resolve().as_uri())
     return path
 
 
@@ -1073,6 +1290,10 @@ def _run(a):
         if len(a) < 2:
             sys.exit("사용법: python adult_local.py auto <유튜브주소>")
         auto(a[1])
+    elif a[0] == "ask":
+        ask_only()
+    elif a[0] == "serve":
+        serve(a[1] if len(a) > 1 else None)
     elif a[0] == "build":
         build()
     else:

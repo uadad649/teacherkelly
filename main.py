@@ -75,11 +75,26 @@ def _hint(addr):
 
 
 def _plain_summary(title, url, path):
-    return (f"오늘의 영어 복습 시트입니다.\n\n"
+    return (f"오늘의 영어 챌린지입니다.\n\n"
             f"영상: {title}\n"
             f"{url}\n\n"
-            f"아래에 시트가 이어집니다. 버튼을 눌러 표시하거나 받아쓰기를 하려면\n"
-            f"첨부된 '{path.name}' 파일을 내려받아 열어 주세요.\n")
+            f"첨부된 '{path.name}' 을 내려받아 열면 문제로 풀 수 있습니다.\n"
+            f"단어 고르기 → 문장 배열 → 쉐도잉·받아쓰기 순서로 이어지고,\n"
+            f"틀린 문제만 다시 나옵니다.\n\n"
+            f"메일 본문에는 오늘 나온 표현과 단어가 읽기용으로 실려 있습니다.\n")
+
+
+def _body_html(path):
+    """메일 본문에 넣을 HTML.
+
+    시트 본체는 자바스크립트로 도는 퀴즈 앱이라 지메일 본문에서는
+    아무것도 움직이지 않는다. adult_local 이 만들어 둔 '읽기용' 본문을 쓰고,
+    그것이 없을 때만 시트 자체를 본문에 넣는다.
+    """
+    if core.MAIL_BODY.exists():
+        return core.MAIL_BODY.read_text(encoding="utf-8")
+    print("  [i] 메일 본문 파일이 없어 시트를 그대로 본문에 넣습니다.")
+    return path.read_text(encoding="utf-8")
 
 
 def send_mail(path, title, url):
@@ -97,16 +112,17 @@ def send_mail(path, title, url):
     # 그대로 붙여넣는 일이 잦으므로 공백을 지워 준다.
     pw = re.sub(r"\s+", "", pw)
 
-    html = path.read_text(encoding="utf-8")
+    sheet = path.read_text(encoding="utf-8")
     today = dt.date.today().isoformat()
 
     msg = EmailMessage()
-    msg["Subject"] = f"[영어 시트] {today} · {title or path.stem}"
+    msg["Subject"] = f"[영어 챌린지] {today} · {title or path.stem}"
     msg["From"] = user
     msg["To"] = to
     msg.set_content(_plain_summary(title, url, path))
-    msg.add_alternative(html, subtype="html")
-    msg.add_attachment(html.encode("utf-8"), maintype="text", subtype="html",
+    msg.add_alternative(_body_html(path), subtype="html")
+    # 첨부는 시트 본체다. 이것을 열어야 문제를 푼다.
+    msg.add_attachment(sheet.encode("utf-8"), maintype="text", subtype="html",
                        filename=path.name)
 
     try:
