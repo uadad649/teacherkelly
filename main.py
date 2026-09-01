@@ -13,6 +13,8 @@ GitHub 서버에는 눌러 줄 사람도, 열어 볼 브라우저도 없다.
 주소를 주는 방법 (위에서부터 먼저 본다)
   1) 명령줄 인자      python main.py <유튜브주소>
   2) 환경변수         VIDEO_URL=<유튜브주소> python main.py
+  3) 아무것도 없으면  channels.txt 의 채널에서 아직 안 본 최신 영상을 고른다
+                      (매일 새벽 스케줄 실행이 이 길로 온다)
 
 필요한 Secrets
   CLAUDE_CODE_OAUTH_TOKEN — 시트를 만들 때 (필수)
@@ -43,18 +45,18 @@ HERE = Path(__file__).resolve().parent
 
 # ── 주소 찾기 ────────────────────────────────────────────────
 
-def find_url():
-    """명령줄 → 환경변수 순으로 유튜브 주소를 찾는다."""
+def explicit_url():
+    """사람이 직접 준 주소. 없으면 None (그때는 채널에서 고른다)."""
     for cand in (sys.argv[1] if len(sys.argv) > 1 else "",
                  os.environ.get("VIDEO_URL", "")):
         cand = (cand or "").strip()
-        if cand and core.vid_of(cand):
+        if not cand:
+            continue
+        if core.vid_of(cand):
             return cand
-        if cand:
-            sys.exit(f"[!] 유튜브 주소로 보이지 않습니다: {cand}\n"
-                     "    예) https://www.youtube.com/watch?v=xxxxxxxxxxx")
-    sys.exit("[!] 유튜브 주소가 없습니다.\n"
-             "    Actions 탭 → Run workflow 에서 주소를 넣어 주세요.")
+        sys.exit(f"[!] 유튜브 주소로 보이지 않습니다: {cand}\n"
+                 "    예) https://www.youtube.com/watch?v=xxxxxxxxxxx")
+    return None
 
 
 # ── 메일 보내기 ──────────────────────────────────────────────
@@ -126,29 +128,74 @@ def step_summary(lines):
         pass
 
 
-def main():
-    url = find_url()
-    path = core.auto(url)          # 자막 → Claude → HTML 까지 한 번에
-
+def deliver(path, url):
+    """만들어진 시트를 메일로 보내고 실행 요약을 남긴다."""
+    import json
     vi = {}
     if core.STATE.exists():
-        import json
         vi = json.loads(core.STATE.read_text(encoding="utf-8"))
     title = vi.get("title") or ""
 
     mailed = send_mail(path, title, url)
-
-    rel = path.relative_to(HERE).as_posix()
     step_summary([
         f"### {dt.date.today().isoformat()} 영어 시트",
         "",
         f"- **영상**: [{title or url}]({url})",
         f"- **자막**: {core.LANG_KO.get(vi.get('lang'), '?')} "
         f"{core.SRC_KO.get(vi.get('source'), '?')}",
-        f"- **시트**: `{rel}`",
+        f"- **시트**: `{path.relative_to(HERE).as_posix()}`",
         f"- **메일**: {'보냈습니다' if mailed else '보내지 않았습니다 (설정 없음)'}",
     ])
 
 
+def run_auto_pick():
+    """주소를 준 사람이 없을 때 — channels.txt 의 채널에서 골라 만든다."""
+    import channels
+
+    picks = channels.candidates()
+    if not picks:
+        if not channels.LIST.exists():
+            msg = "channels.txt 가 없습니다. 볼 채널을 한 줄씩 적어 주세요."
+        elif not channels.read_channels():
+            msg = ("channels.txt 에 채널이 하나도 없습니다. "
+                   "'#' 없는 줄에 채널을 적어 주세요.")
+        else:
+            msg = "채널의 최신 영상을 이미 다 봤습니다."
+        print(f"  {msg} 오늘은 건너뜁니다.")
+        step_summary([f"### {dt.date.today().isoformat()}", "", f"- {msg}"])
+        return 0                      # 할 일이 없는 것은 실패가 아니다
+
+    print(f"  아직 안 본 영상 {len(picks)}개를 찾았습니다. 최신 것부터 해봅니다.")
+    skipped = []
+    for v in picks:
+        url = f"https://www.youtube.com/watch?v={v['id']}"
+        print(f"\n  ── {v['title'][:60]}  ({v['channel']})")
+        try:
+            path = core.auto(url)
+        except core.PrepFailed as e:
+            print(f"     건너뜁니다 — {e}")
+            channels.mark_seen(v["id"], v["title"], str(e))
+            skipped.append(f"{v['title'][:40]} — {e}")
+            continue
+        channels.mark_seen(v["id"], v["title"], "완료")
+        deliver(path, url)
+        return 0
+
+    print("  후보를 모두 시도했지만 시트를 만들지 못했습니다.")
+    step_summary([f"### {dt.date.today().isoformat()} — 시트를 못 만들었습니다", ""]
+                 + [f"- {s}" for s in skipped])
+    return 1                          # 뭔가 잘못된 것이므로 눈에 띄게 실패시킨다
+
+
+def main():
+    url = explicit_url()
+    if url is None:                   # 스케줄 실행
+        sys.exit(run_auto_pick())
+    deliver(core.auto(url), url)      # 사람이 주소를 준 실행
+
+
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except core.PrepFailed as e:
+        sys.exit(f"[!] {e}")

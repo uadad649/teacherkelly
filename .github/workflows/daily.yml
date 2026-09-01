@@ -10,10 +10,12 @@ on:
         required: true
         type: string
 
-  # 나중에 매일 자동으로 돌리고 싶어지면 아래 3줄의 주석을 푼다.
-  # 그때는 main.py 가 주소를 어디서 가져올지 정해 줘야 한다.
-  # schedule:
-  #   - cron: "0 22 * * *"   # UTC 22:00 = 한국 아침 7시
+  # 매일 새벽 자동. 주소를 주지 않으므로 main.py 가 channels.txt 의
+  # 채널에서 아직 안 본 최신 영상을 골라 온다.
+  # cron 은 UTC 다. 21:23 UTC = 한국 새벽 6시 23분.
+  # 정각(:00)은 실행이 몰려 밀리므로 어중간한 분을 쓴다.
+  schedule:
+    - cron: "23 21 * * *"
 
 # 같은 저장소에 두 번 겹쳐 돌면 커밋이 서로를 덮어쓴다. 한 번에 하나만.
 concurrency:
@@ -45,7 +47,12 @@ jobs:
 
       - name: 시트 만들고 메일 보내기
         env:
+          # 수동 실행이면 주소가 들어오고, 스케줄 실행이면 빈 값이 된다.
+          # 빈 값일 때 main.py 가 channels.txt 에서 고른다.
           VIDEO_URL: ${{ inputs.url }}
+          # 자동으로 고를 때만 짧은 영상(쇼츠)을 거른다.
+          # 사람이 직접 고른 영상은 짧아도 그대로 만든다.
+          MIN_TRANSCRIPT_LINES: ${{ github.event_name == 'schedule' && '30' || '0' }}
           # 'claude setup-token' 으로 만든 1년짜리 구독 토큰
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           # API 키를 따로 쓸 사람만. 있으면 이쪽이 먼저 쓰인다.

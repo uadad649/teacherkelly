@@ -173,6 +173,20 @@ def _fetch(transcript):
 
 # ══════════════════════════════════════════════ 공통
 
+class PrepFailed(Exception):
+    """이 영상으로는 시트를 못 만든다. 다른 영상을 보면 된다.
+
+    자동 실행은 후보를 여러 개 놓고 도는데, 하나가 안 된다고
+    그날 실행 전체가 멈추면 안 된다. 그래서 프로그램을 끝내는 대신
+    이 예외를 던져 부르는 쪽이 판단하게 한다.
+    """
+
+
+# 자막이 이보다 짧으면 배울 게 없다고 보고 건너뛴다.
+# 0 이면 검사하지 않는다. 자동 실행에서 쇼츠를 거르는 데 쓴다.
+MIN_TRANSCRIPT_LINES = int(os.environ.get("MIN_TRANSCRIPT_LINES", "0") or 0)
+
+
 def vid_of(u):
     m = re.search(r"(?:v=|youtu\.be/|shorts/|embed/)([A-Za-z0-9_-]{11})", u)
     return m.group(1) if m else (u if re.fullmatch(r"[A-Za-z0-9_-]{11}", u) else None)
@@ -685,14 +699,17 @@ def prep(url, interactive=True):
     """자막을 받아 붙여넣을 글을 만든다. 만들어진 프롬프트 문자열을 돌려준다."""
     v = vid_of(url)
     if not v:
-        sys.exit("[!] URL에서 영상 ID를 못 찾았습니다.")
+        raise PrepFailed("URL에서 영상 ID를 못 찾았습니다.")
 
     print(f"\n  영상 확인 중... {v}")
     title, dur = video_info(v)
 
     chunks, src, lang = get_transcript(v)
     if not chunks:
-        sys.exit("[!] 자막을 못 받았습니다. 다른 영상을 골라주세요.")
+        raise PrepFailed("자막을 못 받았습니다. 다른 영상을 골라주세요.")
+    if MIN_TRANSCRIPT_LINES and len(chunks) < MIN_TRANSCRIPT_LINES:
+        raise PrepFailed(f"자막이 {len(chunks)}줄뿐이라 건너뜁니다. "
+                         f"(쇼츠이거나 너무 짧은 영상)")
     print(f"  {title}")
     print(f"  자막 {LANG_KO[lang]} {SRC_KO[src]} · {len(chunks)}줄")
     if lang == "ko":
@@ -1010,7 +1027,13 @@ def build():
 
 
 def main():
-    a = sys.argv[1:]
+    try:
+        _run(sys.argv[1:])
+    except PrepFailed as e:          # 사람이 직접 부른 자리에서는 그냥 멈춘다
+        sys.exit(f"[!] {e}")
+
+
+def _run(a):
     if not a:
         print(__doc__); return
     if a[0] == "prep":
