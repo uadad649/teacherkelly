@@ -1210,5 +1210,277 @@
   "kind": "word",
   "date": "2026-09-02",
   "vid": "FDW6dtpjOfY"
+ },
+ {
+  "en": "Can you recommend a good restaurant?",
+  "ko": "괜찮은 식당 하나 추천해 주실래요?",
+  "when_ko": "낯선 동네에서 현지 사람에게 밥집을 물어볼 때",
+  "why_ko": "recommend 한 단어에 '좋은 걸 골라서 알려주다'가 다 들어 있습니다. 앞에 Can you 를 붙이면 부탁하는 말이 됩니다.",
+  "timecode": "05:38",
+  "example_en": "Excuse me, can you recommend a good restaurant around here?",
+  "example_ko": "실례합니다, 이 근처에 괜찮은 식당 하나 추천해 주실래요?",
+  "cloze_en": "Excuse me, can you ___ a good restaurant around here?",
+  "cloze_answer": "recommend",
+  "cloze_wrong": [
+   "introduce",
+   "explain",
+   "order"
+  ],
+  "kind": "expr",
+  "date": "2026-09-03",
+  "vid": "1i-S7pBxWSw"
+ },
+ {
+  "en": "It's my first time here.",
+  "ko": "여기는 처음이에요.",
+  "when_ko": "가게나 도시에 처음 왔다고 밝힐 때",
+  "why_ko": "first time 뒤에 here 를 붙여야 '이 장소가 처음'이 됩니다. here 가 빠지면 무엇이 처음인지 안 보입니다.",
+  "timecode": "05:42",
+  "example_en": "It's my first time here, so I don't know this area.",
+  "example_ko": "여기는 처음이라서 이 동네를 잘 몰라요.",
+  "cloze_en": "It's my ___ time here, so I don't know this area.",
+  "cloze_answer": "first",
+  "cloze_wrong": [
+   "last",
+   "one",
+   "best"
+  ],
+  "kind": "expr",
+  "date": "2026-09-03",
+  "vid": "1i-S7pBxWSw"
+ },
+ {
+  "en": "What brings you here?",
+  "ko": "여기는 무슨 일로 오셨어요?",
+  "when_ko": "처음 만난 사람에게 온 이유를 가볍게 물을 때",
+  "why_ko": "Why did you come 보다 부드럽습니다. bring 에 s 가 붙어야 '무엇이 당신을 데려왔나'가 완성됩니다.",
+  "timecode": "10:02",
+  "example_en": "So, what brings you here?",
+  "example_ko": "그래서, 여기는 무슨 일로 오셨어요?",
+  "cloze_en": "So, what ___ you here?",
+  "cloze_answer": "brings",
+  "cloze_wrong": [
+   "bring",
+   "brought",
+   "bringing"
+  ],
+  "kind": "expr",
+  "date": "2026-09-03",
+  "vid": "1i-S7pBxWSw"
+ },
+ {
+  "en": "Should I come get it?",
+  "ko": "제가 가지러 가면 되나요?",
+  "when_ko": "카페에서 음료를 직접 받으러 가야 하는지 물을 때",
+  "why_ko": "Should I 로 시작해야 '제가 그렇게 할까요?'라는 물음이 됩니다. come get it 은 '와서 가져가다'를 붙여 쓰는 통짜 표현입니다.",
+  "timecode": "03:29",
+  "example_en": "Should I come get it, or will you bring it to my table?",
+  "example_ko": "제가 가지러 갈까요, 아니면 자리로 갖다주시나요?",
+  "cloze_en": "___ I come get it, or will you bring it to my table?",
+  "cloze_answer": "Should",
+  "cloze_wrong": [
+   "Will",
+   "Do",
+   "Would"
+  ],
+  "kind": "expr",
+  "date": "2026-09-03",
+  "vid": "1i-S7pBxWSw"
+ },
+ {
+  "en": "Can you try again?",
+  "ko": "다시 한번 해 주실래요?",
+  "when_ko": "주문이 잘못 나와서 다시 해 달라고 할 때",
+  "why_ko": "try 는 '한 번 더 해 보다'입니다. 뒤의 again 이 '다시'를 맡고 있어서 앞에는 try 만 오면 됩니다.",
+  "timecode": "04:12",
+  "example_en": "This is not what I ordered. Can you try again?",
+  "example_ko": "이건 제가 주문한 게 아니에요. 다시 한번 해 주실래요?",
+  "cloze_en": "This is not what I ordered. Can you ___ again?",
+  "cloze_answer": "try",
+  "cloze_wrong": [
+   "do",
+   "make",
+   "take"
+  ],
+  "kind": "expr",
+  "date": "2026-09-03",
+  "vid": "1i-S7pBxWSw"
+ },
+ {
+  "en": "I like your shoes.",
+  "ko": "신발 멋지네요.",
+  "when_ko": "처음 보는 사람에게 가볍게 칭찬을 건넬 때",
+  "why_ko": "like 는 '보기 좋다'는 칭찬이 되지만, want 나 need 는 달라고 하는 말이 되어 버립니다.",
+  "timecode": "04:55",
+  "example_en": "I like your shoes. Where did you buy them?",
+  "example_ko": "신발 멋지네요. 어디서 사셨어요?",
+  "cloze_en": "I ___ your shoes. Where did you buy them?",
+  "cloze_answer": "like",
+  "cloze_wrong": [
+   "want",
+   "know",
+   "need"
+  ],
+  "kind": "expr",
+  "date": "2026-09-03",
+  "vid": "1i-S7pBxWSw"
+ },
+ {
+  "en": "Can you teach me English?",
+  "ko": "영어 좀 가르쳐 주실래요?",
+  "when_ko": "영어 잘하는 사람에게 농담 반 진담 반으로 부탁할 때",
+  "why_ko": "가르치는 쪽은 teach, 배우는 쪽은 learn 입니다. 상대가 나에게 해 주는 일이니 teach 입니다.",
+  "timecode": "06:30",
+  "example_en": "Can you teach me English sometime?",
+  "example_ko": "언제 영어 좀 가르쳐 주실래요?",
+  "cloze_en": "Can you ___ me English sometime?",
+  "cloze_answer": "teach",
+  "cloze_wrong": [
+   "learn",
+   "study",
+   "tell"
+  ],
+  "kind": "expr",
+  "date": "2026-09-03",
+  "vid": "1i-S7pBxWSw"
+ },
+ {
+  "en": "I have been there.",
+  "ko": "저 거기 가본 적 있어요.",
+  "when_ko": "상대가 말한 장소를 나도 가봤다고 맞장구칠 때",
+  "why_ko": "been 은 갔다가 돌아온 것이고, gone 은 가서 아직 안 돌아온 상태입니다.",
+  "timecode": "08:32",
+  "example_en": "Oh, I have been there. The food is great.",
+  "example_ko": "아, 저 거기 가봤어요. 음식이 훌륭해요.",
+  "cloze_en": "Oh, I have ___ there. The food is great.",
+  "cloze_answer": "been",
+  "cloze_wrong": [
+   "gone",
+   "went",
+   "being"
+  ],
+  "kind": "expr",
+  "date": "2026-09-03",
+  "vid": "1i-S7pBxWSw"
+ },
+ {
+  "en": "order",
+  "ko": "주문하다",
+  "pos": "동사",
+  "why_ko": "buy 는 돈을 내고 사는 것이고, order 는 '이걸로 주세요'라고 말하는 순간입니다.",
+  "timecode": "00:55",
+  "example_en": "I want to order coffee.",
+  "example_ko": "커피를 주문하고 싶어요.",
+  "kind": "word",
+  "date": "2026-09-03",
+  "vid": "1i-S7pBxWSw"
+ },
+ {
+  "en": "stranger",
+  "ko": "모르는 사람",
+  "pos": "명사",
+  "why_ko": "foreigner 는 외국 사람이고, stranger 는 그냥 내가 모르는 사람입니다.",
+  "timecode": "04:52",
+  "example_en": "He talked to a stranger.",
+  "example_ko": "그는 모르는 사람에게 말을 걸었어요.",
+  "kind": "word",
+  "date": "2026-09-03",
+  "vid": "1i-S7pBxWSw"
+ },
+ {
+  "en": "sweet",
+  "ko": "단",
+  "pos": "형용사",
+  "why_ko": "sugar 는 설탕이라는 물건이고, sweet 는 맛이 어떤지를 말할 때 씁니다.",
+  "timecode": "02:22",
+  "example_en": "This cake is very sweet.",
+  "example_ko": "이 케이크는 아주 달아요.",
+  "kind": "word",
+  "date": "2026-09-03",
+  "vid": "1i-S7pBxWSw"
+ },
+ {
+  "en": "delicious",
+  "ko": "맛있는",
+  "pos": "형용사",
+  "why_ko": "good 도 쓰지만, delicious 는 맛 하나만 콕 집어 말합니다.",
+  "timecode": "04:16",
+  "example_en": "The coffee was delicious.",
+  "example_ko": "커피가 맛있었어요.",
+  "kind": "word",
+  "date": "2026-09-03",
+  "vid": "1i-S7pBxWSw"
+ },
+ {
+  "en": "careful",
+  "ko": "조심하는",
+  "pos": "형용사",
+  "why_ko": "경고할 때는 Be careful 처럼 be 와 함께 씁니다.",
+  "timecode": "05:29",
+  "example_en": "Be careful, it's hot.",
+  "example_ko": "조심하세요, 뜨거워요.",
+  "kind": "word",
+  "date": "2026-09-03",
+  "vid": "1i-S7pBxWSw"
+ },
+ {
+  "en": "alone",
+  "ko": "혼자인",
+  "pos": "형용사",
+  "why_ko": "lonely 는 외로운 기분이고, alone 은 그냥 사람이 혼자 있는 상태입니다.",
+  "timecode": "05:45",
+  "example_en": "Are you here alone?",
+  "example_ko": "여기 혼자 오셨어요?",
+  "kind": "word",
+  "date": "2026-09-03",
+  "vid": "1i-S7pBxWSw"
+ },
+ {
+  "en": "laugh",
+  "ko": "웃다",
+  "pos": "동사",
+  "why_ko": "smile 은 소리 없이 웃는 것이고, laugh 는 소리 내서 웃는 것입니다.",
+  "timecode": "09:07",
+  "example_en": "You made me laugh.",
+  "example_ko": "당신 때문에 웃었어요.",
+  "kind": "word",
+  "date": "2026-09-03",
+  "vid": "1i-S7pBxWSw"
+ },
+ {
+  "en": "visit",
+  "ko": "방문하다",
+  "pos": "동사",
+  "why_ko": "go 는 그냥 가는 것이고, visit 은 사람이나 장소를 보러 가는 것입니다.",
+  "timecode": "10:07",
+  "example_en": "I came to visit my cousin.",
+  "example_ko": "사촌을 보러 왔어요.",
+  "kind": "word",
+  "date": "2026-09-03",
+  "vid": "1i-S7pBxWSw"
+ },
+ {
+  "en": "bring",
+  "ko": "가져다주다",
+  "pos": "동사",
+  "why_ko": "take 는 여기서 저기로 가져가는 것이고, bring 은 내 쪽으로 가져오는 것입니다.",
+  "timecode": "03:23",
+  "example_en": "Can you bring it here?",
+  "example_ko": "그것 좀 여기로 가져다주실래요?",
+  "kind": "word",
+  "date": "2026-09-03",
+  "vid": "1i-S7pBxWSw"
+ },
+ {
+  "en": "enjoy",
+  "ko": "즐기다",
+  "pos": "동사",
+  "why_ko": "like 는 좋아하는 마음이고, enjoy 는 지금 그것을 누리는 순간에 씁니다.",
+  "timecode": "04:02",
+  "example_en": "Enjoy your coffee.",
+  "example_ko": "커피 맛있게 드세요.",
+  "kind": "word",
+  "date": "2026-09-03",
+  "vid": "1i-S7pBxWSw"
  }
 ]
