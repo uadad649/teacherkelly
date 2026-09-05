@@ -1482,5 +1482,277 @@
   "kind": "word",
   "date": "2026-09-03",
   "vid": "1i-S7pBxWSw"
+ },
+ {
+  "en": "Can you introduce yourself?",
+  "ko": "자기소개 좀 해주시겠어요?",
+  "when_ko": "처음 만난 사람에게 소개를 부탁할 때",
+  "why_ko": "소개하는 사람과 소개받는 대상이 같은 사람이면 yourself를 씁니다.",
+  "timecode": "00:15",
+  "example_en": "Can you introduce yourself to the team?",
+  "example_ko": "팀에게 자기소개 좀 해주시겠어요?",
+  "cloze_en": "Can you introduce ___ to the team?",
+  "cloze_answer": "yourself",
+  "cloze_wrong": [
+   "myself",
+   "himself",
+   "themselves"
+  ],
+  "kind": "expr",
+  "date": "2026-09-06",
+  "vid": "XSsOtsSNW2E"
+ },
+ {
+  "en": "Just say it.",
+  "ko": "그냥 말해요.",
+  "when_ko": "망설이지 말고 일단 입 밖으로 뱉으라고 할 때",
+  "why_ko": "say 뒤에는 말할 내용이 바로 옵니다. tell은 듣는 사람이 먼저 와야 합니다.",
+  "timecode": "00:13",
+  "example_en": "Don't be shy, just say it.",
+  "example_ko": "부끄러워하지 말고 그냥 말해요.",
+  "cloze_en": "Don't be shy, just ___ it.",
+  "cloze_answer": "say",
+  "cloze_wrong": [
+   "tell",
+   "talk",
+   "speak"
+  ],
+  "kind": "expr",
+  "date": "2026-09-06",
+  "vid": "XSsOtsSNW2E"
+ },
+ {
+  "en": "That's so cool.",
+  "ko": "그거 진짜 멋지네요.",
+  "when_ko": "상대 이야기를 듣고 감탄하며 맞장구칠 때",
+  "why_ko": "멋지다는 뜻의 cool입니다. 소리가 비슷한 다른 낱말과 섞이지 않게 하세요.",
+  "timecode": "05:37",
+  "example_en": "You write music? That's so cool.",
+  "example_ko": "음악을 만드신다고요? 그거 진짜 멋지네요.",
+  "cloze_en": "You write music? That's so ___.",
+  "cloze_answer": "cool",
+  "cloze_wrong": [
+   "cold",
+   "cute",
+   "calm"
+  ],
+  "kind": "expr",
+  "date": "2026-09-06",
+  "vid": "XSsOtsSNW2E"
+ },
+ {
+  "en": "It sounds scary.",
+  "ko": "무섭게 들리네요.",
+  "when_ko": "상대 말을 듣고 무섭겠다고 반응할 때",
+  "why_ko": "귀로 들은 것에 반응할 때는 sound를 씁니다. 눈으로 본 것에는 look을 씁니다.",
+  "timecode": "05:25",
+  "example_en": "A night hike? It sounds scary.",
+  "example_ko": "밤에 등산을요? 무섭게 들리네요.",
+  "cloze_en": "A night hike? It ___ scary.",
+  "cloze_answer": "sounds",
+  "cloze_wrong": [
+   "looks",
+   "feels",
+   "tastes"
+  ],
+  "kind": "expr",
+  "date": "2026-09-06",
+  "vid": "XSsOtsSNW2E"
+ },
+ {
+  "en": "Are you working on anything right now?",
+  "ko": "지금 하고 있는 일 있어요?",
+  "when_ko": "상대가 요즘 무슨 일을 하고 있는지 물을 때",
+  "why_ko": "무언가를 붙잡고 작업 중일 때는 work 뒤에 on을 붙입니다.",
+  "timecode": "11:24",
+  "example_en": "Are you working on anything right now?",
+  "example_ko": "지금 하고 있는 일 있어요?",
+  "cloze_en": "Are you working ___ anything right now?",
+  "cloze_answer": "on",
+  "cloze_wrong": [
+   "in",
+   "at",
+   "for"
+  ],
+  "kind": "expr",
+  "date": "2026-09-06",
+  "vid": "XSsOtsSNW2E"
+ },
+ {
+  "en": "It can make a big difference.",
+  "ko": "그게 큰 차이를 만들 수 있어요.",
+  "when_ko": "작은 행동이 큰 변화를 준다고 말할 때",
+  "why_ko": "difference 앞에는 make가 짝으로 붙습니다.",
+  "timecode": "11:21",
+  "example_en": "One small step can make a big difference.",
+  "example_ko": "작은 한 걸음이 큰 차이를 만들 수 있어요.",
+  "cloze_en": "One small step can ___ a big difference.",
+  "cloze_answer": "make",
+  "cloze_wrong": [
+   "do",
+   "take",
+   "get"
+  ],
+  "kind": "expr",
+  "date": "2026-09-06",
+  "vid": "XSsOtsSNW2E"
+ },
+ {
+  "en": "Good luck with everything.",
+  "ko": "모든 일이 잘 되길 바라요.",
+  "when_ko": "헤어질 때 앞일을 응원하며 인사할 때",
+  "why_ko": "luck 뒤에 대상을 붙일 때는 with를 씁니다.",
+  "timecode": "11:48",
+  "example_en": "Good luck with everything. Keep in touch.",
+  "example_ko": "모든 일이 잘 되길 바라요. 연락해요.",
+  "cloze_en": "Good luck ___ everything.",
+  "cloze_answer": "with",
+  "cloze_wrong": [
+   "to",
+   "for",
+   "on"
+  ],
+  "kind": "expr",
+  "date": "2026-09-06",
+  "vid": "XSsOtsSNW2E"
+ },
+ {
+  "en": "I really enjoyed listening to your story.",
+  "ko": "이야기 정말 재미있게 들었어요.",
+  "when_ko": "대화를 마치며 좋았다고 인사할 때",
+  "why_ko": "enjoy 뒤에 동작이 오면 -ing 꼴로 붙습니다.",
+  "timecode": "11:54",
+  "example_en": "I really enjoyed listening to your story.",
+  "example_ko": "이야기 정말 재미있게 들었어요.",
+  "cloze_en": "I really enjoyed ___ to your story.",
+  "cloze_answer": "listening",
+  "cloze_wrong": [
+   "listen",
+   "listened",
+   "to listen"
+  ],
+  "kind": "expr",
+  "date": "2026-09-06",
+  "vid": "XSsOtsSNW2E"
+ },
+ {
+  "en": "job",
+  "ko": "일자리, 직업",
+  "pos": "명사",
+  "why_ko": "work는 '일한다'는 활동 전체를 가리키고, job은 하나의 자리를 가리킵니다.",
+  "timecode": "00:34",
+  "example_en": "I found a new job.",
+  "example_ko": "새 일자리를 구했어요.",
+  "kind": "word",
+  "date": "2026-09-06",
+  "vid": "XSsOtsSNW2E"
+ },
+ {
+  "en": "movie",
+  "ko": "영화",
+  "pos": "명사",
+  "why_ko": "film도 같은 뜻이지만 일상 대화에서는 movie를 더 자주 씁니다.",
+  "timecode": "05:26",
+  "example_en": "The movie was really long.",
+  "example_ko": "그 영화는 정말 길었어요.",
+  "kind": "word",
+  "date": "2026-09-06",
+  "vid": "XSsOtsSNW2E"
+ },
+ {
+  "en": "meeting",
+  "ko": "회의, 미팅",
+  "pos": "명사",
+  "why_ko": "meet은 만나는 동작이고, meeting은 만나서 하는 그 자리입니다.",
+  "timecode": "07:28",
+  "example_en": "The meeting starts at three.",
+  "example_ko": "회의는 3시에 시작해요.",
+  "kind": "word",
+  "date": "2026-09-06",
+  "vid": "XSsOtsSNW2E"
+ },
+ {
+  "en": "email",
+  "ko": "이메일",
+  "pos": "명사",
+  "why_ko": "letter는 종이에 써서 부치는 편지입니다.",
+  "timecode": "07:28",
+  "example_en": "I sent you an email.",
+  "example_ko": "이메일 보냈어요.",
+  "kind": "word",
+  "date": "2026-09-06",
+  "vid": "XSsOtsSNW2E"
+ },
+ {
+  "en": "language",
+  "ko": "언어, 말",
+  "pos": "명사",
+  "why_ko": "word는 낱말 하나이고, language는 말 전체입니다.",
+  "timecode": "08:04",
+  "example_en": "Korean is a beautiful language.",
+  "example_ko": "한국어는 아름다운 언어예요.",
+  "kind": "word",
+  "date": "2026-09-06",
+  "vid": "XSsOtsSNW2E"
+ },
+ {
+  "en": "imagine",
+  "ko": "상상하다",
+  "pos": "동사",
+  "why_ko": "think는 머리로 생각하는 것이고, imagine은 머릿속에 그림을 그리는 것입니다.",
+  "timecode": "05:39",
+  "example_en": "I can imagine your face.",
+  "example_ko": "당신 표정이 상상돼요.",
+  "kind": "word",
+  "date": "2026-09-06",
+  "vid": "XSsOtsSNW2E"
+ },
+ {
+  "en": "struggle",
+  "ko": "힘들어하다, 애먹다",
+  "pos": "동사",
+  "why_ko": "try는 그냥 해보는 것이고, struggle은 힘들게 버티며 애쓰는 것입니다.",
+  "timecode": "10:20",
+  "example_en": "I struggled with the test.",
+  "example_ko": "그 시험 때문에 애먹었어요.",
+  "kind": "word",
+  "date": "2026-09-06",
+  "vid": "XSsOtsSNW2E"
+ },
+ {
+  "en": "difficult",
+  "ko": "어려운",
+  "pos": "형용사",
+  "why_ko": "hard도 같은 뜻으로 쓰지만 hard에는 '단단한'이라는 뜻도 있습니다.",
+  "timecode": "08:07",
+  "example_en": "This word is difficult.",
+  "example_ko": "이 단어는 어려워요.",
+  "kind": "word",
+  "date": "2026-09-06",
+  "vid": "XSsOtsSNW2E"
+ },
+ {
+  "en": "positive",
+  "ko": "긍정적인",
+  "pos": "형용사",
+  "why_ko": "happy는 지금의 기분이고, positive는 생각하는 태도입니다.",
+  "timecode": "08:11",
+  "example_en": "He is always positive.",
+  "example_ko": "그 사람은 늘 긍정적이에요.",
+  "kind": "word",
+  "date": "2026-09-06",
+  "vid": "XSsOtsSNW2E"
+ },
+ {
+  "en": "recently",
+  "ko": "최근에",
+  "pos": "부사",
+  "why_ko": "now는 바로 지금이고, recently는 요즘 며칠이나 몇 달 사이입니다.",
+  "timecode": "05:42",
+  "example_en": "I moved here recently.",
+  "example_ko": "최근에 여기로 이사했어요.",
+  "kind": "word",
+  "date": "2026-09-06",
+  "vid": "XSsOtsSNW2E"
  }
 ]
