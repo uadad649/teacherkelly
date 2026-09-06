@@ -308,6 +308,26 @@
   .rev a:hover{border-style:solid;border-color:var(--accent)}
   .rev b{font-size:15px;color:var(--ink)}
   .rev span{font-size:12px;color:var(--slate)}
+  /* 말하기 상황 — 여기 있는 글을 통째로 복사해 음성모드에 붙여넣는다 */
+  .talk{background:var(--card);border:1px solid var(--line);border-radius:var(--r-mid);padding:15px 17px}
+  .talk .n{font-size:10.5px;letter-spacing:.12em;font-weight:700;color:var(--live)}
+  .talk h3{margin:5px 0 0;font-size:18px;line-height:1.35}
+  .talk .goal{margin:4px 0 0;font-size:13px;color:var(--slate)}
+  .talk .use{list-style:none;margin:11px 0 0;padding:0;display:grid;gap:4px}
+  .talk .use li{font-size:14.5px;font-weight:600;padding-left:13px;position:relative}
+  .talk .use li::before{content:"·";position:absolute;left:2px;color:var(--live)}
+  .talk pre{
+    margin:11px 0 0;padding:12px 13px;background:var(--sub);border:1px solid var(--line);
+    border-radius:var(--r-mid);white-space:pre-wrap;word-break:break-word;
+    font:inherit;font-size:12.5px;line-height:1.6;color:var(--ink-2);
+  }
+  .talk .stuck{margin:9px 0 0;font-size:12.5px;color:var(--slate)}
+  .talk .cp{
+    margin-top:12px;background:var(--accent);color:#fff;border:0;border-radius:var(--r-mid);
+    padding:9px 16px;font-size:13.5px;font-weight:600;
+  }
+  .talk .cp:hover{background:var(--accent-d)}
+  .talk summary{margin-top:10px;cursor:pointer;color:var(--slate);font-size:13px;width:fit-content}
   .foot{margin-top:30px;font-size:12px;color:var(--slate)}
   .toast{
     position:fixed;left:50%;bottom:26px;transform:translateX(-50%);z-index:60;max-width:88vw;
@@ -669,7 +689,8 @@
     p.disabled = !open;
     p.innerHTML =
       '<span class="st-no">' + (STAGES.length + 1) + "</span>" +
-      '<span class="st-body"><b>연습</b><span>쉐도잉 · 받아쓰기 · 말하기 미션</span></span>' +
+      '<span class="st-body"><b>연습</b><span>쉐도잉 · 받아쓰기 · 말하기 미션' +
+      (D.talks && D.talks.length ? " · AI 와 대화" : "") + "</span></span>" +
       '<span class="st-state">' + (open ? "열기" : "🔒 앞 단계부터") + "</span>";
     if (open) { p.addEventListener("click", function () { drawPrac(); go("prac"); }); }
     box.appendChild(p);
@@ -1027,6 +1048,29 @@
         }).join("") + "</ul>";
     }
 
+    /* 말하기 상황 — 여기부터는 정답이 없다.
+       상대가 물어보는 말에 그 자리에서 대답해야 입이 트인다.
+       대화 상대는 Claude 앱 음성모드가 맡고, 시트는 그 판만 넘겨준다. */
+    if (D.talks && D.talks.length) {
+      h += '<h2 class="sec">말로 해 보기 — 오늘 표현으로 대화하기</h2>' +
+        '<p class="foot" style="margin:-6px 0 14px">아래 글을 복사해 Claude 앱 ' +
+        '<b>음성모드</b>에 붙여넣으면 상대가 먼저 말을 겁니다. ' +
+        '막히면 "hint", 끝내려면 "done" 이라고 말하세요.</p><ul class="items">' +
+        D.talks.map(function (t, i) {
+          return '<li class="talk"><span class="n">상황 ' + (i + 1) + "</span>" +
+            "<h3>" + esc(t.title) + "</h3>" +
+            (t.goal ? '<p class="goal">' + esc(t.goal) + "</p>" : "") +
+            '<ul class="use">' + (t.use || []).map(function (u) {
+              return "<li>" + esc(u) + "</li>";
+            }).join("") + "</ul>" +
+            '<button class="cp" data-talk="' + i + '">이 상황 복사하기</button>' +
+            "<details><summary>무슨 말을 붙여넣는지 보기</summary><pre>" +
+            esc(t.prompt) + "</pre></details>" +
+            (t.stuck ? '<p class="stuck">막히면 · ' + esc(t.stuck) + "</p>" : "") +
+            "</li>";
+        }).join("") + "</ul>";
+    }
+
     h += '<div class="btns" style="margin-top:34px;max-width:420px">' +
       '<button class="cta" id="bCopy">오늘 결과 복사하기</button>' +
       '<button class="cta ghost" id="bBack">표지로</button></div>' +
@@ -1062,8 +1106,44 @@
         save();
       });
     });
+    SCR.prac.querySelectorAll("[data-talk]").forEach(function (b) {
+      var t = D.talks[b.dataset.talk];
+      b.addEventListener("click", function () {
+        copyText(t.prompt, "복사했습니다. Claude 앱 음성모드에 붙여넣으세요.", function () {
+          /* 파일을 두 번 눌러 연 페이지는 복사가 막힌다.
+             프롬프트는 길어서 토스트로 보여 줄 수 없으니, 대신 골라 준다. */
+          var box = b.parentNode.querySelector("details");
+          box.open = true;
+          var r = document.createRange();
+          r.selectNodeContents(box.querySelector("pre"));
+          var s = window.getSelection();
+          s.removeAllRanges(); s.addRange(r);
+          box.scrollIntoView({block: "center"});
+          toast("복사가 막혀 글을 골라 두었습니다. Ctrl+C 를 누르세요.");
+        });
+      });
+    });
     $("bBack").addEventListener("click", function () { drawHome(); go("home"); });
     $("bCopy").addEventListener("click", copySummary);
+  }
+
+  /* file:// 로 연 페이지는 navigator.clipboard 가 막힌다. 그때는 옛 방식으로
+     한 번 더 해 보고, 그것도 안 되면 부르는 쪽이 정한 길로 물러선다. */
+  function copyText(text, okMsg, onFail) {
+    function old() {
+      var ta = document.createElement("textarea");
+      ta.value = text;
+      ta.style.cssText = "position:fixed;top:-9999px;left:-9999px";
+      document.body.appendChild(ta);
+      ta.select();
+      var ok = false;
+      try { ok = document.execCommand("copy"); } catch (e) {}
+      ta.remove();
+      if (ok) { toast(okMsg); } else { onFail(); }
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function () { toast(okMsg); }, old);
+    } else { old(); }
   }
 
   /* 정적 HTML 이라 결과가 서버로 안 간다. 복사해서 보내는 게 현실적인 형태다. */
@@ -1080,11 +1160,7 @@
     lines.push("· 말하기 미션 " + Object.keys(S.miss).length + "/" + D.missions.length);
     lines.push("", "https://youtu.be/" + V.id);
     var text = lines.join("\n");
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(text).then(
-        function () { toast("복사했습니다. 붙여 넣으세요."); },
-        function () { toast(text); });
-    } else { toast(text); }
+    copyText(text, "복사했습니다. 붙여 넣으세요.", function () { toast(text); });
   }
 
   /* ── 단축키 ─────────────────────────────────────── */

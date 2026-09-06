@@ -25,6 +25,11 @@ adult_local.py — 성인 영어(왕초보) 복습 시트
 자막만 받고 싶을 때
   python adult_local.py srt <유튜브주소>
 
+배운 것으로 말해 보고 싶을 때
+  python adult_local.py talk        → 오늘 상황을 골라 클립보드로
+  python adult_local.py talk new    → 새 상황을 하나 만들어서
+     복사한 글을 Claude 앱 음성모드에 붙여넣으면 상대가 먼저 말을 건다.
+
 GitHub Actions 에서 돌릴 때는 main.py 가 입구다. (README.md 참고)
 
 자막 우선순위
@@ -58,6 +63,7 @@ WORDS_DB = HERE / "words.json"
 TEMPLATE = HERE / "sheet_template.html"
 MAIL_TEMPLATE = HERE / "mail_template.html"
 MAIL_BODY = HERE / "메일본문.html"
+TALK_FILE = HERE / "대화프롬프트.txt"
 
 def _flag(name, default):
     """환경변수로 켜고 끄기. 없으면 기본값."""
@@ -594,6 +600,7 @@ PROMPT_HEAD = """아래는 유튜브 영상의 자막입니다.
 여기서 만든 표현과 단어는 그대로 문제가 됩니다.
 단어는 4지선다(뜻 → 영어), 표현은 낱말을 순서대로 놓는 문제로 바뀌고,
 **틀렸을 때만** why_ko 가 해설로 나옵니다. 그것을 염두에 두고 쓰세요.
+마지막에는 그 표현으로 **AI 와 음성 대화**를 합니다(6번). 입으로 나올 말을 고르세요.
 
 <배우는 사람>
 이름: {name}
@@ -681,6 +688,23 @@ PROMPT_HEAD = """아래는 유튜브 영상의 자막입니다.
   **예시 문장은 반드시 문법에 맞아야 합니다.** 혼자 보고 외울 사람입니다.
   "I love play." 는 안 됩니다. "I love playing." 이 맞습니다.
 
+━━ 6. 말하기 상황 3개 ━━
+이 사람은 이 상황을 그대로 AI 에게 주고 **음성으로 대화**합니다.
+혼자 외우는 것이 아니라, 상대가 물어보는 말에 그 자리에서 대답하는 연습입니다.
+난이도가 올라가는 사다리로 만드세요.
+1) 오늘 표현을 거의 그대로 쓰면 되는 상황
+2) 표현을 조금 바꿔야 하는 상황
+3) 표현 여러 개를 섞어 자기 이야기를 해야 하는 상황
+
+- 왕초보가 실제로 겪을 상황만. 카페·식당·공항·가게·동료와의 짧은 잡담 같은 것.
+  영화 속 설정이나 회의·발표처럼 어려운 자리는 안 됩니다.
+- ai_role_en / my_role_en 은 영어로 짧게. ("a barista at a small cafe")
+- use: **1번에서 뽑은 표현의 en 문장을 그대로** 3개 고르세요.
+  새로 지어내거나 조금이라도 고쳐 쓰지 마세요. 시트에 없는 말을 시키면 안 됩니다.
+- opener_en: AI 가 던질 첫 대사 한 문장. 8단어 이내이고 **질문으로 끝나야** 합니다.
+  이 한 문장이 대화의 문을 엽니다.
+- stuck_ko: 말문이 막혔을 때 볼 한국어 한 줄. 통째로 쓸 영어 한 토막을 알려 주세요.
+
 한국어 요약은 3문장. 이 영상이 무슨 내용이고 무엇을 건질 수 있는지.
 
 ━━ 출력 형식 ━━
@@ -702,7 +726,12 @@ timecode 는 **반드시** 자막에 있는 "분:초" 숫자로 (예: "01:12").
             "timecode":"01:12","example_en":"...","example_ko":"..."}}],
  "shadow":[{{"timecode":"01:12","en":"...","ko":"...","tip_ko":"소리 요령"}}],
  "dictation":[{{"timecode":"01:12","hint_ko":"무슨 상황인지","answer_en":"..."}}],
- "missions":[{{"level":1,"label":"그대로 말하기","prompt_ko":"...","example_en":"..."}}]
+ "missions":[{{"level":1,"label":"그대로 말하기","prompt_ko":"...","example_en":"..."}}],
+ "talks":[{{"title_ko":"카페에서 주문하기","ai_role_en":"a barista at a small cafe",
+            "my_role_en":"a customer","goal_ko":"커피를 주문하고 받아 나오기",
+            "use":["...","...","..."],
+            "opener_en":"Hi! What can I get you today?",
+            "stuck_ko":"주문할 때는 Can I get ...? 으로 시작하면 됩니다"}}]
 }}
 
 <자막>
@@ -888,7 +917,7 @@ def ask_claude(prompt):
     return ask_claude_cli(prompt)
 
 
-def ask_claude_cli(prompt):
+def ask_claude_cli(prompt, model=None, note=None):
     """Claude Code CLI 를 불러 시트 JSON 을 받는다.
 
     API 키가 아니라 지금 쓰는 구독으로 동작한다.
@@ -898,13 +927,17 @@ def ask_claude_cli(prompt):
       2) 빈 임시 폴더에서 돌린다. 작업 폴더를 여기로 두면 안 된다.
     출력은 바이트로 받아 UTF-8 로 푼다. 파이프를 거치면 콘솔
     코드페이지 때문에 한글이 깨진다.
+
+    model 은 상황 하나만 새로 만들 때처럼 가벼운 일에 쓴다. ('sonnet')
     """
     import tempfile
-    print("\n  Claude 에게 시트를 만들어 달라고 하는 중...")
-    print("  (영상 길이에 따라 30초 ~ 2분쯤 걸립니다. 기다려 주세요.)")
+    print(note or "\n  Claude 에게 시트를 만들어 달라고 하는 중...")
+    if not note:
+        print("  (영상 길이에 따라 30초 ~ 2분쯤 걸립니다. 기다려 주세요.)")
     safe_dir = tempfile.mkdtemp(prefix="adult_ask_")
+    cmd = ["claude", "-p", "--tools", ""] + (["--model", model] if model else [])
     try:
-        p = subprocess.run(["claude", "-p", "--tools", ""],
+        p = subprocess.run(cmd,
                            input=prompt.encode("utf-8"),
                            stdout=subprocess.PIPE, stderr=subprocess.PIPE,
                            cwd=safe_dir, timeout=900)
@@ -1012,20 +1045,30 @@ def ask_only():
 
 # ══════════════════════════════════════════════ 2단계 · build
 
+def parse_json_obj(raw):
+    """설명이나 백틱이 앞뒤에 붙어 있어도 JSON 객체만 꺼낸다.
+
+    못 읽으면 ValueError 를 던진다. 왜 못 읽었는지가 메시지에 들어 있어야
+    손으로 붙여넣은 사람이 어디를 고칠지 알 수 있다.
+    """
+    raw = re.sub(r"^```(?:json)?|```$", "", raw.strip(), flags=re.M).strip()
+    a, b = raw.find("{"), raw.rfind("}")
+    if a == -1 or b == -1:
+        raise ValueError("JSON 을 못 찾았습니다. { 로 시작하는 내용이 있는지 확인하세요.")
+    try:
+        return json.loads(raw[a:b + 1])
+    except json.JSONDecodeError as e:
+        raise ValueError(f"JSON 형식 오류: {e}") from None
+
+
 def load_reply():
     if not REPLY.exists():
         sys.exit(f"[!] {REPLY.name} 이 없습니다.\n"
                  "    Claude 응답을 이 이름으로 저장해 주세요.")
-    raw = REPLY.read_text(encoding="utf-8").strip()
-    raw = re.sub(r"^```(?:json)?|```$", "", raw, flags=re.M).strip()
-    # 앞뒤에 설명이 붙어 있어도 첫 { 부터 마지막 } 까지만 살린다
-    a, b = raw.find("{"), raw.rfind("}")
-    if a == -1 or b == -1:
-        sys.exit("[!] JSON 을 못 찾았습니다. 파일 안에 { 로 시작하는 내용이 있는지 확인하세요.")
     try:
-        return json.loads(raw[a:b + 1])
-    except json.JSONDecodeError as e:
-        sys.exit(f"[!] JSON 형식 오류: {e}\n"
+        return parse_json_obj(REPLY.read_text(encoding="utf-8"))
+    except ValueError as e:
+        sys.exit(f"[!] {e}\n"
                  "    응답이 중간에 잘렸을 수 있습니다. 채팅에서 '이어서'라고 해보세요.")
 
 
@@ -1049,6 +1092,285 @@ def review_items(n, skip_vid=None):
             if len(out) >= n:
                 return out
     return out
+
+
+# ── 말하기 상황 ──────────────────────────────────────────────
+#
+# 시트는 혼자 푸는 것으로 끝난다. 정답이 정해진 연습뿐이다.
+# 빠진 것은 주고받는 말이다 — 상대가 예상 밖의 것을 물어서, 아는 말 안에서
+# 어떻게든 대답을 만들어 낼 때 입이 트인다.
+#
+# 그 상대는 Claude 앱 음성모드가 맡는다. 여기서 만드는 것은 대화 엔진이 아니라
+# 그 앱에 통째로 붙여넣을 '판' 이다. 아래 규칙 몇 줄이 이 기능의 전부다.
+
+TALK_HEAD = """이 지시문을 소리 내어 읽거나 요약하지 마. 설명 없이 바로 첫 대사부터 시작해.
+
+{who}
+{goal}
+
+내 영어는 왕초보야. 짧은 문장만 나오고, 빠른 영어는 안 들려.
+
+네가 지킬 것:
+- 한 번에 1~2문장, 12단어 이내. 그리고 반드시 질문으로 끝내.
+- 설명하거나 가르치지 마. 내가 너보다 많이 말하게 하는 것이 목적이야.
+- 내가 틀리게 말해도 지적하지 마. 맞는 문장으로 자연스럽게 되받아서 다시 물어봐.
+    나: "I go store yesterday"
+    너: "Oh, you went to the store yesterday? What did you buy?"
+- 내가 "hint" 라고 하면 그때만 한국어로 한 줄, 그리고 영어 예시 문장 하나.
+- 내가 말문이 막혀 조용하면 짧은 선택지를 줘. "Coffee or tea?" 처럼.
+- 아래 표현이 답이 될 만한 질문을 던져서 내가 이 말을 쓰게 유도해.
+{use}
+내가 "done" 이라고 하면 대화를 멈추고 리포트를 줘.
+  1) 내가 실제로 쓴 위 표현
+  2) 내가 말한 문장 중 고칠 것 3개 — 원래 말 / 고친 말 / 왜 (한국어 한 줄)
+  3) 다음에 꼭 써 볼 문장 하나
+
+이제 이 말로 시작해: "{opener}"
+"""
+
+
+def talk_prompt(t):
+    """상황 하나를 Claude 앱 음성모드에 붙여넣을 지시문 한 덩이로."""
+    ai = t.get("aiRole") or "a friendly neighbor"
+    me = (t.get("myRole") or "").strip()
+    if me.lower() in ("", "yourself", "me", "myself"):
+        who = f"너는 {ai} 이고, 나는 영어를 배우는 한국 사람이야."
+    else:
+        who = f"너는 {ai} 이고, 나는 {me} 야."
+    return TALK_HEAD.format(
+        who=who,
+        goal=t.get("goal") or "",
+        use="".join(f"    - {u}\n" for u in t.get("use", [])),
+        opener=t.get("opener") or "Hi! How are you today?")
+
+
+# 표현이 없는 날은 상황도 없다. 그때는 시트에서 이 칸이 통째로 빠진다.
+_FALLBACK = [
+    ("오늘 표현 그대로 써 보기",
+     "a friendly neighbor who speaks slowly and asks simple questions",
+     "아래 표현 3개를 대화 속에서 그대로 한 번씩 써 보는 것이 오늘 목표야.",
+     "Hey, good to see you! How is your day going?"),
+    ("조금 바꿔서 말하기",
+     "a coworker having a short coffee break with me",
+     "아래 표현을 상황에 맞게 낱말 하나씩 바꿔 가며 써 보는 것이 목표야.",
+     "Hi! Do you have a minute to talk?"),
+    ("내 이야기로 말하기",
+     "a new friend who wants to know about my day",
+     "아래 표현을 섞어서 내 이야기를 두세 문장으로 말해 보는 것이 목표야.",
+     "So, tell me — what did you do today?"),
+]
+
+
+def fallback_talks(exprs):
+    """응답에 talks 가 없는 날 — 오늘 표현만으로 상황을 조립한다.
+
+    예전에 만든 시트와, 손으로 붙여넣는 경로가 여기로 온다.
+    Claude 가 지어낸 상황보다 밋밋하지만 대화는 된다. 칸이 비지는 않는다.
+    """
+    ok = [e for e in exprs if e.get("en")]
+    if not ok:
+        return []
+    out = []
+    for i, (title, role, goal, opener) in enumerate(_FALLBACK):
+        use = [e["en"] for e in ok[i * 3:i * 3 + 3]] or [e["en"] for e in ok[:3]]
+        stuck = next((e.get("when") for e in ok[i * 3:i * 3 + 3] if e.get("when")), "")
+        out.append({"title": title, "aiRole": role, "myRole": "",
+                    "goal": goal, "use": use, "opener": opener, "stuck": stuck})
+    return out
+
+
+def pack_talks(raw, exprs):
+    """응답의 talks 를 시트가 쓸 모양으로. 없거나 못 쓸 것이면 폴백으로.
+
+    use 는 반드시 오늘 시트에 있는 표현이어야 한다. 시트에 없는 말을
+    대화에서 쓰라고 하면, 배운 것을 써 보는 자리가 아니라 새 시험이 된다.
+    """
+    def key(s):
+        # 대소문자·문장부호·붙임표만 다른 것은 같은 말로 본다.
+        return re.sub(r"[^a-z0-9]+", " ", str(s).lower()).strip()
+
+    here = {}
+    for e in exprs:
+        if e.get("en"):
+            here[key(e["en"])] = e["en"]
+
+    out = []
+    for t in (raw or []):
+        if not isinstance(t, dict):
+            continue
+        use, seen = [], set()
+        for u in (t.get("use") or []):
+            hit = here.get(key(u))
+            if hit and hit not in seen:
+                use.append(hit); seen.add(hit)
+        for en in here.values():            # 모자라면 오늘 표현 앞에서부터 채운다
+            if len(use) >= 3:
+                break
+            if en not in seen:
+                use.append(en); seen.add(en)
+        if not use:
+            continue
+        out.append({
+            "title": str(t.get("title_ko", "") or "").strip() or "말하기 상황",
+            "aiRole": str(t.get("ai_role_en", "") or "").strip(),
+            "myRole": str(t.get("my_role_en", "") or "").strip(),
+            "goal": str(t.get("goal_ko", "") or "").strip(),
+            "opener": str(t.get("opener_en", "") or "").strip(),
+            "stuck": str(t.get("stuck_ko", "") or "").strip(),
+            "use": use[:3],
+        })
+    return out[:3] or fallback_talks(exprs)
+
+
+def write_talk_file(talks, vi):
+    """상황 3개를 한 파일로. PC 에서 '대화.bat' 이 이것을 집어 간다."""
+    if not talks:
+        return None
+    head = (f"{dt.date.today().isoformat()}  {vi.get('title', '')}\n"
+            "아래 상황 하나를 통째로 복사해 Claude 앱 음성모드에 붙여넣으세요.\n")
+    body = "".join(
+        f"\n{'=' * 60}\n[{i + 1}] {t['title']}\n{'=' * 60}\n\n{talk_prompt(t)}"
+        + (f"\n(막히면 — {t['stuck']})\n" if t.get("stuck") else "")
+        for i, t in enumerate(talks))
+    TALK_FILE.write_text(head + body, encoding="utf-8")
+    return TALK_FILE
+
+
+def to_clipboard(text):
+    """윈도우 클립보드에 넣는다. 안 되면 False — 그때는 파일을 열어 준다.
+
+    clip.exe 로 보내면 BOM 이 글 맨 앞에 눈에 안 보이는 글자로 남는다.
+    붙여넣을 곳이 대화창이라 그런 것 하나도 섞이지 않는 편이 낫다.
+    그래서 창을 띄우지 않고 윈도우에 직접 넣는다.
+    """
+    if sys.platform != "win32":
+        return False
+    try:
+        import ctypes
+        from ctypes import wintypes
+        u32, k32 = ctypes.windll.user32, ctypes.windll.kernel32
+        k32.GlobalAlloc.argtypes = (wintypes.UINT, ctypes.c_size_t)
+        k32.GlobalAlloc.restype = wintypes.HGLOBAL
+        k32.GlobalLock.argtypes = (wintypes.HGLOBAL,)
+        k32.GlobalLock.restype = wintypes.LPVOID
+        k32.GlobalUnlock.argtypes = (wintypes.HGLOBAL,)
+        # 핸들은 64비트다. argtypes 를 안 걸면 ctypes 가 32비트로 잘라 넘긴다.
+        k32.GlobalFree.argtypes = (wintypes.HGLOBAL,)
+        k32.GlobalFree.restype = wintypes.HGLOBAL
+        u32.OpenClipboard.argtypes = (wintypes.HWND,)
+        u32.SetClipboardData.argtypes = (wintypes.UINT, wintypes.HANDLE)
+        u32.SetClipboardData.restype = wintypes.HANDLE
+
+        buf = ctypes.create_unicode_buffer(text)      # 끝의 널문자까지 포함된다
+        size = ctypes.sizeof(buf)
+        if not u32.OpenClipboard(None):
+            return False
+        try:
+            u32.EmptyClipboard()
+            h = k32.GlobalAlloc(0x0002, size)         # GMEM_MOVEABLE
+            if not h:
+                return False
+            ptr = k32.GlobalLock(h)
+            if not ptr:                               # 여기서 걸러야 한다.
+                k32.GlobalFree(h)                     # 빈 주소에 쓰면 프로그램이 죽는다
+                return False
+            ctypes.memmove(ptr, buf, size)
+            k32.GlobalUnlock(h)
+            # 성공하면 이 메모리는 윈도우가 가져간다. 우리가 풀면 안 된다.
+            if u32.SetClipboardData(13, h):            # CF_UNICODETEXT
+                return True
+            k32.GlobalFree(h)                          # 실패했으면 우리 몫이다
+            return False
+        finally:
+            u32.CloseClipboard()
+    except Exception:
+        return False
+
+
+TALK_NEW = """아래는 왕초보 성인 영어 학습자가 최근에 배운 표현입니다.
+이 사람이 AI 와 **음성으로 대화**할 상황을 하나만 만들어 주세요.
+
+- 왕초보가 실제로 겪을 상황만. 카페·식당·가게·공항·짧은 잡담 같은 것.
+  회의·발표·영화 속 설정처럼 어려운 자리는 안 됩니다.
+- use: 아래 표현 중 **그대로** 3개를 고르세요. 새로 지어내지 마세요.
+- opener_en: AI 가 던질 첫 대사 한 문장. 8단어 이내이고 질문으로 끝날 것.
+- stuck_ko: 말문이 막혔을 때 볼 한국어 한 줄.
+- 이미 해 본 상황과 겹치지 않게, 장소나 상대를 다르게 잡으세요.
+
+**JSON 객체 하나만 출력하세요.** 설명도 백틱도 없이.
+{{"title_ko":"...","ai_role_en":"...","my_role_en":"...","goal_ko":"...",
+  "use":["...","...","..."],"opener_en":"...","stuck_ko":"..."}}
+
+<배운 표현>
+{items}
+</배운 표현>"""
+
+
+def talk_new():
+    """지금까지 배운 표현으로 새 상황 하나를 만든다. 여기서만 모델을 부른다."""
+    rows = [w for w in review_items(24) if w.get("kind") == "expr" and w.get("en")]
+    if not rows:
+        sys.exit("[!] 아직 배운 표현이 없습니다. 시트를 먼저 만들어 주세요.")
+
+    try:
+        got = parse_json_obj(ask_claude_cli(
+            TALK_NEW.format(items="\n".join(
+                f"- {w['en']}  ({w.get('ko', '')})" for w in rows)),
+            model="sonnet",
+            note="\n  새 상황을 만드는 중... (10~20초)"))
+    except ValueError as e:
+        sys.exit(f"[!] 상황을 만들지 못했습니다. 다시 실행해 주세요.\n    ({e})")
+
+    made = pack_talks([got], [{"en": w["en"], "when": w.get("when_ko", "")}
+                              for w in rows])
+    if not made:
+        sys.exit("[!] 상황을 만들지 못했습니다. 다시 실행해 주세요.")
+    t = made[0]
+    t["prompt"] = talk_prompt(t)
+    return t
+
+
+def talk(which=None):
+    """말하기 상황을 골라 클립보드에 넣는다. Claude 앱 음성모드에 붙여넣으면 된다."""
+    if str(which or "").strip().lower() in ("new", "새로", "new1"):
+        t = talk_new()
+    else:
+        vi = json.loads(STATE.read_text(encoding="utf-8")) if STATE.exists() else {}
+        talks = vi.get("talks") or []
+        if not talks:
+            sys.exit("[!] 만들어 둔 상황이 없습니다.\n"
+                     "    먼저 시트를 만들어 주세요. (한번에.bat)\n"
+                     "    지금 바로 새 상황을 원하면:  python adult_local.py talk new")
+
+        print(f"\n  {vi.get('title', '')[:60]}")
+        for i, one in enumerate(talks):
+            print(f"   {i + 1}. {one['title']}   —  {', '.join(one['use'][:2])} ...")
+
+        pick = str(which or "").strip()
+        if not pick:
+            try:
+                pick = input(f"\n  번호를 고르세요 (1~{len(talks)}, 새 상황은 n): ").strip()
+            except EOFError:
+                pick = "1"
+        if pick.lower().startswith("n"):
+            t = talk_new()
+        elif pick.isdigit() and 1 <= int(pick) <= len(talks):
+            t = talks[int(pick) - 1]
+        else:
+            t = talks[0]
+
+    text = t.get("prompt") or talk_prompt(t)
+    print(f"\n{'=' * 62}\n{text}{'=' * 62}\n")
+    if t.get("stuck"):
+        print(f"  막히면 — {t['stuck']}\n")
+    if to_clipboard(text):
+        print("  복사했습니다. Claude 앱에서 음성모드를 켜고 붙여넣으세요.")
+    else:
+        print("  복사가 안 되어 파일로 엽니다. 필요한 부분을 골라 복사하세요.")
+        if TALK_FILE.exists():
+            open_file(TALK_FILE)
+    print('  대화 중 막히면 "hint", 끝내려면 "done" 이라고 말하면 됩니다.\n')
+    return t
 
 
 # ── 메일 본문 ────────────────────────────────────────────────
@@ -1140,6 +1462,38 @@ def write_mail_body(data, vi, sheet_path):
                     'border-bottom:1px solid #DCD9CE;padding-bottom:8px;margin-bottom:14px;">'
                     f'말하기 미션 — {len(data["missions"])}개</div>{rows}</td></tr>')
 
+    # 대화 상황. 폰에서 이 칸을 길게 눌러 복사하고 음성모드에 붙여넣는 것이
+    # 이 기능의 실제 동선이다. 그래서 지시문을 접거나 줄이지 않고 통째로 싣는다.
+    talks = ""
+    if data.get("talks"):
+        rows = "".join(
+            _M_CARD +
+            '<div style="font-size:10.5px;letter-spacing:.12em;color:#B4531F;'
+            f'font-weight:700;">상황 {i + 1}</div>'
+            f'<div style="font-size:18px;font-weight:700;margin:6px 0 4px;">{esc(t["title"])}</div>'
+            + (f'<div style="font-size:13px;color:#6B7566;">{esc(t["goal"])}</div>'
+               if t.get("goal") else "") +
+            # div 가 아니라 pre 로 싣는다. 메일 클라이언트가 인라인 스타일을
+            # 지우더라도 pre 자체가 줄바꿈을 지켜 준다. 줄이 뭉개지면 붙여넣은
+            # 지시문이 한 덩어리가 되어 읽기 어려워진다.
+            '<pre style="margin:11px 0 0;padding:13px 14px;background:#F4F2EA;'
+            'border:1px solid #E3E0D5;border-radius:8px;white-space:pre-wrap;'
+            'word-break:break-word;font-family:Consolas,Menlo,monospace;'
+            f'font-size:12px;line-height:1.6;color:#2A3227;">{esc(t["prompt"])}</pre>'
+            + (f'<div style="font-size:12.5px;color:#6B7566;margin-top:9px;">'
+               f'막히면 · {esc(t["stuck"])}</div>' if t.get("stuck") else "") +
+            "</td></tr></table>"
+            for i, t in enumerate(data["talks"]))
+        talks = ('<tr><td style="padding:30px 20px 0;">'
+                 '<div style="font-size:11px;letter-spacing:.16em;color:#6B7566;font-weight:700;'
+                 'border-bottom:1px solid #DCD9CE;padding-bottom:8px;margin-bottom:9px;">'
+                 f'말로 해 보기 — 상황 {len(data["talks"])}개</div>'
+                 '<div style="font-size:13px;color:#3A4436;line-height:1.65;margin-bottom:14px;">'
+                 '아래 회색 칸을 <b>통째로 복사</b>해서 Claude 앱 <b>음성모드</b>에 '
+                 '붙여넣으세요. 상대가 먼저 말을 겁니다. 막히면 "hint", '
+                 '끝내려면 "done" 이라고 말하면 됩니다.</div>'
+                 f'{rows}</td></tr>')
+
     h = MAIL_TEMPLATE.read_text(encoding="utf-8")
     for k, val in {
         "{{DATE}}": data["video"]["date"], "{{TOPIC}}": esc(data["video"]["topic"]),
@@ -1150,7 +1504,7 @@ def write_mail_body(data, vi, sheet_path):
         "{{FILE}}": esc(sheet_path.name),
         "{{EXPRESSIONS}}": exprs, "{{EXPR_COUNT}}": str(len(data["exprs"])),
         "{{WORDS}}": words, "{{WORD_COUNT}}": str(len(data["words"])),
-        "{{SHADOW}}": shadow, "{{MISSIONS}}": missions,
+        "{{SHADOW}}": shadow, "{{MISSIONS}}": missions, "{{TALKS}}": talks,
     }.items():
         h = h.replace(k, val)
 
@@ -1227,6 +1581,12 @@ def build():
         "review": [{**pack(w, en="en", ko="ko"), "vid": w.get("vid", "")}
                    for w in review_items(N_REVIEW, skip_vid=v)],
     }
+    # 말하기 상황. 지시문 자체를 여기서 만들어 넣는다 — 시트·메일·txt 가
+    # 저마다 조립하면 셋이 조금씩 달라진다. 문구는 한 곳에서만 만든다.
+    data["talks"] = pack_talks(sh.get("talks"), data["exprs"])
+    for t in data["talks"]:
+        t["prompt"] = talk_prompt(t)
+
     # '<' 만 막으면 </script> 로 빠져나가는 일도, 주석으로 새는 일도 없다.
     blob = json.dumps(data, ensure_ascii=False).replace("<", "\\u003c")
 
@@ -1246,6 +1606,11 @@ def build():
     path = OUT / f"{today}_{LEARNER['name']}_{v}.html"
     path.write_text(h, encoding="utf-8")
     write_mail_body(data, vi, path)
+    write_talk_file(data["talks"], vi)
+    # 나중에 '대화.bat' 이 골라 쓸 수 있게 상황을 남겨 둔다.
+    # 다음 영상으로 1단계를 돌리면 prep 이 이 파일을 새로 써서 같이 지워진다.
+    vi["talks"] = data["talks"]
+    STATE.write_text(json.dumps(vi, ensure_ascii=False), encoding="utf-8")
 
     led = json.loads(WORDS_DB.read_text(encoding="utf-8")) if WORDS_DB.exists() else []
     # 같은 영상으로 다시 만들면 덧붙이지 않고 그 영상 몫을 갈아끼운다.
@@ -1256,7 +1621,10 @@ def build():
 
     print(f"\n  완성 → {path}")
     print(f"  표현 {len(sh['expressions'])}개 · 단어 {len(sh['words'])}개 · "
-          f"쉐도잉 {len(sh.get('shadow', []))}개 · 받아쓰기 {len(sh.get('dictation', []))}개\n")
+          f"쉐도잉 {len(sh.get('shadow', []))}개 · 받아쓰기 {len(sh.get('dictation', []))}개 · "
+          f"말하기 상황 {len(data['talks'])}개")
+    if data["talks"]:
+        print(f"  대화는 '대화.bat' 으로. (Claude 앱 음성모드에 붙여넣습니다)\n")
     if not HEADLESS:
         # 파일을 그냥 열면 유튜브가 임베드를 거절한다(오류 153).
         # 그래서 localhost 로 띄워 연다. 창을 닫으면 같이 끝난다.
@@ -1294,6 +1662,8 @@ def _run(a):
         ask_only()
     elif a[0] == "serve":
         serve(a[1] if len(a) > 1 else None)
+    elif a[0] == "talk":
+        talk(a[1] if len(a) > 1 else None)
     elif a[0] == "build":
         build()
     else:
