@@ -1754,5 +1754,277 @@
   "kind": "word",
   "date": "2026-09-06",
   "vid": "XSsOtsSNW2E"
+ },
+ {
+  "en": "I'm in the mood for coffee",
+  "ko": "커피가 좀 당기네요",
+  "when_ko": "지금 뭔가가 먹고 싶거나 하고 싶다고 말할 때",
+  "why_ko": "mood 는 지금의 기분입니다. 그 기분이 향하는 대상 앞에는 for 를 붙입니다.",
+  "timecode": "00:00",
+  "example_en": "I'm in the mood for coffee, so let's go to a cafe.",
+  "example_ko": "커피가 좀 당기네요, 카페에 같이 가요.",
+  "cloze_en": "I'm in the ___ for coffee, so let's go to a cafe.",
+  "cloze_answer": "mood",
+  "cloze_wrong": [
+   "mind",
+   "feeling",
+   "heart"
+  ],
+  "kind": "expr",
+  "date": "2026-09-07",
+  "vid": "46qNfNBOLvY"
+ },
+ {
+  "en": "I'll do takeout",
+  "ko": "포장으로 할게요",
+  "when_ko": "카페나 식당에서 매장에서 안 먹고 가져간다고 말할 때",
+  "why_ko": "여기서 do 는 '그 방식으로 하겠다'는 말입니다. 음식을 만든다는 make 와 다릅니다.",
+  "timecode": "00:38",
+  "example_en": "I have to go back to work, so I'll do takeout.",
+  "example_ko": "일하러 돌아가야 해서 포장으로 할게요.",
+  "cloze_en": "I have to go back to work, so I'll ___ takeout.",
+  "cloze_answer": "do",
+  "cloze_wrong": [
+   "make",
+   "cook",
+   "carry"
+  ],
+  "kind": "expr",
+  "date": "2026-09-07",
+  "vid": "46qNfNBOLvY"
+ },
+ {
+  "en": "My go-to drink is an ice latte",
+  "ko": "제가 늘 마시는 건 아이스라떼예요",
+  "when_ko": "내가 항상 시키는 것, 늘 고르는 것을 소개할 때",
+  "why_ko": "go-to 는 두 낱말이 붙어 하나가 된 말입니다. 자꾸 찾아가게 되는 것, 즉 늘 고르는 것입니다.",
+  "timecode": "00:52",
+  "example_en": "My go-to drink is an ice latte.",
+  "example_ko": "제가 늘 마시는 건 아이스라떼예요.",
+  "cloze_en": "My ___ drink is an ice latte.",
+  "cloze_answer": "go-to",
+  "cloze_wrong": [
+   "going-to",
+   "goes-to",
+   "go-for"
+  ],
+  "kind": "expr",
+  "date": "2026-09-07",
+  "vid": "46qNfNBOLvY"
+ },
+ {
+  "en": "I'll go for decaf",
+  "ko": "디카페인으로 할게요",
+  "when_ko": "여러 개 중에 하나를 고르겠다고 말할 때",
+  "why_ko": "go 뒤에 for 가 붙으면 '그걸로 하겠다'는 고르는 말이 됩니다.",
+  "timecode": "01:03",
+  "example_en": "It's already night, so I'll go for decaf.",
+  "example_ko": "벌써 밤이라 디카페인으로 할게요.",
+  "cloze_en": "It's already night, so I'll go ___ decaf.",
+  "cloze_answer": "for",
+  "cloze_wrong": [
+   "to",
+   "at",
+   "on"
+  ],
+  "kind": "expr",
+  "date": "2026-09-07",
+  "vid": "46qNfNBOLvY"
+ },
+ {
+  "en": "I don't drink regular milk",
+  "ko": "저는 일반 우유는 안 마셔요",
+  "when_ko": "못 먹거나 안 먹는 것을 미리 말해 둘 때",
+  "why_ko": "drink 는 마시는 것, eat 은 씹어 먹는 것입니다. 우유에는 drink 를 씁니다.",
+  "timecode": "01:27",
+  "example_en": "I don't drink regular milk, so can I get oat milk?",
+  "example_ko": "저는 일반 우유는 안 마셔서요, 귀리 우유로 주실 수 있나요?",
+  "cloze_en": "I don't ___ regular milk, so can I get oat milk?",
+  "cloze_answer": "drink",
+  "cloze_wrong": [
+   "eat",
+   "take",
+   "have"
+  ],
+  "kind": "expr",
+  "date": "2026-09-07",
+  "vid": "46qNfNBOLvY"
+ },
+ {
+  "en": "I'm ready to pay",
+  "ko": "계산할게요",
+  "when_ko": "주문을 다 골랐고 이제 결제하겠다고 말할 때",
+  "why_ko": "ready 다음에 할 동작이 오면 그 앞에 to 를 넣습니다.",
+  "timecode": "01:41",
+  "example_en": "I'm ready to pay, so I'll place my order.",
+  "example_ko": "계산할 준비가 됐어요, 주문 넣을게요.",
+  "cloze_en": "I'm ready ___ pay, so I'll place my order.",
+  "cloze_answer": "to",
+  "cloze_wrong": [
+   "for",
+   "at",
+   "of"
+  ],
+  "kind": "expr",
+  "date": "2026-09-07",
+  "vid": "46qNfNBOLvY"
+ },
+ {
+  "en": "I'm all set",
+  "ko": "저는 됐어요",
+  "when_ko": "점원이 더 필요한 게 있냐고 물었을 때 괜찮다고 답할 때",
+  "why_ko": "all 은 여기서 '전부 다'라는 뜻으로, 필요한 게 다 채워졌다는 느낌을 만듭니다.",
+  "timecode": "01:46",
+  "example_en": "No, thank you. I'm all set.",
+  "example_ko": "아니요, 괜찮습니다. 저는 됐어요.",
+  "cloze_en": "No, thank you. I'm ___ set.",
+  "cloze_answer": "all",
+  "cloze_wrong": [
+   "every",
+   "full",
+   "well"
+  ],
+  "kind": "expr",
+  "date": "2026-09-07",
+  "vid": "46qNfNBOLvY"
+ },
+ {
+  "en": "Can I get a carrier?",
+  "ko": "캐리어 하나 받을 수 있을까요?",
+  "when_ko": "음료가 두 잔 이상이라 들고 갈 것이 필요할 때",
+  "why_ko": "여기서 get 은 '받다'입니다. give 는 반대로 내가 주는 것입니다.",
+  "timecode": "03:43",
+  "example_en": "I have two drinks. Can I get a carrier?",
+  "example_ko": "음료가 두 잔이에요. 캐리어 하나 받을 수 있을까요?",
+  "cloze_en": "I have two drinks. Can I ___ a carrier?",
+  "cloze_answer": "get",
+  "cloze_wrong": [
+   "give",
+   "make",
+   "bring"
+  ],
+  "kind": "expr",
+  "date": "2026-09-07",
+  "vid": "46qNfNBOLvY"
+ },
+ {
+  "en": "lid",
+  "ko": "뚜껑",
+  "pos": "명사",
+  "why_ko": "비슷한 말로 cap 이 있지만 cap 은 병에 돌려 끼우는 것이고 lid 는 컵이나 통 위에 덮어 얹는 것입니다.",
+  "timecode": "03:58",
+  "example_en": "Please put the lid on.",
+  "example_ko": "뚜껑 덮어 주세요.",
+  "kind": "word",
+  "date": "2026-09-07",
+  "vid": "46qNfNBOLvY"
+ },
+ {
+  "en": "straw",
+  "ko": "빨대",
+  "pos": "명사",
+  "why_ko": "stick 은 막대기이고 straw 는 안이 비어 있어 마실 수 있는 것입니다.",
+  "timecode": "03:28",
+  "example_en": "Can I get a straw?",
+  "example_ko": "빨대 하나 주실 수 있나요?",
+  "kind": "word",
+  "date": "2026-09-07",
+  "vid": "46qNfNBOLvY"
+ },
+ {
+  "en": "cream",
+  "ko": "크림",
+  "pos": "명사",
+  "why_ko": "milk 는 그냥 우유이고 cream 은 위에 얹는 진한 것입니다.",
+  "timecode": "01:23",
+  "example_en": "I want cream on top.",
+  "example_ko": "위에 크림 올려 주세요.",
+  "kind": "word",
+  "date": "2026-09-07",
+  "vid": "46qNfNBOLvY"
+ },
+ {
+  "en": "card",
+  "ko": "카드",
+  "pos": "명사",
+  "why_ko": "cash 는 현금, card 는 긁거나 대는 것입니다.",
+  "timecode": "02:17",
+  "example_en": "I'll pay with this card.",
+  "example_ko": "이 카드로 계산할게요.",
+  "kind": "word",
+  "date": "2026-09-07",
+  "vid": "46qNfNBOLvY"
+ },
+ {
+  "en": "order",
+  "ko": "주문",
+  "pos": "명사",
+  "why_ko": "menu 는 무엇이 있는지 적힌 종이이고 order 는 내가 시킨 것입니다.",
+  "timecode": "01:44",
+  "example_en": "Can I change my order?",
+  "example_ko": "주문 바꿀 수 있을까요?",
+  "kind": "word",
+  "date": "2026-09-07",
+  "vid": "46qNfNBOLvY"
+ },
+ {
+  "en": "extra",
+  "ko": "추가의",
+  "pos": "형용사",
+  "why_ko": "more 는 그냥 더 많이이고 extra 는 원래 것에 하나 더 얹는 느낌입니다.",
+  "timecode": "01:18",
+  "example_en": "I want an extra shot.",
+  "example_ko": "샷 하나 추가하고 싶어요.",
+  "kind": "word",
+  "date": "2026-09-07",
+  "vid": "46qNfNBOLvY"
+ },
+ {
+  "en": "add",
+  "ko": "넣다, 더하다",
+  "pos": "동사",
+  "why_ko": "put 은 그냥 놓는 것이고 add 는 이미 있는 것에 더 넣는 것입니다.",
+  "timecode": "01:18",
+  "example_en": "Please add some ice.",
+  "example_ko": "얼음 좀 넣어 주세요.",
+  "kind": "word",
+  "date": "2026-09-07",
+  "vid": "46qNfNBOLvY"
+ },
+ {
+  "en": "option",
+  "ko": "선택지",
+  "pos": "명사",
+  "why_ko": "choice 는 내가 고른 결과이고 option 은 고를 수 있게 놓여 있는 것입니다.",
+  "timecode": "00:24",
+  "example_en": "Is there a cheaper option?",
+  "example_ko": "더 싼 선택지가 있나요?",
+  "kind": "word",
+  "date": "2026-09-07",
+  "vid": "46qNfNBOLvY"
+ },
+ {
+  "en": "wait",
+  "ko": "기다리다",
+  "pos": "동사",
+  "why_ko": "stop 은 멈추는 것이고 wait 은 무언가가 될 때까지 그 자리에 있는 것입니다.",
+  "timecode": "02:29",
+  "example_en": "I'll wait outside.",
+  "example_ko": "밖에서 기다릴게요.",
+  "kind": "word",
+  "date": "2026-09-07",
+  "vid": "46qNfNBOLvY"
+ },
+ {
+  "en": "best",
+  "ko": "최고의",
+  "pos": "형용사",
+  "why_ko": "good 은 그냥 좋은 것이고 best 는 그중에서 제일인 것입니다.",
+  "timecode": "02:31",
+  "example_en": "This cafe is the best.",
+  "example_ko": "이 카페가 최고예요.",
+  "kind": "word",
+  "date": "2026-09-07",
+  "vid": "46qNfNBOLvY"
  }
 ]
