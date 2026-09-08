@@ -2026,5 +2026,277 @@
   "kind": "word",
   "date": "2026-09-07",
   "vid": "46qNfNBOLvY"
+ },
+ {
+  "en": "Just one person.",
+  "ko": "한 명이요.",
+  "when_ko": "식당에 혼자 들어가서 몇 명이냐고 물어볼 때",
+  "why_ko": "one 다음에는 사람을 가리키는 person 이 옵니다. table 이나 seat 은 자리를 말하는 말입니다.",
+  "timecode": "01:53",
+  "example_en": "Just one person, is that okay?",
+  "example_ko": "한 명인데 괜찮을까요?",
+  "cloze_en": "Just one ___, is that okay?",
+  "cloze_answer": "person",
+  "cloze_wrong": [
+   "table",
+   "seat",
+   "guest"
+  ],
+  "kind": "expr",
+  "date": "2026-09-09",
+  "vid": "BVp-ipmeymU"
+ },
+ {
+  "en": "Should I take my shoes off?",
+  "ko": "신발을 벗어야 하나요?",
+  "when_ko": "식당이나 집에 들어가기 전에 신발을 벗는지 물을 때",
+  "why_ko": "shoes off 는 신발을 벗어 떼어 놓는 그림입니다. on 은 반대로 신는 쪽입니다.",
+  "timecode": "02:01",
+  "example_en": "Should I take my shoes off here?",
+  "example_ko": "여기서 신발을 벗어야 하나요?",
+  "cloze_en": "Should I take my shoes ___ here?",
+  "cloze_answer": "off",
+  "cloze_wrong": [
+   "on",
+   "out",
+   "down"
+  ],
+  "kind": "expr",
+  "date": "2026-09-09",
+  "vid": "BVp-ipmeymU"
+ },
+ {
+  "en": "What's most popular?",
+  "ko": "뭐가 제일 인기 있어요?",
+  "when_ko": "메뉴를 못 고르겠어서 잘 나가는 걸 물을 때",
+  "why_ko": "가게에서 묻는 건 사람들이 많이 고르는 것, popular 입니다. famous 는 이름이 널리 알려진 것입니다.",
+  "timecode": "04:55",
+  "example_en": "What's most popular on the menu?",
+  "example_ko": "메뉴에서 뭐가 제일 인기 있어요?",
+  "cloze_en": "What's most ___ on the menu?",
+  "cloze_answer": "popular",
+  "cloze_wrong": [
+   "famous",
+   "expensive",
+   "delicious"
+  ],
+  "kind": "expr",
+  "date": "2026-09-09",
+  "vid": "BVp-ipmeymU"
+ },
+ {
+  "en": "I'll go for the dark roast, please.",
+  "ko": "다크 로스트로 할게요.",
+  "when_ko": "추천을 듣고 나서 하나를 골라 주문할 때",
+  "why_ko": "go for 가 통째로 '이걸로 하겠다' 는 말입니다. look for 는 찾는 것, wait for 는 기다리는 것입니다.",
+  "timecode": "05:16",
+  "example_en": "I'll go for the dark roast, please.",
+  "example_ko": "다크 로스트로 할게요.",
+  "cloze_en": "I'll ___ for the dark roast, please.",
+  "cloze_answer": "go",
+  "cloze_wrong": [
+   "look",
+   "wait",
+   "come"
+  ],
+  "kind": "expr",
+  "date": "2026-09-09",
+  "vid": "BVp-ipmeymU"
+ },
+ {
+  "en": "I've never heard of it before.",
+  "ko": "그건 한 번도 들어본 적 없어요.",
+  "when_ko": "처음 보는 음식이나 가게 이름을 들었을 때",
+  "why_ko": "I've 뒤에는 heard 꼴이 붙습니다. hear 는 지금 듣는 것이고, 이건 지금까지 한 번도 없었다는 말입니다.",
+  "timecode": "01:34",
+  "example_en": "I've never heard of this dish before.",
+  "example_ko": "이 음식은 한 번도 들어본 적 없어요.",
+  "cloze_en": "I've never ___ of this dish before.",
+  "cloze_answer": "heard",
+  "cloze_wrong": [
+   "hear",
+   "hearing",
+   "hears"
+  ],
+  "kind": "expr",
+  "date": "2026-09-09",
+  "vid": "BVp-ipmeymU"
+ },
+ {
+  "en": "I made a reservation for tonight.",
+  "ko": "오늘 저녁으로 예약했어요.",
+  "when_ko": "식당에 들어가서 예약했다고 말할 때",
+  "why_ko": "예약은 이미 해 둔 일이라 made 를 씁니다. make 는 앞으로 할 때 쓰는 꼴입니다.",
+  "timecode": "05:53",
+  "example_en": "Hi, I made a reservation for tonight.",
+  "example_ko": "안녕하세요, 오늘 저녁으로 예약했어요.",
+  "cloze_en": "Hi, I ___ a reservation for tonight.",
+  "cloze_answer": "made",
+  "cloze_wrong": [
+   "make",
+   "making",
+   "makes"
+  ],
+  "kind": "expr",
+  "date": "2026-09-09",
+  "vid": "BVp-ipmeymU"
+ },
+ {
+  "en": "I want to check it out.",
+  "ko": "한번 가 보고 싶어요.",
+  "when_ko": "괜찮아 보이는 가게를 보고 들어가 보고 싶을 때",
+  "why_ko": "check it out 은 세 낱말이 붙은 한 덩어리이고, it 이 check 와 out 사이에 들어갑니다.",
+  "timecode": "06:13",
+  "example_en": "That place looks cool, so I want to check it out.",
+  "example_ko": "저기 좋아 보여서 한번 가 보고 싶어요.",
+  "cloze_en": "That place looks cool, so I want to ___ it out.",
+  "cloze_answer": "check",
+  "cloze_wrong": [
+   "take",
+   "find",
+   "put"
+  ],
+  "kind": "expr",
+  "date": "2026-09-09",
+  "vid": "BVp-ipmeymU"
+ },
+ {
+  "en": "That's how I like my coffee.",
+  "ko": "제 커피 취향이 그래요.",
+  "when_ko": "진하다, 달다 같은 말을 듣고 그게 내 취향이라고 할 때",
+  "why_ko": "how 는 '그런 식으로' 를 가리킵니다. what 은 '무엇' 을 가리켜서 이 자리에 맞지 않습니다.",
+  "timecode": "05:43",
+  "example_en": "It's strong, but that's how I like my coffee.",
+  "example_ko": "진하지만 제 커피 취향이 그래요.",
+  "cloze_en": "It's strong, but that's ___ I like my coffee.",
+  "cloze_answer": "how",
+  "cloze_wrong": [
+   "what",
+   "why",
+   "when"
+  ],
+  "kind": "expr",
+  "date": "2026-09-09",
+  "vid": "BVp-ipmeymU"
+ },
+ {
+  "en": "free",
+  "ko": "공짜의",
+  "pos": "형용사",
+  "why_ko": "비슷한 말로 cheap 이 있지만 cheap 은 값이 싼 것이고, 이건 돈을 아예 안 내는 것입니다.",
+  "timecode": "00:33",
+  "example_en": "The view deck is free.",
+  "example_ko": "전망대는 공짜예요.",
+  "kind": "word",
+  "date": "2026-09-09",
+  "vid": "BVp-ipmeymU"
+ },
+ {
+  "en": "view",
+  "ko": "경치",
+  "pos": "명사",
+  "why_ko": "look 도 보는 것이지만 이건 창밖에 펼쳐진 풍경 쪽에 씁니다.",
+  "timecode": "01:07",
+  "example_en": "We had a great view.",
+  "example_ko": "경치가 아주 좋았어요.",
+  "kind": "word",
+  "date": "2026-09-09",
+  "vid": "BVp-ipmeymU"
+ },
+ {
+  "en": "quiet",
+  "ko": "조용한",
+  "pos": "형용사",
+  "why_ko": "silent 는 소리가 아예 없는 것이고, 이건 사람 사는 소리가 조금 있는 조용함입니다.",
+  "timecode": "09:07",
+  "example_en": "This area is very quiet.",
+  "example_ko": "이 동네는 아주 조용해요.",
+  "kind": "word",
+  "date": "2026-09-09",
+  "vid": "BVp-ipmeymU"
+ },
+ {
+  "en": "calm",
+  "ko": "차분한",
+  "pos": "형용사",
+  "why_ko": "quiet 은 소리가 없는 것이고, 이건 마음이나 움직임이 가라앉은 것입니다.",
+  "timecode": "06:28",
+  "example_en": "Calm down, it's okay.",
+  "example_ko": "진정해요, 괜찮아요.",
+  "kind": "word",
+  "date": "2026-09-09",
+  "vid": "BVp-ipmeymU"
+ },
+ {
+  "en": "patient",
+  "ko": "참고 기다리는",
+  "pos": "형용사",
+  "why_ko": "wait 은 기다리는 동작이고, 이건 참고 기다리는 태도를 말합니다.",
+  "timecode": "06:23",
+  "example_en": "Be patient for one minute.",
+  "example_ko": "잠깐만 참고 기다려요.",
+  "kind": "word",
+  "date": "2026-09-09",
+  "vid": "BVp-ipmeymU"
+ },
+ {
+  "en": "cute",
+  "ko": "귀여운",
+  "pos": "형용사",
+  "why_ko": "beautiful 은 어른이나 풍경에 쓰고, 이건 강아지나 아기처럼 작고 귀여운 것에 씁니다.",
+  "timecode": "06:18",
+  "example_en": "The puppy is so cute.",
+  "example_ko": "강아지가 너무 귀여워요.",
+  "kind": "word",
+  "date": "2026-09-09",
+  "vid": "BVp-ipmeymU"
+ },
+ {
+  "en": "sweet",
+  "ko": "단",
+  "pos": "형용사",
+  "why_ko": "sugar 는 설탕 자체이고, 이건 입에서 느끼는 단맛입니다.",
+  "timecode": "03:19",
+  "example_en": "This cake is too sweet.",
+  "example_ko": "이 케이크는 너무 달아요.",
+  "kind": "word",
+  "date": "2026-09-09",
+  "vid": "BVp-ipmeymU"
+ },
+ {
+  "en": "recommend",
+  "ko": "추천하다",
+  "pos": "동사",
+  "why_ko": "tell 은 그냥 말해 주는 것이고, 이건 좋은 것을 골라 권하는 것입니다.",
+  "timecode": "02:47",
+  "example_en": "Can you recommend something?",
+  "example_ko": "뭐 하나 추천해 주실래요?",
+  "kind": "word",
+  "date": "2026-09-09",
+  "vid": "BVp-ipmeymU"
+ },
+ {
+  "en": "bite",
+  "ko": "한 입",
+  "pos": "명사",
+  "why_ko": "eat 은 먹는 것 전체이고, 이건 입에 한 번 넣는 그 한 입입니다.",
+  "timecode": "07:42",
+  "example_en": "Take one bite first.",
+  "example_ko": "먼저 한 입 드셔 보세요.",
+  "kind": "word",
+  "date": "2026-09-09",
+  "vid": "BVp-ipmeymU"
+ },
+ {
+  "en": "walk",
+  "ko": "걷다",
+  "pos": "동사",
+  "why_ko": "go 는 가는 것 전체이고, 이건 두 발로 걷는 것입니다.",
+  "timecode": "08:55",
+  "example_en": "Let's walk around this area.",
+  "example_ko": "이 동네를 좀 걸어 봐요.",
+  "kind": "word",
+  "date": "2026-09-09",
+  "vid": "BVp-ipmeymU"
  }
 ]
