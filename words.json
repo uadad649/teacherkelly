@@ -2298,5 +2298,277 @@
   "kind": "word",
   "date": "2026-09-09",
   "vid": "BVp-ipmeymU"
+ },
+ {
+  "en": "I don't know how to use it.",
+  "ko": "이거 어떻게 쓰는지 모르겠어요.",
+  "when_ko": "기계·앱·물건을 앞에 두고 쓸 줄 몰라 도움을 청할 때",
+  "why_ko": "how 는 '방법'을 묻습니다. what 이나 why 를 넣으면 쓰는 방법이 아니라 다른 것을 묻는 말이 됩니다.",
+  "timecode": "01:23",
+  "example_en": "I don't know how to use this machine.",
+  "example_ko": "이 기계 어떻게 쓰는지 모르겠어요.",
+  "cloze_en": "I don't know ___ to use this machine.",
+  "cloze_answer": "how",
+  "cloze_wrong": [
+   "what",
+   "why",
+   "where"
+  ],
+  "kind": "expr",
+  "date": "2026-09-13",
+  "vid": "kdnJbbPFG8Q"
+ },
+ {
+  "en": "Can you do that for me?",
+  "ko": "그거 저 대신 해 주실 수 있어요?",
+  "when_ko": "직원이나 옆 사람에게 대신 해 달라고 부탁할 때",
+  "why_ko": "for me 는 '나를 위해 대신'입니다. to me 는 '나에게' 쪽으로 방향이 바뀝니다.",
+  "timecode": "01:32",
+  "example_en": "Can you do that for me, please?",
+  "example_ko": "그거 좀 저 대신 해 주시겠어요?",
+  "cloze_en": "Can you do that ___ me, please?",
+  "cloze_answer": "for",
+  "cloze_wrong": [
+   "to",
+   "at",
+   "with"
+  ],
+  "kind": "expr",
+  "date": "2026-09-13",
+  "vid": "kdnJbbPFG8Q"
+ },
+ {
+  "en": "I really appreciate your help.",
+  "ko": "도와주셔서 정말 고맙습니다.",
+  "when_ko": "누가 도와준 뒤 Thank you 보다 한 뼘 더 정중하게 인사할 때",
+  "why_ko": "appreciate 는 지금 하는 말이라 그대로 씁니다. 뒤에 -ed 나 -ion 을 붙이면 내가 지금 전하는 인사가 되지 않습니다.",
+  "timecode": "02:11",
+  "example_en": "I really appreciate your help today.",
+  "example_ko": "오늘 도와주셔서 정말 고맙습니다.",
+  "cloze_en": "I really ___ your help today.",
+  "cloze_answer": "appreciate",
+  "cloze_wrong": [
+   "appreciated",
+   "appreciating",
+   "appreciation"
+  ],
+  "kind": "expr",
+  "date": "2026-09-13",
+  "vid": "kdnJbbPFG8Q"
+ },
+ {
+  "en": "I've used that several times.",
+  "ko": "그거 저도 몇 번 써 봤어요.",
+  "when_ko": "상대가 말한 물건·앱·가게를 나도 써 봤다고 맞장구칠 때",
+  "why_ko": "several 은 '두세 번보다는 많고 여러 번'입니다. many 는 훨씬 많다는 느낌이라 과장이 됩니다.",
+  "timecode": "01:34",
+  "example_en": "I've used this app several times.",
+  "example_ko": "이 앱 몇 번 써 봤어요.",
+  "cloze_en": "I've used this app ___ times.",
+  "cloze_answer": "several",
+  "cloze_wrong": [
+   "many",
+   "a few",
+   "some"
+  ],
+  "kind": "expr",
+  "date": "2026-09-13",
+  "vid": "kdnJbbPFG8Q"
+ },
+ {
+  "en": "I'm curious to see what you think.",
+  "ko": "당신 생각이 궁금해요.",
+  "when_ko": "내 이야기를 하고 나서 상대 의견을 물어볼 때",
+  "why_ko": "what you think 가 한 덩어리입니다. thought 나 thinking 을 넣으면 지금 상대의 생각을 묻는 말이 아니게 됩니다.",
+  "timecode": "02:01",
+  "example_en": "I'm curious to see what you think about it.",
+  "example_ko": "그것에 대해 당신이 어떻게 생각하는지 궁금해요.",
+  "cloze_en": "I'm curious to see what you ___.",
+  "cloze_answer": "think",
+  "cloze_wrong": [
+   "thought",
+   "thinking",
+   "thinks"
+  ],
+  "kind": "expr",
+  "date": "2026-09-13",
+  "vid": "kdnJbbPFG8Q"
+ },
+ {
+  "en": "It might be all right.",
+  "ko": "괜찮을지도 몰라요.",
+  "when_ko": "걱정하는 상대에게 아마 괜찮을 거라고 조심스럽게 말할 때",
+  "why_ko": "might 는 '아마도'라 확신이 약합니다. must 나 should 를 넣으면 확신이 너무 세집니다.",
+  "timecode": "01:59",
+  "example_en": "Don't worry, it might be all right.",
+  "example_ko": "걱정 마세요, 괜찮을지도 몰라요.",
+  "cloze_en": "Don't worry, it ___ be all right.",
+  "cloze_answer": "might",
+  "cloze_wrong": [
+   "must",
+   "should",
+   "can"
+  ],
+  "kind": "expr",
+  "date": "2026-09-13",
+  "vid": "kdnJbbPFG8Q"
+ },
+ {
+  "en": "Feel free to ask anytime.",
+  "ko": "언제든 편하게 물어보세요.",
+  "when_ko": "상대가 미안해하며 뭔가 물을 때, 부담 갖지 말라고 할 때",
+  "why_ko": "Feel free 로 시작해야 '편하게 하세요'가 됩니다. 모양을 바꾸면 상대에게 권하는 말이 되지 않습니다.",
+  "timecode": "02:09",
+  "example_en": "Feel free to ask me anytime.",
+  "example_ko": "언제든 저한테 편하게 물어보세요.",
+  "cloze_en": "___ free to ask me anytime.",
+  "cloze_answer": "Feel",
+  "cloze_wrong": [
+   "Feeling",
+   "Felt",
+   "Feels"
+  ],
+  "kind": "expr",
+  "date": "2026-09-13",
+  "vid": "kdnJbbPFG8Q"
+ },
+ {
+  "en": "I hope you have a great day.",
+  "ko": "좋은 하루 보내세요.",
+  "when_ko": "가게나 숙소에서 인사하고 헤어질 때",
+  "why_ko": "hope 는 그럴 것 같은 바람이고, wish 는 사실과 다른 일을 바랄 때 쓰는 쪽입니다.",
+  "timecode": "02:13",
+  "example_en": "I hope you have a great day.",
+  "example_ko": "좋은 하루 보내세요.",
+  "cloze_en": "I ___ you have a great day.",
+  "cloze_answer": "hope",
+  "cloze_wrong": [
+   "wish",
+   "want",
+   "think"
+  ],
+  "kind": "expr",
+  "date": "2026-09-13",
+  "vid": "kdnJbbPFG8Q"
+ },
+ {
+  "en": "replace",
+  "ko": "바꾸다, 대신 넣다",
+  "pos": "동사",
+  "why_ko": "change 는 상태를 바꾸는 쪽이고, replace 는 낡은 것을 빼고 새것을 그 자리에 넣을 때 씁니다.",
+  "timecode": "01:19",
+  "example_en": "Can you replace this fork?",
+  "example_ko": "이 포크 좀 바꿔 주시겠어요?",
+  "kind": "word",
+  "date": "2026-09-13",
+  "vid": "kdnJbbPFG8Q"
+ },
+ {
+  "en": "job",
+  "ko": "일자리, 직업",
+  "pos": "명사",
+  "why_ko": "work 는 하는 일 자체이고, job 은 '자리'라서 하나 둘 셀 수 있습니다.",
+  "timecode": "00:42",
+  "example_en": "I like my new job.",
+  "example_ko": "새 일자리가 마음에 들어요.",
+  "kind": "word",
+  "date": "2026-09-13",
+  "vid": "kdnJbbPFG8Q"
+ },
+ {
+  "en": "work",
+  "ko": "일하다",
+  "pos": "동사",
+  "why_ko": "job 은 자리를 가리키는 이름이고, work 는 실제로 일하는 동작입니다.",
+  "timecode": "00:21",
+  "example_en": "I work near the airport.",
+  "example_ko": "저는 공항 근처에서 일해요.",
+  "kind": "word",
+  "date": "2026-09-13",
+  "vid": "kdnJbbPFG8Q"
+ },
+ {
+  "en": "people",
+  "ko": "사람들",
+  "pos": "명사",
+  "why_ko": "person 은 한 명이고, people 은 그 자체로 여럿이라 뒤에 s 를 붙이지 않습니다.",
+  "timecode": "00:15",
+  "example_en": "Many people are waiting outside.",
+  "example_ko": "많은 사람들이 밖에서 기다려요.",
+  "kind": "word",
+  "date": "2026-09-13",
+  "vid": "kdnJbbPFG8Q"
+ },
+ {
+  "en": "machine",
+  "ko": "기계",
+  "pos": "명사",
+  "why_ko": "tool 은 손으로 쓰는 도구이고, machine 은 전기나 힘으로 움직이는 것입니다.",
+  "timecode": "01:43",
+  "example_en": "This machine is not working.",
+  "example_ko": "이 기계가 작동하지 않아요.",
+  "kind": "word",
+  "date": "2026-09-13",
+  "vid": "kdnJbbPFG8Q"
+ },
+ {
+  "en": "everybody",
+  "ko": "모두, 다들",
+  "pos": "명사",
+  "why_ko": "everyone 과 뜻이 같습니다. 여럿을 가리켜도 뒤에는 is 를 씁니다.",
+  "timecode": "00:34",
+  "example_en": "Everybody is here now.",
+  "example_ko": "이제 다들 왔어요.",
+  "kind": "word",
+  "date": "2026-09-13",
+  "vid": "kdnJbbPFG8Q"
+ },
+ {
+  "en": "everything",
+  "ko": "모든 것",
+  "pos": "명사",
+  "why_ko": "사람에게는 everybody, 물건이나 일에는 everything 을 씁니다.",
+  "timecode": "00:32",
+  "example_en": "Everything is ready for you.",
+  "example_ko": "모든 게 준비됐어요.",
+  "kind": "word",
+  "date": "2026-09-13",
+  "vid": "kdnJbbPFG8Q"
+ },
+ {
+  "en": "simple",
+  "ko": "간단한",
+  "pos": "형용사",
+  "why_ko": "easy 는 하기 쉽다는 뜻이고, simple 은 복잡하지 않다는 뜻입니다.",
+  "timecode": "01:28",
+  "example_en": "It's a simple question.",
+  "example_ko": "간단한 질문이에요.",
+  "kind": "word",
+  "date": "2026-09-13",
+  "vid": "kdnJbbPFG8Q"
+ },
+ {
+  "en": "email",
+  "ko": "이메일",
+  "pos": "명사",
+  "why_ko": "mail 은 우체국으로 가는 우편이고, email 은 컴퓨터나 폰으로 보내는 편지입니다.",
+  "timecode": "01:32",
+  "example_en": "I sent you an email.",
+  "example_ko": "이메일 보냈어요.",
+  "kind": "word",
+  "date": "2026-09-13",
+  "vid": "kdnJbbPFG8Q"
+ },
+ {
+  "en": "world",
+  "ko": "세상, 세계",
+  "pos": "명사",
+  "why_ko": "earth 는 지구라는 땅덩이고, world 는 사람들이 사는 세상 쪽입니다.",
+  "timecode": "02:15",
+  "example_en": "I want to see the world.",
+  "example_ko": "세상을 보고 싶어요.",
+  "kind": "word",
+  "date": "2026-09-13",
+  "vid": "kdnJbbPFG8Q"
  }
 ]
