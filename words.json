@@ -2570,5 +2570,277 @@
   "kind": "word",
   "date": "2026-09-13",
   "vid": "kdnJbbPFG8Q"
+ },
+ {
+  "en": "My name is Sean.",
+  "ko": "제 이름은 션입니다.",
+  "when_ko": "처음 만난 사람에게 이름을 말할 때",
+  "why_ko": "이름 앞에는 My name 뒤에 is 가 붙습니다. I name 이라고 하지 않습니다.",
+  "timecode": "00:19",
+  "example_en": "Hi, my name is Sean.",
+  "example_ko": "안녕하세요, 제 이름은 션입니다.",
+  "cloze_en": "Hi, my name ___ Sean.",
+  "cloze_answer": "is",
+  "cloze_wrong": [
+   "am",
+   "are",
+   "be"
+  ],
+  "kind": "expr",
+  "date": "2026-09-15",
+  "vid": "aD5NPHi3SEQ"
+ },
+ {
+  "en": "I came from Korea.",
+  "ko": "저는 한국에서 왔습니다.",
+  "when_ko": "어디서 왔는지 말할 때",
+  "why_ko": "come 은 오는 동작이고, came 은 이미 온 것입니다. 지금 여기 있으니 came 입니다.",
+  "timecode": "00:04",
+  "example_en": "I came from Korea.",
+  "example_ko": "저는 한국에서 왔습니다.",
+  "cloze_en": "I ___ from Korea.",
+  "cloze_answer": "came",
+  "cloze_wrong": [
+   "come",
+   "coming",
+   "comes"
+  ],
+  "kind": "expr",
+  "date": "2026-09-15",
+  "vid": "aD5NPHi3SEQ"
+ },
+ {
+  "en": "I've been here for 13 years.",
+  "ko": "저는 여기 13년 있었습니다.",
+  "when_ko": "어떤 곳에 얼마나 살았는지 말할 때",
+  "why_ko": "for 는 기간을 말합니다. 시점이 아니라 얼마나 오래인지입니다.",
+  "timecode": "00:35",
+  "example_en": "I've been here for 13 years.",
+  "example_ko": "저는 여기 13년 있었습니다.",
+  "cloze_en": "I've been here ___ 13 years.",
+  "cloze_answer": "for",
+  "cloze_wrong": [
+   "in",
+   "at",
+   "on"
+  ],
+  "kind": "expr",
+  "date": "2026-09-15",
+  "vid": "aD5NPHi3SEQ"
+ },
+ {
+  "en": "I really like movies.",
+  "ko": "저는 영화를 정말 좋아합니다.",
+  "when_ko": "뭘 좋아하는지 말할 때",
+  "why_ko": "like 다음에는 movies 처럼 여러 개 꼴로 씁니다. 하나만 말하는 게 아니니까요.",
+  "timecode": "19:38",
+  "example_en": "I really like movies.",
+  "example_ko": "저는 영화를 정말 좋아합니다.",
+  "cloze_en": "I really ___ movies.",
+  "cloze_answer": "like",
+  "cloze_wrong": [
+   "likes",
+   "liking",
+   "liked"
+  ],
+  "kind": "expr",
+  "date": "2026-09-15",
+  "vid": "aD5NPHi3SEQ"
+ },
+ {
+  "en": "I was not afraid of speaking.",
+  "ko": "저는 말하는 게 무섭지 않았습니다.",
+  "when_ko": "영어로 말하는 게 두렵지 않다고 말할 때",
+  "why_ko": "afraid 뒤에는 of 가 붙고, of 다음 동작은 speaking 꼴이 됩니다.",
+  "timecode": "07:12",
+  "example_en": "I was not afraid of speaking English.",
+  "example_ko": "저는 영어로 말하는 게 무섭지 않았습니다.",
+  "cloze_en": "I was not afraid ___ speaking English.",
+  "cloze_answer": "of",
+  "cloze_wrong": [
+   "to",
+   "for",
+   "in"
+  ],
+  "kind": "expr",
+  "date": "2026-09-15",
+  "vid": "aD5NPHi3SEQ"
+ },
+ {
+  "en": "I enjoyed this chat.",
+  "ko": "이 대화 즐거웠습니다.",
+  "when_ko": "대화를 마치고 헤어질 때",
+  "why_ko": "enjoy 다음에는 바로 무엇을 즐겼는지 옵니다. 사이에 아무것도 넣지 않습니다.",
+  "timecode": "21:04",
+  "example_en": "Thank you, I really enjoyed this chat.",
+  "example_ko": "감사합니다, 이 대화 정말 즐거웠습니다.",
+  "cloze_en": "Thank you, I really ___ this chat.",
+  "cloze_answer": "enjoyed",
+  "cloze_wrong": [
+   "enjoy",
+   "enjoying",
+   "enjoys"
+  ],
+  "kind": "expr",
+  "date": "2026-09-15",
+  "vid": "aD5NPHi3SEQ"
+ },
+ {
+  "en": "I cannot understand it.",
+  "ko": "저는 그걸 못 알아듣겠습니다.",
+  "when_ko": "상대 말이 빨라서 못 알아들었을 때",
+  "why_ko": "cannot 다음에는 understand 그대로 옵니다. 꼴을 바꾸지 않습니다.",
+  "timecode": "12:51",
+  "example_en": "Sorry, I cannot understand it.",
+  "example_ko": "죄송해요, 그걸 못 알아듣겠습니다.",
+  "cloze_en": "Sorry, I cannot ___ it.",
+  "cloze_answer": "understand",
+  "cloze_wrong": [
+   "understanding",
+   "understands",
+   "understood"
+  ],
+  "kind": "expr",
+  "date": "2026-09-15",
+  "vid": "aD5NPHi3SEQ"
+ },
+ {
+  "en": "I'll pay for my lunch.",
+  "ko": "제 점심은 제가 낼게요.",
+  "when_ko": "식당에서 내 것은 내가 내겠다고 할 때",
+  "why_ko": "pay 뒤에 무엇을 사는지 말할 때는 for 가 붙습니다.",
+  "timecode": "19:26",
+  "example_en": "I'll pay for my lunch.",
+  "example_ko": "제 점심은 제가 낼게요.",
+  "cloze_en": "I'll pay ___ my lunch.",
+  "cloze_answer": "for",
+  "cloze_wrong": [
+   "to",
+   "at",
+   "with"
+  ],
+  "kind": "expr",
+  "date": "2026-09-15",
+  "vid": "aD5NPHi3SEQ"
+ },
+ {
+  "en": "job",
+  "ko": "일자리",
+  "pos": "명사",
+  "why_ko": "work 는 하는 일 자체를 말하고, job 은 다니는 자리를 말합니다.",
+  "timecode": "00:07",
+  "example_en": "I got a job here.",
+  "example_ko": "저는 여기서 일자리를 얻었습니다.",
+  "kind": "word",
+  "date": "2026-09-15",
+  "vid": "aD5NPHi3SEQ"
+ },
+ {
+  "en": "food",
+  "ko": "음식",
+  "pos": "명사",
+  "why_ko": "meal 은 한 끼를 말하고, food 는 먹는 것 전체를 말합니다.",
+  "timecode": "18:57",
+  "example_en": "The food here is great.",
+  "example_ko": "여기 음식이 아주 좋습니다.",
+  "kind": "word",
+  "date": "2026-09-15",
+  "vid": "aD5NPHi3SEQ"
+ },
+ {
+  "en": "movie",
+  "ko": "영화",
+  "pos": "명사",
+  "why_ko": "video 는 짧은 영상이고, movie 는 극장에서 보는 것입니다.",
+  "timecode": "12:11",
+  "example_en": "This movie is very good.",
+  "example_ko": "이 영화는 아주 좋습니다.",
+  "kind": "word",
+  "date": "2026-09-15",
+  "vid": "aD5NPHi3SEQ"
+ },
+ {
+  "en": "friend",
+  "ko": "친구",
+  "pos": "명사",
+  "why_ko": "people 은 그냥 사람들이고, friend 는 가까운 사람입니다.",
+  "timecode": "10:01",
+  "example_en": "I made friends here.",
+  "example_ko": "저는 여기서 친구를 만들었습니다.",
+  "kind": "word",
+  "date": "2026-09-15",
+  "vid": "aD5NPHi3SEQ"
+ },
+ {
+  "en": "difficult",
+  "ko": "어려운",
+  "pos": "형용사",
+  "why_ko": "hard 도 어렵다는 뜻이지만 difficult 가 더 담백하게 들립니다.",
+  "timecode": "00:09",
+  "example_en": "It was very difficult.",
+  "example_ko": "그건 아주 어려웠습니다.",
+  "kind": "word",
+  "date": "2026-09-15",
+  "vid": "aD5NPHi3SEQ"
+ },
+ {
+  "en": "lucky",
+  "ko": "운이 좋은",
+  "pos": "형용사",
+  "why_ko": "happy 는 기분이 좋은 것이고, lucky 는 운이 따른 것입니다.",
+  "timecode": "06:41",
+  "example_en": "I think I was lucky.",
+  "example_ko": "저는 운이 좋았다고 생각합니다.",
+  "kind": "word",
+  "date": "2026-09-15",
+  "vid": "aD5NPHi3SEQ"
+ },
+ {
+  "en": "slowly",
+  "ko": "천천히",
+  "pos": "부사",
+  "why_ko": "slow 는 느린 것을 말하고, slowly 는 어떻게 하는지를 말합니다.",
+  "timecode": "11:37",
+  "example_en": "Please speak slowly.",
+  "example_ko": "천천히 말해 주세요.",
+  "kind": "word",
+  "date": "2026-09-15",
+  "vid": "aD5NPHi3SEQ"
+ },
+ {
+  "en": "fast",
+  "ko": "빠르게",
+  "pos": "부사",
+  "why_ko": "quickly 도 되지만 말이 빠르다고 할 때는 fast 를 더 씁니다.",
+  "timecode": "12:03",
+  "example_en": "You speak too fast.",
+  "example_ko": "당신은 너무 빠르게 말합니다.",
+  "kind": "word",
+  "date": "2026-09-15",
+  "vid": "aD5NPHi3SEQ"
+ },
+ {
+  "en": "remember",
+  "ko": "기억하다",
+  "pos": "동사",
+  "why_ko": "know 는 알고 있는 것이고, remember 는 잊지 않고 있는 것입니다.",
+  "timecode": "05:00",
+  "example_en": "I remember that place.",
+  "example_ko": "저는 그 장소를 기억합니다.",
+  "kind": "word",
+  "date": "2026-09-15",
+  "vid": "aD5NPHi3SEQ"
+ },
+ {
+  "en": "watch",
+  "ko": "보다",
+  "pos": "동사",
+  "why_ko": "see 는 눈에 들어오는 것이고, watch 는 앉아서 계속 보는 것입니다.",
+  "timecode": "06:59",
+  "example_en": "I watch movies every day.",
+  "example_ko": "저는 매일 영화를 봅니다.",
+  "kind": "word",
+  "date": "2026-09-15",
+  "vid": "aD5NPHi3SEQ"
  }
 ]
