@@ -215,7 +215,9 @@ def run_auto_pick():
             path = core.auto(url)
         except core.PrepFailed as e:
             print(f"     건너뜁니다 — {e}")
-            channels.mark_seen(v["id"], v["title"], str(e))
+            # 잠깐의 일(자막 서버 오류·IP 차단)이면 후보에서 영영 지우지 않는다.
+            channels.mark_seen(v["id"], v["title"], str(e),
+                               permanent=getattr(e, "permanent", True))
             skipped.append(f"{v['title'][:40]} — {e}")
             continue
         channels.mark_seen(v["id"], v["title"], "완료")

@@ -199,7 +199,16 @@ class PrepFailed(Exception):
     자동 실행은 후보를 여러 개 놓고 도는데, 하나가 안 된다고
     그날 실행 전체가 멈추면 안 된다. 그래서 프로그램을 끝내는 대신
     이 예외를 던져 부르는 쪽이 판단하게 한다.
+
+    permanent 는 '내일 다시 해도 똑같은가' 이다.
+      True  — 쇼츠다, 자막이 아예 없다. 이 영상은 영영 안 된다.
+      False — 자막 서버가 응답을 안 했다, 유튜브가 IP 를 막았다.
+              내일은 될 수 있으므로 후보에서 영영 지우면 안 된다.
     """
+
+    def __init__(self, msg, permanent=True):
+        super().__init__(msg)
+        self.permanent = permanent
 
 
 # 자동 실행이 고른 영상이 배울 만한 것인지 자막 길이로 걸러 낸다.
@@ -786,14 +795,22 @@ def prep(url, interactive=True):
     if not chunks:
         why = LAST_TRANSCRIPT_ERROR
         if "Blocked" in why or "IpBlocked" in why:
+            # 막힌 것은 이 영상이 아니라 우리 쪽이다. 후보에서 지우면 안 된다.
             raise PrepFailed(
                 "유튜브가 이 서버의 IP 를 막았습니다.\n"
                 "코드 문제가 아니라 유튜브가 데이터센터에서 오는 요청을 "
                 "차단하는 것입니다.\n"
                 "프록시를 넣거나(README 5번), 내 PC 에서 돌리면 됩니다.\n"
-                f"원문: {why}")
+                f"원문: {why}", permanent=False)
+        # 다시 시도할 값어치가 있는 것은 '우리가 막혔을 때'뿐이다.
+        # 자막이 없거나(TranscriptsDisabled·NoTranscriptFound), 멤버십 전용이거나
+        # 내려간 영상(VideoUnplayable·VideoUnavailable)은 내일도 똑같다.
+        again = any(k in why for k in
+                    ("Blocked", "RequestFailed", "TooManyRequests",
+                     "Timeout", "URLError", "Connection"))
         raise PrepFailed(f"자막을 못 받았습니다. 다른 영상을 골라주세요."
-                         + (f"\n사유: {why}" if why else ""))
+                         + (f"\n사유: {why}" if why else ""),
+                         permanent=not again)
     if MIN_TRANSCRIPT_LINES and len(chunks) < MIN_TRANSCRIPT_LINES:
         raise PrepFailed(f"자막이 {len(chunks)}줄뿐이라 건너뜁니다. "
                          f"(쇼츠이거나 너무 짧은 영상)")
