@@ -2842,5 +2842,277 @@
   "kind": "word",
   "date": "2026-09-15",
   "vid": "aD5NPHi3SEQ"
+ },
+ {
+  "en": "Don't worry about it.",
+  "ko": "그거 신경 쓰지 마세요.",
+  "when_ko": "상대가 실수하거나 미안해할 때 괜찮다고 말할 때",
+  "why_ko": "worry 뒤에는 about 이 붙어서 '무엇에 대해'를 말합니다. worry for 는 이 자리에 쓰지 않습니다.",
+  "timecode": "14:12",
+  "example_en": "Don't worry about it. It's fine.",
+  "example_ko": "신경 쓰지 마세요. 괜찮아요.",
+  "cloze_en": "Don't worry ___ it. It's fine.",
+  "cloze_answer": "about",
+  "cloze_wrong": [
+   "for",
+   "to",
+   "on"
+  ],
+  "kind": "expr",
+  "date": "2026-09-16",
+  "vid": "PluXRDgEZ3k"
+ },
+ {
+  "en": "Just go for it.",
+  "ko": "그냥 한번 해보세요.",
+  "when_ko": "망설이는 사람에게 해보라고 밀어줄 때",
+  "why_ko": "go for it 은 세 낱말이 한 덩어리로 '해봐'가 됩니다. go it 이나 go to it 으로는 쓰지 않습니다.",
+  "timecode": "04:46",
+  "example_en": "You can do it. Just go for it.",
+  "example_ko": "할 수 있어요. 그냥 한번 해보세요.",
+  "cloze_en": "You can do it. Just go ___ it.",
+  "cloze_answer": "for",
+  "cloze_wrong": [
+   "to",
+   "at",
+   "on"
+  ],
+  "kind": "expr",
+  "date": "2026-09-16",
+  "vid": "PluXRDgEZ3k"
+ },
+ {
+  "en": "I'm so grateful for that.",
+  "ko": "그게 정말 고마워요.",
+  "when_ko": "누가 나에게 해준 일에 진심으로 고맙다고 말할 때",
+  "why_ko": "grateful 뒤에는 for 가 와서 고마운 대상을 가리킵니다.",
+  "timecode": "07:20",
+  "example_en": "You helped me a lot. I'm so grateful for that.",
+  "example_ko": "많이 도와주셨어요. 그게 정말 고마워요.",
+  "cloze_en": "You helped me a lot. I'm so ___ for that.",
+  "cloze_answer": "grateful",
+  "cloze_wrong": [
+   "sorry",
+   "happy",
+   "careful"
+  ],
+  "kind": "expr",
+  "date": "2026-09-16",
+  "vid": "PluXRDgEZ3k"
+ },
+ {
+  "en": "I don't know how to say it.",
+  "ko": "어떻게 말해야 할지 모르겠어요.",
+  "when_ko": "영어로 말이 안 나올 때 솔직하게 말할 때",
+  "why_ko": "how 뒤에 to say 가 붙어서 '말하는 법'이 됩니다. how say 처럼 to 를 빼지 않습니다.",
+  "timecode": "04:47",
+  "example_en": "Sorry, I don't know how to say it in English.",
+  "example_ko": "죄송해요, 영어로 어떻게 말해야 할지 모르겠어요.",
+  "cloze_en": "Sorry, I don't know how ___ say it in English.",
+  "cloze_answer": "to",
+  "cloze_wrong": [
+   "for",
+   "of",
+   "at"
+  ],
+  "kind": "expr",
+  "date": "2026-09-16",
+  "vid": "PluXRDgEZ3k"
+ },
+ {
+  "en": "Have you ever been there?",
+  "ko": "거기 가본 적 있어요?",
+  "when_ko": "상대에게 경험이 있는지 물어볼 때",
+  "why_ko": "경험을 물을 때는 Have you 로 시작하고 ever 를 가운데 넣습니다. Do you 로 시작하면 지금 습관을 묻는 말이 됩니다.",
+  "timecode": "05:19",
+  "example_en": "I love that restaurant. Have you ever been there?",
+  "example_ko": "저 식당 정말 좋아해요. 거기 가본 적 있어요?",
+  "cloze_en": "I love that restaurant. Have you ___ been there?",
+  "cloze_answer": "ever",
+  "cloze_wrong": [
+   "never",
+   "already",
+   "still"
+  ],
+  "kind": "expr",
+  "date": "2026-09-16",
+  "vid": "PluXRDgEZ3k"
+ },
+ {
+  "en": "It's not as expensive as I expected.",
+  "ko": "생각했던 것만큼 비싸지 않네요.",
+  "when_ko": "가격이 예상보다 싸다고 말할 때",
+  "why_ko": "as 와 as 사이에 비교할 말이 들어갑니다. 앞의 as 를 빼면 문장이 끊깁니다.",
+  "timecode": "09:04",
+  "example_en": "This hotel is not as expensive as I expected.",
+  "example_ko": "이 호텔은 생각했던 것만큼 비싸지 않아요.",
+  "cloze_en": "This hotel is not ___ expensive as I expected.",
+  "cloze_answer": "as",
+  "cloze_wrong": [
+   "so",
+   "too",
+   "very"
+  ],
+  "kind": "expr",
+  "date": "2026-09-16",
+  "vid": "PluXRDgEZ3k"
+ },
+ {
+  "en": "Thank you so much for coming.",
+  "ko": "와 주셔서 정말 감사합니다.",
+  "when_ko": "나를 만나러 온 사람을 맞이하거나 보낼 때",
+  "why_ko": "for 뒤에는 come 이 아니라 coming 이 옵니다.",
+  "timecode": "15:10",
+  "example_en": "Thank you so much for coming today.",
+  "example_ko": "오늘 와 주셔서 정말 감사합니다.",
+  "cloze_en": "Thank you so much for ___ today.",
+  "cloze_answer": "coming",
+  "cloze_wrong": [
+   "come",
+   "came",
+   "to come"
+  ],
+  "kind": "expr",
+  "date": "2026-09-16",
+  "vid": "PluXRDgEZ3k"
+ },
+ {
+  "en": "I've been here for six years.",
+  "ko": "여기 온 지 6년 됐어요.",
+  "when_ko": "어디에 얼마나 살았는지 말할 때",
+  "why_ko": "기간 앞에는 for 를 씁니다. since 는 '2019년부터'처럼 시작한 때를 말할 때 씁니다.",
+  "timecode": "00:44",
+  "example_en": "I've been here for six years now.",
+  "example_ko": "여기 온 지 이제 6년 됐어요.",
+  "cloze_en": "I've been here ___ six years now.",
+  "cloze_answer": "for",
+  "cloze_wrong": [
+   "since",
+   "from",
+   "during"
+  ],
+  "kind": "expr",
+  "date": "2026-09-16",
+  "vid": "PluXRDgEZ3k"
+ },
+ {
+  "en": "buy",
+  "ko": "사다",
+  "pos": "동사",
+  "why_ko": "get 도 '사다'로 쓰지만, 값을 치르고 산다는 뜻을 분명히 할 때는 buy 입니다.",
+  "timecode": "00:14",
+  "example_en": "I want to buy this.",
+  "example_ko": "이거 사고 싶어요.",
+  "kind": "word",
+  "date": "2026-09-16",
+  "vid": "PluXRDgEZ3k"
+ },
+ {
+  "en": "expensive",
+  "ko": "비싼",
+  "pos": "형용사",
+  "why_ko": "값이 비싼 것에만 씁니다. 사람이나 시간에는 쓰지 않습니다.",
+  "timecode": "08:15",
+  "example_en": "This bag is too expensive.",
+  "example_ko": "이 가방은 너무 비싸요.",
+  "kind": "word",
+  "date": "2026-09-16",
+  "vid": "PluXRDgEZ3k"
+ },
+ {
+  "en": "favorite",
+  "ko": "가장 좋아하는",
+  "pos": "형용사",
+  "why_ko": "like 는 그냥 좋아하는 것이고, favorite 은 그중에서 제일 좋아하는 하나입니다.",
+  "timecode": "03:53",
+  "example_en": "This is my favorite food.",
+  "example_ko": "이게 제가 제일 좋아하는 음식이에요.",
+  "kind": "word",
+  "date": "2026-09-16",
+  "vid": "PluXRDgEZ3k"
+ },
+ {
+  "en": "strangers",
+  "ko": "모르는 사람들",
+  "pos": "명사",
+  "why_ko": "friends 의 반대말입니다. 이상한 사람이라는 뜻은 아닙니다.",
+  "timecode": "03:46",
+  "example_en": "I talked to strangers today.",
+  "example_ko": "오늘 모르는 사람들과 이야기했어요.",
+  "kind": "word",
+  "date": "2026-09-16",
+  "vid": "PluXRDgEZ3k"
+ },
+ {
+  "en": "money",
+  "ko": "돈",
+  "pos": "명사",
+  "why_ko": "낱개로 세지 않습니다. two moneys 처럼 쓰지 않습니다.",
+  "timecode": "08:12",
+  "example_en": "I don't have much money.",
+  "example_ko": "돈이 별로 없어요.",
+  "kind": "word",
+  "date": "2026-09-16",
+  "vid": "PluXRDgEZ3k"
+ },
+ {
+  "en": "lunch",
+  "ko": "점심",
+  "pos": "명사",
+  "why_ko": "the 나 a 없이 그냥 lunch 로 씁니다.",
+  "timecode": "09:18",
+  "example_en": "Let's have lunch together.",
+  "example_ko": "같이 점심 먹어요.",
+  "kind": "word",
+  "date": "2026-09-16",
+  "vid": "PluXRDgEZ3k"
+ },
+ {
+  "en": "enjoy",
+  "ko": "즐기다",
+  "pos": "동사",
+  "why_ko": "enjoy 뒤에 동작이 오면 enjoy eating 처럼 -ing 를 붙입니다.",
+  "timecode": "13:20",
+  "example_en": "I really enjoy this food.",
+  "example_ko": "이 음식 정말 맛있게 먹고 있어요.",
+  "kind": "word",
+  "date": "2026-09-16",
+  "vid": "PluXRDgEZ3k"
+ },
+ {
+  "en": "terrible",
+  "ko": "형편없는",
+  "pos": "형용사",
+  "why_ko": "bad 보다 훨씬 나쁘다는 느낌입니다.",
+  "timecode": "10:11",
+  "example_en": "The weather was terrible.",
+  "example_ko": "날씨가 형편없었어요.",
+  "kind": "word",
+  "date": "2026-09-16",
+  "vid": "PluXRDgEZ3k"
+ },
+ {
+  "en": "quickly",
+  "ko": "빨리",
+  "pos": "부사",
+  "why_ko": "동작이 어떻게 이루어지는지 말합니다. fast 와 뜻은 비슷합니다.",
+  "timecode": "11:27",
+  "example_en": "He speaks too quickly.",
+  "example_ko": "그는 말을 너무 빨리 해요.",
+  "kind": "word",
+  "date": "2026-09-16",
+  "vid": "PluXRDgEZ3k"
+ },
+ {
+  "en": "accent",
+  "ko": "억양",
+  "pos": "명사",
+  "why_ko": "어느 나라 사람처럼 들리는 말투를 뜻합니다. 목소리 자체는 voice 입니다.",
+  "timecode": "14:14",
+  "example_en": "I have a Korean accent.",
+  "example_ko": "저는 한국식 억양이 있어요.",
+  "kind": "word",
+  "date": "2026-09-16",
+  "vid": "PluXRDgEZ3k"
  }
 ]
