@@ -3114,5 +3114,277 @@
   "kind": "word",
   "date": "2026-09-16",
   "vid": "PluXRDgEZ3k"
+ },
+ {
+  "en": "I was really surprised",
+  "ko": "정말 놀랐어요",
+  "when_ko": "예상 못 한 일을 겪고 놀랐다고 말할 때",
+  "why_ko": "놀란 건 내가 받은 느낌이라 was surprised 로 씁니다. surprising 은 상대나 상황이 놀라울 때 쓰는 말입니다.",
+  "timecode": "01:53",
+  "example_en": "I was really surprised by the price.",
+  "example_ko": "가격에 정말 놀랐어요.",
+  "cloze_en": "I was really ___ by the price.",
+  "cloze_answer": "surprised",
+  "cloze_wrong": [
+   "surprise",
+   "surprising",
+   "surprises"
+  ],
+  "kind": "expr",
+  "date": "2026-09-17",
+  "vid": "WT5m3dvSlzE"
+ },
+ {
+  "en": "I didn't want to have a wedding",
+  "ko": "결혼식을 하고 싶지 않았어요",
+  "when_ko": "과거에 뭔가를 하기 싫었다고 말할 때",
+  "why_ko": "didn't 뒤에는 늘 want 처럼 기본 꼴이 옵니다. 과거는 didn't 가 이미 말해 줍니다.",
+  "timecode": "00:09",
+  "example_en": "I didn't want to go out last night.",
+  "example_ko": "어젯밤엔 나가고 싶지 않았어요.",
+  "cloze_en": "I ___ want to go out last night.",
+  "cloze_answer": "didn't",
+  "cloze_wrong": [
+   "don't",
+   "not",
+   "wasn't"
+  ],
+  "kind": "expr",
+  "date": "2026-09-17",
+  "vid": "WT5m3dvSlzE"
+ },
+ {
+  "en": "It's a waste of time",
+  "ko": "그건 시간 낭비예요",
+  "when_ko": "뭔가 할 필요 없다고 생각할 때",
+  "why_ko": "waste 뒤에는 of 가 붙어 무엇의 낭비인지 말해 줍니다. for 는 여기 쓰지 않습니다.",
+  "timecode": "05:06",
+  "example_en": "Waiting in that line is a waste of time.",
+  "example_ko": "저 줄에서 기다리는 건 시간 낭비예요.",
+  "cloze_en": "Waiting in that line is a ___ of time.",
+  "cloze_answer": "waste",
+  "cloze_wrong": [
+   "lose",
+   "spend",
+   "cost"
+  ],
+  "kind": "expr",
+  "date": "2026-09-17",
+  "vid": "WT5m3dvSlzE"
+ },
+ {
+  "en": "I was happy with that",
+  "ko": "그건 마음에 들었어요",
+  "when_ko": "결과나 서비스가 만족스러웠다고 말할 때",
+  "why_ko": "happy 뒤에 with 가 오면 '그것에 만족한다'는 뜻이 됩니다. about 은 소식이 기쁠 때 쓰는 쪽입니다.",
+  "timecode": "03:48",
+  "example_en": "The room was small, but I was happy with that.",
+  "example_ko": "방은 작았지만 그건 마음에 들었어요.",
+  "cloze_en": "The room was small, but I was happy ___ that.",
+  "cloze_answer": "with",
+  "cloze_wrong": [
+   "to",
+   "for",
+   "in"
+  ],
+  "kind": "expr",
+  "date": "2026-09-17",
+  "vid": "WT5m3dvSlzE"
+ },
+ {
+  "en": "I had a really great experience",
+  "ko": "정말 좋은 경험이었어요",
+  "when_ko": "다녀온 곳이나 겪은 일이 좋았다고 말할 때",
+  "why_ko": "영어는 경험을 '가진다(have)'고 말합니다. do 나 make 를 쓰지 않습니다.",
+  "timecode": "01:52",
+  "example_en": "I had a really great experience in Korea.",
+  "example_ko": "한국에서 정말 좋은 경험을 했어요.",
+  "cloze_en": "I ___ a really great experience in Korea.",
+  "cloze_answer": "had",
+  "cloze_wrong": [
+   "did",
+   "made",
+   "took"
+  ],
+  "kind": "expr",
+  "date": "2026-09-17",
+  "vid": "WT5m3dvSlzE"
+ },
+ {
+  "en": "I didn't have to worry about anything",
+  "ko": "아무것도 걱정할 필요가 없었어요",
+  "when_ko": "누가 다 알아서 해 줘서 편했다고 말할 때",
+  "why_ko": "worry 뒤에는 about 이 붙어 무엇을 걱정하는지 말해 줍니다. didn't have to 는 '할 필요가 없었다'입니다.",
+  "timecode": "06:05",
+  "example_en": "The hotel booked everything, so I didn't have to worry about anything.",
+  "example_ko": "호텔이 다 예약해 줘서 아무것도 걱정할 필요가 없었어요.",
+  "cloze_en": "I didn't have to worry ___ anything.",
+  "cloze_answer": "about",
+  "cloze_wrong": [
+   "for",
+   "of",
+   "on"
+  ],
+  "kind": "expr",
+  "date": "2026-09-17",
+  "vid": "WT5m3dvSlzE"
+ },
+ {
+  "en": "I was so nervous",
+  "ko": "너무 떨렸어요",
+  "when_ko": "중요한 일을 앞두고 긴장됐다고 말할 때",
+  "why_ko": "so 는 nervous 앞에 붙어 '너무'를 더합니다. nervous 는 내가 느끼는 상태라 was 와 함께 씁니다.",
+  "timecode": "08:30",
+  "example_en": "I was so nervous before my first day at work.",
+  "example_ko": "출근 첫날 전에 너무 떨렸어요.",
+  "cloze_en": "I was so ___ before my first day at work.",
+  "cloze_answer": "nervous",
+  "cloze_wrong": [
+   "nerve",
+   "nervously",
+   "nerves"
+  ],
+  "kind": "expr",
+  "date": "2026-09-17",
+  "vid": "WT5m3dvSlzE"
+ },
+ {
+  "en": "Thank you for coming all the way",
+  "ko": "멀리까지 와 주셔서 고마워요",
+  "when_ko": "먼 데서 찾아온 사람에게 고맙다고 할 때",
+  "why_ko": "Thank you 뒤에 무엇이 고마운지는 for 로 이어지고, for 뒤에는 coming 처럼 -ing 꼴이 옵니다.",
+  "timecode": "05:26",
+  "example_en": "Thank you for coming all the way from Busan.",
+  "example_ko": "부산에서 멀리까지 와 주셔서 고마워요.",
+  "cloze_en": "Thank you ___ coming all the way from Busan.",
+  "cloze_answer": "for",
+  "cloze_wrong": [
+   "to",
+   "of",
+   "about"
+  ],
+  "kind": "expr",
+  "date": "2026-09-17",
+  "vid": "WT5m3dvSlzE"
+ },
+ {
+  "en": "gift",
+  "ko": "선물",
+  "pos": "명사",
+  "why_ko": "비슷한 말로 present 가 있지만 gift 가 더 넓게 쓰이고 가게·행사에서도 자주 보입니다.",
+  "timecode": "01:36",
+  "example_en": "This gift is for you.",
+  "example_ko": "이 선물은 당신 거예요.",
+  "kind": "word",
+  "date": "2026-09-17",
+  "vid": "WT5m3dvSlzE"
+ },
+ {
+  "en": "money",
+  "ko": "돈",
+  "pos": "명사",
+  "why_ko": "cash 는 현금 자체를 가리키고, money 는 돈 전반을 말할 때 씁니다.",
+  "timecode": "02:04",
+  "example_en": "I don't have much money.",
+  "example_ko": "돈이 별로 없어요.",
+  "kind": "word",
+  "date": "2026-09-17",
+  "vid": "WT5m3dvSlzE"
+ },
+ {
+  "en": "dress",
+  "ko": "드레스, 원피스",
+  "pos": "명사",
+  "why_ko": "clothes 는 옷 전체를 말하고 dress 는 한 벌짜리 여성복을 가리킵니다.",
+  "timecode": "02:54",
+  "example_en": "I wore a white dress.",
+  "example_ko": "흰 드레스를 입었어요.",
+  "kind": "word",
+  "date": "2026-09-17",
+  "vid": "WT5m3dvSlzE"
+ },
+ {
+  "en": "family",
+  "ko": "가족",
+  "pos": "명사",
+  "why_ko": "parents 는 부모만 말하고 family 는 가족 전체를 말합니다.",
+  "timecode": "00:56",
+  "example_en": "My family lives in Korea.",
+  "example_ko": "우리 가족은 한국에 살아요.",
+  "kind": "word",
+  "date": "2026-09-17",
+  "vid": "WT5m3dvSlzE"
+ },
+ {
+  "en": "friend",
+  "ko": "친구",
+  "pos": "명사",
+  "why_ko": "한 명이면 friend, 여러 명이면 friends 로 s 를 붙입니다.",
+  "timecode": "03:01",
+  "example_en": "My friend took the photos.",
+  "example_ko": "친구가 사진을 찍었어요.",
+  "kind": "word",
+  "date": "2026-09-17",
+  "vid": "WT5m3dvSlzE"
+ },
+ {
+  "en": "cry",
+  "ko": "울다",
+  "pos": "동사",
+  "why_ko": "tear 는 눈물 한 방울을 가리키는 말이고, 우는 행동은 cry 로 말합니다.",
+  "timecode": "08:13",
+  "example_en": "Please don't cry.",
+  "example_ko": "울지 마세요.",
+  "kind": "word",
+  "date": "2026-09-17",
+  "vid": "WT5m3dvSlzE"
+ },
+ {
+  "en": "walk",
+  "ko": "걷다",
+  "pos": "동사",
+  "why_ko": "go 는 그냥 간다는 말이고, 걸어서 간다는 것을 콕 집을 때 walk 를 씁니다.",
+  "timecode": "07:00",
+  "example_en": "Let's walk to the station.",
+  "example_ko": "역까지 걸어가요.",
+  "kind": "word",
+  "date": "2026-09-17",
+  "vid": "WT5m3dvSlzE"
+ },
+ {
+  "en": "send",
+  "ko": "보내다",
+  "pos": "동사",
+  "why_ko": "give 는 손으로 건네는 것이고, 멀리 부치는 것은 send 입니다.",
+  "timecode": "02:14",
+  "example_en": "I will send you a message.",
+  "example_ko": "메시지 보낼게요.",
+  "kind": "word",
+  "date": "2026-09-17",
+  "vid": "WT5m3dvSlzE"
+ },
+ {
+  "en": "excited",
+  "ko": "신나는, 설레는",
+  "pos": "형용사",
+  "why_ko": "happy 는 그냥 기쁜 것이고, excited 는 앞으로의 일에 들뜬 느낌입니다.",
+  "timecode": "03:57",
+  "example_en": "I'm so excited about the trip.",
+  "example_ko": "여행이 너무 기대돼요.",
+  "kind": "word",
+  "date": "2026-09-17",
+  "vid": "WT5m3dvSlzE"
+ },
+ {
+  "en": "weird",
+  "ko": "이상한",
+  "pos": "형용사",
+  "why_ko": "different 는 그냥 다른 것이고, weird 는 어색하고 낯설다는 느낌입니다.",
+  "timecode": "08:36",
+  "example_en": "That sounds a little weird.",
+  "example_ko": "그건 좀 이상하게 들려요.",
+  "kind": "word",
+  "date": "2026-09-17",
+  "vid": "WT5m3dvSlzE"
  }
 ]
