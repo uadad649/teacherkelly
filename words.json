@@ -3386,5 +3386,277 @@
   "kind": "word",
   "date": "2026-09-17",
   "vid": "WT5m3dvSlzE"
+ },
+ {
+  "en": "It's not my cup of tea.",
+  "ko": "제 취향은 아니에요.",
+  "when_ko": "권해준 음식이나 영화가 별로일 때 기분 상하지 않게 말할 때",
+  "why_ko": "tea 가 아니라 취향을 말하는 통짜 표현이라 cup of tea 를 그대로 붙여 씁니다.",
+  "timecode": "19:35",
+  "example_en": "Thanks, but it's not my cup of tea.",
+  "example_ko": "고맙지만 제 취향은 아니에요.",
+  "cloze_en": "Thanks, but it's not my ___ of tea.",
+  "cloze_answer": "cup",
+  "cloze_wrong": [
+   "glass",
+   "bowl",
+   "kind"
+  ],
+  "kind": "expr",
+  "date": "2026-09-20",
+  "vid": "QhzVNCfmTrQ"
+ },
+ {
+  "en": "It's not for me.",
+  "ko": "저랑은 안 맞아요.",
+  "when_ko": "음식이 맛없다고 직접 말하기 싫을 때 부드럽게 말할 때",
+  "why_ko": "bad 라고 하면 음식을 깎는 말이 되고, for me 를 붙이면 내 입에만 안 맞는다는 말이 됩니다.",
+  "timecode": "19:35",
+  "example_en": "Sorry, this one is not for me.",
+  "example_ko": "미안해요, 이건 저랑 안 맞아요.",
+  "cloze_en": "Sorry, this one is not ___ me.",
+  "cloze_answer": "for",
+  "cloze_wrong": [
+   "to",
+   "with",
+   "at"
+  ],
+  "kind": "expr",
+  "date": "2026-09-20",
+  "vid": "QhzVNCfmTrQ"
+ },
+ {
+  "en": "It tastes good.",
+  "ko": "맛있어요.",
+  "when_ko": "한 입 먹고 바로 맛 감상을 말할 때",
+  "why_ko": "taste 뒤에는 good 이 오고 well 은 오지 않습니다.",
+  "timecode": "14:29",
+  "example_en": "Wow, this soup tastes good.",
+  "example_ko": "와, 이 국 맛있네요.",
+  "cloze_en": "Wow, this soup ___ good.",
+  "cloze_answer": "tastes",
+  "cloze_wrong": [
+   "taste",
+   "tasting",
+   "tasted"
+  ],
+  "kind": "expr",
+  "date": "2026-09-20",
+  "vid": "QhzVNCfmTrQ"
+ },
+ {
+  "en": "Let's just go for it.",
+  "ko": "그냥 한번 해보죠.",
+  "when_ko": "망설이다가 결심하고 시작할 때",
+  "why_ko": "go 만 쓰면 '가자'가 되고, for it 을 붙여야 '한번 해보자'가 됩니다.",
+  "timecode": "04:45",
+  "example_en": "I'm nervous, but let's just go for it.",
+  "example_ko": "긴장되지만 그냥 한번 해보죠.",
+  "cloze_en": "I'm nervous, but let's just go ___ it.",
+  "cloze_answer": "for",
+  "cloze_wrong": [
+   "to",
+   "on",
+   "with"
+  ],
+  "kind": "expr",
+  "date": "2026-09-20",
+  "vid": "QhzVNCfmTrQ"
+ },
+ {
+  "en": "I've never tried this before.",
+  "ko": "이거 한 번도 안 먹어봤어요.",
+  "when_ko": "처음 보는 음식을 앞에 두고 말할 때",
+  "why_ko": "tried 는 '한 번 먹어본 적' 을 말할 때 쓰고, ate 는 어제 먹은 일처럼 끝난 일에 씁니다.",
+  "timecode": "00:45",
+  "example_en": "I've never tried this before, but it looks good.",
+  "example_ko": "이거 처음 먹어보는데 맛있어 보이네요.",
+  "cloze_en": "I've never ___ this before, but it looks good.",
+  "cloze_answer": "tried",
+  "cloze_wrong": [
+   "try",
+   "trying",
+   "tries"
+  ],
+  "kind": "expr",
+  "date": "2026-09-20",
+  "vid": "QhzVNCfmTrQ"
+ },
+ {
+  "en": "It looks a bit spicy.",
+  "ko": "좀 매워 보이네요.",
+  "when_ko": "음식이 나왔을 때 겉모습 보고 말할 때",
+  "why_ko": "먹어보기 전 눈으로 본 것은 looks 로 말하고, 먹은 뒤는 tastes 로 말합니다.",
+  "timecode": "04:45",
+  "example_en": "It looks a bit spicy for me.",
+  "example_ko": "저한테는 좀 매워 보여요.",
+  "cloze_en": "It ___ a bit spicy for me.",
+  "cloze_answer": "looks",
+  "cloze_wrong": [
+   "tastes",
+   "smells",
+   "feels"
+  ],
+  "kind": "expr",
+  "date": "2026-09-20",
+  "vid": "QhzVNCfmTrQ"
+ },
+ {
+  "en": "It smells so good.",
+  "ko": "냄새가 너무 좋아요.",
+  "when_ko": "음식이 나왔을 때 냄새를 말할 때",
+  "why_ko": "smells 다음에 good 을 바로 붙입니다. smells like 는 '무엇 같은 냄새' 를 말할 때 씁니다.",
+  "timecode": "09:22",
+  "example_en": "This soup smells so good.",
+  "example_ko": "이 국 냄새가 너무 좋아요.",
+  "cloze_en": "This soup ___ so good.",
+  "cloze_answer": "smells",
+  "cloze_wrong": [
+   "smell",
+   "smelling",
+   "smelled"
+  ],
+  "kind": "expr",
+  "date": "2026-09-20",
+  "vid": "QhzVNCfmTrQ"
+ },
+ {
+  "en": "Can I get a smaller one?",
+  "ko": "더 작은 걸로 주실 수 있어요?",
+  "when_ko": "가게에서 양이나 크기를 바꿔 달라고 할 때",
+  "why_ko": "small 은 그냥 작은 것이고, smaller 는 지금 것보다 더 작은 것을 달라는 말입니다.",
+  "timecode": "18:15",
+  "example_en": "Can I get a smaller one, please?",
+  "example_ko": "더 작은 걸로 주실 수 있을까요?",
+  "cloze_en": "Can I get a ___ one, please?",
+  "cloze_answer": "smaller",
+  "cloze_wrong": [
+   "small",
+   "smallest",
+   "less"
+  ],
+  "kind": "expr",
+  "date": "2026-09-20",
+  "vid": "QhzVNCfmTrQ"
+ },
+ {
+  "en": "order",
+  "ko": "주문하다",
+  "pos": "동사",
+  "why_ko": "비슷한 말로 buy 가 있지만 order 는 식당에서 말로 시킬 때 씁니다.",
+  "timecode": "15:16",
+  "example_en": "Let's order now.",
+  "example_ko": "이제 주문하죠.",
+  "kind": "word",
+  "date": "2026-09-20",
+  "vid": "QhzVNCfmTrQ"
+ },
+ {
+  "en": "delicious",
+  "ko": "아주 맛있는",
+  "pos": "형용사",
+  "why_ko": "good 보다 센 말입니다. 아주 맛있을 때만 씁니다.",
+  "timecode": "10:12",
+  "example_en": "This is delicious.",
+  "example_ko": "이거 아주 맛있어요.",
+  "kind": "word",
+  "date": "2026-09-20",
+  "vid": "QhzVNCfmTrQ"
+ },
+ {
+  "en": "favorite",
+  "ko": "가장 좋아하는",
+  "pos": "형용사",
+  "why_ko": "like 는 좋아한다는 말이고 favorite 은 그중 하나만 고를 때 씁니다.",
+  "timecode": "08:55",
+  "example_en": "Cold noodles are my favorite.",
+  "example_ko": "냉면이 제일 좋아요.",
+  "kind": "word",
+  "date": "2026-09-20",
+  "vid": "QhzVNCfmTrQ"
+ },
+ {
+  "en": "scared",
+  "ko": "무서운",
+  "pos": "형용사",
+  "why_ko": "worried 는 걱정될 때, scared 는 무서울 때 씁니다.",
+  "timecode": "02:02",
+  "example_en": "I'm so scared.",
+  "example_ko": "너무 무서워요.",
+  "kind": "word",
+  "date": "2026-09-20",
+  "vid": "QhzVNCfmTrQ"
+ },
+ {
+  "en": "spicy",
+  "ko": "매운",
+  "pos": "형용사",
+  "why_ko": "hot 도 맵다는 뜻이지만 뜨겁다는 뜻도 돼서 헷갈립니다.",
+  "timecode": "13:39",
+  "example_en": "I like spicy food.",
+  "example_ko": "저는 매운 음식 좋아해요.",
+  "kind": "word",
+  "date": "2026-09-20",
+  "vid": "QhzVNCfmTrQ"
+ },
+ {
+  "en": "sauce",
+  "ko": "소스",
+  "pos": "명사",
+  "why_ko": "soup 은 마시는 국이고 sauce 는 찍어 먹는 것입니다.",
+  "timecode": "09:54",
+  "example_en": "Dip it in the sauce.",
+  "example_ko": "소스에 찍어 드세요.",
+  "kind": "word",
+  "date": "2026-09-20",
+  "vid": "QhzVNCfmTrQ"
+ },
+ {
+  "en": "side",
+  "ko": "곁들이 음식",
+  "pos": "명사",
+  "why_ko": "main 이 주요리이고 side 는 같이 나오는 반찬 쪽입니다.",
+  "timecode": "13:12",
+  "example_en": "I want a side, too.",
+  "example_ko": "곁들이 음식도 주세요.",
+  "kind": "word",
+  "date": "2026-09-20",
+  "vid": "QhzVNCfmTrQ"
+ },
+ {
+  "en": "cold",
+  "ko": "차가운",
+  "pos": "형용사",
+  "why_ko": "cool 은 시원한 정도이고 cold 는 확실히 찬 것입니다.",
+  "timecode": "08:53",
+  "example_en": "I want something cold.",
+  "example_ko": "차가운 걸 먹고 싶어요.",
+  "kind": "word",
+  "date": "2026-09-20",
+  "vid": "QhzVNCfmTrQ"
+ },
+ {
+  "en": "chew",
+  "ko": "씹다",
+  "pos": "동사",
+  "why_ko": "eat 은 먹는 것 전체이고 chew 는 입 안에서 씹는 동작입니다.",
+  "timecode": "02:36",
+  "example_en": "You have to chew a lot.",
+  "example_ko": "많이 씹어야 해요.",
+  "kind": "word",
+  "date": "2026-09-20",
+  "vid": "QhzVNCfmTrQ"
+ },
+ {
+  "en": "excited",
+  "ko": "신나는",
+  "pos": "형용사",
+  "why_ko": "happy 는 그냥 기쁜 것이고 excited 는 앞일이 기대돼 들뜬 것입니다.",
+  "timecode": "06:31",
+  "example_en": "I'm excited to try it.",
+  "example_ko": "먹어볼 게 기대돼요.",
+  "kind": "word",
+  "date": "2026-09-20",
+  "vid": "QhzVNCfmTrQ"
  }
 ]
