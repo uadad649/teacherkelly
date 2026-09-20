@@ -3658,5 +3658,277 @@
   "kind": "word",
   "date": "2026-09-20",
   "vid": "QhzVNCfmTrQ"
+ },
+ {
+  "en": "I couldn't understand at all.",
+  "ko": "저는 전혀 못 알아들었어요.",
+  "when_ko": "상대 말이 하나도 안 들렸을 때",
+  "why_ko": "at all 은 부정문 뒤에 붙어 '하나도'가 됩니다. 앞에 couldn't 가 있어야 짝이 맞습니다.",
+  "timecode": "00:04",
+  "example_en": "Sorry, I couldn't understand at all.",
+  "example_ko": "죄송해요, 전혀 못 알아들었어요.",
+  "cloze_en": "Sorry, I ___ understand at all.",
+  "cloze_answer": "couldn't",
+  "cloze_wrong": [
+   "don't",
+   "didn't",
+   "can"
+  ],
+  "kind": "expr",
+  "date": "2026-09-21",
+  "vid": "KE4PKeSNBSs"
+ },
+ {
+  "en": "Can you say that again?",
+  "ko": "다시 한 번 말해 줄래요?",
+  "when_ko": "못 알아들어서 다시 말해 달라고 할 때",
+  "why_ko": "again 은 문장 맨 뒤에 놓습니다. say 뒤에는 that 이 먼저 옵니다.",
+  "timecode": "00:04",
+  "example_en": "Sorry, can you say that again?",
+  "example_ko": "죄송한데, 다시 한 번 말해 줄래요?",
+  "cloze_en": "Sorry, can you ___ that again?",
+  "cloze_answer": "say",
+  "cloze_wrong": [
+   "tell",
+   "speak",
+   "talk"
+  ],
+  "kind": "expr",
+  "date": "2026-09-21",
+  "vid": "KE4PKeSNBSs"
+ },
+ {
+  "en": "I'm not ready yet.",
+  "ko": "저 아직 준비가 안 됐어요.",
+  "when_ko": "아직 준비가 덜 됐다고 말할 때",
+  "why_ko": "yet 은 '아직'이고 문장 끝에 붙습니다. still 을 쓰면 자리가 달라집니다.",
+  "timecode": "03:25",
+  "example_en": "Give me a minute, I'm not ready yet.",
+  "example_ko": "잠깐만요, 저 아직 준비가 안 됐어요.",
+  "cloze_en": "Give me a minute, I'm not ___ yet.",
+  "cloze_answer": "ready",
+  "cloze_wrong": [
+   "prepare",
+   "prepared",
+   "ready to"
+  ],
+  "kind": "expr",
+  "date": "2026-09-21",
+  "vid": "KE4PKeSNBSs"
+ },
+ {
+  "en": "Just go for it.",
+  "ko": "그냥 한번 해 봐요.",
+  "when_ko": "망설이는 사람에게 해 보라고 밀어줄 때",
+  "why_ko": "go 뒤에 for it 이 붙어야 '시도해 보다'가 됩니다. go it 은 쓰지 않습니다.",
+  "timecode": "03:43",
+  "example_en": "Don't think too much, just go for it.",
+  "example_ko": "너무 생각하지 말고 그냥 한번 해 봐요.",
+  "cloze_en": "Don't think too much, just go ___ it.",
+  "cloze_answer": "for",
+  "cloze_wrong": [
+   "to",
+   "on",
+   "at"
+  ],
+  "kind": "expr",
+  "date": "2026-09-21",
+  "vid": "KE4PKeSNBSs"
+ },
+ {
+  "en": "That's great advice.",
+  "ko": "정말 좋은 말이네요.",
+  "when_ko": "상대가 해 준 조언이 마음에 들었을 때",
+  "why_ko": "advice 앞에는 a 를 붙이지 않습니다. 하나 둘 세는 말이 아니라서 그렇습니다.",
+  "timecode": "03:32",
+  "example_en": "Thank you, that's great advice.",
+  "example_ko": "고마워요, 정말 좋은 말이네요.",
+  "cloze_en": "Thank you, that's great ___.",
+  "cloze_answer": "advice",
+  "cloze_wrong": [
+   "advise",
+   "an advice",
+   "advices"
+  ],
+  "kind": "expr",
+  "date": "2026-09-21",
+  "vid": "KE4PKeSNBSs"
+ },
+ {
+  "en": "I feel comfortable now.",
+  "ko": "이제 편해요.",
+  "when_ko": "처음엔 불편했는데 이제 익숙해졌다고 말할 때",
+  "why_ko": "feel 뒤에는 comfortable 처럼 상태를 나타내는 말이 그대로 옵니다.",
+  "timecode": "03:00",
+  "example_en": "It was hard at first, but I feel comfortable now.",
+  "example_ko": "처음엔 힘들었는데, 이제 편해요.",
+  "cloze_en": "It was hard at first, but I ___ comfortable now.",
+  "cloze_answer": "feel",
+  "cloze_wrong": [
+   "am feel",
+   "feeling",
+   "feels"
+  ],
+  "kind": "expr",
+  "date": "2026-09-21",
+  "vid": "KE4PKeSNBSs"
+ },
+ {
+  "en": "Can you help me out?",
+  "ko": "저 좀 도와줄래요?",
+  "when_ko": "가게나 길에서 도움을 청할 때",
+  "why_ko": "help me 뒤에 out 이 붙으면 '곤란한 걸 좀 해결해 달라'는 부탁이 됩니다.",
+  "timecode": "08:19",
+  "example_en": "Excuse me, can you help me out?",
+  "example_ko": "실례합니다, 저 좀 도와줄래요?",
+  "cloze_en": "Excuse me, can you help me ___?",
+  "cloze_answer": "out",
+  "cloze_wrong": [
+   "up",
+   "in",
+   "on"
+  ],
+  "kind": "expr",
+  "date": "2026-09-21",
+  "vid": "KE4PKeSNBSs"
+ },
+ {
+  "en": "Thank you for having me.",
+  "ko": "초대해 주셔서 감사합니다.",
+  "when_ko": "누가 나를 불러 주거나 집에 초대했을 때 인사로",
+  "why_ko": "for 뒤에는 having 처럼 -ing 꼴이 옵니다. 통째로 외워 쓰는 인사말입니다.",
+  "timecode": "11:45",
+  "example_en": "It was a great night. Thank you for having me.",
+  "example_ko": "정말 좋은 저녁이었어요. 초대해 주셔서 감사합니다.",
+  "cloze_en": "It was a great night. Thank you for ___ me.",
+  "cloze_answer": "having",
+  "cloze_wrong": [
+   "have",
+   "has",
+   "to have"
+  ],
+  "kind": "expr",
+  "date": "2026-09-21",
+  "vid": "KE4PKeSNBSs"
+ },
+ {
+  "en": "job",
+  "ko": "일, 직장",
+  "pos": "명사",
+  "why_ko": "work 는 일하는 행동 전체를 말하고, job 은 내가 가진 자리 하나를 말합니다.",
+  "timecode": "01:32",
+  "example_en": "I like my new job.",
+  "example_ko": "저는 새 직장이 좋아요.",
+  "kind": "word",
+  "date": "2026-09-21",
+  "vid": "KE4PKeSNBSs"
+ },
+ {
+  "en": "quit",
+  "ko": "그만두다",
+  "pos": "동사",
+  "why_ko": "stop 은 잠깐 멈추는 것이고, quit 은 아예 그만두는 것입니다.",
+  "timecode": "01:49",
+  "example_en": "He quit his job last year.",
+  "example_ko": "그는 작년에 일을 그만뒀어요.",
+  "kind": "word",
+  "date": "2026-09-21",
+  "vid": "KE4PKeSNBSs"
+ },
+ {
+  "en": "listen",
+  "ko": "듣다, 귀 기울이다",
+  "pos": "동사",
+  "why_ko": "hear 는 그냥 들리는 것이고, listen 은 귀를 기울이는 것입니다.",
+  "timecode": "03:56",
+  "example_en": "Please listen to me.",
+  "example_ko": "제 말 좀 들어 주세요.",
+  "kind": "word",
+  "date": "2026-09-21",
+  "vid": "KE4PKeSNBSs"
+ },
+ {
+  "en": "try",
+  "ko": "해 보다",
+  "pos": "동사",
+  "why_ko": "do 는 그냥 하는 것이고, try 는 될지 모르지만 해 보는 것입니다.",
+  "timecode": "03:41",
+  "example_en": "I want to try it.",
+  "example_ko": "저 그거 해 보고 싶어요.",
+  "kind": "word",
+  "date": "2026-09-21",
+  "vid": "KE4PKeSNBSs"
+ },
+ {
+  "en": "learn",
+  "ko": "배우다",
+  "pos": "동사",
+  "why_ko": "study 는 앉아서 공부하는 것이고, learn 은 실제로 익히게 되는 것입니다.",
+  "timecode": "05:12",
+  "example_en": "I want to learn English.",
+  "example_ko": "저는 영어를 배우고 싶어요.",
+  "kind": "word",
+  "date": "2026-09-21",
+  "vid": "KE4PKeSNBSs"
+ },
+ {
+  "en": "proud",
+  "ko": "자랑스러운",
+  "pos": "형용사",
+  "why_ko": "happy 는 그냥 기쁜 것이고, proud 는 잘 해내서 뿌듯한 것입니다.",
+  "timecode": "09:14",
+  "example_en": "I'm proud of my son.",
+  "example_ko": "저는 제 아들이 자랑스러워요.",
+  "kind": "word",
+  "date": "2026-09-21",
+  "vid": "KE4PKeSNBSs"
+ },
+ {
+  "en": "scared",
+  "ko": "무서운, 겁나는",
+  "pos": "형용사",
+  "why_ko": "scary 는 무섭게 만드는 것이고, scared 는 내가 무서워하는 것입니다.",
+  "timecode": "03:36",
+  "example_en": "I was a little scared.",
+  "example_ko": "저 좀 무서웠어요.",
+  "kind": "word",
+  "date": "2026-09-21",
+  "vid": "KE4PKeSNBSs"
+ },
+ {
+  "en": "advice",
+  "ko": "조언",
+  "pos": "명사",
+  "why_ko": "advise 는 조언해 주는 동작이고, advice 는 그 말 자체입니다.",
+  "timecode": "01:48",
+  "example_en": "I need your advice.",
+  "example_ko": "당신 조언이 필요해요.",
+  "kind": "word",
+  "date": "2026-09-21",
+  "vid": "KE4PKeSNBSs"
+ },
+ {
+  "en": "gift",
+  "ko": "선물",
+  "pos": "명사",
+  "why_ko": "present 도 선물이지만, gift 가 더 넓게 쓰입니다.",
+  "timecode": "00:13",
+  "example_en": "This is a gift for you.",
+  "example_ko": "이거 당신 선물이에요.",
+  "kind": "word",
+  "date": "2026-09-21",
+  "vid": "KE4PKeSNBSs"
+ },
+ {
+  "en": "free",
+  "ko": "공짜의",
+  "pos": "형용사",
+  "why_ko": "cheap 은 싼 것이고, free 는 돈을 아예 안 내는 것입니다.",
+  "timecode": "11:30",
+  "example_en": "Is the coffee free?",
+  "example_ko": "커피 공짜인가요?",
+  "kind": "word",
+  "date": "2026-09-21",
+  "vid": "KE4PKeSNBSs"
  }
 ]
