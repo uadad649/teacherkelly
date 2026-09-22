@@ -3930,5 +3930,277 @@
   "kind": "word",
   "date": "2026-09-21",
   "vid": "KE4PKeSNBSs"
+ },
+ {
+  "en": "I'll do an iced americano",
+  "ko": "아이스 아메리카노로 할게요",
+  "when_ko": "카페에서 주문할 때 '이걸로 할게요'라고 말할 때",
+  "why_ko": "주문할 때는 I want 보다 I'll do 를 더 많이 씁니다. 지금 이 자리에서 정하는 말이라 I will 입니다.",
+  "timecode": "02:10",
+  "example_en": "I'll do an iced americano, please.",
+  "example_ko": "아이스 아메리카노로 할게요.",
+  "cloze_en": "I'll ___ an iced americano, please.",
+  "cloze_answer": "do",
+  "cloze_wrong": [
+   "make",
+   "take",
+   "give"
+  ],
+  "kind": "expr",
+  "date": "2026-09-22",
+  "vid": "P3Iztr6Dg64"
+ },
+ {
+  "en": "I'll do a large",
+  "ko": "큰 사이즈로 할게요",
+  "when_ko": "직원이 사이즈를 물어봤을 때 대답으로",
+  "why_ko": "large 앞에 a 가 붙어야 '큰 거 하나'가 됩니다. a 없이 쓰면 말이 끊긴 느낌입니다.",
+  "timecode": "02:21",
+  "example_en": "I'll do a large, please.",
+  "example_ko": "큰 걸로 할게요.",
+  "cloze_en": "I'll do a ___, please.",
+  "cloze_answer": "large",
+  "cloze_wrong": [
+   "big",
+   "long",
+   "tall"
+  ],
+  "kind": "expr",
+  "date": "2026-09-22",
+  "vid": "P3Iztr6Dg64"
+ },
+ {
+  "en": "Let's grab a drink",
+  "ko": "한잔하러 가자",
+  "when_ko": "퇴근하고 친구나 동료에게 가볍게 한잔하자고 할 때",
+  "why_ko": "grab 은 '잡다'지만 먹고 마시는 말 앞에서는 '가볍게 하러 가다'가 됩니다. drink 앞의 a 를 빼먹기 쉽습니다.",
+  "timecode": "02:26",
+  "example_en": "Let's grab a drink after work.",
+  "example_ko": "퇴근하고 한잔하러 가자.",
+  "cloze_en": "Let's ___ a drink after work.",
+  "cloze_answer": "grab",
+  "cloze_wrong": [
+   "catch",
+   "hold",
+   "bring"
+  ],
+  "kind": "expr",
+  "date": "2026-09-22",
+  "vid": "P3Iztr6Dg64"
+ },
+ {
+  "en": "Let's grab some coffee",
+  "ko": "커피 한잔하러 가자",
+  "when_ko": "동료에게 잠깐 커피 마시러 가자고 할 때",
+  "why_ko": "coffee 는 잔으로 세지 않아서 a 대신 some 을 씁니다.",
+  "timecode": "02:26",
+  "example_en": "Let's grab some coffee before the meeting.",
+  "example_ko": "회의 전에 커피 한잔하러 가자.",
+  "cloze_en": "Let's grab ___ coffee before the meeting.",
+  "cloze_answer": "some",
+  "cloze_wrong": [
+   "a",
+   "one",
+   "any"
+  ],
+  "kind": "expr",
+  "date": "2026-09-22",
+  "vid": "P3Iztr6Dg64"
+ },
+ {
+  "en": "Let's grab lunch",
+  "ko": "점심 먹으러 가자",
+  "when_ko": "점심시간에 같이 먹으러 가자고 할 때",
+  "why_ko": "lunch 앞에는 a 도 the 도 붙이지 않습니다. 끼니 이름은 그냥 씁니다.",
+  "timecode": "02:28",
+  "example_en": "Let's grab lunch around noon.",
+  "example_ko": "열두 시쯤 점심 먹으러 가자.",
+  "cloze_en": "Let's grab ___ around noon.",
+  "cloze_answer": "lunch",
+  "cloze_wrong": [
+   "a lunch",
+   "the lunch",
+   "lunches"
+  ],
+  "kind": "expr",
+  "date": "2026-09-22",
+  "vid": "P3Iztr6Dg64"
+ },
+ {
+  "en": "I'm about to grab lunch",
+  "ko": "지금 점심 먹으러 가려던 참이야",
+  "when_ko": "누가 찾아왔을 때 '막 나가려던 참'이라고 말할 때",
+  "why_ko": "about to 는 '1분 뒤에 할 일'입니다. 내일 할 일에는 쓰지 않습니다.",
+  "timecode": "02:29",
+  "example_en": "I'm about to grab lunch with my family.",
+  "example_ko": "가족이랑 점심 먹으러 가려던 참이야.",
+  "cloze_en": "I'm ___ to grab lunch with my family.",
+  "cloze_answer": "about",
+  "cloze_wrong": [
+   "going",
+   "ready",
+   "able"
+  ],
+  "kind": "expr",
+  "date": "2026-09-22",
+  "vid": "P3Iztr6Dg64"
+ },
+ {
+  "en": "Let's go grab a cup of coffee",
+  "ko": "커피 한잔하러 가자",
+  "when_ko": "자리에서 일어나 밖으로 나가서 커피 마시자고 할 때",
+  "why_ko": "go 와 grab 사이에 to 를 넣지 않습니다. 말할 때는 두 개를 붙여서 씁니다.",
+  "timecode": "02:33",
+  "example_en": "Let's go grab a cup of coffee outside.",
+  "example_ko": "밖에 나가서 커피 한잔하자.",
+  "cloze_en": "Let's go ___ a cup of coffee outside.",
+  "cloze_answer": "grab",
+  "cloze_wrong": [
+   "drink",
+   "take",
+   "make"
+  ],
+  "kind": "expr",
+  "date": "2026-09-22",
+  "vid": "P3Iztr6Dg64"
+ },
+ {
+  "en": "They know all the words",
+  "ko": "그 사람들은 단어를 다 알아요",
+  "when_ko": "누가 아는 건 많은데 말은 못 한다고 얘기할 때",
+  "why_ko": "know 는 '알고 있는 상태'라 I'm knowing 처럼 쓰지 않습니다. all 은 the 앞에 옵니다.",
+  "timecode": "03:05",
+  "example_en": "They know all the words, but they don't speak.",
+  "example_ko": "단어는 다 아는데 말을 안 해요.",
+  "cloze_en": "They ___ all the words, but they don't speak.",
+  "cloze_answer": "know",
+  "cloze_wrong": [
+   "knows",
+   "knowing",
+   "knew"
+  ],
+  "kind": "expr",
+  "date": "2026-09-22",
+  "vid": "P3Iztr6Dg64"
+ },
+ {
+  "en": "drink",
+  "ko": "음료, 마시다",
+  "pos": "명사",
+  "why_ko": "beverage 라는 말도 있지만 그건 메뉴판에 쓰는 말이고, 말할 때는 drink 를 씁니다.",
+  "timecode": "02:26",
+  "example_en": "I want a cold drink.",
+  "example_ko": "찬 음료 마시고 싶어요.",
+  "kind": "word",
+  "date": "2026-09-22",
+  "vid": "P3Iztr6Dg64"
+ },
+ {
+  "en": "coffee",
+  "ko": "커피",
+  "pos": "명사",
+  "why_ko": "한 잔을 말할 때는 a coffee 보다 a cup of coffee 가 더 자연스럽습니다.",
+  "timecode": "02:27",
+  "example_en": "This coffee is too hot.",
+  "example_ko": "이 커피 너무 뜨거워요.",
+  "kind": "word",
+  "date": "2026-09-22",
+  "vid": "P3Iztr6Dg64"
+ },
+ {
+  "en": "large",
+  "ko": "큰, 라지 사이즈",
+  "pos": "형용사",
+  "why_ko": "big 도 '큰'이지만, 가게에서 사이즈를 말할 때는 large 를 씁니다.",
+  "timecode": "02:21",
+  "example_en": "Can I get a large size?",
+  "example_ko": "큰 사이즈로 주실래요?",
+  "kind": "word",
+  "date": "2026-09-22",
+  "vid": "P3Iztr6Dg64"
+ },
+ {
+  "en": "smart",
+  "ko": "똑똑한",
+  "pos": "형용사",
+  "why_ko": "clever 와 비슷하지만 smart 가 일상에서 훨씬 자주 나옵니다.",
+  "timecode": "03:05",
+  "example_en": "My sister is really smart.",
+  "example_ko": "우리 누나는 정말 똑똑해요.",
+  "kind": "word",
+  "date": "2026-09-22",
+  "vid": "P3Iztr6Dg64"
+ },
+ {
+  "en": "word",
+  "ko": "단어, 말",
+  "pos": "명사",
+  "why_ko": "sentence 는 문장 하나 전체이고, word 는 낱말 하나입니다.",
+  "timecode": "03:05",
+  "example_en": "I don't know this word.",
+  "example_ko": "이 단어 몰라요.",
+  "kind": "word",
+  "date": "2026-09-22",
+  "vid": "P3Iztr6Dg64"
+ },
+ {
+  "en": "use",
+  "ko": "쓰다, 사용하다",
+  "pos": "동사",
+  "why_ko": "'다 써버리다'가 아니라 그냥 '쓰다'입니다. 물건에도 말에도 씁니다.",
+  "timecode": "03:13",
+  "example_en": "I use English every day.",
+  "example_ko": "저는 매일 영어를 씁니다.",
+  "kind": "word",
+  "date": "2026-09-22",
+  "vid": "P3Iztr6Dg64"
+ },
+ {
+  "en": "learning",
+  "ko": "배우는 것, 학습",
+  "pos": "명사",
+  "why_ko": "study 는 책상에 앉아 공부하는 것이고, learning 은 배워서 몸에 남는 것입니다.",
+  "timecode": "03:59",
+  "example_en": "Learning a language takes time.",
+  "example_ko": "언어를 배우는 건 시간이 걸려요.",
+  "kind": "word",
+  "date": "2026-09-22",
+  "vid": "P3Iztr6Dg64"
+ },
+ {
+  "en": "native",
+  "ko": "그 나라 사람인, 모국어의",
+  "pos": "형용사",
+  "why_ko": "보통 뒤에 speaker 를 붙여 native speaker 로 씁니다.",
+  "timecode": "04:02",
+  "example_en": "He is a native speaker.",
+  "example_ko": "그 사람은 원어민이에요.",
+  "kind": "word",
+  "date": "2026-09-22",
+  "vid": "P3Iztr6Dg64"
+ },
+ {
+  "en": "fun",
+  "ko": "재미있는",
+  "pos": "형용사",
+  "why_ko": "funny 는 웃긴 것이고, fun 은 하면 즐거운 것입니다.",
+  "timecode": "06:09",
+  "example_en": "We had a fun night.",
+  "example_ko": "우리 즐거운 밤을 보냈어요.",
+  "kind": "word",
+  "date": "2026-09-22",
+  "vid": "P3Iztr6Dg64"
+ },
+ {
+  "en": "kid",
+  "ko": "아이",
+  "pos": "명사",
+  "why_ko": "child 와 같은 뜻이지만 kid 가 훨씬 편한 말투입니다.",
+  "timecode": "06:11",
+  "example_en": "My kids love this song.",
+  "example_ko": "우리 애들이 이 노래 좋아해요.",
+  "kind": "word",
+  "date": "2026-09-22",
+  "vid": "P3Iztr6Dg64"
  }
 ]
