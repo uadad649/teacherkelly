@@ -4202,5 +4202,277 @@
   "kind": "word",
   "date": "2026-09-22",
   "vid": "P3Iztr6Dg64"
+ },
+ {
+  "en": "Can I have a minute, please?",
+  "ko": "잠깐만 시간 좀 주시겠어요?",
+  "when_ko": "주문할 때 아직 못 정해서 시간이 더 필요할 때",
+  "why_ko": "a minute 은 '잠깐'이라는 뜻의 덩어리입니다. minute 앞의 a 를 빼면 말이 되지 않습니다.",
+  "timecode": "05:16",
+  "example_en": "Can I have a minute, please? I'm still deciding.",
+  "example_ko": "잠깐만 시간 좀 주시겠어요? 아직 고르는 중이에요.",
+  "cloze_en": "Can I ___ a minute, please?",
+  "cloze_answer": "have",
+  "cloze_wrong": [
+   "do",
+   "take",
+   "get"
+  ],
+  "kind": "expr",
+  "date": "2026-09-23",
+  "vid": "2xHcrf0w0pQ"
+ },
+ {
+  "en": "Sorry, what was that?",
+  "ko": "죄송해요, 뭐라고 하셨어요?",
+  "when_ko": "상대 말이 안 들려서 다시 말해 달라고 할 때",
+  "why_ko": "방금 지나간 말을 가리키므로 that 과 was 를 씁니다. what is that 은 물건을 가리키는 말이 됩니다.",
+  "timecode": "05:07",
+  "example_en": "Sorry, what was that? I didn't hear you.",
+  "example_ko": "죄송해요, 뭐라고 하셨어요? 못 들었어요.",
+  "cloze_en": "Sorry, what ___ that?",
+  "cloze_answer": "was",
+  "cloze_wrong": [
+   "is",
+   "did",
+   "does"
+  ],
+  "kind": "expr",
+  "date": "2026-09-23",
+  "vid": "2xHcrf0w0pQ"
+ },
+ {
+  "en": "No, I'm all set.",
+  "ko": "아니요, 다 됐어요.",
+  "when_ko": "가게에서 더 필요한 게 없냐고 물을 때 거절하며 마무리할 때",
+  "why_ko": "all set 은 '준비 끝, 더 필요 없음'이라는 한 덩어리입니다. set 하나만 쓰면 뜻이 안 삽니다.",
+  "timecode": "05:45",
+  "example_en": "No, I'm all set. Thank you.",
+  "example_ko": "아니요, 다 됐어요. 감사합니다.",
+  "cloze_en": "No, I'm ___ set.",
+  "cloze_answer": "all",
+  "cloze_wrong": [
+   "very",
+   "so",
+   "too"
+  ],
+  "kind": "expr",
+  "date": "2026-09-23",
+  "vid": "2xHcrf0w0pQ"
+ },
+ {
+  "en": "Can you hear me?",
+  "ko": "제 말 들리세요?",
+  "when_ko": "전화나 영상통화에서 소리가 잘 안 갈 때",
+  "why_ko": "hear 는 소리가 들리는 것이고 listen 은 귀 기울여 듣는 것입니다. 통화에서는 hear 를 씁니다.",
+  "timecode": "05:26",
+  "example_en": "Can you hear me? The line is bad.",
+  "example_ko": "제 말 들리세요? 연결이 안 좋네요.",
+  "cloze_en": "Can you ___ me?",
+  "cloze_answer": "hear",
+  "cloze_wrong": [
+   "listen",
+   "sound",
+   "talk"
+  ],
+  "kind": "expr",
+  "date": "2026-09-23",
+  "vid": "2xHcrf0w0pQ"
+ },
+ {
+  "en": "You're breaking up.",
+  "ko": "소리가 끊겨요.",
+  "when_ko": "통화 중에 상대 목소리가 뚝뚝 끊길 때",
+  "why_ko": "break up 은 소리가 조각조각 끊기는 것을 말합니다. 지금 일어나는 일이라 are breaking 꼴을 씁니다.",
+  "timecode": "04:25",
+  "example_en": "You're breaking up. Can you call me back?",
+  "example_ko": "소리가 끊겨요. 다시 걸어 주실래요?",
+  "cloze_en": "You're ___ up.",
+  "cloze_answer": "breaking",
+  "cloze_wrong": [
+   "break",
+   "broke",
+   "broken"
+  ],
+  "kind": "expr",
+  "date": "2026-09-23",
+  "vid": "2xHcrf0w0pQ"
+ },
+ {
+  "en": "I'll let you go.",
+  "ko": "이만 끊을게요.",
+  "when_ko": "전화를 부드럽게 마무리하고 싶을 때",
+  "why_ko": "'내가 끊는다'가 아니라 '상대를 보내 준다'는 말이라 let you go 를 씁니다.",
+  "timecode": "04:34",
+  "example_en": "Okay, I'll let you go. Talk to you soon.",
+  "example_ko": "네, 이만 끊을게요. 곧 또 통화해요.",
+  "cloze_en": "Okay, I'll ___ you go.",
+  "cloze_answer": "let",
+  "cloze_wrong": [
+   "make",
+   "have",
+   "get"
+  ],
+  "kind": "expr",
+  "date": "2026-09-23",
+  "vid": "2xHcrf0w0pQ"
+ },
+ {
+  "en": "What's the plan for tomorrow?",
+  "ko": "내일 계획이 뭐예요?",
+  "when_ko": "친구나 가족에게 내일 뭐 할지 물을 때",
+  "why_ko": "정해진 그 계획을 묻는 것이라 the plan 입니다. for 뒤에 날짜나 때가 옵니다.",
+  "timecode": "03:56",
+  "example_en": "What's the plan for tomorrow? I'm free all day.",
+  "example_ko": "내일 계획이 뭐예요? 저는 하루 종일 한가해요.",
+  "cloze_en": "What's the plan ___ tomorrow?",
+  "cloze_answer": "for",
+  "cloze_wrong": [
+   "to",
+   "at",
+   "on"
+  ],
+  "kind": "expr",
+  "date": "2026-09-23",
+  "vid": "2xHcrf0w0pQ"
+ },
+ {
+  "en": "Sorry, what do you have?",
+  "ko": "죄송한데, 뭐가 있어요?",
+  "when_ko": "가게나 식당에서 어떤 종류가 있는지 물을 때",
+  "why_ko": "메뉴에 있는 것을 묻는 말이라 have 를 씁니다. what do you sell 은 가게 전체를 묻는 느낌입니다.",
+  "timecode": "05:36",
+  "example_en": "Sorry, what do you have? I can't see the menu.",
+  "example_ko": "죄송한데, 뭐가 있어요? 메뉴가 안 보여서요.",
+  "cloze_en": "Sorry, what ___ you have?",
+  "cloze_answer": "do",
+  "cloze_wrong": [
+   "did",
+   "are",
+   "have"
+  ],
+  "kind": "expr",
+  "date": "2026-09-23",
+  "vid": "2xHcrf0w0pQ"
+ },
+ {
+  "en": "nervous",
+  "ko": "긴장한",
+  "pos": "형용사",
+  "why_ko": "worried 는 걱정되는 것이고 nervous 는 떨리고 긴장되는 느낌입니다.",
+  "timecode": "05:00",
+  "example_en": "I'm a little nervous today.",
+  "example_ko": "오늘 조금 긴장돼요.",
+  "kind": "word",
+  "date": "2026-09-23",
+  "vid": "2xHcrf0w0pQ"
+ },
+ {
+  "en": "order",
+  "ko": "주문하다",
+  "pos": "동사",
+  "why_ko": "buy 는 그냥 사는 것이고, order 는 식당이나 가게에서 말로 주문하는 것입니다.",
+  "timecode": "05:01",
+  "example_en": "I want to order now.",
+  "example_ko": "지금 주문할게요.",
+  "kind": "word",
+  "date": "2026-09-23",
+  "vid": "2xHcrf0w0pQ"
+ },
+ {
+  "en": "groceries",
+  "ko": "장 본 식료품",
+  "pos": "명사",
+  "why_ko": "food 는 음식 전체를 말하고, groceries 는 마트에서 산 것들을 말합니다.",
+  "timecode": "03:24",
+  "example_en": "I bought a lot of groceries.",
+  "example_ko": "식료품을 많이 샀어요.",
+  "kind": "word",
+  "date": "2026-09-23",
+  "vid": "2xHcrf0w0pQ"
+ },
+ {
+  "en": "freezer",
+  "ko": "냉동실",
+  "pos": "명사",
+  "why_ko": "fridge 는 냉장실이고 freezer 는 얼리는 칸입니다.",
+  "timecode": "02:51",
+  "example_en": "The ice cream is in the freezer.",
+  "example_ko": "아이스크림은 냉동실에 있어요.",
+  "kind": "word",
+  "date": "2026-09-23",
+  "vid": "2xHcrf0w0pQ"
+ },
+ {
+  "en": "phone",
+  "ko": "전화기",
+  "pos": "명사",
+  "why_ko": "call 은 전화하는 행동이고 phone 은 기계 자체입니다.",
+  "timecode": "03:36",
+  "example_en": "My phone is almost dead.",
+  "example_ko": "제 전화기 배터리가 거의 없어요.",
+  "kind": "word",
+  "date": "2026-09-23",
+  "vid": "2xHcrf0w0pQ"
+ },
+ {
+  "en": "medium",
+  "ko": "중간 크기의",
+  "pos": "형용사",
+  "why_ko": "middle 은 가운데 자리를 뜻하고, 크기를 말할 때는 medium 을 씁니다.",
+  "timecode": "05:33",
+  "example_en": "A medium coffee, please.",
+  "example_ko": "중간 사이즈 커피 주세요.",
+  "kind": "word",
+  "date": "2026-09-23",
+  "vid": "2xHcrf0w0pQ"
+ },
+ {
+  "en": "drink",
+  "ko": "음료",
+  "pos": "명사",
+  "why_ko": "water 는 물 하나만 말하고, drink 는 마시는 것 전부를 말합니다.",
+  "timecode": "05:35",
+  "example_en": "What drink do you want?",
+  "example_ko": "어떤 음료 드실래요?",
+  "kind": "word",
+  "date": "2026-09-23",
+  "vid": "2xHcrf0w0pQ"
+ },
+ {
+  "en": "meal",
+  "ko": "세트, 식사",
+  "pos": "명사",
+  "why_ko": "food 는 음식 자체고, meal 은 한 끼로 묶인 것입니다.",
+  "timecode": "05:28",
+  "example_en": "I want the number five meal.",
+  "example_ko": "5번 세트로 할게요.",
+  "kind": "word",
+  "date": "2026-09-23",
+  "vid": "2xHcrf0w0pQ"
+ },
+ {
+  "en": "finally",
+  "ko": "드디어",
+  "pos": "부사",
+  "why_ko": "at last 와 비슷하지만 finally 가 말할 때 더 자주 쓰입니다.",
+  "timecode": "03:52",
+  "example_en": "Finally, I got my apartment.",
+  "example_ko": "드디어 집을 구했어요.",
+  "kind": "word",
+  "date": "2026-09-23",
+  "vid": "2xHcrf0w0pQ"
+ },
+ {
+  "en": "charge",
+  "ko": "충전",
+  "pos": "명사",
+  "why_ko": "battery 는 부품 이름이고, charge 는 얼마나 차 있는지를 말합니다.",
+  "timecode": "04:20",
+  "example_en": "My phone has 85% charge.",
+  "example_ko": "제 폰은 85% 충전돼 있어요.",
+  "kind": "word",
+  "date": "2026-09-23",
+  "vid": "2xHcrf0w0pQ"
  }
 ]
