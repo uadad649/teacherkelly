@@ -4474,5 +4474,277 @@
   "kind": "word",
   "date": "2026-09-23",
   "vid": "2xHcrf0w0pQ"
+ },
+ {
+  "en": "I just woke up",
+  "ko": "저 방금 일어났어요",
+  "when_ko": "막 잠에서 깬 상태라고 말할 때",
+  "why_ko": "just 는 woke 앞에 붙어서 '방금'이 됩니다. 뒤에 붙이면 말이 어색해집니다.",
+  "timecode": "00:06",
+  "example_en": "Sorry, I just woke up.",
+  "example_ko": "미안해요, 저 방금 일어났어요.",
+  "cloze_en": "Sorry, I ___ woke up.",
+  "cloze_answer": "just",
+  "cloze_wrong": [
+   "now",
+   "only",
+   "soon"
+  ],
+  "kind": "expr",
+  "date": "2026-09-26",
+  "vid": "b_xxR-erIH4"
+ },
+ {
+  "en": "I wanted to sleep in",
+  "ko": "늦잠 자고 싶었어요",
+  "when_ko": "더 자고 싶었는데 못 잤다고 말할 때",
+  "why_ko": "sleep 은 자는 것이고, sleep in 은 아침에 늦게까지 자는 것입니다.",
+  "timecode": "00:11",
+  "example_en": "I wanted to sleep in today.",
+  "example_ko": "오늘 늦잠 자고 싶었어요.",
+  "cloze_en": "I wanted to sleep ___ today.",
+  "cloze_answer": "in",
+  "cloze_wrong": [
+   "on",
+   "at",
+   "up"
+  ],
+  "kind": "expr",
+  "date": "2026-09-26",
+  "vid": "b_xxR-erIH4"
+ },
+ {
+  "en": "I'm out of bananas",
+  "ko": "바나나가 다 떨어졌어요",
+  "when_ko": "집에 있던 물건을 다 써서 없다고 말할 때",
+  "why_ko": "out of 가 붙어야 '다 써서 없다'가 됩니다. out 만 쓰면 밖에 있다는 말이 됩니다.",
+  "timecode": "00:45",
+  "example_en": "Sorry, we're out of coffee.",
+  "example_ko": "미안해요, 커피가 다 떨어졌어요.",
+  "cloze_en": "Sorry, we're ___ of coffee.",
+  "cloze_answer": "out",
+  "cloze_wrong": [
+   "off",
+   "over",
+   "up"
+  ],
+  "kind": "expr",
+  "date": "2026-09-26",
+  "vid": "b_xxR-erIH4"
+ },
+ {
+  "en": "I'm going to take a shower",
+  "ko": "샤워할 거예요",
+  "when_ko": "이제 씻으러 간다고 말할 때",
+  "why_ko": "shower 는 take 와 짝입니다. do 나 make 를 쓰지 않습니다.",
+  "timecode": "03:41",
+  "example_en": "I'm going to take a shower first.",
+  "example_ko": "먼저 샤워할 거예요.",
+  "cloze_en": "I'm going to ___ a shower first.",
+  "cloze_answer": "take",
+  "cloze_wrong": [
+   "do",
+   "make",
+   "get"
+  ],
+  "kind": "expr",
+  "date": "2026-09-26",
+  "vid": "b_xxR-erIH4"
+ },
+ {
+  "en": "Sorry I'm a little late",
+  "ko": "조금 늦어서 미안해요",
+  "when_ko": "약속 시간에 살짝 늦게 도착했을 때",
+  "why_ko": "a little 이 late 앞에 와서 '조금 늦은'이 됩니다. 순서를 바꾸면 말이 안 됩니다.",
+  "timecode": "05:42",
+  "example_en": "Hi, sorry I'm a little late.",
+  "example_ko": "안녕하세요, 조금 늦어서 미안해요.",
+  "cloze_en": "Hi, sorry I'm a ___ late.",
+  "cloze_answer": "little",
+  "cloze_wrong": [
+   "few",
+   "lot",
+   "small"
+  ],
+  "kind": "expr",
+  "date": "2026-09-26",
+  "vid": "b_xxR-erIH4"
+ },
+ {
+  "en": "I'm starving",
+  "ko": "너무 배고파요",
+  "when_ko": "배가 많이 고프다고 말할 때",
+  "why_ko": "hungry 보다 훨씬 센 말이라 very 를 붙이지 않습니다.",
+  "timecode": "07:35",
+  "example_en": "Let's eat now, I'm starving.",
+  "example_ko": "지금 먹어요, 너무 배고파요.",
+  "cloze_en": "Let's eat now, I'm ___.",
+  "cloze_answer": "starving",
+  "cloze_wrong": [
+   "starve",
+   "starved out",
+   "starves"
+  ],
+  "kind": "expr",
+  "date": "2026-09-26",
+  "vid": "b_xxR-erIH4"
+ },
+ {
+  "en": "I was too busy today",
+  "ko": "오늘 너무 바빴어요",
+  "when_ko": "바빠서 뭘 못 했다고 말할 때",
+  "why_ko": "지금이 아니라 지나간 하루의 일이므로 was 를 씁니다.",
+  "timecode": "10:36",
+  "example_en": "Sorry, I was too busy today.",
+  "example_ko": "미안해요, 오늘 너무 바빴어요.",
+  "cloze_en": "Sorry, I ___ too busy today.",
+  "cloze_answer": "was",
+  "cloze_wrong": [
+   "am",
+   "is",
+   "been"
+  ],
+  "kind": "expr",
+  "date": "2026-09-26",
+  "vid": "b_xxR-erIH4"
+ },
+ {
+  "en": "How was your day today?",
+  "ko": "오늘 하루 어땠어요?",
+  "when_ko": "상대의 하루가 어땠는지 물을 때",
+  "why_ko": "지나간 하루를 묻는 말이라 How is 가 아니라 How was 입니다.",
+  "timecode": "11:31",
+  "example_en": "Hey, how was your day today?",
+  "example_ko": "안녕, 오늘 하루 어땠어요?",
+  "cloze_en": "Hey, how ___ your day today?",
+  "cloze_answer": "was",
+  "cloze_wrong": [
+   "is",
+   "did",
+   "were"
+  ],
+  "kind": "expr",
+  "date": "2026-09-26",
+  "vid": "b_xxR-erIH4"
+ },
+ {
+  "en": "tired",
+  "ko": "피곤한",
+  "pos": "형용사",
+  "why_ko": "비슷한 말로 sleepy 가 있지만 그건 졸릴 때 쓰고, 이건 몸이 지쳤을 때 씁니다.",
+  "timecode": "11:33",
+  "example_en": "I'm so tired today.",
+  "example_ko": "오늘 너무 피곤해요.",
+  "kind": "word",
+  "date": "2026-09-26",
+  "vid": "b_xxR-erIH4"
+ },
+ {
+  "en": "walk",
+  "ko": "산책, 걷다",
+  "pos": "동사",
+  "why_ko": "비슷한 말로 run 이 있지만 그건 뛰는 것이고, 이건 걷는 것입니다.",
+  "timecode": "09:30",
+  "example_en": "I walk a lot every day.",
+  "example_ko": "저는 매일 많이 걸어요.",
+  "kind": "word",
+  "date": "2026-09-26",
+  "vid": "b_xxR-erIH4"
+ },
+ {
+  "en": "dinner",
+  "ko": "저녁 식사",
+  "pos": "명사",
+  "why_ko": "아침은 breakfast, 점심은 lunch, 저녁 먹는 끼니만 dinner 입니다.",
+  "timecode": "10:39",
+  "example_en": "What's for dinner tonight?",
+  "example_ko": "오늘 저녁은 뭐예요?",
+  "kind": "word",
+  "date": "2026-09-26",
+  "vid": "b_xxR-erIH4"
+ },
+ {
+  "en": "delivery",
+  "ko": "배달",
+  "pos": "명사",
+  "why_ko": "deliver 는 배달하는 동작이고, delivery 는 배달 자체를 가리킵니다.",
+  "timecode": "11:09",
+  "example_en": "I got delivery food again.",
+  "example_ko": "또 배달 음식 먹었어요.",
+  "kind": "word",
+  "date": "2026-09-26",
+  "vid": "b_xxR-erIH4"
+ },
+ {
+  "en": "groceries",
+  "ko": "장 본 식료품",
+  "pos": "명사",
+  "why_ko": "food 는 음식 전체를 말하고, 이건 가게에서 사 온 먹을 것들입니다.",
+  "timecode": "03:24",
+  "example_en": "I need to buy groceries.",
+  "example_ko": "장을 봐야 해요.",
+  "kind": "word",
+  "date": "2026-09-26",
+  "vid": "b_xxR-erIH4"
+ },
+ {
+  "en": "healthy",
+  "ko": "건강한",
+  "pos": "형용사",
+  "why_ko": "health 는 건강 그 자체, healthy 는 건강에 좋은 것을 가리킵니다.",
+  "timecode": "07:25",
+  "example_en": "This food is very healthy.",
+  "example_ko": "이 음식은 아주 건강해요.",
+  "kind": "word",
+  "date": "2026-09-26",
+  "vid": "b_xxR-erIH4"
+ },
+ {
+  "en": "busy",
+  "ko": "바쁜",
+  "pos": "형용사",
+  "why_ko": "비슷한 말로 hard 가 있지만 그건 힘들다는 뜻이고, 이건 할 일이 많다는 뜻입니다.",
+  "timecode": "10:36",
+  "example_en": "Sorry, I'm busy right now.",
+  "example_ko": "미안해요, 지금 바빠요.",
+  "kind": "word",
+  "date": "2026-09-26",
+  "vid": "b_xxR-erIH4"
+ },
+ {
+  "en": "finish",
+  "ko": "끝내다",
+  "pos": "동사",
+  "why_ko": "end 는 그냥 끝나는 것이고, finish 는 내가 다 해내는 것입니다.",
+  "timecode": "13:06",
+  "example_en": "I want to finish this today.",
+  "example_ko": "오늘 이걸 끝내고 싶어요.",
+  "kind": "word",
+  "date": "2026-09-26",
+  "vid": "b_xxR-erIH4"
+ },
+ {
+  "en": "ready",
+  "ko": "준비된",
+  "pos": "형용사",
+  "why_ko": "prepare 는 준비하는 동작이고, ready 는 이미 준비가 된 상태입니다.",
+  "timecode": "06:42",
+  "example_en": "Are you ready to go?",
+  "example_ko": "갈 준비 됐어요?",
+  "kind": "word",
+  "date": "2026-09-26",
+  "vid": "b_xxR-erIH4"
+ },
+ {
+  "en": "quick",
+  "ko": "빠른, 금방인",
+  "pos": "형용사",
+  "why_ko": "fast 는 속도가 빠른 것이고, quick 은 시간이 짧게 걸린다는 느낌입니다.",
+  "timecode": "08:40",
+  "example_en": "Let's make a quick breakfast.",
+  "example_ko": "빠르게 아침 만들어요.",
+  "kind": "word",
+  "date": "2026-09-26",
+  "vid": "b_xxR-erIH4"
  }
 ]
