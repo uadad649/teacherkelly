@@ -5018,5 +5018,278 @@
   "kind": "word",
   "date": "2026-09-27",
   "vid": "_-g35kAt9bU"
+ },
+ {
+  "en": "I just got back from",
+  "ko": "저 막 ~에서 돌아왔어요",
+  "when_ko": "여행이나 외출에서 돌아온 직후에 말할 때",
+  "why_ko": "이미 끝난 일이라 get이 아니라 got을 씁니다. just를 앞에 붙이면 '방금'이 됩니다.",
+  "timecode": "01:05",
+  "example_en": "I just got back from a trip to Japan.",
+  "example_ko": "저 막 일본 여행에서 돌아왔어요.",
+  "cloze_en": "I just ___ back from a trip to Japan.",
+  "cloze_answer": "got",
+  "cloze_wrong": [
+   "get",
+   "getting",
+   "gets"
+  ],
+  "kind": "expr",
+  "date": "2026-09-28",
+  "vid": "8K1oVnniqek"
+ },
+ {
+  "en": "It was my first time ever",
+  "ko": "제 완전 처음이었어요",
+  "when_ko": "처음 해 본 일이라고 말할 때",
+  "when_ko_dup": null,
+  "why_ko": "지난 일을 말하니 is가 아니라 was입니다. ever를 붙이면 '태어나서 처음'이 됩니다.",
+  "timecode": "01:44",
+  "example_en": "It was my first time ever going to a festival.",
+  "example_ko": "페스티벌에 간 건 완전 처음이었어요.",
+  "cloze_en": "It ___ my first time ever going to a festival.",
+  "cloze_answer": "was",
+  "cloze_wrong": [
+   "is",
+   "were",
+   "been"
+  ],
+  "kind": "expr",
+  "date": "2026-09-28",
+  "vid": "8K1oVnniqek"
+ },
+ {
+  "en": "It was so much fun",
+  "ko": "정말 재미있었어요",
+  "when_ko": "어디 다녀온 게 즐거웠다고 말할 때",
+  "why_ko": "fun은 셀 수 없는 말이라 many가 아니라 much와 붙습니다.",
+  "timecode": "01:48",
+  "example_en": "The concert was so much fun.",
+  "example_ko": "그 콘서트 정말 재미있었어요.",
+  "cloze_en": "The concert was so ___ fun.",
+  "cloze_answer": "much",
+  "cloze_wrong": [
+   "many",
+   "more",
+   "most"
+  ],
+  "kind": "expr",
+  "date": "2026-09-28",
+  "vid": "8K1oVnniqek"
+ },
+ {
+  "en": "I would go again",
+  "ko": "또 갈 거예요",
+  "when_ko": "힘들었지만 다시 해 보고 싶다고 말할 때",
+  "why_ko": "아직 안 정한 마음이라 will보다 would가 부드럽습니다.",
+  "timecode": "02:13",
+  "example_en": "It was tiring, but I would go again.",
+  "example_ko": "힘들었지만 또 갈 거예요.",
+  "cloze_en": "It was tiring, but I ___ go again.",
+  "cloze_answer": "would",
+  "cloze_wrong": [
+   "will",
+   "want",
+   "am"
+  ],
+  "kind": "expr",
+  "date": "2026-09-28",
+  "vid": "8K1oVnniqek"
+ },
+ {
+  "en": "It was worth it",
+  "ko": "그만한 값어치가 있었어요",
+  "when_ko": "돈이나 시간을 많이 썼지만 아깝지 않다고 말할 때",
+  "why_ko": "worth 뒤에 it을 한 번 더 붙여야 말이 끝납니다. 이 it이 쓴 돈과 시간을 가리킵니다.",
+  "timecode": "02:43",
+  "example_en": "The tickets were expensive, but it was worth it.",
+  "example_ko": "표는 비쌌지만 그만한 값어치가 있었어요.",
+  "cloze_en": "The tickets were expensive, but it was ___.",
+  "cloze_answer": "worth it",
+  "cloze_wrong": [
+   "worth",
+   "it worth",
+   "worthy"
+  ],
+  "kind": "expr",
+  "date": "2026-09-28",
+  "vid": "8K1oVnniqek"
+ },
+ {
+  "en": "I highly recommend",
+  "ko": "저는 강력 추천해요",
+  "when_ko": "가게나 음식, 장소를 남에게 권할 때",
+  "why_ko": "지금 권하는 말이라 지난 꼴이 아닙니다. highly가 '강력하게'를 더해 줍니다.",
+  "timecode": "03:03",
+  "example_en": "I highly recommend getting the hotel package.",
+  "example_ko": "호텔 패키지로 하시는 걸 강력 추천해요.",
+  "cloze_en": "I highly ___ getting the hotel package.",
+  "cloze_answer": "recommend",
+  "cloze_wrong": [
+   "recommended",
+   "recommending",
+   "recommends"
+  ],
+  "kind": "expr",
+  "date": "2026-09-28",
+  "vid": "8K1oVnniqek"
+ },
+ {
+  "en": "I fell in love with",
+  "ko": "저는 ~에 완전히 빠졌어요",
+  "when_ko": "도시나 음식이 너무 좋아졌다고 말할 때",
+  "why_ko": "사람한테만 쓰는 말이 아닙니다. 지난 일이니 fall이 아니라 fell입니다.",
+  "timecode": "03:59",
+  "example_en": "I fell in love with this city.",
+  "example_ko": "저 이 도시에 완전히 빠졌어요.",
+  "cloze_en": "I ___ in love with this city.",
+  "cloze_answer": "fell",
+  "cloze_wrong": [
+   "fall",
+   "falling",
+   "felt"
+  ],
+  "kind": "expr",
+  "date": "2026-09-28",
+  "vid": "8K1oVnniqek"
+ },
+ {
+  "en": "I can't wait until",
+  "ko": "~까지 기다리기 힘들어요",
+  "when_ko": "앞으로 있을 일이 너무 기대된다고 말할 때",
+  "why_ko": "'못 기다린다'가 곧 '너무 기대된다'는 뜻입니다. can wait로 쓰면 반대말이 됩니다.",
+  "timecode": "07:02",
+  "example_en": "I can't wait until summer.",
+  "example_ko": "여름이 너무 기다려져요.",
+  "cloze_en": "I ___ until summer.",
+  "cloze_answer": "can't wait",
+  "cloze_wrong": [
+   "can wait",
+   "don't wait",
+   "not wait"
+  ],
+  "kind": "expr",
+  "date": "2026-09-28",
+  "vid": "8K1oVnniqek"
+ },
+ {
+  "en": "trip",
+  "ko": "여행",
+  "pos": "명사",
+  "why_ko": "travel은 이동하는 것 자체를 말하고, trip은 다녀온 한 번의 여행을 말합니다.",
+  "timecode": "01:16",
+  "example_en": "My trip was very short.",
+  "example_ko": "제 여행은 아주 짧았어요.",
+  "kind": "word",
+  "date": "2026-09-28",
+  "vid": "8K1oVnniqek"
+ },
+ {
+  "en": "amazing",
+  "ko": "놀랍게 좋은",
+  "pos": "형용사",
+  "why_ko": "good보다 훨씬 센 말입니다. 감탄할 때 씁니다.",
+  "timecode": "01:20",
+  "example_en": "The views were amazing.",
+  "example_ko": "풍경이 정말 좋았어요.",
+  "kind": "word",
+  "date": "2026-09-28",
+  "vid": "8K1oVnniqek"
+ },
+ {
+  "en": "food",
+  "ko": "음식",
+  "pos": "명사",
+  "why_ko": "meal은 한 끼 식사를 말하고, food는 먹는 것 전체를 말합니다.",
+  "timecode": "01:20",
+  "example_en": "The food here is delicious.",
+  "example_ko": "여기 음식 맛있어요.",
+  "kind": "word",
+  "date": "2026-09-28",
+  "vid": "8K1oVnniqek"
+ },
+ {
+  "en": "experience",
+  "ko": "경험",
+  "pos": "명사",
+  "why_ko": "memory는 머릿속 기억이고, experience는 직접 해 본 일입니다.",
+  "timecode": "01:52",
+  "example_en": "It was a special experience.",
+  "example_ko": "특별한 경험이었어요.",
+  "kind": "word",
+  "date": "2026-09-28",
+  "vid": "8K1oVnniqek"
+ },
+ {
+  "en": "friendly",
+  "ko": "친절한, 사람 좋은",
+  "pos": "형용사",
+  "why_ko": "friend는 친구라는 사람이고, friendly는 사람 됨됨이를 말합니다.",
+  "timecode": "02:24",
+  "example_en": "The staff was so friendly.",
+  "example_ko": "직원이 정말 친절했어요.",
+  "kind": "word",
+  "date": "2026-09-28",
+  "vid": "8K1oVnniqek"
+ },
+ {
+  "en": "price",
+  "ko": "가격",
+  "pos": "명사",
+  "why_ko": "money는 돈 자체이고, price는 물건에 붙은 값입니다.",
+  "timecode": "02:30",
+  "example_en": "The price was too high.",
+  "example_ko": "가격이 너무 비쌌어요.",
+  "kind": "word",
+  "date": "2026-09-28",
+  "vid": "8K1oVnniqek"
+ },
+ {
+  "en": "cozy",
+  "ko": "아늑한",
+  "pos": "형용사",
+  "why_ko": "warm은 온도가 따뜻한 것이고, cozy는 편하고 포근한 느낌입니다.",
+  "timecode": "03:40",
+  "example_en": "This room is very cozy.",
+  "example_ko": "이 방 아주 아늑해요.",
+  "kind": "word",
+  "date": "2026-09-28",
+  "vid": "8K1oVnniqek"
+ },
+ {
+  "en": "kind",
+  "ko": "마음이 따뜻한",
+  "pos": "형용사",
+  "why_ko": "friendly는 잘 어울리는 느낌이고, kind는 마음이 착한 쪽입니다.",
+  "timecode": "04:17",
+  "example_en": "People here are very kind.",
+  "example_ko": "여기 사람들 정말 착해요.",
+  "kind": "word",
+  "date": "2026-09-28",
+  "vid": "8K1oVnniqek"
+ },
+ {
+  "en": "favorite",
+  "ko": "가장 좋아하는",
+  "pos": "형용사",
+  "why_ko": "like는 좋아하는 동작이고, favorite는 그중 제일 좋아하는 하나입니다.",
+  "timecode": "04:20",
+  "example_en": "This is my favorite city.",
+  "example_ko": "여기가 제가 제일 좋아하는 도시예요.",
+  "kind": "word",
+  "date": "2026-09-28",
+  "vid": "8K1oVnniqek"
+ },
+ {
+  "en": "spend",
+  "ko": "(시간·돈을) 쓰다",
+  "pos": "동사",
+  "why_ko": "use는 물건을 쓰는 것이고, spend는 시간이나 돈을 쓰는 것입니다.",
+  "timecode": "06:48",
+  "example_en": "I want to spend a day here.",
+  "example_ko": "여기서 하루 보내고 싶어요.",
+  "kind": "word",
+  "date": "2026-09-28",
+  "vid": "8K1oVnniqek"
  }
 ]
