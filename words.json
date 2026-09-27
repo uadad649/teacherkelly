@@ -4746,5 +4746,277 @@
   "kind": "word",
   "date": "2026-09-26",
   "vid": "b_xxR-erIH4"
+ },
+ {
+  "en": "It's very hard for me to pronounce.",
+  "ko": "저는 그거 발음하기가 아주 어려워요.",
+  "when_ko": "어떤 단어나 이름이 발음이 안 될 때",
+  "why_ko": "어려운 사람을 넣을 때는 for me 를 쓰고, 그 다음에 to pronounce 가 옵니다.",
+  "timecode": "04:51",
+  "example_en": "This word is very hard for me to pronounce.",
+  "example_ko": "이 단어는 제가 발음하기가 아주 어려워요.",
+  "cloze_en": "This word is very hard ___ me to pronounce.",
+  "cloze_answer": "for",
+  "cloze_wrong": [
+   "to",
+   "at",
+   "on"
+  ],
+  "kind": "expr",
+  "date": "2026-09-27",
+  "vid": "_-g35kAt9bU"
+ },
+ {
+  "en": "I just can't pronounce it.",
+  "ko": "저는 그게 발음이 안 돼요.",
+  "when_ko": "발음을 몇 번 해봤는데도 안 될 때",
+  "why_ko": "can't 는 할 수 없다는 말이고, don't 는 하지 않는다는 말입니다.",
+  "timecode": "05:01",
+  "example_en": "Sorry, I just can't pronounce it.",
+  "example_ko": "죄송해요, 저는 그게 발음이 안 돼요.",
+  "cloze_en": "Sorry, I just ___ pronounce it.",
+  "cloze_answer": "can't",
+  "cloze_wrong": [
+   "don't",
+   "didn't",
+   "won't"
+  ],
+  "kind": "expr",
+  "date": "2026-09-27",
+  "vid": "_-g35kAt9bU"
+ },
+ {
+  "en": "I can't say the same for myself.",
+  "ko": "저는 그렇다고 말은 못 하겠어요.",
+  "when_ko": "상대는 대단한데 나는 그렇지 않다고 말할 때",
+  "why_ko": "myself 는 나 자신을 가리킬 때 씁니다. me 로는 이 말이 되지 않습니다.",
+  "timecode": "05:30",
+  "example_en": "I can't say the same for myself.",
+  "example_ko": "저는 그렇다고 말은 못 하겠어요.",
+  "cloze_en": "I can't say the same for ___.",
+  "cloze_answer": "myself",
+  "cloze_wrong": [
+   "me",
+   "my",
+   "I"
+  ],
+  "kind": "expr",
+  "date": "2026-09-27",
+  "vid": "_-g35kAt9bU"
+ },
+ {
+  "en": "I rarely watch TV.",
+  "ko": "저는 TV를 거의 안 봐요.",
+  "when_ko": "어떤 일을 거의 안 한다고 말할 때",
+  "why_ko": "rarely 자체가 거의 안 한다는 뜻이라 not 을 또 넣지 않습니다.",
+  "timecode": "06:58",
+  "example_en": "I rarely watch TV these days.",
+  "example_ko": "저는 요즘 TV를 거의 안 봐요.",
+  "cloze_en": "I ___ watch TV these days.",
+  "cloze_answer": "rarely",
+  "cloze_wrong": [
+   "often",
+   "always",
+   "usually"
+  ],
+  "kind": "expr",
+  "date": "2026-09-27",
+  "vid": "_-g35kAt9bU"
+ },
+ {
+  "en": "How was your weekend?",
+  "ko": "주말 어땠어요?",
+  "when_ko": "월요일에 동료나 아는 사람에게 인사할 때",
+  "why_ko": "지난 주말은 끝난 일이라 was 를 씁니다.",
+  "timecode": "11:52",
+  "example_en": "Good morning. How was your weekend?",
+  "example_ko": "좋은 아침이에요. 주말 어땠어요?",
+  "cloze_en": "Good morning. How ___ your weekend?",
+  "cloze_answer": "was",
+  "cloze_wrong": [
+   "is",
+   "are",
+   "were"
+  ],
+  "kind": "expr",
+  "date": "2026-09-27",
+  "vid": "_-g35kAt9bU"
+ },
+ {
+  "en": "I'm not very good at this.",
+  "ko": "저는 이걸 잘 못해요.",
+  "when_ko": "어떤 일에 자신이 없다고 솔직히 말할 때",
+  "why_ko": "뭘 잘하는지 말할 때는 good 다음에 at 이 옵니다.",
+  "timecode": "11:49",
+  "example_en": "I'm not very good at this, sorry.",
+  "example_ko": "저는 이걸 잘 못해요, 죄송해요.",
+  "cloze_en": "I'm not very good ___ this, sorry.",
+  "cloze_answer": "at",
+  "cloze_wrong": [
+   "in",
+   "for",
+   "with"
+  ],
+  "kind": "expr",
+  "date": "2026-09-27",
+  "vid": "_-g35kAt9bU"
+ },
+ {
+  "en": "I'm still figuring things out.",
+  "ko": "저도 아직 하나씩 알아가는 중이에요.",
+  "when_ko": "아직 잘 모르지만 해보는 중이라고 말할 때",
+  "why_ko": "figure out 은 알아낸다는 뜻이고, things 가 그 사이에 들어갑니다.",
+  "timecode": "11:04",
+  "example_en": "I'm new here, so I'm still figuring things out.",
+  "example_ko": "여기 처음이라 아직 하나씩 알아가는 중이에요.",
+  "cloze_en": "I'm new here, so I'm still ___ things out.",
+  "cloze_answer": "figuring",
+  "cloze_wrong": [
+   "figure",
+   "figured",
+   "figures"
+  ],
+  "kind": "expr",
+  "date": "2026-09-27",
+  "vid": "_-g35kAt9bU"
+ },
+ {
+  "en": "Thank you so much for coming today.",
+  "ko": "오늘 와 주셔서 정말 고맙습니다.",
+  "when_ko": "찾아온 사람에게 인사할 때",
+  "why_ko": "고마운 이유를 붙일 때는 for 다음에 coming 처럼 -ing 꼴이 옵니다.",
+  "timecode": "16:07",
+  "example_en": "Thank you so much for coming today.",
+  "example_ko": "오늘 와 주셔서 정말 고맙습니다.",
+  "cloze_en": "Thank you so much ___ coming today.",
+  "cloze_answer": "for",
+  "cloze_wrong": [
+   "to",
+   "of",
+   "with"
+  ],
+  "kind": "expr",
+  "date": "2026-09-27",
+  "vid": "_-g35kAt9bU"
+ },
+ {
+  "en": "boring",
+  "ko": "재미없는, 지루한",
+  "pos": "형용사",
+  "why_ko": "bored 는 내가 지루함을 느끼는 것이고, boring 은 그것이 지루하다는 뜻입니다.",
+  "timecode": "09:33",
+  "example_en": "This show is so boring.",
+  "example_ko": "이 프로그램은 너무 재미없어요.",
+  "kind": "word",
+  "date": "2026-09-27",
+  "vid": "_-g35kAt9bU"
+ },
+ {
+  "en": "weather",
+  "ko": "날씨",
+  "pos": "명사",
+  "why_ko": "소리가 비슷한 whether 와 다릅니다. 하늘과 기온 이야기입니다.",
+  "timecode": "09:33",
+  "example_en": "The weather is nice today.",
+  "example_ko": "오늘 날씨가 좋아요.",
+  "kind": "word",
+  "date": "2026-09-27",
+  "vid": "_-g35kAt9bU"
+ },
+ {
+  "en": "scared",
+  "ko": "무서운, 겁나는",
+  "pos": "형용사",
+  "why_ko": "afraid 와 비슷하지만 scared 는 말할 때 더 자주 씁니다.",
+  "timecode": "13:04",
+  "example_en": "I was a little scared.",
+  "example_ko": "저는 조금 무서웠어요.",
+  "kind": "word",
+  "date": "2026-09-27",
+  "vid": "_-g35kAt9bU"
+ },
+ {
+  "en": "perfect",
+  "ko": "완벽한",
+  "pos": "형용사",
+  "why_ko": "good 은 그냥 좋은 것이고, perfect 는 흠이 하나도 없는 것입니다.",
+  "timecode": "11:03",
+  "example_en": "It doesn't have to be perfect.",
+  "example_ko": "완벽할 필요는 없어요.",
+  "kind": "word",
+  "date": "2026-09-27",
+  "vid": "_-g35kAt9bU"
+ },
+ {
+  "en": "spend",
+  "ko": "쓰다 (돈·시간을)",
+  "pos": "동사",
+  "why_ko": "pay 는 값을 지불하는 것이고, spend 는 돈이나 시간을 들이는 것입니다.",
+  "timecode": "13:12",
+  "example_en": "I spend too much money.",
+  "example_ko": "저는 돈을 너무 많이 써요.",
+  "kind": "word",
+  "date": "2026-09-27",
+  "vid": "_-g35kAt9bU"
+ },
+ {
+  "en": "remember",
+  "ko": "기억하다",
+  "pos": "동사",
+  "why_ko": "remind 는 남에게 떠올려 주는 것이고, remember 는 내가 기억하는 것입니다.",
+  "timecode": "04:42",
+  "example_en": "I don't remember his name.",
+  "example_ko": "그 사람 이름이 기억나지 않아요.",
+  "kind": "word",
+  "date": "2026-09-27",
+  "vid": "_-g35kAt9bU"
+ },
+ {
+  "en": "listen",
+  "ko": "듣다 (귀 기울여)",
+  "pos": "동사",
+  "why_ko": "hear 는 그냥 들리는 것이고, listen 은 귀를 기울이는 것입니다.",
+  "timecode": "05:53",
+  "example_en": "I listen to music every day.",
+  "example_ko": "저는 매일 음악을 들어요.",
+  "kind": "word",
+  "date": "2026-09-27",
+  "vid": "_-g35kAt9bU"
+ },
+ {
+  "en": "job",
+  "ko": "일자리, 직업",
+  "pos": "명사",
+  "why_ko": "work 는 일 자체이고, job 은 그 일자리를 하나로 셀 때 씁니다.",
+  "timecode": "00:29",
+  "example_en": "I like my new job.",
+  "example_ko": "저는 새 일자리가 좋아요.",
+  "kind": "word",
+  "date": "2026-09-27",
+  "vid": "_-g35kAt9bU"
+ },
+ {
+  "en": "mistake",
+  "ko": "실수",
+  "pos": "명사",
+  "why_ko": "보통 make 와 함께 써서 실수를 하다라고 말합니다.",
+  "timecode": "00:26",
+  "example_en": "I made a big mistake.",
+  "example_ko": "제가 큰 실수를 했어요.",
+  "kind": "word",
+  "date": "2026-09-27",
+  "vid": "_-g35kAt9bU"
+ },
+ {
+  "en": "tip",
+  "ko": "조언, 비결",
+  "pos": "명사",
+  "why_ko": "식당에서 주는 팁과 같은 낱말이지만, 여기서는 도움이 되는 조언을 말합니다.",
+  "timecode": "11:08",
+  "example_en": "Do you have any tips for me?",
+  "example_ko": "저한테 조언 좀 해 주실래요?",
+  "kind": "word",
+  "date": "2026-09-27",
+  "vid": "_-g35kAt9bU"
  }
 ]
