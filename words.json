@@ -5291,5 +5291,277 @@
   "kind": "word",
   "date": "2026-09-28",
   "vid": "8K1oVnniqek"
+ },
+ {
+  "en": "Can I get the crab cake?",
+  "ko": "크랩 케이크 주시겠어요?",
+  "when_ko": "식당에서 메뉴를 하나 시킬 때",
+  "why_ko": "Can I get 뒤에는 시킬 음식 이름을 바로 붙입니다. get 자리에 have 를 써도 되지만 미국 식당에서는 get 을 더 많이 씁니다.",
+  "timecode": "01:42",
+  "example_en": "Can I get the crab cake, please?",
+  "example_ko": "크랩 케이크 주세요.",
+  "cloze_en": "___ I get the crab cake, please?",
+  "cloze_answer": "Can",
+  "cloze_wrong": [
+   "Do",
+   "Am",
+   "Will"
+  ],
+  "kind": "expr",
+  "date": "2026-09-29",
+  "vid": "Uztht-pgshk"
+ },
+ {
+  "en": "Sounds good to me.",
+  "ko": "저는 좋아요.",
+  "when_ko": "상대가 제안한 것에 좋다고 답할 때",
+  "why_ko": "sound 는 '들린다'는 말이라 상대 말에 대한 반응으로 씁니다. good to me 는 '내 쪽에서는 괜찮다'는 뜻으로 붙습니다.",
+  "timecode": "02:50",
+  "example_en": "Dinner at seven? Sounds good to me.",
+  "example_ko": "7시에 저녁? 저는 좋아요.",
+  "cloze_en": "Dinner at seven? ___ good to me.",
+  "cloze_answer": "Sounds",
+  "cloze_wrong": [
+   "Looks",
+   "Feels",
+   "Tastes"
+  ],
+  "kind": "expr",
+  "date": "2026-09-29",
+  "vid": "Uztht-pgshk"
+ },
+ {
+  "en": "It looks delicious.",
+  "ko": "맛있어 보여요.",
+  "when_ko": "음식이 나왔을 때 첫마디로",
+  "why_ko": "아직 먹기 전이니 '보인다'는 looks 를 씁니다. 먹고 나서라면 tastes 입니다.",
+  "timecode": "06:38",
+  "example_en": "Wow, it looks delicious.",
+  "example_ko": "와, 맛있어 보여요.",
+  "cloze_en": "Wow, it ___ delicious.",
+  "cloze_answer": "looks",
+  "cloze_wrong": [
+   "tastes",
+   "sees",
+   "watches"
+  ],
+  "kind": "expr",
+  "date": "2026-09-29",
+  "vid": "Uztht-pgshk"
+ },
+ {
+  "en": "It's freezing today.",
+  "ko": "오늘 너무 춥네요.",
+  "when_ko": "밖이 아주 추울 때 날씨 이야기로",
+  "why_ko": "cold 보다 훨씬 추울 때 쓰는 말이라 very 를 붙이지 않고 그대로 씁니다.",
+  "timecode": "17:02",
+  "example_en": "Bring a jacket. It's freezing today.",
+  "example_ko": "재킷 챙기세요. 오늘 너무 추워요.",
+  "cloze_en": "Bring a jacket. It's ___ today.",
+  "cloze_answer": "freezing",
+  "cloze_wrong": [
+   "freeze",
+   "froze",
+   "frozen"
+  ],
+  "kind": "expr",
+  "date": "2026-09-29",
+  "vid": "Uztht-pgshk"
+ },
+ {
+  "en": "I want to check that out.",
+  "ko": "그거 한번 가 보고 싶어요.",
+  "when_ko": "새로 본 장소나 가게에 가 보고 싶다고 말할 때",
+  "why_ko": "check 만 쓰면 '확인하다'이고, out 이 붙으면 직접 가서 구경한다는 말이 됩니다.",
+  "timecode": "16:09",
+  "example_en": "There's a new cafe. I want to check that out.",
+  "example_ko": "새 카페가 있어요. 한번 가 보고 싶어요.",
+  "cloze_en": "There's a new cafe. I want to ___ that out.",
+  "cloze_answer": "check",
+  "cloze_wrong": [
+   "look",
+   "see",
+   "watch"
+  ],
+  "kind": "expr",
+  "date": "2026-09-29",
+  "vid": "Uztht-pgshk"
+ },
+ {
+  "en": "We're going to grab a bite to eat.",
+  "ko": "우리 간단히 뭐 좀 먹으러 가요.",
+  "when_ko": "간단히 식사하러 가자고 말할 때",
+  "why_ko": "grab a bite 은 정식으로 차려 먹는 게 아니라 가볍게 먹는다는 말입니다.",
+  "timecode": "03:01",
+  "example_en": "We're going to grab a bite to eat before the movie.",
+  "example_ko": "영화 보기 전에 뭐 좀 먹으러 갈 거예요.",
+  "cloze_en": "We're going to ___ a bite to eat before the movie.",
+  "cloze_answer": "grab",
+  "cloze_wrong": [
+   "take",
+   "hold",
+   "catch"
+  ],
+  "kind": "expr",
+  "date": "2026-09-29",
+  "vid": "Uztht-pgshk"
+ },
+ {
+  "en": "I'm having a blast so far.",
+  "ko": "지금까지 정말 재미있어요.",
+  "when_ko": "여행이나 모임 중간에 즐겁다고 말할 때",
+  "why_ko": "blast 는 have 와 붙어 다닙니다. so far 는 '지금까지는'이라 여행이 끝나기 전에 씁니다.",
+  "timecode": "08:05",
+  "example_en": "This trip is great. I'm having a blast so far.",
+  "example_ko": "이번 여행 좋아요. 지금까지 정말 재밌어요.",
+  "cloze_en": "This trip is great. I'm ___ a blast so far.",
+  "cloze_answer": "having",
+  "cloze_wrong": [
+   "doing",
+   "taking",
+   "making"
+  ],
+  "kind": "expr",
+  "date": "2026-09-29",
+  "vid": "Uztht-pgshk"
+ },
+ {
+  "en": "I can't wait to see you.",
+  "ko": "빨리 보고 싶어요.",
+  "when_ko": "곧 있을 일이 기대된다고 말할 때",
+  "why_ko": "can't wait 은 못 기다린다는 말이 아니라 기대된다는 뜻입니다. 뒤에는 to 와 동사를 붙입니다.",
+  "timecode": "08:07",
+  "example_en": "I can't wait to see you next week.",
+  "example_ko": "다음 주에 빨리 보고 싶어요.",
+  "cloze_en": "I can't ___ to see you next week.",
+  "cloze_answer": "wait",
+  "cloze_wrong": [
+   "waiting",
+   "waited",
+   "waits"
+  ],
+  "kind": "expr",
+  "date": "2026-09-29",
+  "vid": "Uztht-pgshk"
+ },
+ {
+  "en": "room",
+  "ko": "방",
+  "pos": "명사",
+  "why_ko": "호텔이나 배에서 자는 곳입니다. house 는 집 전체를 말합니다.",
+  "timecode": "00:59",
+  "example_en": "Our room has a balcony.",
+  "example_ko": "우리 방에는 발코니가 있어요.",
+  "kind": "word",
+  "date": "2026-09-29",
+  "vid": "Uztht-pgshk"
+ },
+ {
+  "en": "breakfast",
+  "ko": "아침 식사",
+  "pos": "명사",
+  "why_ko": "아침에 먹는 밥입니다. morning 은 시간, breakfast 는 음식입니다.",
+  "timecode": "10:55",
+  "example_en": "Breakfast starts at seven.",
+  "example_ko": "아침 식사는 7시에 시작해요.",
+  "kind": "word",
+  "date": "2026-09-29",
+  "vid": "Uztht-pgshk"
+ },
+ {
+  "en": "order",
+  "ko": "주문하다",
+  "pos": "동사",
+  "why_ko": "식당에서 시킬 때 씁니다. buy 는 돈 내고 사는 것 전체를 말합니다.",
+  "timecode": "11:13",
+  "example_en": "I want to order room service.",
+  "example_ko": "룸서비스를 시키고 싶어요.",
+  "kind": "word",
+  "date": "2026-09-29",
+  "vid": "Uztht-pgshk"
+ },
+ {
+  "en": "expensive",
+  "ko": "비싼",
+  "pos": "형용사",
+  "why_ko": "값이 비싸다는 말입니다. 사람이 돈이 많은 건 rich 입니다.",
+  "timecode": "10:59",
+  "example_en": "This hotel is too expensive.",
+  "example_ko": "이 호텔은 너무 비싸요.",
+  "kind": "word",
+  "date": "2026-09-29",
+  "vid": "Uztht-pgshk"
+ },
+ {
+  "en": "beautiful",
+  "ko": "아름다운",
+  "pos": "형용사",
+  "why_ko": "풍경이나 사람에게 씁니다. 음식에는 잘 쓰지 않습니다.",
+  "timecode": "14:08",
+  "example_en": "The sunset was so beautiful.",
+  "example_ko": "노을이 정말 아름다웠어요.",
+  "kind": "word",
+  "date": "2026-09-29",
+  "vid": "Uztht-pgshk"
+ },
+ {
+  "en": "family",
+  "ko": "가족",
+  "pos": "명사",
+  "why_ko": "부모, 형제 등 한 가족 전체를 말합니다. 친구들은 friends 입니다.",
+  "timecode": "00:04",
+  "example_en": "I came here with my family.",
+  "example_ko": "가족과 함께 여기 왔어요.",
+  "kind": "word",
+  "date": "2026-09-29",
+  "vid": "Uztht-pgshk"
+ },
+ {
+  "en": "trip",
+  "ko": "여행",
+  "pos": "명사",
+  "why_ko": "갔다 오는 여행 한 번을 말합니다. travel 은 이동한다는 뜻에 가깝습니다.",
+  "timecode": "04:55",
+  "example_en": "This trip was so much fun.",
+  "example_ko": "이번 여행 정말 재미있었어요.",
+  "kind": "word",
+  "date": "2026-09-29",
+  "vid": "Uztht-pgshk"
+ },
+ {
+  "en": "fresh",
+  "ko": "신선한",
+  "pos": "형용사",
+  "why_ko": "막 만들었거나 막 딴 것에 씁니다. new 는 물건이 새것일 때입니다.",
+  "timecode": "11:34",
+  "example_en": "I want a fresh omelette.",
+  "example_ko": "갓 만든 오믈렛을 원해요.",
+  "kind": "word",
+  "date": "2026-09-29",
+  "vid": "Uztht-pgshk"
+ },
+ {
+  "en": "warm",
+  "ko": "따뜻한",
+  "pos": "형용사",
+  "why_ko": "기분 좋게 따뜻한 정도입니다. hot 은 더 뜨겁습니다.",
+  "timecode": "19:29",
+  "example_en": "It's warm today.",
+  "example_ko": "오늘은 따뜻해요.",
+  "kind": "word",
+  "date": "2026-09-29",
+  "vid": "Uztht-pgshk"
+ },
+ {
+  "en": "win",
+  "ko": "이기다",
+  "pos": "동사",
+  "why_ko": "게임이나 상을 탈 때 씁니다. 상대를 이기는 건 beat 입니다.",
+  "timecode": "03:10",
+  "example_en": "I want to win this game.",
+  "example_ko": "이 게임에서 이기고 싶어요.",
+  "kind": "word",
+  "date": "2026-09-29",
+  "vid": "Uztht-pgshk"
  }
 ]
