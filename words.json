@@ -5563,5 +5563,277 @@
   "kind": "word",
   "date": "2026-09-29",
   "vid": "Uztht-pgshk"
+ },
+ {
+  "en": "Let's hit the road.",
+  "ko": "이제 출발하자.",
+  "when_ko": "어딘가로 이제 떠나자고 말할 때",
+  "why_ko": "hit 은 때린다는 뜻이지만, road 와 붙으면 길을 나선다는 뜻이 됩니다.",
+  "timecode": "01:15",
+  "example_en": "It's getting late, so let's hit the road.",
+  "example_ko": "늦었으니까 이제 출발하자.",
+  "cloze_en": "It's getting late, so let's ___ the road.",
+  "cloze_answer": "hit",
+  "cloze_wrong": [
+   "beat",
+   "strike",
+   "knock"
+  ],
+  "kind": "expr",
+  "date": "2026-09-30",
+  "vid": "S0ygHyKb0Ok"
+ },
+ {
+  "en": "That hit the spot.",
+  "ko": "딱 좋았어. / 속이 확 풀리네.",
+  "when_ko": "먹거나 마신 것이 딱 맞게 좋았다고 말할 때",
+  "timecode": "01:57",
+  "why_ko": "spot 자리에 place 나 point 를 넣으면 이 말맛이 사라집니다. 통째로 굳은 말입니다.",
+  "example_en": "That cold beer really hit the spot.",
+  "example_ko": "그 시원한 맥주 진짜 딱 좋았어.",
+  "cloze_en": "That cold beer really hit the ___.",
+  "cloze_answer": "spot",
+  "cloze_wrong": [
+   "place",
+   "point",
+   "space"
+  ],
+  "kind": "expr",
+  "date": "2026-09-30",
+  "vid": "S0ygHyKb0Ok"
+ },
+ {
+  "en": "Let's hit the gym.",
+  "ko": "운동하러 가자.",
+  "when_ko": "같이 운동하러 가자고 가볍게 말할 때",
+  "timecode": "02:30",
+  "why_ko": "여기서도 hit 은 그곳으로 가자는 뜻입니다. go 를 쓰면 the 앞에 to 가 필요합니다.",
+  "example_en": "Let's hit the gym after work.",
+  "example_ko": "퇴근하고 운동하러 가자.",
+  "cloze_en": "Let's ___ the gym after work.",
+  "cloze_answer": "hit",
+  "cloze_wrong": [
+   "beat",
+   "touch",
+   "push"
+  ],
+  "kind": "expr",
+  "date": "2026-09-30",
+  "vid": "S0ygHyKb0Ok"
+ },
+ {
+  "en": "I'm going to hop on a bus.",
+  "ko": "버스 타려고.",
+  "when_ko": "지금 버스를 타러 간다고 말할 때",
+  "timecode": "02:50",
+  "why_ko": "hop 은 가볍게 툭 올라타는 느낌이라 버스·지하철에 잘 붙습니다.",
+  "example_en": "I'm going to hop on a bus to the airport.",
+  "example_ko": "공항까지 버스 타고 가려고.",
+  "cloze_en": "I'm going to ___ on a bus to the airport.",
+  "cloze_answer": "hop",
+  "cloze_wrong": [
+   "sit",
+   "stand",
+   "walk"
+  ],
+  "kind": "expr",
+  "date": "2026-09-30",
+  "vid": "S0ygHyKb0Ok"
+ },
+ {
+  "en": "I'm about to hop on a call.",
+  "ko": "지금 통화 들어가려고.",
+  "when_ko": "곧 전화·화상 통화를 시작한다고 알릴 때",
+  "timecode": "03:08",
+  "why_ko": "about to 는 바로 지금 시작한다는 느낌이고, going to 는 그보다 느슨한 계획입니다.",
+  "example_en": "I'm about to hop on a call with my boss.",
+  "example_ko": "상사랑 통화 들어가려는 중이야.",
+  "cloze_en": "I'm ___ to hop on a call with my boss.",
+  "cloze_answer": "about",
+  "cloze_wrong": [
+   "ready",
+   "going",
+   "trying"
+  ],
+  "kind": "expr",
+  "date": "2026-09-30",
+  "vid": "S0ygHyKb0Ok"
+ },
+ {
+  "en": "It's time to make my bed.",
+  "ko": "이제 침대를 정리할 시간이야.",
+  "when_ko": "아침 루틴에서 다음에 할 일을 말할 때",
+  "timecode": "09:40",
+  "why_ko": "침대 정리는 make 와 붙습니다. do 나 take 는 같이 쓰지 않습니다.",
+  "example_en": "After breakfast, it's time to make my bed.",
+  "example_ko": "아침 먹고 나면 침대를 정리할 시간이야.",
+  "cloze_en": "After breakfast, it's time to ___ my bed.",
+  "cloze_answer": "make",
+  "cloze_wrong": [
+   "do",
+   "take",
+   "get"
+  ],
+  "kind": "expr",
+  "date": "2026-09-30",
+  "vid": "S0ygHyKb0Ok"
+ },
+ {
+  "en": "It depends on the context.",
+  "ko": "상황에 따라 달라.",
+  "when_ko": "뜻이나 답이 상황마다 다르다고 말할 때",
+  "timecode": "00:35",
+  "why_ko": "depend 뒤에는 on 이 꼭 붙고, 주어가 It 이면 depends 가 됩니다.",
+  "example_en": "The meaning depends on the context.",
+  "example_ko": "뜻은 상황에 따라 달라져.",
+  "cloze_en": "The meaning ___ on the context.",
+  "cloze_answer": "depends",
+  "cloze_wrong": [
+   "depend",
+   "depending",
+   "depended"
+  ],
+  "kind": "expr",
+  "date": "2026-09-30",
+  "vid": "S0ygHyKb0Ok"
+ },
+ {
+  "en": "Nobody corrected me.",
+  "ko": "아무도 고쳐주지 않았어.",
+  "when_ko": "틀린 말을 계속 썼는데 아무도 말해주지 않았다고 할 때",
+  "timecode": "06:00",
+  "why_ko": "nobody 하나로 '아무도 안'이 되므로 not 을 또 넣지 않습니다.",
+  "example_en": "I said it wrong for years, and nobody corrected me.",
+  "example_ko": "몇 년 동안 틀리게 말했는데 아무도 고쳐주지 않았어.",
+  "cloze_en": "I said it wrong for years, and nobody ___ me.",
+  "cloze_answer": "corrected",
+  "cloze_wrong": [
+   "correct",
+   "correcting",
+   "corrects"
+  ],
+  "kind": "expr",
+  "date": "2026-09-30",
+  "vid": "S0ygHyKb0Ok"
+ },
+ {
+  "en": "memorize",
+  "ko": "외우다",
+  "pos": "동사",
+  "why_ko": "study 는 공부하는 것 전체이고, 이건 머리에 통째로 넣는 것입니다.",
+  "timecode": "00:31",
+  "example_en": "I memorize five words daily.",
+  "example_ko": "나는 매일 단어 다섯 개를 외운다.",
+  "kind": "word",
+  "date": "2026-09-30",
+  "vid": "S0ygHyKb0Ok"
+ },
+ {
+  "en": "meaning",
+  "ko": "뜻, 의미",
+  "pos": "명사",
+  "why_ko": "mean 은 '~을 뜻하다'라는 동작이고, 이건 그 뜻 자체를 가리킵니다.",
+  "timecode": "00:34",
+  "example_en": "What's the meaning of this?",
+  "example_ko": "이거 무슨 뜻이야?",
+  "kind": "word",
+  "date": "2026-09-30",
+  "vid": "S0ygHyKb0Ok"
+ },
+ {
+  "en": "change",
+  "ko": "바뀌다, 바꾸다",
+  "pos": "동사",
+  "why_ko": "exchange 는 물건을 서로 맞바꾸는 것이고, 이건 그냥 달라지는 것입니다.",
+  "timecode": "00:35",
+  "example_en": "The price changed yesterday.",
+  "example_ko": "가격이 어제 바뀌었어.",
+  "kind": "word",
+  "date": "2026-09-30",
+  "vid": "S0ygHyKb0Ok"
+ },
+ {
+  "en": "translate",
+  "ko": "번역하다",
+  "pos": "동사",
+  "why_ko": "explain 은 설명하는 것이고, 이건 다른 언어로 옮기는 것입니다.",
+  "timecode": "00:39",
+  "example_en": "Can you translate this menu?",
+  "example_ko": "이 메뉴 좀 번역해 줄래?",
+  "kind": "word",
+  "date": "2026-09-30",
+  "vid": "S0ygHyKb0Ok"
+ },
+ {
+  "en": "conversation",
+  "ko": "대화",
+  "pos": "명사",
+  "why_ko": "talk 도 대화지만, 이건 주고받는 대화 한 판을 가리킵니다.",
+  "timecode": "00:40",
+  "example_en": "We had a short conversation.",
+  "example_ko": "우리는 짧은 대화를 했어.",
+  "kind": "word",
+  "date": "2026-09-30",
+  "vid": "S0ygHyKb0Ok"
+ },
+ {
+  "en": "quickly",
+  "ko": "빨리",
+  "pos": "부사",
+  "why_ko": "quick 은 '빠른'이고, 이건 동작을 어떻게 하는지 말할 때 씁니다.",
+  "timecode": "03:05",
+  "example_en": "He ate lunch very quickly.",
+  "example_ko": "그는 점심을 아주 빨리 먹었다.",
+  "kind": "word",
+  "date": "2026-09-30",
+  "vid": "S0ygHyKb0Ok"
+ },
+ {
+  "en": "believe",
+  "ko": "믿다",
+  "pos": "동사",
+  "why_ko": "know 는 아는 것이고, 이건 사실인지 확실치 않아도 받아들이는 것입니다.",
+  "timecode": "04:42",
+  "example_en": "I can't believe this price.",
+  "example_ko": "이 가격이 믿기지 않아.",
+  "kind": "word",
+  "date": "2026-09-30",
+  "vid": "S0ygHyKb0Ok"
+ },
+ {
+  "en": "interview",
+  "ko": "인터뷰, 면접",
+  "pos": "명사",
+  "why_ko": "meeting 은 여럿이 모이는 자리이고, 이건 묻고 답하는 자리입니다.",
+  "timecode": "05:45",
+  "example_en": "I have an interview tomorrow.",
+  "example_ko": "나 내일 면접 있어.",
+  "kind": "word",
+  "date": "2026-09-30",
+  "vid": "S0ygHyKb0Ok"
+ },
+ {
+  "en": "story",
+  "ko": "이야기",
+  "pos": "명사",
+  "why_ko": "news 는 새로 생긴 소식이고, 이건 사람이 들려주는 이야기입니다.",
+  "timecode": "05:49",
+  "example_en": "Tell me that story again.",
+  "example_ko": "그 이야기 다시 해줘.",
+  "kind": "word",
+  "date": "2026-09-30",
+  "vid": "S0ygHyKb0Ok"
+ },
+ {
+  "en": "wrong",
+  "ko": "틀린, 잘못된",
+  "pos": "형용사",
+  "why_ko": "bad 는 나쁜 것이고, 이건 맞지 않다는 뜻입니다.",
+  "timecode": "05:52",
+  "example_en": "I took the wrong bus.",
+  "example_ko": "버스를 잘못 탔어.",
+  "kind": "word",
+  "date": "2026-09-30",
+  "vid": "S0ygHyKb0Ok"
  }
 ]
