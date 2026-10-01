@@ -5835,5 +5835,277 @@
   "kind": "word",
   "date": "2026-09-30",
   "vid": "S0ygHyKb0Ok"
+ },
+ {
+  "en": "I'm not really ready.",
+  "ko": "저는 아직 준비가 안 됐어요.",
+  "when_ko": "상대가 재촉하는데 아직 준비가 안 됐다고 말할 때",
+  "why_ko": "ready 는 혼자 쓰지 못하고 앞에 am 이 필요합니다. not 은 am 바로 뒤에 붙습니다.",
+  "timecode": "02:22",
+  "example_en": "Sorry, I'm not really ready yet.",
+  "example_ko": "미안해요, 저 아직 준비가 안 됐어요.",
+  "cloze_en": "Sorry, I'm not really ___ yet.",
+  "cloze_answer": "ready",
+  "cloze_wrong": [
+   "ready to",
+   "readily",
+   "get ready"
+  ],
+  "kind": "expr",
+  "date": "2026-10-01",
+  "vid": "42Apod_k8Ek"
+ },
+ {
+  "en": "Can you repeat one more time?",
+  "ko": "한 번 더 말해 주실 수 있어요?",
+  "when_ko": "상대 말을 못 알아들어서 다시 말해 달라고 할 때",
+  "why_ko": "repeat 뒤에 again 을 또 붙이지 않습니다. one more time 하나로 충분합니다.",
+  "timecode": "04:52",
+  "example_en": "Sorry, can you repeat one more time?",
+  "example_ko": "미안해요, 한 번 더 말해 주실 수 있어요?",
+  "cloze_en": "Sorry, can you ___ one more time?",
+  "cloze_answer": "repeat",
+  "cloze_wrong": [
+   "say",
+   "speak",
+   "talk"
+  ],
+  "kind": "expr",
+  "date": "2026-10-01",
+  "vid": "42Apod_k8Ek"
+ },
+ {
+  "en": "I'm a little bit nervous.",
+  "ko": "저 조금 긴장돼요.",
+  "when_ko": "처음 해 보는 일 앞에서 떨린다고 말할 때",
+  "why_ko": "a little bit 은 nervous 앞에 옵니다. 뒤로 가면 말이 어색해집니다.",
+  "timecode": "02:41",
+  "example_en": "I'm a little bit nervous about tomorrow.",
+  "example_ko": "저 내일 일이 조금 긴장돼요.",
+  "cloze_en": "I'm a little bit ___ about tomorrow.",
+  "cloze_answer": "nervous",
+  "cloze_wrong": [
+   "nerve",
+   "nervously",
+   "nervousness"
+  ],
+  "kind": "expr",
+  "date": "2026-10-01",
+  "vid": "42Apod_k8Ek"
+ },
+ {
+  "en": "That's totally fine.",
+  "ko": "그거 전혀 괜찮아요.",
+  "when_ko": "상대가 미안해하거나 걱정할 때 괜찮다고 할 때",
+  "why_ko": "totally 는 fine 을 더 세게 만들어 줍니다. fine totally 순서는 쓰지 않습니다.",
+  "timecode": "07:13",
+  "example_en": "You can be late. That's totally fine.",
+  "example_ko": "늦어도 돼요. 전혀 괜찮아요.",
+  "cloze_en": "You can be late. That's totally ___.",
+  "cloze_answer": "fine",
+  "cloze_wrong": [
+   "good",
+   "well",
+   "right"
+  ],
+  "kind": "expr",
+  "date": "2026-10-01",
+  "vid": "42Apod_k8Ek"
+ },
+ {
+  "en": "I don't like drinking.",
+  "ko": "저는 술 마시는 걸 안 좋아해요.",
+  "when_ko": "술자리에서 술을 권할 때 거절하며 말할 때",
+  "why_ko": "like 뒤에는 drink 가 아니라 drinking 이 옵니다. 그 행동 자체를 말할 때 -ing 를 씁니다.",
+  "timecode": "18:08",
+  "example_en": "Thank you, but I don't like drinking.",
+  "example_ko": "고맙지만 저는 술 마시는 걸 안 좋아해요.",
+  "cloze_en": "Thank you, but I don't like ___.",
+  "cloze_answer": "drinking",
+  "cloze_wrong": [
+   "drink",
+   "drinks",
+   "to drinking"
+  ],
+  "kind": "expr",
+  "date": "2026-10-01",
+  "vid": "42Apod_k8Ek"
+ },
+ {
+  "en": "The weather is so good.",
+  "ko": "날씨가 너무 좋아요.",
+  "when_ko": "날씨 이야기로 가볍게 말을 걸 때",
+  "why_ko": "weather 앞에는 the 가 붙습니다. 그리고 so 는 good 바로 앞에 옵니다.",
+  "timecode": "00:33",
+  "example_en": "The weather is so good today.",
+  "example_ko": "오늘 날씨가 너무 좋아요.",
+  "cloze_en": "The ___ is so good today.",
+  "cloze_answer": "weather",
+  "cloze_wrong": [
+   "weathers",
+   "whether",
+   "wether"
+  ],
+  "kind": "expr",
+  "date": "2026-10-01",
+  "vid": "42Apod_k8Ek"
+ },
+ {
+  "en": "I learned a lot.",
+  "ko": "많이 배웠어요.",
+  "when_ko": "수업이나 대화가 끝난 뒤 좋았다고 말할 때",
+  "why_ko": "learned 는 이미 끝난 일입니다. 지금 배우는 중이 아니라 배운 결과를 말합니다.",
+  "timecode": "21:49",
+  "example_en": "Thank you. I learned a lot today.",
+  "example_ko": "고마워요. 오늘 많이 배웠어요.",
+  "cloze_en": "Thank you. I ___ a lot today.",
+  "cloze_answer": "learned",
+  "cloze_wrong": [
+   "learn",
+   "learning",
+   "am learning"
+  ],
+  "kind": "expr",
+  "date": "2026-10-01",
+  "vid": "42Apod_k8Ek"
+ },
+ {
+  "en": "I don't have any plan.",
+  "ko": "저는 아무 계획도 없어요.",
+  "when_ko": "주말이나 다음 일정을 물어볼 때 계획이 없다고 답할 때",
+  "why_ko": "don't 와 함께 쓸 때는 some 이 아니라 any 를 씁니다.",
+  "timecode": "10:19",
+  "example_en": "This weekend I don't have any plan.",
+  "example_ko": "이번 주말에 저는 아무 계획도 없어요.",
+  "cloze_en": "This weekend I don't have ___ plan.",
+  "cloze_answer": "any",
+  "cloze_wrong": [
+   "some",
+   "no",
+   "many"
+  ],
+  "kind": "expr",
+  "date": "2026-10-01",
+  "vid": "42Apod_k8Ek"
+ },
+ {
+  "en": "mistake",
+  "ko": "실수",
+  "pos": "명사",
+  "why_ko": "비슷한 말로 problem 이 있지만 problem 은 풀어야 할 문제이고 이건 내가 잘못한 일입니다.",
+  "timecode": "01:48",
+  "example_en": "I made a big mistake.",
+  "example_ko": "저는 큰 실수를 했어요.",
+  "kind": "word",
+  "date": "2026-10-01",
+  "vid": "42Apod_k8Ek"
+ },
+ {
+  "en": "improve",
+  "ko": "나아지게 하다",
+  "pos": "동사",
+  "why_ko": "비슷한 말로 change 가 있지만 change 는 그냥 바뀌는 것이고 이건 더 좋아지는 것입니다.",
+  "timecode": "02:50",
+  "example_en": "I want to improve my English.",
+  "example_ko": "저는 영어를 더 잘하고 싶어요.",
+  "kind": "word",
+  "date": "2026-10-01",
+  "vid": "42Apod_k8Ek"
+ },
+ {
+  "en": "understand",
+  "ko": "이해하다",
+  "pos": "동사",
+  "why_ko": "비슷한 말로 hear 가 있지만 hear 는 소리가 들리는 것이고 이건 뜻을 아는 것입니다.",
+  "timecode": "03:12",
+  "example_en": "Sorry, I don't understand.",
+  "example_ko": "미안해요, 이해가 안 돼요.",
+  "kind": "word",
+  "date": "2026-10-01",
+  "vid": "42Apod_k8Ek"
+ },
+ {
+  "en": "difficult",
+  "ko": "어려운",
+  "pos": "형용사",
+  "why_ko": "비슷한 말로 busy 가 있지만 busy 는 바쁜 것이고 이건 해내기 힘든 것입니다.",
+  "timecode": "04:22",
+  "example_en": "This word is very difficult.",
+  "example_ko": "이 단어는 아주 어려워요.",
+  "kind": "word",
+  "date": "2026-10-01",
+  "vid": "42Apod_k8Ek"
+ },
+ {
+  "en": "shy",
+  "ko": "부끄러워하는",
+  "pos": "형용사",
+  "why_ko": "긴장된다는 nervous 와 달리 이건 사람 앞에서 나서기 싫은 성격을 말합니다.",
+  "timecode": "04:40",
+  "example_en": "I was shy as a kid.",
+  "example_ko": "저는 어릴 때 부끄러움을 탔어요.",
+  "kind": "word",
+  "date": "2026-10-01",
+  "vid": "42Apod_k8Ek"
+ },
+ {
+  "en": "matter",
+  "ko": "중요하다",
+  "pos": "동사",
+  "why_ko": "비슷한 말로 important 가 있지만 important 는 꾸미는 말이고 이건 그 자체로 쓰는 말입니다.",
+  "timecode": "06:35",
+  "example_en": "Your health matters most.",
+  "example_ko": "당신 건강이 가장 중요해요.",
+  "kind": "word",
+  "date": "2026-10-01",
+  "vid": "42Apod_k8Ek"
+ },
+ {
+  "en": "natural",
+  "ko": "자연스러운",
+  "pos": "형용사",
+  "why_ko": "비슷한 말로 perfect 가 있지만 perfect 는 틀린 데가 없는 것이고 이건 원어민이 실제로 쓰는 느낌입니다.",
+  "timecode": "07:43",
+  "example_en": "That sounds more natural.",
+  "example_ko": "그게 더 자연스럽게 들려요.",
+  "kind": "word",
+  "date": "2026-10-01",
+  "vid": "42Apod_k8Ek"
+ },
+ {
+  "en": "sick",
+  "ko": "아픈",
+  "pos": "형용사",
+  "why_ko": "다쳤을 때는 hurt 를 쓰고 몸살이나 병이 났을 때 이 말을 씁니다.",
+  "timecode": "17:17",
+  "example_en": "My kid is sick today.",
+  "example_ko": "우리 아이가 오늘 아파요.",
+  "kind": "word",
+  "date": "2026-10-01",
+  "vid": "42Apod_k8Ek"
+ },
+ {
+  "en": "together",
+  "ko": "함께",
+  "pos": "부사",
+  "why_ko": "with 는 뒤에 사람이 와야 하지만 이 말은 뒤에 아무것도 없이 끝낼 수 있습니다.",
+  "timecode": "18:27",
+  "example_en": "Let's eat lunch together.",
+  "example_ko": "점심 같이 먹어요.",
+  "kind": "word",
+  "date": "2026-10-01",
+  "vid": "42Apod_k8Ek"
+ },
+ {
+  "en": "break",
+  "ko": "쉼",
+  "pos": "명사",
+  "why_ko": "비슷한 말로 end 가 있지만 end 는 끝나는 것이고 이건 잠시 멈추고 쉬는 것입니다.",
+  "timecode": "10:11",
+  "example_en": "Let's take a short break.",
+  "example_ko": "잠깐 쉬어요.",
+  "kind": "word",
+  "date": "2026-10-01",
+  "vid": "42Apod_k8Ek"
  }
 ]
