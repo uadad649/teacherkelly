@@ -6107,5 +6107,277 @@
   "kind": "word",
   "date": "2026-10-01",
   "vid": "42Apod_k8Ek"
+ },
+ {
+  "en": "I'm on my way.",
+  "ko": "지금 가는 중이에요.",
+  "when_ko": "약속 장소로 이미 출발했다고 알릴 때",
+  "why_ko": "way 앞에는 on 이 붙습니다. 길 위에 있다는 느낌으로 통째로 외우세요.",
+  "timecode": "00:10",
+  "example_en": "Sorry I'm late. I'm on my way now.",
+  "example_ko": "늦어서 미안해요. 지금 가는 중이에요.",
+  "cloze_en": "Sorry I'm late. I'm ___ my way now.",
+  "cloze_answer": "on",
+  "cloze_wrong": [
+   "in",
+   "at",
+   "to"
+  ],
+  "kind": "expr",
+  "date": "2026-10-02",
+  "vid": "theDXQAFaCk"
+ },
+ {
+  "en": "I made it.",
+  "ko": "도착했어요. / 해냈어요.",
+  "when_ko": "늦을까 걱정했는데 무사히 도착했다고 말할 때",
+  "why_ko": "make it 은 '만들다'가 아니라 '도착하다, 시간 맞춰 가다'입니다. 두 낱말이 붙어 다닙니다.",
+  "timecode": "00:30",
+  "example_en": "The traffic was bad, but I made it on time.",
+  "example_ko": "차가 막혔지만 시간 맞춰 도착했어요.",
+  "cloze_en": "The traffic was bad, but I ___ it on time.",
+  "cloze_answer": "made",
+  "cloze_wrong": [
+   "did",
+   "took",
+   "got"
+  ],
+  "kind": "expr",
+  "date": "2026-10-02",
+  "vid": "theDXQAFaCk"
+ },
+ {
+  "en": "Can you give me a hand?",
+  "ko": "좀 도와줄래요?",
+  "when_ko": "짐이 무겁거나 혼자 하기 힘들어 도움을 청할 때",
+  "why_ko": "help 보다 가볍게 부탁하는 말입니다. hand 앞에 a 가 꼭 들어갑니다.",
+  "timecode": "00:46",
+  "example_en": "This box is heavy. Can you give me a hand?",
+  "example_ko": "이 상자 무거워요. 좀 도와줄래요?",
+  "cloze_en": "This box is heavy. Can you ___ me a hand?",
+  "cloze_answer": "give",
+  "cloze_wrong": [
+   "take",
+   "make",
+   "get"
+  ],
+  "kind": "expr",
+  "date": "2026-10-02",
+  "vid": "theDXQAFaCk"
+ },
+ {
+  "en": "Do you want me to carry this?",
+  "ko": "이거 제가 들어드릴까요?",
+  "when_ko": "상대가 무거운 걸 들고 있어 먼저 도와주겠다고 할 때",
+  "why_ko": "Do you want me to ... 는 '제가 ~할까요?'로 쓰는 덩어리입니다. to 뒤에 할 일을 붙입니다.",
+  "timecode": "01:05",
+  "example_en": "That bag looks heavy. Do you want me to carry this?",
+  "example_ko": "그 가방 무거워 보여요. 이거 제가 들어드릴까요?",
+  "cloze_en": "Do you want me to ___ this for you?",
+  "cloze_answer": "carry",
+  "cloze_wrong": [
+   "bring",
+   "hold",
+   "take"
+  ],
+  "kind": "expr",
+  "date": "2026-10-02",
+  "vid": "theDXQAFaCk"
+ },
+ {
+  "en": "I'm a little bit sleepy.",
+  "ko": "좀 졸려요.",
+  "when_ko": "잠이 부족해서 피곤하다고 가볍게 말할 때",
+  "why_ko": "sleep 은 자는 동작이고, sleepy 는 졸린 상태입니다. 상태를 말할 때는 I'm 과 함께 씁니다.",
+  "timecode": "05:49",
+  "example_en": "I went to bed late, so I'm a little bit sleepy.",
+  "example_ko": "늦게 자서 좀 졸려요.",
+  "cloze_en": "I went to bed late, so I'm a little bit ___.",
+  "cloze_answer": "sleepy",
+  "cloze_wrong": [
+   "sleep",
+   "asleep",
+   "sleeping"
+  ],
+  "kind": "expr",
+  "date": "2026-10-02",
+  "vid": "theDXQAFaCk"
+ },
+ {
+  "en": "I'm not a night owl.",
+  "ko": "저는 밤에 활동하는 사람이 아니에요.",
+  "when_ko": "밤늦게까지 못 버틴다고 말할 때",
+  "why_ko": "night owl 은 밤늦게까지 깨어 있는 사람을 부르는 말입니다. 두 낱말이 한 덩어리입니다.",
+  "timecode": "05:46",
+  "example_en": "I go to bed early. I'm not a night owl.",
+  "example_ko": "저는 일찍 자요. 밤에 활동하는 사람이 아니에요.",
+  "cloze_en": "I go to bed early. I'm not a night ___.",
+  "cloze_answer": "owl",
+  "cloze_wrong": [
+   "bird",
+   "cat",
+   "person"
+  ],
+  "kind": "expr",
+  "date": "2026-10-02",
+  "vid": "theDXQAFaCk"
+ },
+ {
+  "en": "I'm excited about that.",
+  "ko": "그게 정말 기대돼요.",
+  "when_ko": "앞으로 있을 일이 기대된다고 말할 때",
+  "why_ko": "excited 뒤에는 about 이 붙습니다. 기대하는 대상을 about 다음에 놓습니다.",
+  "timecode": "06:40",
+  "example_en": "We're going to Egypt next month. I'm excited about that.",
+  "example_ko": "다음 달에 이집트에 가요. 그게 정말 기대돼요.",
+  "cloze_en": "I'm excited ___ that.",
+  "cloze_answer": "about",
+  "cloze_wrong": [
+   "for",
+   "to",
+   "on"
+  ],
+  "kind": "expr",
+  "date": "2026-10-02",
+  "vid": "theDXQAFaCk"
+ },
+ {
+  "en": "It's time to catch up on sleep.",
+  "ko": "이제 부족한 잠을 좀 자야겠어요.",
+  "when_ko": "밤을 새우거나 바빴던 뒤 자러 간다고 말할 때",
+  "why_ko": "catch up on 은 못 한 것을 뒤늦게 채운다는 말입니다. up 과 on 을 둘 다 붙여 씁니다.",
+  "timecode": "08:03",
+  "example_en": "I'm so tired. It's time to catch up on sleep.",
+  "example_ko": "너무 피곤해요. 이제 부족한 잠을 좀 자야겠어요.",
+  "cloze_en": "I'm so tired. It's time to catch ___ on sleep.",
+  "cloze_answer": "up",
+  "cloze_wrong": [
+   "on",
+   "out",
+   "in"
+  ],
+  "kind": "expr",
+  "date": "2026-10-02",
+  "vid": "theDXQAFaCk"
+ },
+ {
+  "en": "snacks",
+  "ko": "간식, 과자류",
+  "pos": "명사",
+  "why_ko": "food 는 밥까지 다 가리키고, snacks 는 끼니 사이에 집어 먹는 것입니다.",
+  "timecode": "02:15",
+  "example_en": "I bought some snacks.",
+  "example_ko": "간식을 좀 샀어요.",
+  "kind": "word",
+  "date": "2026-10-02",
+  "vid": "theDXQAFaCk"
+ },
+ {
+  "en": "store",
+  "ko": "가게, 상점",
+  "pos": "명사",
+  "why_ko": "shop 과 거의 같지만 미국에서는 store 를 더 많이 씁니다.",
+  "timecode": "01:21",
+  "example_en": "The store is still open.",
+  "example_ko": "가게가 아직 열었어요.",
+  "kind": "word",
+  "date": "2026-10-02",
+  "vid": "theDXQAFaCk"
+ },
+ {
+  "en": "cake",
+  "ko": "케이크",
+  "pos": "명사",
+  "why_ko": "bread 는 빵, cake 는 생일이나 축하 때 먹는 단 것입니다.",
+  "timecode": "00:33",
+  "example_en": "I ordered a cake.",
+  "example_ko": "케이크를 주문했어요.",
+  "kind": "word",
+  "date": "2026-10-02",
+  "vid": "theDXQAFaCk"
+ },
+ {
+  "en": "balloons",
+  "ko": "풍선",
+  "pos": "명사",
+  "why_ko": "ball 은 공, balloon 은 공기를 넣어 부풀리는 풍선입니다.",
+  "timecode": "01:42",
+  "example_en": "We put up some balloons.",
+  "example_ko": "풍선을 좀 달았어요.",
+  "kind": "word",
+  "date": "2026-10-02",
+  "vid": "theDXQAFaCk"
+ },
+ {
+  "en": "photo",
+  "ko": "사진",
+  "pos": "명사",
+  "why_ko": "picture 는 그림도 되지만 photo 는 찍은 사진만 말합니다.",
+  "timecode": "04:36",
+  "example_en": "Can you take a photo?",
+  "example_ko": "사진 찍어줄 수 있어요?",
+  "kind": "word",
+  "date": "2026-10-02",
+  "vid": "theDXQAFaCk"
+ },
+ {
+  "en": "trip",
+  "ko": "여행",
+  "pos": "명사",
+  "why_ko": "travel 은 이동하는 행위고, trip 은 한 번 다녀오는 여행 그 자체입니다.",
+  "timecode": "06:54",
+  "example_en": "It was a long trip.",
+  "example_ko": "긴 여행이었어요.",
+  "kind": "word",
+  "date": "2026-10-02",
+  "vid": "theDXQAFaCk"
+ },
+ {
+  "en": "surprise",
+  "ko": "깜짝 놀랄 일, 서프라이즈",
+  "pos": "명사",
+  "why_ko": "놀라는 느낌이 아니라, 상대를 놀라게 하려고 준비한 것을 말합니다.",
+  "timecode": "00:13",
+  "example_en": "It's a surprise for her.",
+  "example_ko": "그녀를 위한 깜짝 선물이에요.",
+  "kind": "word",
+  "date": "2026-10-02",
+  "vid": "theDXQAFaCk"
+ },
+ {
+  "en": "choose",
+  "ko": "고르다, 선택하다",
+  "pos": "동사",
+  "why_ko": "take 는 그냥 가져가는 것이고, choose 는 여러 개 중에서 고르는 것입니다.",
+  "timecode": "05:06",
+  "example_en": "Choose a song, please.",
+  "example_ko": "노래 하나 골라 주세요.",
+  "kind": "word",
+  "date": "2026-10-02",
+  "vid": "theDXQAFaCk"
+ },
+ {
+  "en": "buy",
+  "ko": "사다",
+  "pos": "동사",
+  "why_ko": "pay 는 돈을 내는 것이고, buy 는 물건을 사는 것입니다.",
+  "timecode": "01:21",
+  "example_en": "I want to buy this.",
+  "example_ko": "이거 사고 싶어요.",
+  "kind": "word",
+  "date": "2026-10-02",
+  "vid": "theDXQAFaCk"
+ },
+ {
+  "en": "cute",
+  "ko": "귀엽다",
+  "pos": "형용사",
+  "why_ko": "beautiful 은 아름다운 것, cute 는 작고 사랑스러운 느낌입니다.",
+  "timecode": "01:18",
+  "example_en": "Your dog is so cute.",
+  "example_ko": "강아지가 너무 귀여워요.",
+  "kind": "word",
+  "date": "2026-10-02",
+  "vid": "theDXQAFaCk"
  }
 ]
