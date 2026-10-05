@@ -6379,5 +6379,277 @@
   "kind": "word",
   "date": "2026-10-02",
   "vid": "theDXQAFaCk"
+ },
+ {
+  "en": "I'm from Busan.",
+  "ko": "저는 부산에서 왔어요.",
+  "when_ko": "처음 만난 사람이 어디서 왔냐고 물을 때",
+  "why_ko": "출신을 말할 때는 from 을 씁니다. in 을 쓰면 지금 그 안에 있다는 뜻이 됩니다.",
+  "timecode": "01:56",
+  "example_en": "Hi, I'm Youngjun. I'm from Busan.",
+  "example_ko": "안녕하세요, 저는 영준이에요. 부산에서 왔어요.",
+  "cloze_en": "Hi, I'm Youngjun. I'm ___ Busan.",
+  "cloze_answer": "from",
+  "cloze_wrong": [
+   "in",
+   "at",
+   "of"
+  ],
+  "kind": "expr",
+  "date": "2026-10-06",
+  "vid": "Rybr10iK7I8"
+ },
+ {
+  "en": "I'm originally from Busan.",
+  "ko": "저는 원래 부산 사람이에요.",
+  "when_ko": "고향을 떠나 다른 도시에 살고 있다고 말할 때",
+  "why_ko": "originally 가 '지금은 아니지만 처음엔'이라는 느낌을 줍니다. 그래서 뒤에 but I live in ... now 가 자연스럽게 붙습니다.",
+  "timecode": "02:01",
+  "example_en": "I'm originally from Busan, but I live in Seoul now.",
+  "example_ko": "저는 원래 부산 사람인데, 지금은 서울에 살아요.",
+  "cloze_en": "I'm ___ from Busan, but I live in Seoul now.",
+  "cloze_answer": "originally",
+  "cloze_wrong": [
+   "usually",
+   "finally",
+   "actually"
+  ],
+  "kind": "expr",
+  "date": "2026-10-06",
+  "vid": "Rybr10iK7I8"
+ },
+ {
+  "en": "I was born and raised here.",
+  "ko": "저는 여기서 태어나고 자랐어요.",
+  "when_ko": "그 동네 사람이냐고 물었을 때 '여기 사람이에요'라고 답할 때",
+  "why_ko": "born 과 raised 를 and 로 붙여 한 덩어리로 씁니다. raise 는 '키우다'라서 키워진 쪽인 나는 raised 가 됩니다.",
+  "timecode": "02:20",
+  "example_en": "I was born and raised here in Busan.",
+  "example_ko": "저는 여기 부산에서 태어나고 자랐어요.",
+  "cloze_en": "I was born and ___ here in Busan.",
+  "cloze_answer": "raised",
+  "cloze_wrong": [
+   "raise",
+   "raising",
+   "raises"
+  ],
+  "kind": "expr",
+  "date": "2026-10-06",
+  "vid": "Rybr10iK7I8"
+ },
+ {
+  "en": "I'm an English teacher.",
+  "ko": "저는 영어 선생님이에요.",
+  "when_ko": "직업을 묻는 말에 한 문장으로 답할 때",
+  "why_ko": "직업 앞에는 a 나 an 을 붙입니다. English 는 소리가 모음으로 시작해서 an 입니다.",
+  "timecode": "02:56",
+  "example_en": "I'm an English teacher at a middle school.",
+  "example_ko": "저는 중학교 영어 선생님이에요.",
+  "cloze_en": "I'm an English teacher ___ a middle school.",
+  "cloze_answer": "at",
+  "cloze_wrong": [
+   "in",
+   "on",
+   "to"
+  ],
+  "kind": "expr",
+  "date": "2026-10-06",
+  "vid": "Rybr10iK7I8"
+ },
+ {
+  "en": "I work in English education.",
+  "ko": "저는 영어 교육 분야에서 일해요.",
+  "when_ko": "회사 이름은 말하고 싶지 않고 어떤 분야인지만 말할 때",
+  "why_ko": "분야를 말할 때는 in, 회사나 가게를 말할 때는 at 입니다.",
+  "timecode": "03:32",
+  "example_en": "I work in tech, so I use English every day.",
+  "example_ko": "저는 IT 분야에서 일해서 영어를 매일 써요.",
+  "cloze_en": "I work ___ tech, so I use English every day.",
+  "cloze_answer": "in",
+  "cloze_wrong": [
+   "at",
+   "on",
+   "for"
+  ],
+  "kind": "expr",
+  "date": "2026-10-06",
+  "vid": "Rybr10iK7I8"
+ },
+ {
+  "en": "I'm a big fan of coffee.",
+  "ko": "저는 커피를 엄청 좋아해요.",
+  "when_ko": "좋아하는 것을 I like 보다 세게 말할 때",
+  "why_ko": "fan 뒤에는 of 가 따라옵니다. 좋아하는 것을 바로 붙여 쓰지 않습니다.",
+  "timecode": "04:39",
+  "example_en": "I'm a big fan of coffee, so I drink three cups a day.",
+  "example_ko": "저는 커피를 엄청 좋아해서 하루에 세 잔 마셔요.",
+  "cloze_en": "I'm a big fan ___ coffee, so I drink three cups a day.",
+  "cloze_answer": "of",
+  "cloze_wrong": [
+   "for",
+   "to",
+   "on"
+  ],
+  "kind": "expr",
+  "date": "2026-10-06",
+  "vid": "Rybr10iK7I8"
+ },
+ {
+  "en": "Nice to meet you all.",
+  "ko": "모두 만나서 반갑습니다.",
+  "when_ko": "여러 사람 앞에서 자기소개를 끝낼 때",
+  "why_ko": "한 사람이면 you, 여러 사람이면 뒤에 all 을 붙여 '다들'이라는 느낌을 줍니다.",
+  "timecode": "05:51",
+  "example_en": "Nice to meet you all. I'm Youngjun.",
+  "example_ko": "다들 만나서 반갑습니다. 저는 영준이에요.",
+  "cloze_en": "Nice to ___ you all. I'm Youngjun.",
+  "cloze_answer": "meet",
+  "cloze_wrong": [
+   "meeting",
+   "met",
+   "know"
+  ],
+  "kind": "expr",
+  "date": "2026-10-06",
+  "vid": "Rybr10iK7I8"
+ },
+ {
+  "en": "Thanks for having me.",
+  "ko": "초대해 주셔서 감사합니다.",
+  "when_ko": "남의 모임이나 집에 손님으로 갔을 때 인사로",
+  "why_ko": "for 뒤에는 -ing 꼴이 옵니다. 여기서 having 은 '나를 불러 준 것'을 뜻합니다.",
+  "timecode": "05:53",
+  "example_en": "Thanks for having me today.",
+  "example_ko": "오늘 초대해 주셔서 감사합니다.",
+  "cloze_en": "Thanks for ___ me today.",
+  "cloze_answer": "having",
+  "cloze_wrong": [
+   "have",
+   "had",
+   "has"
+  ],
+  "kind": "expr",
+  "date": "2026-10-06",
+  "vid": "Rybr10iK7I8"
+ },
+ {
+  "en": "greeting",
+  "ko": "인사, 인사말",
+  "pos": "명사",
+  "why_ko": "hello 는 하는 말 자체이고, greeting 은 그 '인사'라는 행동을 가리키는 말입니다.",
+  "timecode": "00:21",
+  "example_en": "Start with a greeting.",
+  "example_ko": "인사로 시작하세요.",
+  "kind": "word",
+  "date": "2026-10-06",
+  "vid": "Rybr10iK7I8"
+ },
+ {
+  "en": "simple",
+  "ko": "간단한",
+  "pos": "형용사",
+  "why_ko": "easy 는 하기 쉽다는 뜻이고, simple 은 복잡하지 않다는 뜻입니다.",
+  "timecode": "00:23",
+  "example_en": "Keep it short and simple.",
+  "example_ko": "짧고 간단하게 하세요.",
+  "kind": "word",
+  "date": "2026-10-06",
+  "vid": "Rybr10iK7I8"
+ },
+ {
+  "en": "natural",
+  "ko": "자연스러운",
+  "pos": "형용사",
+  "why_ko": "correct 는 맞다는 뜻이고, natural 은 실제로 그렇게 말한다는 뜻입니다.",
+  "timecode": "00:24",
+  "example_en": "This sounds more natural.",
+  "example_ko": "이게 더 자연스럽게 들려요.",
+  "kind": "word",
+  "date": "2026-10-06",
+  "vid": "Rybr10iK7I8"
+ },
+ {
+  "en": "hometown",
+  "ko": "고향",
+  "pos": "명사",
+  "why_ko": "home 은 지금 사는 집이고, hometown 은 자란 동네입니다.",
+  "timecode": "02:00",
+  "example_en": "Busan is my hometown.",
+  "example_ko": "부산이 제 고향이에요.",
+  "kind": "word",
+  "date": "2026-10-06",
+  "vid": "Rybr10iK7I8"
+ },
+ {
+  "en": "childhood",
+  "ko": "어린 시절",
+  "pos": "명사",
+  "why_ko": "child 는 아이 한 명이고, childhood 는 아이였던 시기를 말합니다.",
+  "timecode": "02:19",
+  "example_en": "I spent my childhood there.",
+  "example_ko": "저는 어린 시절을 거기서 보냈어요.",
+  "kind": "word",
+  "date": "2026-10-06",
+  "vid": "Rybr10iK7I8"
+ },
+ {
+  "en": "job",
+  "ko": "직업, 일자리",
+  "pos": "명사",
+  "why_ko": "work 는 일하는 것 전체를 말하고, job 은 하나하나 세는 일자리입니다.",
+  "timecode": "02:49",
+  "example_en": "I like my new job.",
+  "example_ko": "저는 새 직업이 좋아요.",
+  "kind": "word",
+  "date": "2026-10-06",
+  "vid": "Rybr10iK7I8"
+ },
+ {
+  "en": "student",
+  "ko": "학생",
+  "pos": "명사",
+  "why_ko": "teacher 와 짝이 되는 말입니다. 나이와 상관없이 배우는 사람에게 씁니다.",
+  "timecode": "03:41",
+  "example_en": "I'm a student at university.",
+  "example_ko": "저는 대학생이에요.",
+  "kind": "word",
+  "date": "2026-10-06",
+  "vid": "Rybr10iK7I8"
+ },
+ {
+  "en": "hobby",
+  "ko": "취미",
+  "pos": "명사",
+  "why_ko": "뜻은 맞지만 원어민은 대화에서 I love ... 를 더 씁니다.",
+  "timecode": "04:00",
+  "example_en": "My hobby is running.",
+  "example_ko": "제 취미는 달리기예요.",
+  "kind": "word",
+  "date": "2026-10-06",
+  "vid": "Rybr10iK7I8"
+ },
+ {
+  "en": "guest",
+  "ko": "손님",
+  "pos": "명사",
+  "why_ko": "customer 는 돈을 내고 사는 손님이고, guest 는 초대받은 손님입니다.",
+  "timecode": "05:57",
+  "example_en": "I'm a guest here today.",
+  "example_ko": "저는 오늘 여기 손님이에요.",
+  "kind": "word",
+  "date": "2026-10-06",
+  "vid": "Rybr10iK7I8"
+ },
+ {
+  "en": "join",
+  "ko": "들어가다, 함께하다",
+  "pos": "동사",
+  "why_ko": "enter 는 공간에 들어가는 것이고, join 은 모임이나 무리에 끼는 것입니다.",
+  "timecode": "05:22",
+  "example_en": "I joined this group last month.",
+  "example_ko": "저는 지난달에 이 모임에 들어왔어요.",
+  "kind": "word",
+  "date": "2026-10-06",
+  "vid": "Rybr10iK7I8"
  }
 ]
