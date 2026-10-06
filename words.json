@@ -6651,5 +6651,277 @@
   "kind": "word",
   "date": "2026-10-06",
   "vid": "Rybr10iK7I8"
+ },
+ {
+  "en": "One crab sandwich, please.",
+  "ko": "크랩 샌드위치 하나 주세요.",
+  "when_ko": "가게나 식당에서 메뉴 하나를 주문할 때",
+  "why_ko": "끝에 please 를 붙이면 명령이 아니라 부탁이 됩니다. 이게 없으면 툭 던지는 말로 들립니다.",
+  "timecode": "03:00",
+  "example_en": "Hello. One crab sandwich, please.",
+  "example_ko": "안녕하세요. 크랩 샌드위치 하나 주세요.",
+  "cloze_en": "Hello. One crab sandwich, ___.",
+  "cloze_answer": "please",
+  "cloze_wrong": [
+   "thanks",
+   "sorry",
+   "okay"
+  ],
+  "kind": "expr",
+  "date": "2026-10-06",
+  "vid": "qGLfhSvxJV8"
+ },
+ {
+  "en": "Can I get one order of fries?",
+  "ko": "감자튀김 하나 주실 수 있나요?",
+  "when_ko": "식당에서 공손하게 음식을 하나 주문할 때",
+  "why_ko": "음식을 받을 때는 take 나 do 가 아니라 get 을 씁니다. one order of ~ 는 '~ 1인분'을 셀 때 쓰는 말입니다.",
+  "timecode": "03:43",
+  "example_en": "Can I get one order of fries?",
+  "example_ko": "감자튀김 하나 주실 수 있나요?",
+  "cloze_en": "Can I ___ one order of fries?",
+  "cloze_answer": "get",
+  "cloze_wrong": [
+   "take",
+   "do",
+   "make"
+  ],
+  "kind": "expr",
+  "date": "2026-10-06",
+  "vid": "qGLfhSvxJV8"
+ },
+ {
+  "en": "How much is a jersey like that?",
+  "ko": "저런 유니폼은 얼마예요?",
+  "when_ko": "가게에서 진열된 물건을 가리키며 값을 물을 때",
+  "why_ko": "돈은 세지 않고 양으로 묻기 때문에 many 가 아니라 much 입니다. like that 은 '저런 종류의'라는 뜻으로 뒤에 붙습니다.",
+  "timecode": "02:09",
+  "example_en": "How much is a jersey like that?",
+  "example_ko": "저런 유니폼은 얼마예요?",
+  "cloze_en": "How ___ is a jersey like that?",
+  "cloze_answer": "much",
+  "cloze_wrong": [
+   "many",
+   "long",
+   "far"
+  ],
+  "kind": "expr",
+  "date": "2026-10-06",
+  "vid": "qGLfhSvxJV8"
+ },
+ {
+  "en": "Medium should be fine.",
+  "ko": "미디엄이면 괜찮을 것 같아요.",
+  "when_ko": "옷이나 음료 사이즈를 고를 때 가볍게 정해 줄 때",
+  "why_ko": "will 은 확정, should 는 '아마 괜찮을 것'이라는 느낌입니다. 사이즈를 고를 때는 이 부드러운 쪽을 씁니다.",
+  "timecode": "03:51",
+  "example_en": "Medium should be fine, thanks.",
+  "example_ko": "미디엄이면 괜찮을 것 같아요, 감사합니다.",
+  "cloze_en": "Medium ___ be fine, thanks.",
+  "cloze_answer": "should",
+  "cloze_wrong": [
+   "will",
+   "can",
+   "must"
+  ],
+  "kind": "expr",
+  "date": "2026-10-06",
+  "vid": "qGLfhSvxJV8"
+ },
+ {
+  "en": "Do you have a lid for this?",
+  "ko": "이거 뚜껑 있어요?",
+  "when_ko": "카페나 매점에서 컵 뚜껑이나 부속품을 달라고 할 때",
+  "why_ko": "'이것에 맞는'이라는 뜻일 때는 to 가 아니라 for 를 씁니다. 용도를 말하는 자리입니다.",
+  "timecode": "04:00",
+  "example_en": "Do you have a lid for this?",
+  "example_ko": "이거 뚜껑 있어요?",
+  "cloze_en": "Do you have a lid ___ this?",
+  "cloze_answer": "for",
+  "cloze_wrong": [
+   "to",
+   "at",
+   "on"
+  ],
+  "kind": "expr",
+  "date": "2026-10-06",
+  "vid": "qGLfhSvxJV8"
+ },
+ {
+  "en": "It was a little too expensive.",
+  "ko": "그건 좀 너무 비쌌어요.",
+  "when_ko": "물건을 안 산 이유를 설명할 때",
+  "why_ko": "very 는 그냥 '많이'지만, too 는 '내가 살 수 없을 만큼 지나치게'입니다. 안 산 이유를 말할 때는 too 쪽입니다.",
+  "timecode": "02:40",
+  "example_en": "I liked the jersey, but it was a little too expensive.",
+  "example_ko": "유니폼이 마음에 들었는데, 좀 너무 비쌌어요.",
+  "cloze_en": "I liked the jersey, but it was a little ___ expensive.",
+  "cloze_answer": "too",
+  "cloze_wrong": [
+   "very",
+   "so",
+   "much"
+  ],
+  "kind": "expr",
+  "date": "2026-10-06",
+  "vid": "qGLfhSvxJV8"
+ },
+ {
+  "en": "I'm not a huge seafood fan.",
+  "ko": "저는 해산물을 그렇게 좋아하지는 않아요.",
+  "when_ko": "어떤 음식을 별로 안 좋아한다고 부드럽게 말할 때",
+  "why_ko": "a ~ fan 은 '~를 좋아하는 사람'입니다. hate 라고 하면 너무 센 말이 되니 이 표현으로 돌려 말합니다.",
+  "timecode": "03:26",
+  "example_en": "I'm not a huge seafood fan, but this is really good.",
+  "example_ko": "저는 해산물을 그렇게 좋아하지는 않는데, 이건 정말 맛있네요.",
+  "cloze_en": "I'm not a huge seafood ___, but this is really good.",
+  "cloze_answer": "fan",
+  "cloze_wrong": [
+   "fun",
+   "food",
+   "fans"
+  ],
+  "kind": "expr",
+  "date": "2026-10-06",
+  "vid": "qGLfhSvxJV8"
+ },
+ {
+  "en": "Let's grab a bite to eat.",
+  "ko": "간단히 뭐 좀 먹으러 가요.",
+  "when_ko": "친구나 동료에게 간단히 밥 먹으러 가자고 할 때",
+  "why_ko": "grab 은 '얼른 집어서'라는 느낌이라 간단히 먹는 말에 붙습니다. a bite 는 한 입, 즉 간단한 끼니를 말합니다.",
+  "timecode": "01:27",
+  "example_en": "I'm hungry. Let's grab a bite to eat.",
+  "example_ko": "배고파요. 간단히 뭐 좀 먹으러 가요.",
+  "cloze_en": "I'm hungry. Let's ___ a bite to eat.",
+  "cloze_answer": "grab",
+  "cloze_wrong": [
+   "take",
+   "hold",
+   "catch"
+  ],
+  "kind": "expr",
+  "date": "2026-10-06",
+  "vid": "qGLfhSvxJV8"
+ },
+ {
+  "en": "size",
+  "ko": "사이즈, 크기",
+  "pos": "명사",
+  "why_ko": "비슷한 말로 big 이 있지만 big 은 '크다'는 상태고, size 는 S·M·L처럼 크기 자체를 가리킵니다.",
+  "timecode": "02:21",
+  "example_en": "What size do you want?",
+  "example_ko": "어떤 사이즈로 드릴까요?",
+  "kind": "word",
+  "date": "2026-10-06",
+  "vid": "qGLfhSvxJV8"
+ },
+ {
+  "en": "fresh",
+  "ko": "갓 만든, 신선한",
+  "pos": "형용사",
+  "why_ko": "new 도 '새것'이지만 음식이 갓 나왔다고 할 때는 fresh 를 씁니다.",
+  "timecode": "04:09",
+  "example_en": "These fries are fresh.",
+  "example_ko": "이 감자튀김은 갓 나왔어요.",
+  "kind": "word",
+  "date": "2026-10-06",
+  "vid": "qGLfhSvxJV8"
+ },
+ {
+  "en": "taste",
+  "ko": "맛이 나다, 맛보다",
+  "pos": "동사",
+  "why_ko": "eat 은 먹는 동작이고, taste 는 혀로 느끼는 맛을 말할 때 씁니다.",
+  "timecode": "03:28",
+  "example_en": "This doesn't taste like fish.",
+  "example_ko": "이건 생선 맛이 안 나요.",
+  "kind": "word",
+  "date": "2026-10-06",
+  "vid": "qGLfhSvxJV8"
+ },
+ {
+  "en": "worth",
+  "ko": "~할 가치가 있는",
+  "pos": "형용사",
+  "why_ko": "expensive 는 값이 비싸다는 말이고, worth 는 그 값을 낼 만하다는 판단입니다.",
+  "timecode": "03:35",
+  "example_en": "It's worth the money.",
+  "example_ko": "돈 낼 만해요.",
+  "kind": "word",
+  "date": "2026-10-06",
+  "vid": "qGLfhSvxJV8"
+ },
+ {
+  "en": "bucks",
+  "ko": "달러 (돈을 가볍게 부르는 말)",
+  "pos": "명사",
+  "why_ko": "dollars 와 같은 돈이지만, bucks 는 친구끼리 편하게 말할 때 씁니다.",
+  "timecode": "03:35",
+  "example_en": "It cost thirty bucks.",
+  "example_ko": "30달러였어요.",
+  "kind": "word",
+  "date": "2026-10-06",
+  "vid": "qGLfhSvxJV8"
+ },
+ {
+  "en": "shrink",
+  "ko": "줄어들다",
+  "pos": "동사",
+  "why_ko": "small 은 원래 작은 것이고, shrink 는 빨아서 작아지는 변화를 말합니다.",
+  "timecode": "02:30",
+  "example_en": "This shirt might shrink.",
+  "example_ko": "이 셔츠는 줄어들 수도 있어요.",
+  "kind": "word",
+  "date": "2026-10-06",
+  "vid": "qGLfhSvxJV8"
+ },
+ {
+  "en": "cotton",
+  "ko": "면, 목화",
+  "pos": "명사",
+  "why_ko": "clothes 는 옷 전체를 말하고, cotton 은 옷을 만든 천의 종류입니다.",
+  "timecode": "02:29",
+  "example_en": "Is it 100% cotton?",
+  "example_ko": "이거 100% 면인가요?",
+  "kind": "word",
+  "date": "2026-10-06",
+  "vid": "qGLfhSvxJV8"
+ },
+ {
+  "en": "stadium",
+  "ko": "경기장",
+  "pos": "명사",
+  "why_ko": "park 도 경기장 이름에 쓰이지만, 넓은 야구·축구 경기장을 가리키는 보통 말은 stadium 입니다.",
+  "timecode": "03:31",
+  "example_en": "The stadium was really big.",
+  "example_ko": "경기장이 정말 컸어요.",
+  "kind": "word",
+  "date": "2026-10-06",
+  "vid": "qGLfhSvxJV8"
+ },
+ {
+  "en": "fight",
+  "ko": "싸움",
+  "pos": "명사",
+  "why_ko": "game 은 경기이고, fight 는 사람들끼리 다투는 것입니다.",
+  "timecode": "00:08",
+  "example_en": "They're getting in a fight.",
+  "example_ko": "저 사람들 싸우고 있어요.",
+  "kind": "word",
+  "date": "2026-10-06",
+  "vid": "qGLfhSvxJV8"
+ },
+ {
+  "en": "bummer",
+  "ko": "아쉽네, 실망스러운 일",
+  "pos": "명사",
+  "why_ko": "sad 는 마음이 슬픈 것이고, bummer 는 일이 틀어졌을 때 혼자 툭 내뱉는 말입니다.",
+  "timecode": "01:45",
+  "example_en": "It's closed? Bummer.",
+  "example_ko": "문 닫았어요? 아쉽네요.",
+  "kind": "word",
+  "date": "2026-10-06",
+  "vid": "qGLfhSvxJV8"
  }
 ]
