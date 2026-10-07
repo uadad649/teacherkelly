@@ -1,0 +1,1111 @@
+1
+00:00:00,000 --> 00:00:02,200
+If you come to the States, it is hard to
+
+2
+00:00:02,200 --> 00:00:04,640
+find a hard worker and smart people like
+
+3
+00:00:04,640 --> 00:00:06,840
+you, but the key problem is a lot of
+
+4
+00:00:06,840 --> 00:00:09,200
+Koreans are too humble. They limit their
+
+5
+00:00:09,200 --> 00:00:11,840
+potential. If you just stick with that
+
+6
+00:00:11,840 --> 00:00:14,920
+attitude, you cannot do nothing.
+
+7
+00:00:14,920 --> 00:00:18,920
+>> I'm in San Francisco at EO House where
+
+8
+00:00:18,920 --> 00:00:22,040
+entrepreneurs are living together and
+
+9
+00:00:22,040 --> 00:00:24,960
+doing amazing things. Today, I'm going
+
+10
+00:00:24,960 --> 00:00:27,440
+to ask some of them to give me their
+
+11
+00:00:27,440 --> 00:00:32,480
+best elevator pitch in 1 minute.
+
+12
+00:00:35,000 --> 00:00:36,280
+Can you introduce yourself?
+
+13
+00:00:36,280 --> 00:00:37,320
+>> Yeah, my name is G.
+
+14
+00:00:37,320 --> 00:00:39,560
+>> Can you give me your best elevator pitch
+
+15
+00:00:39,560 --> 00:00:40,760
+in 1 minute?
+
+16
+00:00:40,760 --> 00:00:43,560
+>> Sure. So, I'm actually a founder of
+
+17
+00:00:43,560 --> 00:00:46,800
+ScanMyPill. ScanMyPill is basically we
+
+18
+00:00:46,800 --> 00:00:48,880
+are helping caregivers out there
+
+19
+00:00:48,880 --> 00:00:51,000
+to help their loved ones taking care of
+
+20
+00:00:51,000 --> 00:00:53,880
+medication. So, I started this problem
+
+21
+00:00:53,880 --> 00:00:56,920
+back in like last year of August and
+
+22
+00:00:56,920 --> 00:00:58,880
+realized that my grandpa went to ER
+
+23
+00:00:58,880 --> 00:01:00,920
+twice last year because of medication
+
+24
+00:01:00,920 --> 00:01:02,840
+problems. And because of medication
+
+25
+00:01:02,840 --> 00:01:04,120
+problem, I was like there must be a
+
+26
+00:01:04,120 --> 00:01:06,440
+better way to solve this problem. So,
+
+27
+00:01:06,440 --> 00:01:08,600
+what I've done is create ScanMyPill.
+
+28
+00:01:08,600 --> 00:01:11,440
+It's a iOS app. And what it does is you
+
+29
+00:01:11,440 --> 00:01:13,720
+scan the pill and it generates all the
+
+30
+00:01:13,720 --> 00:01:16,000
+digitization. And after you digitize all
+
+31
+00:01:16,000 --> 00:01:17,520
+the medication, it could check the
+
+32
+00:01:17,520 --> 00:01:19,600
+interaction. It could also remind you.
+
+33
+00:01:19,600 --> 00:01:21,560
+And this helps because they're going to
+
+34
+00:01:21,560 --> 00:01:23,120
+the doctor is going to ask, "Hey, what
+
+35
+00:01:23,120 --> 00:01:24,840
+kind of medication you on?" You'll be
+
+36
+00:01:24,840 --> 00:01:26,760
+able to answer right away and you'll
+
+37
+00:01:26,760 --> 00:01:29,080
+have logs so that you'll be able to
+
+38
+00:01:29,080 --> 00:01:30,720
+answer also the question the doctor
+
+39
+00:01:30,720 --> 00:01:32,320
+asked, "When did you take it? When did
+
+40
+00:01:32,320 --> 00:01:34,640
+you take it out?" So, that's like the
+
+41
+00:01:34,640 --> 00:01:37,760
+ScanMyPill the gist of it. And yeah, I'm
+
+42
+00:01:37,760 --> 00:01:39,760
+helping the 1.5 million people out there
+
+43
+00:01:39,760 --> 00:01:42,360
+who goes to ER every year. So, I'm
+
+44
+00:01:42,360 --> 00:01:43,560
+trying to reduce that number.
+
+45
+00:01:43,560 --> 00:01:45,840
+>> That's incredible. So, people can find
+
+46
+00:01:45,840 --> 00:01:47,280
+you on the App Store?
+
+47
+00:01:47,280 --> 00:01:48,400
+>> Yes, iOS app.
+
+48
+00:01:48,400 --> 00:01:49,280
+>> ScanMyPill.
+
+49
+00:01:49,280 --> 00:01:50,160
+>> ScanMyPill.
+
+50
+00:01:50,160 --> 00:01:51,120
+>> Download it, guys.
+
+51
+00:01:51,120 --> 00:01:53,080
+>> Hi, so my name is Jordan and I'm the
+
+52
+00:01:53,080 --> 00:01:55,320
+founder of VisCom. Okay, so a lot of
+
+53
+00:01:55,320 --> 00:01:57,080
+people don't realize that the world
+
+54
+00:01:57,080 --> 00:01:58,920
+around us started out as drawings. So,
+
+55
+00:01:58,920 --> 00:02:00,080
+we kind of help people turn their
+
+56
+00:02:00,080 --> 00:02:02,040
+drawings into physical products, right?
+
+57
+00:02:02,040 --> 00:02:04,360
+So, imagine, you know, things that stay
+
+58
+00:02:04,360 --> 00:02:05,920
+on your screen, we allow people to
+
+59
+00:02:05,920 --> 00:02:08,600
+essentially hold their ideas, right? So,
+
+60
+00:02:08,600 --> 00:02:11,120
+going from paper to production.
+
+61
+00:02:11,120 --> 00:02:12,320
+So, you have a drawing of a shoe, you
+
+62
+00:02:12,320 --> 00:02:13,600
+want to see that shoe be made in the
+
+63
+00:02:13,600 --> 00:02:15,480
+real world, we kind of build tools to
+
+64
+00:02:15,480 --> 00:02:17,880
+accelerate that process. So,
+
+65
+00:02:17,880 --> 00:02:20,000
+yeah, basically allowing people to hold
+
+66
+00:02:20,000 --> 00:02:22,160
+their ideas. Great. Awesome.
+
+67
+00:02:22,160 --> 00:02:23,680
+>> That's incredible. Who are you
+
+68
+00:02:23,680 --> 00:02:25,040
+targeting? Can I ask that?
+
+69
+00:02:25,040 --> 00:02:26,480
+>> I would say like kind of people that are
+
+70
+00:02:26,480 --> 00:02:27,880
+designing things in the physical world,
+
+71
+00:02:27,880 --> 00:02:30,680
+right? So, like cars, shoes, different
+
+72
+00:02:30,680 --> 00:02:32,800
+kind of furniture,
+
+73
+00:02:32,800 --> 00:02:34,160
+things of that nature, right? Anything
+
+74
+00:02:34,160 --> 00:02:36,360
+that has to eventually become real,
+
+75
+00:02:36,360 --> 00:02:38,640
+right? I think, you know, as visual
+
+76
+00:02:38,640 --> 00:02:40,480
+fidelity no longer becomes the signal of
+
+77
+00:02:40,480 --> 00:02:42,000
+effort, you got to ask yourself what's
+
+78
+00:02:42,000 --> 00:02:42,840
+like, okay, well, then where does the
+
+79
+00:02:42,840 --> 00:02:44,120
+signal go? And it goes into the real
+
+80
+00:02:44,120 --> 00:02:45,480
+world. It's like, okay, not how
+
+81
+00:02:45,480 --> 00:02:47,120
+realistic can you make it look, but how
+
+82
+00:02:47,120 --> 00:02:49,760
+real can you actually make the object?
+
+83
+00:02:49,760 --> 00:02:51,320
+So, we kind of build tools that help
+
+84
+00:02:51,320 --> 00:02:52,840
+people make their things actually
+
+85
+00:02:52,840 --> 00:02:54,360
+physical. So, yeah.
+
+86
+00:02:54,360 --> 00:02:56,440
+>> That's awesome. Thank you very much.
+
+87
+00:02:56,440 --> 00:02:58,920
+>> My name is Songman Cho. I'm from Korea.
+
+88
+00:02:58,920 --> 00:03:01,600
+I'm making a game, AI native game, to
+
+89
+00:03:01,600 --> 00:03:05,239
+teach kids how to use AI.
+
+90
+00:03:05,239 --> 00:03:07,239
+I've been doing some things in the AI
+
+91
+00:03:07,239 --> 00:03:09,680
+field. I used to be an AI researcher in
+
+92
+00:03:09,680 --> 00:03:12,519
+the Intel and then Seoul National Seoul
+
+93
+00:03:12,519 --> 00:03:14,200
+Asan Medical Center.
+
+94
+00:03:14,200 --> 00:03:18,000
+And I was really wondering how to teach
+
+95
+00:03:18,000 --> 00:03:19,440
+the kids
+
+96
+00:03:19,440 --> 00:03:22,040
+how to use AI, how to leverage AI.
+
+97
+00:03:22,040 --> 00:03:24,320
+Because the especially in the Bay Area,
+
+98
+00:03:24,320 --> 00:03:26,959
+the parents they got so much FOMO from
+
+99
+00:03:26,959 --> 00:03:30,120
+the AI because their peers laid off from
+
+100
+00:03:30,120 --> 00:03:33,600
+the AI because of the AI. So, I decided
+
+101
+00:03:33,600 --> 00:03:37,760
+to make a game, and then that game helps
+
+102
+00:03:37,760 --> 00:03:39,320
+to
+
+103
+00:03:39,320 --> 00:03:41,840
+teach kids how to
+
+104
+00:03:41,840 --> 00:03:44,280
+how to use AI. So, there are big
+
+105
+00:03:44,280 --> 00:03:46,560
+problems in there, and then they should
+
+106
+00:03:46,560 --> 00:03:49,519
+ask some question to the MPCs. The every
+
+107
+00:03:49,519 --> 00:03:52,640
+MPC in there, they're AI agent.
+
+108
+00:03:52,640 --> 00:03:54,920
+So, by doing some questions and then
+
+109
+00:03:54,920 --> 00:03:56,760
+getting answered that they can leverage
+
+110
+00:03:56,760 --> 00:04:00,200
+their yeah, talent.
+
+111
+00:04:00,200 --> 00:04:03,360
+>> My name is George and I'm from China.
+
+112
+00:04:03,360 --> 00:04:05,560
+I'm currently an entrepreneur in the AI
+
+113
+00:04:05,560 --> 00:04:07,840
+for education sector. Um so, I'm
+
+114
+00:04:07,840 --> 00:04:10,600
+currently building an AI voice dictation
+
+115
+00:04:10,600 --> 00:04:14,680
+tool plus um AI education tool. So, it
+
+116
+00:04:14,680 --> 00:04:18,000
+happens in your workflow and it is not a
+
+117
+00:04:18,000 --> 00:04:20,280
+stand-alone learning. I have a message
+
+118
+00:04:20,280 --> 00:04:23,160
+for those uh non-native speakers who are
+
+119
+00:04:23,160 --> 00:04:25,400
+entering into the US market either want
+
+120
+00:04:25,400 --> 00:04:27,680
+to find a job here or looking into
+
+121
+00:04:27,680 --> 00:04:30,120
+settling into the US market. So, have
+
+122
+00:04:30,120 --> 00:04:32,720
+you ever had challenges in terms of uh
+
+123
+00:04:32,720 --> 00:04:34,520
+like making yourself feel professional
+
+124
+00:04:34,520 --> 00:04:36,320
+when communicating with others like
+
+125
+00:04:36,320 --> 00:04:37,800
+either you are speaking or sending
+
+126
+00:04:37,800 --> 00:04:40,160
+messages? We have a tool here to help
+
+127
+00:04:40,160 --> 00:04:42,640
+you to send effective professional
+
+128
+00:04:42,640 --> 00:04:44,200
+messages in English. You can either
+
+129
+00:04:44,200 --> 00:04:46,280
+speak in English or speak in your mother
+
+130
+00:04:46,280 --> 00:04:48,000
+tongue and you will get ready to send
+
+131
+00:04:48,000 --> 00:04:50,640
+English. And afterwards, you may also
+
+132
+00:04:50,640 --> 00:04:53,160
+practice the exact sentences that you
+
+133
+00:04:53,160 --> 00:04:55,720
+spoke for pronunciation, word choice,
+
+134
+00:04:55,720 --> 00:04:58,160
+and communication skills that would help
+
+135
+00:04:58,160 --> 00:05:01,120
+you to succeed in the US market. So, we
+
+136
+00:05:01,120 --> 00:05:02,800
+are building Ella flow. Hope you could
+
+137
+00:05:02,800 --> 00:05:03,800
+enjoy it.
+
+138
+00:05:03,800 --> 00:05:07,853
+>> Wow! You nailed it. Good job!
+
+139
+00:05:07,853 --> 00:05:08,400
+>> [screaming]
+
+140
+00:05:08,400 --> 00:05:10,960
+>> Hey, I'm KJ from Tokyo. Very nice to
+
+141
+00:05:10,960 --> 00:05:13,040
+meet you guys. I'm making a new social
+
+142
+00:05:13,040 --> 00:05:16,560
+consumer app for the teenager in US. Um
+
+143
+00:05:16,560 --> 00:05:20,560
+it's a anonymous app and voting who is
+
+144
+00:05:20,560 --> 00:05:24,120
+the best uh person in this class or who
+
+145
+00:05:24,120 --> 00:05:26,080
+is the funniest person in this class.
+
+146
+00:05:26,080 --> 00:05:28,720
+So, everybody adds a voice note, voice
+
+147
+00:05:28,720 --> 00:05:31,720
+memo, and the the voice turn to be very
+
+148
+00:05:31,720 --> 00:05:34,440
+funny. As like a "You look
+
+149
+00:05:34,440 --> 00:05:37,640
+super cute." Or something like that. And
+
+150
+00:05:37,640 --> 00:05:41,120
+yeah, try to make someone fun. Cuz
+
+151
+00:05:41,120 --> 00:05:42,400
+uh I have
+
+152
+00:05:42,400 --> 00:05:45,560
+the 13-years-old daughter and that will
+
+153
+00:05:45,560 --> 00:05:47,400
+go to New York,
+
+154
+00:05:47,400 --> 00:05:50,200
+uh from this September. So, I try to
+
+155
+00:05:50,200 --> 00:05:53,440
+make that app, try to make her
+
+156
+00:05:53,440 --> 00:05:55,480
+um smile even
+
+157
+00:05:55,480 --> 00:05:58,840
+far from Tokyo, far from San Francisco.
+
+158
+00:05:58,840 --> 00:06:02,640
+So, yeah, that's why I'm making this new
+
+159
+00:06:02,640 --> 00:06:04,680
+Next Bio app for teenagers.
+
+160
+00:06:04,680 --> 00:06:06,280
+>> That's really cool. Would you say it's
+
+161
+00:06:06,280 --> 00:06:08,240
+for entertainment purposes then?
+
+162
+00:06:08,240 --> 00:06:11,960
+>> Yeah, try to make a people fun with the
+
+163
+00:06:11,960 --> 00:06:15,240
+alternative new communication layer, not
+
+164
+00:06:15,240 --> 00:06:18,200
+regular Leo, but like anonymous for
+
+165
+00:06:18,200 --> 00:06:18,960
+entertainment.
+
+166
+00:06:18,960 --> 00:06:19,904
+>> Awesome.
+
+167
+00:06:19,904 --> 00:06:20,000
+>> [snorts]
+
+168
+00:06:20,000 --> 00:06:21,320
+>> Can you introduce yourself?
+
+169
+00:06:21,320 --> 00:06:23,919
+>> Uh hi, I'm founder of E O. My name is
+
+170
+00:06:23,919 --> 00:06:25,320
+Tae Young Kim. Nice to meet you.
+
+171
+00:06:25,320 --> 00:06:27,040
+>> Can you tell me a little bit more about
+
+172
+00:06:27,040 --> 00:06:27,760
+E O House?
+
+173
+00:06:27,760 --> 00:06:30,520
+>> E O House is our corporate hacker house.
+
+174
+00:06:30,520 --> 00:06:32,919
+Hacker house is a founder house. In
+
+175
+00:06:32,919 --> 00:06:35,240
+here, over 10 founders are living
+
+176
+00:06:35,240 --> 00:06:36,919
+together, working together, building
+
+177
+00:06:36,919 --> 00:06:39,000
+something together that can change the
+
+178
+00:06:39,000 --> 00:06:39,680
+world.
+
+179
+00:06:39,680 --> 00:06:42,040
+>> You have so many smart and talented
+
+180
+00:06:42,040 --> 00:06:43,880
+people here, including yourself.
+
+181
+00:06:43,880 --> 00:06:44,400
+>> Thank you.
+
+182
+00:06:44,400 --> 00:06:46,680
+>> We just heard a lot of elevator pitches.
+
+183
+00:06:46,680 --> 00:06:49,160
+How do people come to find E O House?
+
+184
+00:06:49,160 --> 00:06:53,200
+>> Uh it's a only referral based. Uh people
+
+185
+00:06:53,200 --> 00:06:56,840
+already knew me or our alumni can
+
+186
+00:06:56,840 --> 00:06:59,320
+recommend other founders. So, it's very
+
+187
+00:06:59,320 --> 00:07:02,200
+exclusive community. Only the founders
+
+188
+00:07:02,200 --> 00:07:05,200
+who bet their life to build something
+
+189
+00:07:05,200 --> 00:07:06,919
+can join our community.
+
+190
+00:07:06,919 --> 00:07:09,400
+>> What inspired you to kind of start E O
+
+191
+00:07:09,400 --> 00:07:10,000
+House?
+
+192
+00:07:10,000 --> 00:07:11,640
+>> Uh to be honest, to save money. Uh
+
+193
+00:07:11,640 --> 00:07:13,840
+Silicon Valley is the heart of world
+
+194
+00:07:13,840 --> 00:07:16,720
+tech innovation, but it is a brutally
+
+195
+00:07:16,720 --> 00:07:18,400
+expensive. So,
+
+196
+00:07:18,400 --> 00:07:21,400
+uh a lot of immigrant founders uh come
+
+197
+00:07:21,400 --> 00:07:23,919
+to the states, but if you want to one
+
+198
+00:07:23,919 --> 00:07:26,240
+bedroom, uh it costs us like over
+
+199
+00:07:26,240 --> 00:07:29,440
+$4,000, $3,000, so. Uh it looks
+
+200
+00:07:29,440 --> 00:07:32,360
+gorgeous, but if you imagine living 16
+
+201
+00:07:32,360 --> 00:07:35,640
+people in in this uh hacker house is uh
+
+202
+00:07:35,640 --> 00:07:37,560
+really messy. Yeah. [laughter]
+
+203
+00:07:37,560 --> 00:07:39,000
+>> But, I think it's really cool that
+
+204
+00:07:39,000 --> 00:07:41,120
+you're giving people opportunities, like
+
+205
+00:07:41,120 --> 00:07:42,560
+you said, people who might not have
+
+206
+00:07:42,560 --> 00:07:44,440
+money but have great ideas. Is there
+
+207
+00:07:44,440 --> 00:07:46,000
+anything else you want people to know
+
+208
+00:07:46,000 --> 00:07:47,200
+about EO house?
+
+209
+00:07:47,200 --> 00:07:49,680
+>> Uh I'm a super uh Korean Korean, so I
+
+210
+00:07:49,680 --> 00:07:52,920
+only grew up uh in South Korea, and if
+
+211
+00:07:52,920 --> 00:07:55,120
+you watch this video, my English is not
+
+212
+00:07:55,120 --> 00:07:57,840
+that good, but I just came uh here 2
+
+213
+00:07:57,840 --> 00:08:00,280
+years ago to build a global company
+
+214
+00:08:00,280 --> 00:08:03,080
+because, you know, especially due to AI,
+
+215
+00:08:03,080 --> 00:08:04,920
+world is getting small uh much much
+
+216
+00:08:04,920 --> 00:08:07,560
+smaller. So, uh if you [snorts] run your
+
+217
+00:08:07,560 --> 00:08:10,240
+business, but if you don't uh build
+
+218
+00:08:10,240 --> 00:08:12,680
+global company from day one, yeah, you
+
+219
+00:08:12,680 --> 00:08:15,440
+will lose your competence. So, yeah, I
+
+220
+00:08:15,440 --> 00:08:18,400
+came here, and I wanted to inspire more
+
+221
+00:08:18,400 --> 00:08:21,280
+young people to build uh something
+
+222
+00:08:21,280 --> 00:08:23,240
+global because, you know, Koreans are
+
+223
+00:08:23,240 --> 00:08:25,919
+super smart, and they work hard. If you
+
+224
+00:08:25,919 --> 00:08:27,880
+uh come to the States, it is hard to
+
+225
+00:08:27,880 --> 00:08:30,640
+find a hard worker and smart people like
+
+226
+00:08:30,640 --> 00:08:32,840
+you, but the key problem is a lot of
+
+227
+00:08:32,840 --> 00:08:35,880
+Koreans are too humble. They limit their
+
+228
+00:08:35,880 --> 00:08:38,599
+potential. Asian culture uh is uh very
+
+229
+00:08:38,599 --> 00:08:41,400
+introverted, but if you just stick with
+
+230
+00:08:41,400 --> 00:08:44,200
+that attitude, uh yeah, you cannot do
+
+231
+00:08:44,200 --> 00:08:44,760
+nothing.
+
+232
+00:08:44,760 --> 00:08:46,720
+>> Can you give people one piece of advice?
+
+233
+00:08:46,720 --> 00:08:48,320
+A lot of the subscribers are trying to
+
+234
+00:08:48,320 --> 00:08:50,680
+learn English, maybe business English,
+
+235
+00:08:50,680 --> 00:08:53,000
+wanting to live and work in the US. Any
+
+236
+00:08:53,000 --> 00:08:54,360
+advice you can give them?
+
+237
+00:08:54,360 --> 00:08:56,480
+>> English is important, but more than
+
+238
+00:08:56,480 --> 00:08:58,240
+that, uh if someone gives you
+
+239
+00:08:58,240 --> 00:09:00,680
+opportunity, yeah, you should pay back.
+
+240
+00:09:00,680 --> 00:09:03,920
+So, yeah, credit and building trust is
+
+241
+00:09:03,920 --> 00:09:06,160
+the most important thing uh in business
+
+242
+00:09:06,160 --> 00:09:09,240
+and career development. So, uh if your
+
+243
+00:09:09,240 --> 00:09:12,000
+uh language is limited, I think uh it is
+
+244
+00:09:12,000 --> 00:09:14,800
+okay. And also, it takes time to uh make
+
+245
+00:09:14,800 --> 00:09:17,040
+it better, but if you lose your uh
+
+246
+00:09:17,040 --> 00:09:19,280
+credit and trust, your client and your
+
+247
+00:09:19,280 --> 00:09:21,600
+boss will never hire you and never give
+
+248
+00:09:21,600 --> 00:09:23,839
+you uh additional opportunities. So, if
+
+249
+00:09:23,839 --> 00:09:26,680
+you can bring uh good outcome, even
+
+250
+00:09:26,680 --> 00:09:29,080
+though your English is limited, they
+
+251
+00:09:29,080 --> 00:09:31,280
+will give you better opportunities.
+
+252
+00:09:31,280 --> 00:09:32,240
+>> Excellent advice.
+
+253
+00:09:32,240 --> 00:09:32,560
+>> Yeah.
+
+254
+00:09:32,560 --> 00:09:33,520
+>> Just go for it.
+
+255
+00:09:33,520 --> 00:09:35,560
+>> Yeah, just go for it. I started learning
+
+256
+00:09:35,560 --> 00:09:38,800
+English when I was uh 30, so it's uh
+
+257
+00:09:38,800 --> 00:09:41,040
+quite late and I wasn't a good student
+
+258
+00:09:41,040 --> 00:09:42,720
+in high school and middle school and
+
+259
+00:09:42,720 --> 00:09:45,360
+even yeah, in college. But, I think the
+
+260
+00:09:45,360 --> 00:09:47,880
+best way to improve your English is
+
+261
+00:09:47,880 --> 00:09:49,840
+yeah, you should know why learning
+
+262
+00:09:49,840 --> 00:09:52,720
+English matters. And second is just uh
+
+263
+00:09:52,720 --> 00:09:55,120
+change your environment. I watched the
+
+264
+00:09:55,120 --> 00:09:58,520
+Tyler Tyler's video how to
+
+265
+00:09:58,520 --> 00:10:01,080
+improve your English best. Yeah, you
+
+266
+00:10:01,080 --> 00:10:03,680
+should change people you meet and your
+
+267
+00:10:03,680 --> 00:10:06,120
+environment. For example, you shouldn't
+
+268
+00:10:06,120 --> 00:10:09,080
+watch uh Korean contents for a while and
+
+269
+00:10:09,080 --> 00:10:13,560
+also if someone send you Kakao message
+
+270
+00:10:13,560 --> 00:10:16,840
+in Korean, you just should reply it in
+
+271
+00:10:16,840 --> 00:10:19,000
+English. Your friends will blame you,
+
+272
+00:10:19,000 --> 00:10:22,240
+but just do it. Don't speak Korean for a
+
+273
+00:10:22,240 --> 00:10:25,360
+while. But, without knowing why it is
+
+274
+00:10:25,360 --> 00:10:26,760
+hard to
+
+275
+00:10:26,760 --> 00:10:29,200
+execute. So, yeah, having your own why
+
+276
+00:10:29,200 --> 00:10:30,680
+is the most important thing.
+
+277
+00:10:30,680 --> 00:10:31,680
+>> Thank you so much.
+
+278
+00:10:31,680 --> 00:10:34,280
+>> Yeah, thank you.

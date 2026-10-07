@@ -6923,5 +6923,277 @@
   "kind": "word",
   "date": "2026-10-06",
   "vid": "qGLfhSvxJV8"
+ },
+ {
+  "en": "Can you introduce yourself?",
+  "ko": "자기소개 좀 해 주시겠어요?",
+  "when_ko": "처음 만난 사람에게 이름이나 하는 일을 물어볼 때",
+  "why_ko": "introduce 다음에는 yourself 가 옵니다. you 를 쓰면 상대가 다른 사람을 소개하는 말이 됩니다.",
+  "timecode": "00:35",
+  "example_en": "Can you introduce yourself to the team?",
+  "example_ko": "팀에게 자기소개 좀 해 주시겠어요?",
+  "cloze_en": "Can you introduce ___ to the team?",
+  "cloze_answer": "yourself",
+  "cloze_wrong": [
+   "you",
+   "your",
+   "yours"
+  ],
+  "kind": "expr",
+  "date": "2026-10-07",
+  "vid": "W4aJcnYCEEU"
+ },
+ {
+  "en": "Nice to meet you.",
+  "ko": "만나서 반갑습니다.",
+  "when_ko": "처음 만난 사람과 인사할 때",
+  "why_ko": "meet 은 처음 만나는 것이고, see 는 이미 아는 사람을 다시 볼 때입니다.",
+  "timecode": "06:23",
+  "example_en": "Nice to meet you, I'm Youngjun.",
+  "example_ko": "만나서 반갑습니다, 저는 영준입니다.",
+  "cloze_en": "Nice to ___ you, I'm Youngjun.",
+  "cloze_answer": "meet",
+  "cloze_wrong": [
+   "see",
+   "know",
+   "find"
+  ],
+  "kind": "expr",
+  "date": "2026-10-07",
+  "vid": "W4aJcnYCEEU"
+ },
+ {
+  "en": "My name is Jordan.",
+  "ko": "제 이름은 조던입니다.",
+  "when_ko": "이름을 말할 때",
+  "why_ko": "name 은 하나니까 is 를 씁니다. are 는 여럿일 때입니다.",
+  "timecode": "01:51",
+  "example_en": "My name is Youngjun, nice to meet you.",
+  "example_ko": "제 이름은 영준입니다, 만나서 반갑습니다.",
+  "cloze_en": "My name ___ Youngjun, nice to meet you.",
+  "cloze_answer": "is",
+  "cloze_wrong": [
+   "are",
+   "am",
+   "be"
+  ],
+  "kind": "expr",
+  "date": "2026-10-07",
+  "vid": "W4aJcnYCEEU"
+ },
+ {
+  "en": "I'm from Korea.",
+  "ko": "저는 한국에서 왔습니다.",
+  "when_ko": "어디 사람인지 말할 때",
+  "why_ko": "from 은 출신을 말하는 말입니다. in 은 지금 있는 곳입니다.",
+  "timecode": "02:56",
+  "example_en": "I'm from Korea, and this is my first trip here.",
+  "example_ko": "저는 한국에서 왔고, 여기 오는 건 처음입니다.",
+  "cloze_en": "I'm ___ Korea, and this is my first trip here.",
+  "cloze_answer": "from",
+  "cloze_wrong": [
+   "in",
+   "at",
+   "of"
+  ],
+  "kind": "expr",
+  "date": "2026-10-07",
+  "vid": "W4aJcnYCEEU"
+ },
+ {
+  "en": "Can I ask that?",
+  "ko": "그거 물어봐도 될까요?",
+  "when_ko": "질문하기 전에 괜찮은지 먼저 물을 때",
+  "why_ko": "Can I 로 시작하면 내가 해도 되냐는 말이 됩니다. Can you 는 상대에게 부탁하는 말입니다.",
+  "timecode": "02:23",
+  "example_en": "Can I ask that before we start?",
+  "example_ko": "시작하기 전에 그거 물어봐도 될까요?",
+  "cloze_en": "___ ask that before we start?",
+  "cloze_answer": "Can I",
+  "cloze_wrong": [
+   "Can you",
+   "Do I",
+   "Am I"
+  ],
+  "kind": "expr",
+  "date": "2026-10-07",
+  "vid": "W4aJcnYCEEU"
+ },
+ {
+  "en": "Thank you very much.",
+  "ko": "정말 감사합니다.",
+  "when_ko": "도움을 받고 제대로 고맙다고 할 때",
+  "why_ko": "very much 는 thank you 뒤에 옵니다. 앞에 붙이지 않습니다.",
+  "timecode": "02:54",
+  "example_en": "Thank you very much for your help.",
+  "example_ko": "도와주셔서 정말 감사합니다.",
+  "cloze_en": "Thank you ___ for your help.",
+  "cloze_answer": "very much",
+  "cloze_wrong": [
+   "so very",
+   "much very",
+   "too much"
+  ],
+  "kind": "expr",
+  "date": "2026-10-07",
+  "vid": "W4aJcnYCEEU"
+ },
+ {
+  "en": "That's really cool.",
+  "ko": "그거 정말 멋지네요.",
+  "when_ko": "상대 이야기를 듣고 좋다고 반응할 때",
+  "why_ko": "really 가 cool 앞에 와서 뜻을 세게 만듭니다. 뒤에 두면 어색합니다.",
+  "timecode": "06:04",
+  "example_en": "That's really cool, I want to try it.",
+  "example_ko": "그거 정말 멋지네요, 저도 해보고 싶어요.",
+  "cloze_en": "That's ___ cool, I want to try it.",
+  "cloze_answer": "really",
+  "cloze_wrong": [
+   "real",
+   "very much",
+   "too"
+  ],
+  "kind": "expr",
+  "date": "2026-10-07",
+  "vid": "W4aJcnYCEEU"
+ },
+ {
+  "en": "Can you tell me a little more?",
+  "ko": "조금 더 말해 주실래요?",
+  "when_ko": "상대 말이 궁금해서 더 듣고 싶을 때",
+  "why_ko": "tell 은 누구에게 말해주는 것이고, say 는 뒤에 사람을 바로 못 붙입니다.",
+  "timecode": "06:25",
+  "example_en": "Can you tell me a little more about it?",
+  "example_ko": "그것에 대해 조금 더 말해 주실래요?",
+  "cloze_en": "Can you ___ me a little more about it?",
+  "cloze_answer": "tell",
+  "cloze_wrong": [
+   "say",
+   "speak",
+   "talk"
+  ],
+  "kind": "expr",
+  "date": "2026-10-07",
+  "vid": "W4aJcnYCEEU"
+ },
+ {
+  "en": "advice",
+  "ko": "조언",
+  "pos": "명사",
+  "why_ko": "비슷한 말로 idea 가 있지만 advice 는 어떻게 하라고 알려주는 말입니다.",
+  "timecode": "08:44",
+  "example_en": "Thank you for the advice.",
+  "example_ko": "조언 감사합니다.",
+  "kind": "word",
+  "date": "2026-10-07",
+  "vid": "W4aJcnYCEEU"
+ },
+ {
+  "en": "problem",
+  "ko": "문제",
+  "pos": "명사",
+  "why_ko": "question 은 물어보는 질문이고, problem 은 해결해야 할 일입니다.",
+  "timecode": "00:04",
+  "example_en": "I have a small problem.",
+  "example_ko": "저에게 작은 문제가 있어요.",
+  "kind": "word",
+  "date": "2026-10-07",
+  "vid": "W4aJcnYCEEU"
+ },
+ {
+  "en": "question",
+  "ko": "질문",
+  "pos": "명사",
+  "why_ko": "answer 는 대답이고, question 은 묻는 쪽입니다.",
+  "timecode": "01:29",
+  "example_en": "Can I ask a question?",
+  "example_ko": "질문 하나 해도 될까요?",
+  "kind": "word",
+  "date": "2026-10-07",
+  "vid": "W4aJcnYCEEU"
+ },
+ {
+  "en": "important",
+  "ko": "중요한",
+  "pos": "형용사",
+  "why_ko": "big 도 크다는 뜻이지만 important 는 가치가 크다는 말입니다.",
+  "timecode": "08:54",
+  "example_en": "This is very important to me.",
+  "example_ko": "이건 저에게 아주 중요해요.",
+  "kind": "word",
+  "date": "2026-10-07",
+  "vid": "W4aJcnYCEEU"
+ },
+ {
+  "en": "people",
+  "ko": "사람들",
+  "pos": "명사",
+  "why_ko": "person 은 한 명, people 은 여러 명입니다.",
+  "timecode": "01:55",
+  "example_en": "Many people come here.",
+  "example_ko": "많은 사람들이 여기 와요.",
+  "kind": "word",
+  "date": "2026-10-07",
+  "vid": "W4aJcnYCEEU"
+ },
+ {
+  "en": "help",
+  "ko": "돕다",
+  "pos": "동사",
+  "why_ko": "teach 는 가르치는 것이고, help 는 손을 보태는 것입니다.",
+  "timecode": "02:51",
+  "example_en": "Can you help me, please?",
+  "example_ko": "저를 도와주실 수 있나요?",
+  "kind": "word",
+  "date": "2026-10-07",
+  "vid": "W4aJcnYCEEU"
+ },
+ {
+  "en": "learn",
+  "ko": "배우다",
+  "pos": "동사",
+  "why_ko": "study 는 공부하는 동작이고, learn 은 알게 되는 것입니다.",
+  "timecode": "08:48",
+  "example_en": "I want to learn English.",
+  "example_ko": "저는 영어를 배우고 싶어요.",
+  "kind": "word",
+  "date": "2026-10-07",
+  "vid": "W4aJcnYCEEU"
+ },
+ {
+  "en": "money",
+  "ko": "돈",
+  "pos": "명사",
+  "why_ko": "price 는 값이고, money 는 돈 자체입니다.",
+  "timecode": "07:10",
+  "example_en": "I don't have much money.",
+  "example_ko": "저는 돈이 많지 않아요.",
+  "kind": "word",
+  "date": "2026-10-07",
+  "vid": "W4aJcnYCEEU"
+ },
+ {
+  "en": "hard",
+  "ko": "어려운",
+  "pos": "형용사",
+  "why_ko": "difficult 와 뜻이 같지만 hard 가 말할 때 더 자주 쓰입니다.",
+  "timecode": "00:02",
+  "example_en": "English is hard for me.",
+  "example_ko": "영어는 저에게 어려워요.",
+  "kind": "word",
+  "date": "2026-10-07",
+  "vid": "W4aJcnYCEEU"
+ },
+ {
+  "en": "better",
+  "ko": "더 나은",
+  "pos": "형용사",
+  "why_ko": "good 은 그냥 좋은 것이고, better 는 둘을 비교해 더 좋은 것입니다.",
+  "timecode": "01:04",
+  "example_en": "This way is better.",
+  "example_ko": "이 방법이 더 나아요.",
+  "kind": "word",
+  "date": "2026-10-07",
+  "vid": "W4aJcnYCEEU"
  }
 ]
