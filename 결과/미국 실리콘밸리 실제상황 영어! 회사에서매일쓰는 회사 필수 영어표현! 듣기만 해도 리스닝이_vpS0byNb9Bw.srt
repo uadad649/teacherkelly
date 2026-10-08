@@ -1,0 +1,1723 @@
+1
+00:00:00,000 --> 00:00:01,040
+I've been
+
+2
+00:00:01,040 --> 00:00:02,560
+spending most of my time at Nvidia.
+
+3
+00:00:02,560 --> 00:00:04,160
+We've raised around $51 million. No
+
+4
+00:00:04,160 --> 00:00:05,280
+pressure.
+
+5
+00:00:05,280 --> 00:00:06,520
+We'll put all Kelly's stuff in the
+
+6
+00:00:06,520 --> 00:00:07,860
+design. So, Kelly, our intern, says
+
+7
+00:00:07,860 --> 00:00:10,040
+[music] she's going to grab us coffee.
+
+8
+00:00:10,040 --> 00:00:12,680
+Number one intern 2.0. Okay.
+
+9
+00:00:12,680 --> 00:00:15,960
+Today, I'll be working as an intern at
+
+10
+00:00:15,960 --> 00:00:18,995
+an AI company called Vizcom. Let's head
+
+11
+00:00:18,995 --> 00:00:21,520
+[music] in.
+
+12
+00:00:23,000 --> 00:00:24,235
+Hi.
+
+13
+00:00:24,235 --> 00:00:24,440
+>> [laughter]
+
+14
+00:00:24,440 --> 00:00:26,400
+>> How's your day going? Pretty good. Still
+
+15
+00:00:26,400 --> 00:00:29,120
+waking up.
+
+16
+00:00:29,120 --> 00:00:31,240
+Where did you get the Yes, here. I'll
+
+17
+00:00:31,240 --> 00:00:33,680
+let Kaylin open it. Oh, we we got him a
+
+18
+00:00:33,680 --> 00:00:35,440
+first birthday like this like Pop Mart.
+
+19
+00:00:35,440 --> 00:00:36,480
+Oh.
+
+20
+00:00:36,480 --> 00:00:38,520
+Oh, there he is. Kaylin.
+
+21
+00:00:38,520 --> 00:00:39,800
+Kaylin, this is Kelly. She's actually
+
+22
+00:00:39,800 --> 00:00:41,000
+from Michigan as well. He's also from
+
+23
+00:00:41,000 --> 00:00:41,800
+Michigan. Yes.
+
+24
+00:00:41,800 --> 00:00:42,600
+>> from Michigan, too?
+
+25
+00:00:42,600 --> 00:00:44,240
+>> Yeah. Yes. We're both from the same
+
+26
+00:00:44,240 --> 00:00:45,120
+place, Rochester.
+
+27
+00:00:45,120 --> 00:00:46,440
+>> Really? Yeah. Yeah. Lovely to meet a
+
+28
+00:00:46,440 --> 00:00:49,720
+fellow Michigander. Yes.
+
+29
+00:00:51,080 --> 00:00:52,520
+So, we're at Vizcom now. So, this is our
+
+30
+00:00:52,520 --> 00:00:54,440
+headquarters in San Francisco. We build
+
+31
+00:00:54,440 --> 00:00:56,120
+a lot of software for designers. The
+
+32
+00:00:56,120 --> 00:00:57,160
+computer that you're watching this
+
+33
+00:00:57,160 --> 00:00:58,400
+through started out as a drawing
+
+34
+00:00:58,400 --> 00:01:00,000
+somewhere, and we help people turn those
+
+35
+00:01:00,000 --> 00:01:01,120
+drawings into things that they can
+
+36
+00:01:01,120 --> 00:01:02,480
+actually hold. So, yeah, I studied
+
+37
+00:01:02,480 --> 00:01:04,800
+industrial design, and essentially spent
+
+38
+00:01:04,800 --> 00:01:06,280
+most of my time at Nvidia. I used to be
+
+39
+00:01:06,280 --> 00:01:08,160
+a car designer, as well, at Honda. And
+
+40
+00:01:08,160 --> 00:01:09,760
+then, yeah, started Vizcom about like 4
+
+41
+00:01:09,760 --> 00:01:11,720
+years ago after that. So, up till today,
+
+42
+00:01:11,720 --> 00:01:13,120
+we've raised around $51 million. We
+
+43
+00:01:13,120 --> 00:01:15,200
+recently just closed our Series B, which
+
+44
+00:01:15,200 --> 00:01:16,760
+is super exciting. It's a huge milestone
+
+45
+00:01:16,760 --> 00:01:18,680
+for the company. Congratulations. That's
+
+46
+00:01:18,680 --> 00:01:20,040
+incredible. Thank you. Thank you. Thank
+
+47
+00:01:20,040 --> 00:01:21,720
+you. How did you learn Korean? I used to
+
+48
+00:01:21,720 --> 00:01:23,560
+live in Korea studying industrial
+
+49
+00:01:23,560 --> 00:01:25,400
+design. As time just went on, making
+
+50
+00:01:25,400 --> 00:01:27,280
+friends and like KTalk and watching
+
+51
+00:01:27,280 --> 00:01:30,240
+shows, I just started to learn Korean.
+
+52
+00:01:30,240 --> 00:01:34,280
+He's super fluent. Cuz he's really good.
+
+53
+00:01:34,321 --> 00:01:34,760
+>> [laughter]
+
+54
+00:01:34,760 --> 00:01:36,280
+>> I checked out your website. I played
+
+55
+00:01:36,280 --> 00:01:38,520
+around on it. I even drew my own thing.
+
+56
+00:01:38,520 --> 00:01:40,240
+>> Really? Yeah, I I did. And it was really
+
+57
+00:01:40,240 --> 00:01:42,400
+impressive. So, I'm excited to explore
+
+58
+00:01:42,400 --> 00:01:43,360
+it more today.
+
+59
+00:01:43,360 --> 00:01:45,880
+>> Totally. Cool. So, we are currently
+
+60
+00:01:45,880 --> 00:01:47,280
+upstairs. So, this is where the sales
+
+61
+00:01:47,280 --> 00:01:48,840
+team sits, some people from marketing.
+
+62
+00:01:48,840 --> 00:01:50,160
+We actually don't have like assigned
+
+63
+00:01:50,160 --> 00:01:51,400
+seating just yet. We're still kind of
+
+64
+00:01:51,400 --> 00:01:52,920
+figuring that out. And then, we have
+
+65
+00:01:52,920 --> 00:01:54,760
+kind of this like kitchen area. Today is
+
+66
+00:01:54,760 --> 00:01:56,160
+Wednesday, so like team lunch
+
+67
+00:01:56,160 --> 00:01:57,680
+Wednesdays. And then, yeah, we'll kind
+
+68
+00:01:57,680 --> 00:02:00,360
+of like eat up here. Wow! This is
+
+69
+00:02:00,360 --> 00:02:01,360
+awesome.
+
+70
+00:02:01,360 --> 00:02:04,280
+>> It's just funny to see the agents agents
+
+71
+00:02:04,280 --> 00:02:05,800
+on the billboards again.
+
+72
+00:02:05,800 --> 00:02:07,000
+You know in Michigan it's like oh,
+
+73
+00:02:07,000 --> 00:02:09,720
+lawyers are you in a crash? Like or the
+
+74
+00:02:09,720 --> 00:02:11,200
+ads are just so different like San
+
+75
+00:02:11,200 --> 00:02:13,320
+Francisco has
+
+76
+00:02:13,320 --> 00:02:14,760
+This is kind of where a lot of the
+
+77
+00:02:14,760 --> 00:02:17,400
+engineering and design team works. So,
+
+78
+00:02:17,400 --> 00:02:19,440
+that's Jared. Hi Jared. Jared's here.
+
+79
+00:02:19,440 --> 00:02:21,400
+See, he has this the cactus thing and
+
+80
+00:02:21,400 --> 00:02:23,640
+>> What is it? A community member from the
+
+81
+00:02:23,640 --> 00:02:26,080
+this company designed this cactus and
+
+82
+00:02:26,080 --> 00:02:28,880
+we're making it real by prototyping it
+
+83
+00:02:28,880 --> 00:02:31,280
+downstairs with That is so cool.
+
+84
+00:02:31,280 --> 00:02:33,160
+So, yeah, this is the maker space and
+
+85
+00:02:33,160 --> 00:02:34,560
+this is where we do a lot of 3D
+
+86
+00:02:34,560 --> 00:02:35,320
+printing. [music]
+
+87
+00:02:35,320 --> 00:02:37,360
+These are some other 3D parts of what
+
+88
+00:02:37,360 --> 00:02:38,959
+Jared's working on upstairs. So, this is
+
+89
+00:02:38,959 --> 00:02:40,720
+kind of actually going to be a coat rack
+
+90
+00:02:40,720 --> 00:02:44,360
+that you put these pieces on like this.
+
+91
+00:02:44,360 --> 00:02:47,280
+That is cool.
+
+92
+00:02:47,320 --> 00:02:49,240
+This is where we kind of like film
+
+93
+00:02:49,240 --> 00:02:50,680
+random videos [music] sometimes. Let's
+
+94
+00:02:50,680 --> 00:02:53,959
+see this section. Oh!
+
+95
+00:02:54,231 --> 00:02:54,720
+>> [laughter]
+
+96
+00:02:54,720 --> 00:02:57,080
+>> Wow! This is amazing.
+
+97
+00:02:57,080 --> 00:02:58,161
+Sophia who you'll meet later, she
+
+98
+00:02:58,161 --> 00:02:59,560
+[music] did all this. She she's worked
+
+99
+00:02:59,560 --> 00:03:02,239
+at Webflow doing like production stuff
+
+100
+00:03:02,239 --> 00:03:04,239
+and content creation. She just like
+
+101
+00:03:04,239 --> 00:03:06,480
+assembled this. Oh my gosh! We need a
+
+102
+00:03:06,480 --> 00:03:08,239
+Sophia.
+
+103
+00:03:08,239 --> 00:03:09,120
+It's like I was like they're like we
+
+104
+00:03:09,120 --> 00:03:11,080
+need a Soph. I'm Cali. Lovely to meet
+
+105
+00:03:11,080 --> 00:03:12,680
+you. Nice meeting you, too. My whole
+
+106
+00:03:12,680 --> 00:03:14,760
+background is in film production before
+
+107
+00:03:14,760 --> 00:03:16,480
+tech. And then I worked at a company
+
+108
+00:03:16,480 --> 00:03:18,840
+called Webflow before that. We had a
+
+109
+00:03:18,840 --> 00:03:20,760
+bunch of satellite studios that I helped
+
+110
+00:03:20,760 --> 00:03:21,519
+to build.
+
+111
+00:03:21,519 --> 00:03:24,280
+>> Webflow as the the web builder you know?
+
+112
+00:03:24,280 --> 00:03:26,920
+I used to use that. Yeah, if you go on
+
+113
+00:03:26,920 --> 00:03:28,440
+Webflow University, I'm in a bunch of
+
+114
+00:03:28,440 --> 00:03:30,760
+their videos. Oh! All right, I'm in.
+
+115
+00:03:30,760 --> 00:03:32,959
+Okay, cool. Our job here now is to
+
+116
+00:03:32,959 --> 00:03:35,200
+really understand how to convert this
+
+117
+00:03:35,200 --> 00:03:37,200
+media content into like a LinkedIn kind
+
+118
+00:03:37,200 --> 00:03:37,720
+of format. So,
+
+119
+00:03:37,720 --> 00:03:39,720
+>> I think what I would do is maybe do the
+
+120
+00:03:39,720 --> 00:03:41,560
+frame it as a question. I know we've
+
+121
+00:03:41,560 --> 00:03:44,200
+done that post that type of post before
+
+122
+00:03:44,200 --> 00:03:46,920
+where it's more thought leadership-y.
+
+123
+00:03:46,920 --> 00:03:48,640
+So, that is what I would probably do.
+
+124
+00:03:48,640 --> 00:03:51,239
+>> Yes. with this example. Okay, that's a
+
+125
+00:03:51,239 --> 00:03:53,520
+really good idea. How do we now from a
+
+126
+00:03:53,520 --> 00:03:55,720
+content formatting perspective you think
+
+127
+00:03:55,720 --> 00:03:56,280
+like
+
+128
+00:03:56,280 --> 00:03:58,640
+>> to include in terms of imagery? Yeah, do
+
+129
+00:03:58,640 --> 00:04:00,080
+you think we should turn some of these
+
+130
+00:04:00,080 --> 00:04:03,040
+like videos into GIFs potentially? We
+
+131
+00:04:03,040 --> 00:04:05,360
+could.
+
+132
+00:04:07,840 --> 00:04:09,480
+Yeah, awesome. So
+
+133
+00:04:09,480 --> 00:04:11,920
+Who was supposed to do this right now?
+
+134
+00:04:11,920 --> 00:04:14,000
+Here you go.
+
+135
+00:04:14,000 --> 00:04:15,160
+Okay, okay, okay.
+
+136
+00:04:15,160 --> 00:04:17,120
+Oh, no.
+
+137
+00:04:17,120 --> 00:04:18,760
+Look at this little wall.
+
+138
+00:04:18,760 --> 00:04:20,079
+All right, we'll try this again. All
+
+139
+00:04:20,079 --> 00:04:23,000
+right, so yeah, let that go through.
+
+140
+00:04:23,000 --> 00:04:24,200
+Awesome.
+
+141
+00:04:24,200 --> 00:04:26,400
+Great. Who's usually watching like the
+
+142
+00:04:26,400 --> 00:04:28,240
+LinkedIn [music] post? How what's your
+
+143
+00:04:28,240 --> 00:04:31,280
+target audience? With Instagram, that's
+
+144
+00:04:31,280 --> 00:04:33,280
+really where our like designer like
+
+145
+00:04:33,280 --> 00:04:34,880
+collective I would say [music] is.
+
+146
+00:04:34,880 --> 00:04:37,080
+LinkedIn is more so I think targeting
+
+147
+00:04:37,080 --> 00:04:39,040
+folks who may not know what Viscom is.
+
+148
+00:04:39,040 --> 00:04:41,000
+So, I think like [music] it's more so
+
+149
+00:04:41,000 --> 00:04:43,680
+like prospect customers on LinkedIn. The
+
+150
+00:04:43,680 --> 00:04:45,000
+students who are looking to build their
+
+151
+00:04:45,000 --> 00:04:46,520
+design portfolios, who are studying
+
+152
+00:04:46,520 --> 00:04:48,919
+industrial design, they come to [music]
+
+153
+00:04:48,919 --> 00:04:50,880
+Viscom to see like examples. We have a
+
+154
+00:04:50,880 --> 00:04:52,640
+webinar tomorrow and there's a lot of
+
+155
+00:04:52,640 --> 00:04:54,480
+students signed up for it. Is it mostly
+
+156
+00:04:54,480 --> 00:04:56,840
+in US like American viewers?
+
+157
+00:04:56,840 --> 00:04:57,840
+>> As far as the students go, we've
+
+158
+00:04:57,840 --> 00:05:00,160
+definitely seen like a global region. I
+
+159
+00:05:00,160 --> 00:05:02,240
+even hosted in Korea like 3 weeks ago in
+
+160
+00:05:02,240 --> 00:05:04,040
+Namyang all the way where my mom is and
+
+161
+00:05:04,040 --> 00:05:05,919
+like cuz their design studio there uses
+
+162
+00:05:05,919 --> 00:05:07,080
+Viscom. Yeah,
+
+163
+00:05:07,080 --> 00:05:08,200
+we're getting there. We're good. Yeah,
+
+164
+00:05:08,200 --> 00:05:10,400
+that's great. That's great. Beautiful.
+
+165
+00:05:10,400 --> 00:05:11,880
+Amazing.
+
+166
+00:05:11,880 --> 00:05:13,600
+I will give you your assignment now. So,
+
+167
+00:05:13,600 --> 00:05:14,640
+there's going to be multiple tasks. The
+
+168
+00:05:14,640 --> 00:05:16,720
+first task here is to help us grab some
+
+169
+00:05:16,720 --> 00:05:18,680
+coffee. As the intern in Viscom, we need
+
+170
+00:05:18,680 --> 00:05:20,560
+our coffee for energy. And then when you
+
+171
+00:05:20,560 --> 00:05:22,760
+get back, we're going to need you to
+
+172
+00:05:22,760 --> 00:05:25,680
+design a flyer of sorts for this design
+
+173
+00:05:25,680 --> 00:05:26,960
+challenge we have coming up where it
+
+174
+00:05:26,960 --> 00:05:28,640
+involves people that are going to use
+
+175
+00:05:28,640 --> 00:05:30,480
+cork materials to design different
+
+176
+00:05:30,480 --> 00:05:31,960
+objects. Okay. And we'd love to get your
+
+177
+00:05:31,960 --> 00:05:33,480
+take on that. Then we'll have some of
+
+178
+00:05:33,480 --> 00:05:34,680
+the other team members check out what
+
+179
+00:05:34,680 --> 00:05:37,360
+you make as well. So, yeah, no pressure.
+
+180
+00:05:37,360 --> 00:05:38,560
+Yeah. No pressure. This is going to go
+
+181
+00:05:38,560 --> 00:05:40,120
+into production. We'll We'll put Oh,
+
+182
+00:05:40,120 --> 00:05:43,223
+Kelly some design. Oh, no.
+
+183
+00:05:43,223 --> 00:05:43,280
+>> [laughter]
+
+184
+00:05:43,280 --> 00:05:44,840
+>> Okay, I can do it. I can do it. I got
+
+185
+00:05:44,840 --> 00:05:47,000
+this. Let me get some orders. The banana
+
+186
+00:05:47,000 --> 00:05:47,760
+cappuccino.
+
+187
+00:05:47,760 --> 00:05:49,120
+>> Banana cappuccino?
+
+188
+00:05:49,120 --> 00:05:50,800
+>> That sounds great. Do you have a
+
+189
+00:05:50,800 --> 00:05:52,120
+preference on the milk? Do you like the
+
+190
+00:05:52,120 --> 00:05:53,680
+goat's milk or Just regular milk is
+
+191
+00:05:53,680 --> 00:05:54,960
+totally fine. Okay.
+
+192
+00:05:54,960 --> 00:05:56,120
+>> So, Kelly, our intern today, she's going
+
+193
+00:05:56,120 --> 00:05:57,634
+to grab us coffee from Golden Goat.
+
+194
+00:05:57,634 --> 00:05:59,040
+[laughter]
+
+195
+00:05:59,040 --> 00:06:01,840
+Ice latte? Any milk preference? Ice
+
+196
+00:06:01,840 --> 00:06:05,400
+latte? Big strawberry matcha latte. Ooh,
+
+197
+00:06:05,400 --> 00:06:08,120
+fancy.
+
+198
+00:06:08,160 --> 00:06:11,840
+Okay, awesome. Number one intern, 2026.
+
+199
+00:06:11,840 --> 00:06:13,920
+I'm already sweating. I can't mess this
+
+200
+00:06:13,920 --> 00:06:15,000
+up. [laughter]
+
+201
+00:06:15,000 --> 00:06:16,640
+Golden Goat is like super known for like
+
+202
+00:06:16,640 --> 00:06:18,840
+having really cool specialty coffees.
+
+203
+00:06:18,840 --> 00:06:20,320
+Jordan really likes the banana bread
+
+204
+00:06:20,320 --> 00:06:21,040
+cappuccino.
+
+205
+00:06:21,040 --> 00:06:22,640
+>> That's what he did. He did the banana
+
+206
+00:06:22,640 --> 00:06:24,600
+cappuccino.
+
+207
+00:06:24,600 --> 00:06:27,400
+Live in Korea? We do, yeah.
+
+208
+00:06:27,400 --> 00:06:29,440
+Yeah, we came for a Coachella and then
+
+209
+00:06:29,440 --> 00:06:31,680
+spent like a little less than 2 weeks
+
+210
+00:06:31,680 --> 00:06:33,760
+here in SF. Did you see Justin Bieber?
+
+211
+00:06:33,760 --> 00:06:36,120
+Yeah.
+
+212
+00:06:36,120 --> 00:06:37,919
+Okay, it's right here, actually. Oh,
+
+213
+00:06:37,919 --> 00:06:40,040
+okay. Hi.
+
+214
+00:06:40,040 --> 00:06:42,520
+Hi, I have a really big order. Is that
+
+215
+00:06:42,520 --> 00:06:44,800
+okay? It's all to go. Sure.
+
+216
+00:06:44,800 --> 00:06:46,320
+Are all these under the same name?
+
+217
+00:06:46,320 --> 00:06:49,480
+>> Yeah, please. Cali. An ice latte with
+
+218
+00:06:49,480 --> 00:06:52,320
+whole milk, ice latte with oat milk, two
+
+219
+00:06:52,320 --> 00:06:55,680
+iced strawberry matchas.
+
+220
+00:06:55,680 --> 00:06:57,360
+Oh, you don't have any?
+
+221
+00:06:57,360 --> 00:07:00,680
+Just regular matcha, then?
+
+222
+00:07:01,760 --> 00:07:03,760
+Okay. Light sweet should be good, yeah.
+
+223
+00:07:03,760 --> 00:07:05,360
+Also, we're going to be carrying these.
+
+224
+00:07:05,360 --> 00:07:08,400
+Do you have any like
+
+225
+00:07:08,880 --> 00:07:11,800
+Okay. Okay.
+
+226
+00:07:11,800 --> 00:07:16,040
+Thank you so much. Goodbye.
+
+227
+00:07:17,760 --> 00:07:21,760
+Oh, our lunch is here. Lunchtime.
+
+228
+00:07:22,440 --> 00:07:24,480
+Is this the cappuccino?
+
+229
+00:07:24,480 --> 00:07:25,880
+Orange cappuccino? No, I think the
+
+230
+00:07:25,880 --> 00:07:29,640
+orange cappuccino is um Kyle's. Kyle's.
+
+231
+00:07:29,640 --> 00:07:33,040
+Did we get a regular cappuccino?
+
+232
+00:07:33,040 --> 00:07:34,800
+No worries. I'm
+
+233
+00:07:34,800 --> 00:07:36,540
+panicking.
+
+234
+00:07:36,540 --> 00:07:37,240
+>> [laughter]
+
+235
+00:07:37,240 --> 00:07:41,000
+>> Did I fail my mission? Cappuccino.
+
+236
+00:07:41,000 --> 00:07:43,520
+Sweet. Do you guys live in Korea or do
+
+237
+00:07:43,520 --> 00:07:46,280
+you guys live here now? Korea.
+
+238
+00:07:46,280 --> 00:07:47,560
+Mhm. So it's Busan it was like a little
+
+239
+00:07:47,560 --> 00:07:48,320
+more chill.
+
+240
+00:07:48,320 --> 00:07:50,520
+>> It is. It is. Especially we lived like
+
+241
+00:07:50,520 --> 00:07:53,200
+right in Gangnam before moving to Busan.
+
+242
+00:07:53,200 --> 00:07:55,240
+And it's just like the vibes are so
+
+243
+00:07:55,240 --> 00:07:57,440
+different cuz it's all offices and it's
+
+244
+00:07:57,440 --> 00:08:00,160
+just like the hustle bustle. But then
+
+245
+00:08:00,160 --> 00:08:02,120
+Busan we live on the beach and it's a
+
+246
+00:08:02,120 --> 00:08:04,680
+lot of like tourists and travelers. How
+
+247
+00:08:04,680 --> 00:08:06,840
+many Do you guys feel the 10 days?
+
+248
+00:08:06,840 --> 00:08:09,120
+Living in Seoul is like insane. Yes.
+
+249
+00:08:09,120 --> 00:08:12,320
+Wow. We eat like close to four five
+
+250
+00:08:12,320 --> 00:08:14,640
+times I think. And the tips is like out
+
+251
+00:08:14,640 --> 00:08:16,120
+of here.
+
+252
+00:08:16,120 --> 00:08:18,400
+Even like you know I'm born and raised
+
+253
+00:08:18,400 --> 00:08:20,040
+American but every time I come back I'm
+
+254
+00:08:20,040 --> 00:08:21,735
+like
+
+255
+00:08:21,735 --> 00:08:22,680
+>> [laughter]
+
+256
+00:08:22,680 --> 00:08:24,560
+>> And then I get confused too cuz I'm like
+
+257
+00:08:24,560 --> 00:08:27,400
+at like a kiosk or something and always
+
+258
+00:08:27,400 --> 00:08:29,320
+pops up you know like I don't want to
+
+259
+00:08:29,320 --> 00:08:31,440
+pay. I don't want to answer that.
+
+260
+00:08:31,440 --> 00:08:32,520
+Yeah.
+
+261
+00:08:32,520 --> 00:08:34,200
+We kicking it like twice since we've
+
+262
+00:08:34,200 --> 00:08:35,719
+been here.
+
+263
+00:08:35,719 --> 00:08:37,919
+I like it. It's a really smart but I
+
+264
+00:08:37,919 --> 00:08:40,400
+just get like nervous anxious a little
+
+265
+00:08:40,400 --> 00:08:41,840
+bit still. Like I still got to get used
+
+266
+00:08:41,840 --> 00:08:43,360
+to it. What do you do like when you need
+
+267
+00:08:43,360 --> 00:08:45,520
+to like go to the bathroom or something?
+
+268
+00:08:45,520 --> 00:08:47,281
+Needs a pause button or something.
+
+269
+00:08:47,281 --> 00:08:49,120
+>> [laughter]
+
+270
+00:08:49,120 --> 00:08:51,360
+>> Happy birthday [singing]
+
+271
+00:08:51,360 --> 00:08:53,560
+to you.
+
+272
+00:08:53,560 --> 00:08:56,480
+Happy birthday
+
+273
+00:08:59,360 --> 00:09:02,600
+Cake. Cake. Thank you.
+
+274
+00:09:03,120 --> 00:09:05,680
+So yummy. They've got some fresh [music]
+
+275
+00:09:05,680 --> 00:09:08,920
+fruits in there. So good.
+
+276
+00:09:08,920 --> 00:09:11,080
+So can you just introduce yourself and
+
+277
+00:09:11,080 --> 00:09:13,360
+talk about what you do at Viscom? Yeah
+
+278
+00:09:13,360 --> 00:09:15,440
+so my name is Amy. I'm a product design
+
+279
+00:09:15,440 --> 00:09:17,240
+engineer here at Viscom. I will like
+
+280
+00:09:17,240 --> 00:09:19,720
+think of new features design them like
+
+281
+00:09:19,720 --> 00:09:21,480
+write code to implement them into the
+
+282
+00:09:21,480 --> 00:09:23,640
+Viscom tool and then
+
+283
+00:09:23,640 --> 00:09:25,839
+get some feedback from our customers to
+
+284
+00:09:25,839 --> 00:09:27,120
+iterate on that and make sure it's
+
+285
+00:09:27,120 --> 00:09:28,560
+something that they'll use at their
+
+286
+00:09:28,560 --> 00:09:31,400
+design jobs. Awesome. Thank you so much.
+
+287
+00:09:31,400 --> 00:09:34,440
+Hi. I'm Onur Kırkpınar. I'm a product
+
+288
+00:09:34,440 --> 00:09:36,320
+manager here at Viscom. Been working
+
+289
+00:09:36,320 --> 00:09:37,680
+here for about a year and a half. My
+
+290
+00:09:37,680 --> 00:09:39,560
+background is as industrial designer,
+
+291
+00:09:39,560 --> 00:09:42,280
+automotive designer, so the natural fit
+
+292
+00:09:42,280 --> 00:09:43,280
+working at Viscom.
+
+293
+00:09:43,280 --> 00:09:45,200
+>> What kind of like a regular day at
+
+294
+00:09:45,200 --> 00:09:47,480
+Viscom look like for you? Usually
+
+295
+00:09:47,480 --> 00:09:49,320
+throughout the day I'm testing new
+
+296
+00:09:49,320 --> 00:09:51,920
+models, maybe spinning up some POCs.
+
+297
+00:09:51,920 --> 00:09:54,720
+Sometimes we'll have calls with users to
+
+298
+00:09:54,720 --> 00:09:57,080
+be able to beta test new features,
+
+299
+00:09:57,080 --> 00:09:59,160
+understand what their pain points are.
+
+300
+00:09:59,160 --> 00:10:01,160
+>> Thank you so much. I appreciate it.
+
+301
+00:10:01,160 --> 00:10:02,840
+>> So, my name is Brandon. I'm a product
+
+302
+00:10:02,840 --> 00:10:04,600
+engineer here at Viscom. I'm mainly
+
+303
+00:10:04,600 --> 00:10:06,200
+working on like the dashboard and
+
+304
+00:10:06,200 --> 00:10:07,720
+helping out admins, but the latest thing
+
+305
+00:10:07,720 --> 00:10:09,440
+that I've been working on [music] is
+
+306
+00:10:09,440 --> 00:10:11,320
+a third-party integration with Fusion.
+
+307
+00:10:11,320 --> 00:10:13,080
+It's like a 3D modeling tool. A lot of
+
+308
+00:10:13,080 --> 00:10:15,200
+our customers like working in like
+
+309
+00:10:15,200 --> 00:10:17,160
+external applications, whether it's like
+
+310
+00:10:17,160 --> 00:10:19,320
+3D modeling or like Photoshop. We can
+
+311
+00:10:19,320 --> 00:10:20,760
+hook into these other tools that they
+
+312
+00:10:20,760 --> 00:10:22,480
+like using and making like the workflow
+
+313
+00:10:22,480 --> 00:10:24,440
+a lot more seamless. So, I'm Al
+
+314
+00:10:24,440 --> 00:10:25,800
+Handalzer. I'm the head of sales at
+
+315
+00:10:25,800 --> 00:10:27,640
+Viscom. Yeah, usually we're going on
+
+316
+00:10:27,640 --> 00:10:29,120
+site, spending a day or two with their
+
+317
+00:10:29,120 --> 00:10:31,200
+leadership team and their designers to
+
+318
+00:10:31,200 --> 00:10:32,640
+train them on how to use the product.
+
+319
+00:10:32,640 --> 00:10:34,360
+Like we've been to Korea several times
+
+320
+00:10:34,360 --> 00:10:35,960
+to go see like Hyundai, Kia, some of our
+
+321
+00:10:35,960 --> 00:10:37,320
+customers there. What did you think of
+
+322
+00:10:37,320 --> 00:10:38,632
+Korea? I love it.
+
+323
+00:10:38,632 --> 00:10:38,840
+>> [laughter]
+
+324
+00:10:38,840 --> 00:10:40,160
+>> I love it. Yeah, yeah. Did you get the
+
+325
+00:10:40,160 --> 00:10:42,000
+experience in Korea of going out, having
+
+326
+00:10:42,000 --> 00:10:42,560
+drinks and like
+
+327
+00:10:42,560 --> 00:10:45,120
+>> Oh, yeah. Yeah, the team at Hyundai took
+
+328
+00:10:45,120 --> 00:10:47,640
+us out for soju and Korean barbecue and
+
+329
+00:10:47,640 --> 00:10:49,960
+like we put soju on top of the cast, you
+
+330
+00:10:49,960 --> 00:10:51,240
+know? Yeah, yeah, we did the whole
+
+331
+00:10:51,240 --> 00:10:53,200
+thing, which was a lot of fun. Uh great
+
+332
+00:10:53,200 --> 00:10:54,960
+question. So, yeah, I think a lot of it
+
+333
+00:10:54,960 --> 00:10:56,800
+has been actually inbound interest cuz
+
+334
+00:10:56,800 --> 00:10:58,839
+the the product is our secret weapon.
+
+335
+00:10:58,839 --> 00:11:00,600
+The product is just so good that people
+
+336
+00:11:00,600 --> 00:11:01,960
+are really drawn to it. Like every
+
+337
+00:11:01,960 --> 00:11:04,000
+morning we wake up with a few new ones.
+
+338
+00:11:04,000 --> 00:11:05,839
+Awesome. Thank you so much. Really
+
+339
+00:11:05,839 --> 00:11:10,120
+appreciate it. So, I am Audrey. I am the
+
+340
+00:11:10,120 --> 00:11:12,680
+executive assistant to both co-founders
+
+341
+00:11:12,680 --> 00:11:15,120
+here at Viscom, Jordan and Kaylin. I do,
+
+342
+00:11:15,120 --> 00:11:16,640
+you know, like calendar management,
+
+343
+00:11:16,640 --> 00:11:18,200
+inbox management, just kind of like
+
+344
+00:11:18,200 --> 00:11:20,320
+managing their schedules and like
+
+345
+00:11:20,320 --> 00:11:21,800
+coordinating where they need to be at
+
+346
+00:11:21,800 --> 00:11:23,600
+what time and I'm just kind of helping
+
+347
+00:11:23,600 --> 00:11:25,040
+everyone on the team make sure we're all
+
+348
+00:11:25,040 --> 00:11:26,800
+moving efficiently. I always joke with
+
+349
+00:11:26,800 --> 00:11:28,400
+Jordan like I wish I could like clone
+
+350
+00:11:28,400 --> 00:11:30,720
+you or like put a microchip in your
+
+351
+00:11:30,720 --> 00:11:32,160
+brain so I knew what you were thinking
+
+352
+00:11:32,160 --> 00:11:34,280
+at all times. Can you maybe give a tip
+
+353
+00:11:34,280 --> 00:11:36,880
+for time management, organization,
+
+354
+00:11:36,880 --> 00:11:39,080
+communication, anything that like you
+
+355
+00:11:39,080 --> 00:11:42,080
+>> Yeah, I really like the Eisenhower
+
+356
+00:11:42,080 --> 00:11:43,520
+matrix. I'm not sure if you've heard of
+
+357
+00:11:43,520 --> 00:11:46,640
+it, but it's a kind of like a diagram or
+
+358
+00:11:46,640 --> 00:11:48,440
+chart where you can like prioritize
+
+359
+00:11:48,440 --> 00:11:49,640
+different things, especially working
+
+360
+00:11:49,640 --> 00:11:51,600
+with two different founders. One's like
+
+361
+00:11:51,600 --> 00:11:53,960
+the technical, the CTO, one's the CEO.
+
+362
+00:11:53,960 --> 00:11:55,720
+Juggling priorities and like what to
+
+363
+00:11:55,720 --> 00:11:57,440
+actually get to first is sometimes
+
+364
+00:11:57,440 --> 00:11:58,920
+challenging. So, that's been really
+
+365
+00:11:58,920 --> 00:12:01,040
+helpful for me. Yeah. Thank you so much.
+
+366
+00:12:01,040 --> 00:12:03,840
+Yeah, move on.
+
+367
+00:12:03,840 --> 00:12:06,040
+Hello, my name is Kim. I'm a growth
+
+368
+00:12:06,040 --> 00:12:08,520
+marketer at Vizcom. So, some of the work
+
+369
+00:12:08,520 --> 00:12:10,760
+I do here is hosting like challenges,
+
+370
+00:12:10,760 --> 00:12:12,880
+on-site events, activations at Design
+
+371
+00:12:12,880 --> 00:12:14,480
+Week, as well as looking at how we can
+
+372
+00:12:14,480 --> 00:12:16,760
+grow our broader self-serve user base,
+
+373
+00:12:16,760 --> 00:12:17,960
+so those that are signing up for our
+
+374
+00:12:17,960 --> 00:12:20,240
+website. Hi, I'm Mara. I'm the senior
+
+375
+00:12:20,240 --> 00:12:21,960
+brand and web designer here at Vizcom. I
+
+376
+00:12:21,960 --> 00:12:23,880
+work pretty closely with Kim to help
+
+377
+00:12:23,880 --> 00:12:25,160
+create some of the promotional assets,
+
+378
+00:12:25,160 --> 00:12:27,320
+update the website, and really drive
+
+379
+00:12:27,320 --> 00:12:29,960
+buzz for the challenge. All right, so
+
+380
+00:12:29,960 --> 00:12:31,800
+what are we doing today, exactly? Once
+
+381
+00:12:31,800 --> 00:12:34,800
+Kim kind of comes up with the timeline
+
+382
+00:12:34,800 --> 00:12:36,800
+and who we're working with, what we'll
+
+383
+00:12:36,800 --> 00:12:39,160
+start with is by creating some assets
+
+384
+00:12:39,160 --> 00:12:41,920
+that we can use for a launch. So, just
+
+385
+00:12:41,920 --> 00:12:44,200
+some sample objects of what the
+
+386
+00:12:44,200 --> 00:12:45,680
+challenge is.
+
+387
+00:12:45,680 --> 00:12:48,160
+Draw a line like that, right? Mhm.
+
+388
+00:12:48,160 --> 00:12:49,120
+No?
+
+389
+00:12:49,120 --> 00:12:50,920
+Uh you draw the line and then you
+
+390
+00:12:50,920 --> 00:12:53,200
+connect when you let go. Okay. Put the
+
+391
+00:12:53,200 --> 00:12:54,720
+plants
+
+392
+00:12:54,720 --> 00:12:58,280
+into the planter. Yeah, it helps if you
+
+393
+00:12:58,280 --> 00:13:01,800
+target the [music] object, so it's like
+
+394
+00:13:07,120 --> 00:13:08,080
+Perfect.
+
+395
+00:13:08,080 --> 00:13:09,720
+It's like onboarding interns.
+
+396
+00:13:09,720 --> 00:13:10,560
+>> Yes.
+
+397
+00:13:10,560 --> 00:13:13,320
+Thank you so much.
+
+398
+00:13:13,320 --> 00:13:16,360
+Okay, so I will show you Okay, moment of
+
+399
+00:13:16,360 --> 00:13:18,360
+truth here. So, this is what the team
+
+400
+00:13:18,360 --> 00:13:20,240
+and I worked on. Oh.
+
+401
+00:13:20,240 --> 00:13:22,200
+>> Yeah, we actually did this on Vizcom.
+
+402
+00:13:22,200 --> 00:13:24,520
+Oh, cool. So, you got in there. Can I
+
+403
+00:13:24,520 --> 00:13:26,480
+see this real quick? Oh, wow. That is
+
+404
+00:13:26,480 --> 00:13:28,080
+awesome. So, this is all cork down here.
+
+405
+00:13:28,080 --> 00:13:30,520
+Yep. Very cool. I wish there was like
+
+406
+00:13:30,520 --> 00:13:33,240
+more showcase of the cork itself. It's
+
+407
+00:13:33,240 --> 00:13:35,080
+hard to tell maybe from this image that
+
+408
+00:13:35,080 --> 00:13:37,400
+cork is the special thing about this. Or
+
+409
+00:13:37,400 --> 00:13:39,880
+also understanding like why cork. But
+
+410
+00:13:39,880 --> 00:13:41,120
+all in all, I mean like the actual
+
+411
+00:13:41,120 --> 00:13:42,840
+execution is super cool. It's your your
+
+412
+00:13:42,840 --> 00:13:45,000
+your first intern project of sorts. So,
+
+413
+00:13:45,000 --> 00:13:47,040
+great job. Awesome stuff. Thank you. A
+
+414
+00:13:47,040 --> 00:13:48,040
+plus.
+
+415
+00:13:48,040 --> 00:13:48,584
+Yes.
+
+416
+00:13:48,584 --> 00:13:49,280
+>> [laughter]
+
+417
+00:13:49,280 --> 00:13:50,880
+>> I had a great time like talking to
+
+418
+00:13:50,880 --> 00:13:52,480
+everyone here and [music] getting to
+
+419
+00:13:52,480 --> 00:13:54,400
+spend the day here. So, really thank you
+
+420
+00:13:54,400 --> 00:13:55,080
+so much.
+
+421
+00:13:55,080 --> 00:13:57,099
+>> Yeah. Is there anything you want to say
+
+422
+00:13:57,099 --> 00:13:58,800
+[music] lastly? Maybe about this
+
+423
+00:13:58,800 --> 00:14:00,800
+conference, to the viewers, or Thanks
+
+424
+00:14:00,800 --> 00:14:01,760
+for watching, guys. Yeah, don't forget
+
+425
+00:14:01,760 --> 00:14:03,720
+to like, comment, and subscribe. Love
+
+426
+00:14:03,720 --> 00:14:04,959
+you, boy.
+
+427
+00:14:04,959 --> 00:14:05,680
+>> [laughter]
+
+428
+00:14:05,680 --> 00:14:06,760
+>> Bye.
+
+429
+00:14:06,760 --> 00:14:09,280
+Thank you. Thank you. Bye. Nice Nice
+
+430
+00:14:09,280 --> 00:14:11,240
+meeting you. Thank you for coming. Yeah,
+
+431
+00:14:11,240 --> 00:14:14,640
+thank you. Nice meeting you.

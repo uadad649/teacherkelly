@@ -7195,5 +7195,277 @@
   "kind": "word",
   "date": "2026-10-07",
   "vid": "W4aJcnYCEEU"
+ },
+ {
+  "en": "How's your day going?",
+  "ko": "오늘 하루 어때요?",
+  "when_ko": "아침이나 낮에 만난 사람에게 안부를 물을 때",
+  "why_ko": "day 뒤에 going 이 붙어야 '지나가는 중'이 됩니다. go 를 그냥 쓰면 아직 시작도 안 한 느낌입니다.",
+  "timecode": "00:24",
+  "example_en": "Hi Mina, how's your day going?",
+  "example_ko": "안녕 미나, 오늘 하루 어때요?",
+  "cloze_en": "Hi Mina, how's your day ___?",
+  "cloze_answer": "going",
+  "cloze_wrong": [
+   "go",
+   "goes",
+   "went"
+  ],
+  "kind": "expr",
+  "date": "2026-10-08",
+  "vid": "vpS0byNb9Bw"
+ },
+ {
+  "en": "Lovely to meet you.",
+  "ko": "만나서 반갑습니다.",
+  "when_ko": "처음 만난 사람에게 먼저 인사할 때",
+  "why_ko": "Lovely 는 '반갑다'는 느낌의 인사말 자리에 그대로 들어갑니다. Love 는 사람을 좋아한다는 말이 되어 버립니다.",
+  "timecode": "03:09",
+  "example_en": "Lovely to meet you, Jordan.",
+  "example_ko": "만나서 반갑습니다, 조던.",
+  "cloze_en": "___ to meet you, Jordan.",
+  "cloze_answer": "Lovely",
+  "cloze_wrong": [
+   "Love",
+   "Loved",
+   "Loving"
+  ],
+  "kind": "expr",
+  "date": "2026-10-08",
+  "vid": "vpS0byNb9Bw"
+ },
+ {
+  "en": "Nice meeting you, too.",
+  "ko": "저도 만나서 반가웠어요.",
+  "when_ko": "상대가 먼저 반갑다고 했을 때 받아서 답할 때",
+  "why_ko": "헤어지면서 하는 이 인사는 meet 이 아니라 meeting 꼴로 굳어 있습니다.",
+  "timecode": "03:11",
+  "example_en": "Nice meeting you, too. Have a good day.",
+  "example_ko": "저도 만나서 반가웠어요. 좋은 하루 보내세요.",
+  "cloze_en": "Nice ___ you, too. Have a good day.",
+  "cloze_answer": "meeting",
+  "cloze_wrong": [
+   "meet",
+   "met",
+   "meets"
+  ],
+  "kind": "expr",
+  "date": "2026-10-08",
+  "vid": "vpS0byNb9Bw"
+ },
+ {
+  "en": "Is that okay?",
+  "ko": "괜찮을까요?",
+  "when_ko": "부탁이나 주문이 상대에게 부담될까 싶어 물어볼 때",
+  "why_ko": "okay 자리에 right 를 넣으면 '그게 맞나요?'라고 사실을 확인하는 말이 됩니다.",
+  "timecode": "06:42",
+  "example_en": "I have a big order. Is that okay?",
+  "example_ko": "주문이 많은데요. 괜찮을까요?",
+  "cloze_en": "I have a big order. Is that ___?",
+  "cloze_answer": "okay",
+  "cloze_wrong": [
+   "right",
+   "true",
+   "well"
+  ],
+  "kind": "expr",
+  "date": "2026-10-08",
+  "vid": "vpS0byNb9Bw"
+ },
+ {
+  "en": "It's all to go.",
+  "ko": "전부 포장이에요.",
+  "when_ko": "카페나 식당에서 다 포장해 달라고 할 때",
+  "why_ko": "to go 두 낱말이 붙어서 '가지고 간다'는 뜻이 됩니다. go 혼자서는 이 뜻이 안 나옵니다.",
+  "timecode": "06:42",
+  "example_en": "Two coffees, please. It's all to go.",
+  "example_ko": "커피 두 잔 주세요. 전부 포장이에요.",
+  "cloze_en": "Two coffees, please. It's all ___ go.",
+  "cloze_answer": "to",
+  "cloze_wrong": [
+   "for",
+   "at",
+   "on"
+  ],
+  "kind": "expr",
+  "date": "2026-10-08",
+  "vid": "vpS0byNb9Bw"
+ },
+ {
+  "en": "Just regular milk is totally fine.",
+  "ko": "그냥 일반 우유로 괜찮아요.",
+  "when_ko": "카페에서 우유 종류를 골라 달라고 했을 때 특별한 것 없이 기본으로 달라고 할 때",
+  "why_ko": "가게에서 기본으로 주는 것을 말할 때는 regular 를 씁니다.",
+  "timecode": "05:52",
+  "example_en": "Just regular milk is totally fine, thanks.",
+  "example_ko": "그냥 일반 우유로 괜찮아요, 감사합니다.",
+  "cloze_en": "Just ___ milk is totally fine, thanks.",
+  "cloze_answer": "regular",
+  "cloze_wrong": [
+   "usual",
+   "same",
+   "simple"
+  ],
+  "kind": "expr",
+  "date": "2026-10-08",
+  "vid": "vpS0byNb9Bw"
+ },
+ {
+  "en": "I appreciate it.",
+  "ko": "정말 감사합니다.",
+  "when_ko": "상대가 도와준 뒤에 고맙다는 말을 한 번 더 얹을 때",
+  "why_ko": "끝에 it 이 꼭 붙습니다. 이 말은 '그것에 대해' 고맙다는 말이라서 it 이 빠지면 말이 끊긴 느낌입니다.",
+  "timecode": "09:59",
+  "example_en": "Thanks for your help. I appreciate it.",
+  "example_ko": "도와주셔서 감사해요. 정말 감사합니다.",
+  "cloze_en": "Thanks for your help. I ___ it.",
+  "cloze_answer": "appreciate",
+  "cloze_wrong": [
+   "appreciated",
+   "appreciating",
+   "appreciates"
+  ],
+  "kind": "expr",
+  "date": "2026-10-08",
+  "vid": "vpS0byNb9Bw"
+ },
+ {
+  "en": "No worries.",
+  "ko": "괜찮아요. 신경 쓰지 마세요.",
+  "when_ko": "상대가 미안하다고 했을 때, 또는 급하지 않다고 말해 줄 때",
+  "why_ko": "이 인사말은 worries 꼴로 굳어 있습니다. worry 하나로는 이 느낌이 안 납니다.",
+  "timecode": "07:33",
+  "example_en": "No worries, take your time.",
+  "example_ko": "괜찮아요, 천천히 하세요.",
+  "cloze_en": "No ___, take your time.",
+  "cloze_answer": "worries",
+  "cloze_wrong": [
+   "worry",
+   "worried",
+   "worrying"
+  ],
+  "kind": "expr",
+  "date": "2026-10-08",
+  "vid": "vpS0byNb9Bw"
+ },
+ {
+  "en": "coffee",
+  "ko": "커피",
+  "pos": "명사",
+  "why_ko": "a coffee 라고 하면 한 잔을 뜻합니다. 그냥 coffee 는 음료 자체를 말할 때 씁니다.",
+  "timecode": "05:16",
+  "example_en": "I need a coffee now.",
+  "example_ko": "지금 커피 한 잔 필요해요.",
+  "kind": "word",
+  "date": "2026-10-08",
+  "vid": "vpS0byNb9Bw"
+ },
+ {
+  "en": "grab",
+  "ko": "(가볍게) 사 오다, 집어 오다",
+  "pos": "동사",
+  "why_ko": "buy 는 돈을 내고 사는 것에 초점이 있고, grab 은 잠깐 가서 들고 오는 가벼운 느낌입니다.",
+  "timecode": "05:16",
+  "example_en": "I'll grab some coffee.",
+  "example_ko": "제가 커피 좀 사 올게요.",
+  "kind": "word",
+  "date": "2026-10-08",
+  "vid": "vpS0byNb9Bw"
+ },
+ {
+  "en": "lunch",
+  "ko": "점심",
+  "pos": "명사",
+  "why_ko": "식사 이름 앞에는 the 를 붙이지 않고 have lunch 처럼 그냥 씁니다.",
+  "timecode": "07:17",
+  "example_en": "Our lunch is here.",
+  "example_ko": "점심 왔어요.",
+  "kind": "word",
+  "date": "2026-10-08",
+  "vid": "vpS0byNb9Bw"
+ },
+ {
+  "en": "cake",
+  "ko": "케이크",
+  "pos": "명사",
+  "why_ko": "한 조각을 말할 때는 a piece of cake 라고 합니다.",
+  "timecode": "08:59",
+  "example_en": "This cake is so good.",
+  "example_ko": "이 케이크 정말 맛있어요.",
+  "kind": "word",
+  "date": "2026-10-08",
+  "vid": "vpS0byNb9Bw"
+ },
+ {
+  "en": "sweet",
+  "ko": "단, 달게",
+  "pos": "형용사",
+  "why_ko": "음료에서는 '덜 달게'를 light sweet 이라고 주문합니다.",
+  "timecode": "07:01",
+  "example_en": "It's a little too sweet.",
+  "example_ko": "조금 너무 달아요.",
+  "kind": "word",
+  "date": "2026-10-08",
+  "vid": "vpS0byNb9Bw"
+ },
+ {
+  "en": "team",
+  "ko": "팀",
+  "pos": "명사",
+  "why_ko": "group 은 그냥 모인 사람들이고, team 은 같이 일하는 사람들입니다.",
+  "timecode": "01:45",
+  "example_en": "Our team eats here.",
+  "example_ko": "우리 팀은 여기서 먹어요.",
+  "kind": "word",
+  "date": "2026-10-08",
+  "vid": "vpS0byNb9Bw"
+ },
+ {
+  "en": "help",
+  "ko": "돕다",
+  "pos": "동사",
+  "why_ko": "help 다음에는 사람이 바로 옵니다. help me 처럼요.",
+  "timecode": "00:58",
+  "example_en": "Can you help me, please?",
+  "example_ko": "좀 도와주실 수 있어요?",
+  "kind": "word",
+  "date": "2026-10-08",
+  "vid": "vpS0byNb9Bw"
+ },
+ {
+  "en": "awesome",
+  "ko": "아주 멋진",
+  "pos": "형용사",
+  "why_ko": "good 보다 훨씬 센 말이라, 진짜 놀랐을 때 씁니다.",
+  "timecode": "02:00",
+  "example_en": "This place is awesome.",
+  "example_ko": "이곳 정말 멋져요.",
+  "kind": "word",
+  "date": "2026-10-08",
+  "vid": "vpS0byNb9Bw"
+ },
+ {
+  "en": "birthday",
+  "ko": "생일",
+  "pos": "명사",
+  "why_ko": "생일을 축하할 때는 Happy birthday 라고 하고 congratulations 는 쓰지 않습니다.",
+  "timecode": "08:49",
+  "example_en": "Today is my birthday.",
+  "example_ko": "오늘 제 생일이에요.",
+  "kind": "word",
+  "date": "2026-10-08",
+  "vid": "vpS0byNb9Bw"
+ },
+ {
+  "en": "learn",
+  "ko": "배우다",
+  "pos": "동사",
+  "why_ko": "study 는 공부하는 행동이고, learn 은 그 결과로 알게 되는 것입니다.",
+  "timecode": "01:21",
+  "example_en": "I want to learn Korean.",
+  "example_ko": "한국어를 배우고 싶어요.",
+  "kind": "word",
+  "date": "2026-10-08",
+  "vid": "vpS0byNb9Bw"
  }
 ]
