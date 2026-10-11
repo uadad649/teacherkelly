@@ -7467,5 +7467,277 @@
   "kind": "word",
   "date": "2026-10-08",
   "vid": "vpS0byNb9Bw"
+ },
+ {
+  "en": "Can we get a to-go box?",
+  "ko": "포장 용기 하나 받을 수 있을까요?",
+  "when_ko": "식당에서 음식을 다 못 먹어 싸 가고 싶을 때",
+  "why_ko": "to-go 는 '가지고 나간다'는 뜻으로 음식 앞에 붙습니다. go box 라고만 하면 통하지 않습니다.",
+  "timecode": "03:09",
+  "example_en": "We can't finish this, so can we get a to-go box?",
+  "example_ko": "이거 다 못 먹겠어요, 포장 용기 하나 받을 수 있을까요?",
+  "cloze_en": "We can't finish this, so can we get a ___ box?",
+  "cloze_answer": "to-go",
+  "cloze_wrong": [
+   "go-to",
+   "to-going",
+   "going"
+  ],
+  "kind": "expr",
+  "date": "2026-10-12",
+  "vid": "E4aNT5NiqDY"
+ },
+ {
+  "en": "One of each, please.",
+  "ko": "각각 하나씩 주세요.",
+  "when_ko": "가게에서 종류별로 하나씩 달라고 할 때",
+  "why_ko": "each 는 '하나하나 다'라는 말입니다. one of all 이라고는 하지 않습니다.",
+  "timecode": "03:12",
+  "example_en": "They look good, so one of each, please.",
+  "example_ko": "둘 다 좋아 보여요, 각각 하나씩 주세요.",
+  "cloze_en": "They look good, so one of ___, please.",
+  "cloze_answer": "each",
+  "cloze_wrong": [
+   "all",
+   "every",
+   "both"
+  ],
+  "kind": "expr",
+  "date": "2026-10-12",
+  "vid": "E4aNT5NiqDY"
+ },
+ {
+  "en": "Can you break a hundred?",
+  "ko": "100달러 잔돈으로 바꿔 줄 수 있어요?",
+  "when_ko": "가게에서 큰 돈을 내며 잔돈이 되는지 물을 때",
+  "why_ko": "break 는 큰 돈을 작은 돈으로 쪼개는 것입니다. change a hundred 는 돈을 바꿔치기하는 느낌이 됩니다.",
+  "timecode": "03:16",
+  "example_en": "Sorry, I only have cash. Can you break a hundred?",
+  "example_ko": "죄송해요, 현금만 있어요. 100달러 잔돈으로 바꿔 줄 수 있어요?",
+  "cloze_en": "Sorry, I only have cash. Can you ___ a hundred?",
+  "cloze_answer": "break",
+  "cloze_wrong": [
+   "cut",
+   "open",
+   "split"
+  ],
+  "kind": "expr",
+  "date": "2026-10-12",
+  "vid": "E4aNT5NiqDY"
+ },
+ {
+  "en": "This is the best fish I've ever had.",
+  "ko": "이건 제가 먹어본 생선 중 최고예요.",
+  "when_ko": "음식이 정말 맛있어서 칭찬할 때",
+  "why_ko": "음식을 먹었다고 할 때 had 를 씁니다. eaten 도 되지만 원어민은 had 를 더 자주 씁니다.",
+  "timecode": "04:35",
+  "example_en": "Wow, this is the best fish I've ever had.",
+  "example_ko": "와, 이건 제가 먹어본 생선 중 최고예요.",
+  "cloze_en": "Wow, this is the ___ fish I've ever had.",
+  "cloze_answer": "best",
+  "cloze_wrong": [
+   "better",
+   "good",
+   "most"
+  ],
+  "kind": "expr",
+  "date": "2026-10-12",
+  "vid": "E4aNT5NiqDY"
+ },
+ {
+  "en": "Do you have any tickets available?",
+  "ko": "표 남은 거 있어요?",
+  "when_ko": "공연이나 투어 표가 있는지 물을 때",
+  "why_ko": "available 은 '지금 쓸 수 있는'이라는 말로 tickets 뒤에 붙습니다.",
+  "timecode": "13:19",
+  "example_en": "Hi, do you have any tickets available for the nine o'clock show?",
+  "example_ko": "안녕하세요, 9시 공연 표 남은 거 있어요?",
+  "cloze_en": "Hi, do you have any tickets ___ for the nine o'clock show?",
+  "cloze_answer": "available",
+  "cloze_wrong": [
+   "able",
+   "possible",
+   "open"
+  ],
+  "kind": "expr",
+  "date": "2026-10-12",
+  "vid": "E4aNT5NiqDY"
+ },
+ {
+  "en": "How much is this?",
+  "ko": "이거 얼마예요?",
+  "when_ko": "가게에서 물건 값을 물을 때",
+  "why_ko": "물건 하나는 is, 여러 개는 are 를 씁니다.",
+  "timecode": "15:54",
+  "example_en": "Excuse me, how much is this?",
+  "example_ko": "저기요, 이거 얼마예요?",
+  "cloze_en": "Excuse me, how ___ is this?",
+  "cloze_answer": "much",
+  "cloze_wrong": [
+   "many",
+   "long",
+   "cost"
+  ],
+  "kind": "expr",
+  "date": "2026-10-12",
+  "vid": "E4aNT5NiqDY"
+ },
+ {
+  "en": "I highly recommend it.",
+  "ko": "정말 추천해요.",
+  "when_ko": "가 본 곳이나 먹어본 음식을 남에게 권할 때",
+  "why_ko": "recommend 뒤에는 무엇을 추천하는지 바로 붙습니다. recommend to it 처럼 쓰지 않습니다.",
+  "timecode": "16:33",
+  "example_en": "The fish shack was amazing. I highly recommend it.",
+  "example_ko": "그 생선 가게 정말 좋았어요. 정말 추천해요.",
+  "cloze_en": "The fish shack was amazing. I highly ___ it.",
+  "cloze_answer": "recommend",
+  "cloze_wrong": [
+   "recommended",
+   "recommending",
+   "recommends"
+  ],
+  "kind": "expr",
+  "date": "2026-10-12",
+  "vid": "E4aNT5NiqDY"
+ },
+ {
+  "en": "We made it just in time.",
+  "ko": "딱 시간 맞춰 도착했어요.",
+  "when_ko": "늦을 것 같았는데 겨우 제때 도착했을 때",
+  "why_ko": "make it 은 '도착하다, 해내다'라는 덩어리 말입니다. 그래서 지난 일은 made 가 됩니다.",
+  "timecode": "14:20",
+  "example_en": "The bus was leaving, but we made it just in time.",
+  "example_ko": "버스가 떠나려던 참이었는데, 딱 시간 맞춰 도착했어요.",
+  "cloze_en": "The bus was leaving, but we ___ it just in time.",
+  "cloze_answer": "made",
+  "cloze_wrong": [
+   "make",
+   "making",
+   "makes"
+  ],
+  "kind": "expr",
+  "date": "2026-10-12",
+  "vid": "E4aNT5NiqDY"
+ },
+ {
+  "en": "order",
+  "ko": "주문하다",
+  "pos": "동사",
+  "why_ko": "비슷한 말로 ask 가 있지만, 식당에서 음식을 달라고 할 때는 order 를 씁니다.",
+  "timecode": "02:16",
+  "example_en": "I ordered the beef.",
+  "example_ko": "저는 소고기를 주문했어요.",
+  "kind": "word",
+  "date": "2026-10-12",
+  "vid": "E4aNT5NiqDY"
+ },
+ {
+  "en": "seat",
+  "ko": "자리, 좌석",
+  "pos": "명사",
+  "why_ko": "chair 는 가구 의자이고, 비행기나 극장의 지정 자리는 seat 입니다.",
+  "timecode": "05:31",
+  "example_en": "Two seats are left.",
+  "example_ko": "두 자리가 남았어요.",
+  "kind": "word",
+  "date": "2026-10-12",
+  "vid": "E4aNT5NiqDY"
+ },
+ {
+  "en": "cheap",
+  "ko": "값이 싼",
+  "pos": "형용사",
+  "why_ko": "반대말은 pricey 나 expensive 입니다. 사람에게 쓰면 '인색하다'는 뜻이 됩니다.",
+  "timecode": "15:58",
+  "example_en": "This is cheaper than that.",
+  "example_ko": "이게 저것보다 싸요.",
+  "kind": "word",
+  "date": "2026-10-12",
+  "vid": "E4aNT5NiqDY"
+ },
+ {
+  "en": "gift",
+  "ko": "선물",
+  "pos": "명사",
+  "why_ko": "present 도 같은 뜻이지만, 가게에서 사는 선물은 gift 가 더 자연스럽습니다.",
+  "timecode": "15:01",
+  "example_en": "I'm buying a gift for my dad.",
+  "example_ko": "아빠 선물을 사고 있어요.",
+  "kind": "word",
+  "date": "2026-10-12",
+  "vid": "E4aNT5NiqDY"
+ },
+ {
+  "en": "crowded",
+  "ko": "사람이 많은",
+  "pos": "형용사",
+  "why_ko": "many people 은 설명이고, 장소가 붐빈다고 한마디로 말할 때 crowded 를 씁니다.",
+  "timecode": "10:46",
+  "example_en": "The boat was very crowded.",
+  "example_ko": "배에 사람이 아주 많았어요.",
+  "kind": "word",
+  "date": "2026-10-12",
+  "vid": "E4aNT5NiqDY"
+ },
+ {
+  "en": "popular",
+  "ko": "인기 있는",
+  "pos": "형용사",
+  "why_ko": "famous 는 널리 알려진 것이고, popular 는 사람들이 많이 좋아하는 것입니다.",
+  "timecode": "07:21",
+  "example_en": "This shop is popular in town.",
+  "example_ko": "이 가게는 동네에서 인기가 있어요.",
+  "kind": "word",
+  "date": "2026-10-12",
+  "vid": "E4aNT5NiqDY"
+ },
+ {
+  "en": "spot",
+  "ko": "장소, 자리",
+  "pos": "명사",
+  "why_ko": "place 보다 좁고 콕 집은 한 지점을 말할 때 씁니다.",
+  "timecode": "09:33",
+  "example_en": "This is a nice spot.",
+  "example_ko": "여기 좋은 장소네요.",
+  "kind": "word",
+  "date": "2026-10-12",
+  "vid": "E4aNT5NiqDY"
+ },
+ {
+  "en": "late",
+  "ko": "늦은",
+  "pos": "형용사",
+  "why_ko": "'늦게'라는 뜻도 같은 모양입니다. lately 는 '요즘'이라 뜻이 다릅니다.",
+  "timecode": "14:15",
+  "example_en": "I don't want to be late.",
+  "example_ko": "늦고 싶지 않아요.",
+  "kind": "word",
+  "date": "2026-10-12",
+  "vid": "E4aNT5NiqDY"
+ },
+ {
+  "en": "heard",
+  "ko": "들었다",
+  "pos": "동사",
+  "why_ko": "listen 은 귀 기울이는 것이고, hear 는 그냥 들리는 것입니다.",
+  "timecode": "07:18",
+  "example_en": "I heard this place is good.",
+  "example_ko": "여기 좋다고 들었어요.",
+  "kind": "word",
+  "date": "2026-10-12",
+  "vid": "E4aNT5NiqDY"
+ },
+ {
+  "en": "close",
+  "ko": "가까운",
+  "pos": "형용사",
+  "why_ko": "near 와 뜻이 비슷하지만, close 는 be 동사와 함께 It's close 처럼 자주 씁니다.",
+  "timecode": "12:37",
+  "example_en": "The bear was so close.",
+  "example_ko": "곰이 아주 가까이 있었어요.",
+  "kind": "word",
+  "date": "2026-10-12",
+  "vid": "E4aNT5NiqDY"
  }
 ]
