@@ -7739,5 +7739,277 @@
   "kind": "word",
   "date": "2026-10-12",
   "vid": "E4aNT5NiqDY"
+ },
+ {
+  "en": "I'm originally from a small town.",
+  "ko": "저는 원래 작은 마을 출신이에요.",
+  "when_ko": "처음 만난 사람이 어디서 왔냐고 물을 때",
+  "why_ko": "from 뒤에는 장소가 옵니다. originally는 from 바로 앞에 붙여 '원래 거기 출신'이라는 뜻을 더해 줍니다.",
+  "timecode": "01:09",
+  "example_en": "I'm originally from a small town in Korea.",
+  "example_ko": "저는 원래 한국의 작은 마을 출신이에요.",
+  "cloze_en": "I'm ___ from a small town in Korea.",
+  "cloze_answer": "originally",
+  "cloze_wrong": [
+   "original",
+   "origin",
+   "originally's"
+  ],
+  "kind": "expr",
+  "date": "2026-10-19",
+  "vid": "6eLbtXTCsDQ"
+ },
+ {
+  "en": "I missed my family.",
+  "ko": "가족이 보고 싶었어요.",
+  "when_ko": "멀리 떨어져 지내며 누군가가 그리웠다고 말할 때",
+  "timecode": "02:43",
+  "why_ko": "지난 일이라 miss가 missed로 바뀝니다. 보고 싶은 대상은 miss 바로 뒤에 옵니다.",
+  "example_en": "I missed my family a lot last year.",
+  "example_ko": "작년에 가족이 많이 보고 싶었어요.",
+  "cloze_en": "I ___ my family a lot last year.",
+  "cloze_answer": "missed",
+  "cloze_wrong": [
+   "miss",
+   "missing",
+   "misses"
+  ],
+  "kind": "expr",
+  "date": "2026-10-19",
+  "vid": "6eLbtXTCsDQ"
+ },
+ {
+  "en": "I ended up loving it there.",
+  "ko": "결국 거기가 너무 좋아졌어요.",
+  "when_ko": "처음 생각과 다르게 결국 그렇게 됐다고 말할 때",
+  "timecode": "02:34",
+  "why_ko": "end up 뒤에는 -ing 꼴이 붙습니다. 두 낱말이 한 덩어리로 움직입니다.",
+  "example_en": "I ended up loving it there.",
+  "example_ko": "결국 거기가 너무 좋아졌어요.",
+  "cloze_en": "I ___ up loving it there.",
+  "cloze_answer": "ended",
+  "cloze_wrong": [
+   "end",
+   "ending",
+   "ends"
+  ],
+  "kind": "expr",
+  "date": "2026-10-19",
+  "vid": "6eLbtXTCsDQ"
+ },
+ {
+  "en": "Let's go for a walk.",
+  "ko": "산책하러 가요.",
+  "when_ko": "밥 먹고 나서 같이 걷자고 할 때",
+  "timecode": "04:20",
+  "why_ko": "walk 앞에 for a가 붙어야 '산책 한 번'이라는 덩어리가 됩니다.",
+  "example_en": "Let's go for a walk after dinner.",
+  "example_ko": "저녁 먹고 산책하러 가요.",
+  "cloze_en": "Let's go ___ a walk after dinner.",
+  "cloze_answer": "for",
+  "cloze_wrong": [
+   "to",
+   "on",
+   "at"
+  ],
+  "kind": "expr",
+  "date": "2026-10-19",
+  "vid": "6eLbtXTCsDQ"
+ },
+ {
+  "en": "I'm more comfortable in English.",
+  "ko": "저는 영어가 더 편해요.",
+  "when_ko": "두 언어 중 어느 쪽이 편한지 말할 때",
+  "timecode": "04:29",
+  "why_ko": "어떤 말로 하는 게 편하다고 할 때는 언어 앞에 in을 씁니다.",
+  "example_en": "I'm more comfortable in English than Korean.",
+  "example_ko": "저는 한국어보다 영어가 더 편해요.",
+  "cloze_en": "I'm more ___ in English than Korean.",
+  "cloze_answer": "comfortable",
+  "cloze_wrong": [
+   "comfort",
+   "comforting",
+   "comfortably"
+  ],
+  "kind": "expr",
+  "date": "2026-10-19",
+  "vid": "6eLbtXTCsDQ"
+ },
+ {
+  "en": "I have a hard time speaking English.",
+  "ko": "영어로 말하는 게 힘들어요.",
+  "when_ko": "뭔가가 잘 안 돼서 힘들다고 말할 때",
+  "timecode": "04:53",
+  "why_ko": "hard 뒤에 time이 와야 '힘든 시간', 즉 어렵다는 뜻이 됩니다. 뒤에는 -ing 꼴이 붙습니다.",
+  "example_en": "I have a hard time speaking English.",
+  "example_ko": "영어로 말하는 게 힘들어요.",
+  "cloze_en": "I have a hard ___ speaking English.",
+  "cloze_answer": "time",
+  "cloze_wrong": [
+   "day",
+   "job",
+   "week"
+  ],
+  "kind": "expr",
+  "date": "2026-10-19",
+  "vid": "6eLbtXTCsDQ"
+ },
+ {
+  "en": "I'm interested in travel.",
+  "ko": "저는 여행에 관심이 있어요.",
+  "when_ko": "취미나 좋아하는 분야를 말할 때",
+  "timecode": "07:26",
+  "why_ko": "interested 뒤에는 항상 in이 붙습니다. 이 둘은 늘 붙어 다닙니다.",
+  "example_en": "I'm interested in Korean food.",
+  "example_ko": "저는 한국 음식에 관심이 있어요.",
+  "cloze_en": "I'm interested ___ Korean food.",
+  "cloze_answer": "in",
+  "cloze_wrong": [
+   "on",
+   "at",
+   "for"
+  ],
+  "kind": "expr",
+  "date": "2026-10-19",
+  "vid": "6eLbtXTCsDQ"
+ },
+ {
+  "en": "It looks like it could start raining.",
+  "ko": "비가 올 것 같아요.",
+  "when_ko": "하늘을 보고 날씨를 짐작해서 말할 때",
+  "timecode": "05:27",
+  "why_ko": "it looks like 뒤에는 짐작하는 내용을 문장으로 그대로 붙입니다.",
+  "example_en": "It looks like it could start raining.",
+  "example_ko": "비가 곧 올 것 같아요.",
+  "cloze_en": "It ___ like it could start raining.",
+  "cloze_answer": "looks",
+  "cloze_wrong": [
+   "look",
+   "looking",
+   "looked"
+  ],
+  "kind": "expr",
+  "date": "2026-10-19",
+  "vid": "6eLbtXTCsDQ"
+ },
+ {
+  "en": "teacher",
+  "ko": "선생님",
+  "pos": "명사",
+  "why_ko": "비슷한 말로 trainer가 있지만, 학교나 학원에서 가르치는 사람은 teacher입니다.",
+  "timecode": "01:16",
+  "example_en": "She is an English teacher.",
+  "example_ko": "그녀는 영어 선생님이에요.",
+  "kind": "word",
+  "date": "2026-10-19",
+  "vid": "6eLbtXTCsDQ"
+ },
+ {
+  "en": "apartment",
+  "ko": "아파트, 집",
+  "pos": "명사",
+  "why_ko": "building은 건물 전체를, apartment는 그 안에 사는 한 집을 말합니다.",
+  "timecode": "00:44",
+  "example_en": "My apartment is very small.",
+  "example_ko": "제 집은 아주 작아요.",
+  "kind": "word",
+  "date": "2026-10-19",
+  "vid": "6eLbtXTCsDQ"
+ },
+ {
+  "en": "question",
+  "ko": "질문",
+  "pos": "명사",
+  "why_ko": "answer는 대답이고, question은 묻는 말입니다.",
+  "timecode": "01:39",
+  "example_en": "I have one question.",
+  "example_ko": "질문이 하나 있어요.",
+  "kind": "word",
+  "date": "2026-10-19",
+  "vid": "6eLbtXTCsDQ"
+ },
+ {
+  "en": "friend",
+  "ko": "친구",
+  "pos": "명사",
+  "why_ko": "people은 그냥 사람들이고, friend는 내가 아는 사이인 사람입니다.",
+  "timecode": "07:08",
+  "example_en": "I met a new friend.",
+  "example_ko": "새 친구를 만났어요.",
+  "kind": "word",
+  "date": "2026-10-19",
+  "vid": "6eLbtXTCsDQ"
+ },
+ {
+  "en": "remember",
+  "ko": "기억하다",
+  "pos": "동사",
+  "why_ko": "know는 그냥 아는 것이고, remember는 예전 일을 머리에 떠올리는 것입니다.",
+  "timecode": "04:03",
+  "example_en": "I remember your name.",
+  "example_ko": "당신 이름을 기억해요.",
+  "kind": "word",
+  "date": "2026-10-19",
+  "vid": "6eLbtXTCsDQ"
+ },
+ {
+  "en": "recommend",
+  "ko": "추천하다",
+  "pos": "동사",
+  "why_ko": "tell은 그냥 말해 주는 것이고, recommend는 좋으니 해보라고 권하는 것입니다.",
+  "timecode": "06:33",
+  "example_en": "I recommend this restaurant.",
+  "example_ko": "이 식당을 추천해요.",
+  "kind": "word",
+  "date": "2026-10-19",
+  "vid": "6eLbtXTCsDQ"
+ },
+ {
+  "en": "practice",
+  "ko": "연습하다",
+  "pos": "동사",
+  "why_ko": "learn은 새로 배우는 것이고, practice는 배운 걸 반복하는 것입니다.",
+  "timecode": "07:00",
+  "example_en": "I practice English every day.",
+  "example_ko": "저는 매일 영어를 연습해요.",
+  "kind": "word",
+  "date": "2026-10-19",
+  "vid": "6eLbtXTCsDQ"
+ },
+ {
+  "en": "slow",
+  "ko": "느린",
+  "pos": "형용사",
+  "why_ko": "slow는 느린 상태를 말하고, slowly는 느리게 한다는 쪽에 씁니다.",
+  "timecode": "00:03",
+  "example_en": "Your English is very slow.",
+  "example_ko": "당신 영어는 아주 느려요.",
+  "kind": "word",
+  "date": "2026-10-19",
+  "vid": "6eLbtXTCsDQ"
+ },
+ {
+  "en": "easier",
+  "ko": "더 쉬운",
+  "pos": "형용사",
+  "why_ko": "easy는 그냥 쉬운 것이고, easier는 둘을 비교해서 더 쉽다고 할 때입니다.",
+  "timecode": "07:33",
+  "example_en": "This book is easier.",
+  "example_ko": "이 책이 더 쉬워요.",
+  "kind": "word",
+  "date": "2026-10-19",
+  "vid": "6eLbtXTCsDQ"
+ },
+ {
+  "en": "sometimes",
+  "ko": "가끔",
+  "pos": "부사",
+  "why_ko": "always는 항상이고, sometimes는 가끔씩만입니다.",
+  "timecode": "04:36",
+  "example_en": "Sometimes I walk to work.",
+  "example_ko": "가끔 저는 걸어서 출근해요.",
+  "kind": "word",
+  "date": "2026-10-19",
+  "vid": "6eLbtXTCsDQ"
  }
 ]
