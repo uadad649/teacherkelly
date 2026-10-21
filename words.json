@@ -8011,5 +8011,277 @@
   "kind": "word",
   "date": "2026-10-19",
   "vid": "6eLbtXTCsDQ"
+ },
+ {
+  "en": "I'm from the United States",
+  "ko": "저는 미국에서 왔어요",
+  "when_ko": "처음 만난 사람이 어디서 왔냐고 물을 때",
+  "why_ko": "출신을 말할 때는 from 을 씁니다. in 을 쓰면 지금 그 안에 있다는 말이 됩니다.",
+  "timecode": "00:15",
+  "example_en": "Nice to meet you. I'm from the United States.",
+  "example_ko": "반가워요. 저는 미국에서 왔어요.",
+  "cloze_en": "Nice to meet you. I'm ___ the United States.",
+  "cloze_answer": "from",
+  "cloze_wrong": [
+   "in",
+   "to",
+   "at"
+  ],
+  "kind": "expr",
+  "date": "2026-10-22",
+  "vid": "9SD6embpMtg"
+ },
+ {
+  "en": "I've been living in Korea",
+  "ko": "저는 한국에서 살아 왔어요",
+  "when_ko": "한 곳에서 지금까지 계속 살고 있다고 말할 때",
+  "why_ko": "지금도 계속되는 일이라 been + living 꼴로 붙여 말합니다.",
+  "timecode": "00:17",
+  "example_en": "I've been living in Korea for eight years.",
+  "example_ko": "저는 한국에서 8년째 살고 있어요.",
+  "cloze_en": "I've been ___ in Korea for eight years.",
+  "cloze_answer": "living",
+  "cloze_wrong": [
+   "live",
+   "lives",
+   "lived"
+  ],
+  "kind": "expr",
+  "date": "2026-10-22",
+  "vid": "9SD6embpMtg"
+ },
+ {
+  "en": "Which one was the hardest to learn?",
+  "ko": "어떤 게 제일 배우기 어려웠어요?",
+  "when_ko": "상대가 여러 개를 해봤다고 할 때 그중 뭐가 제일 힘들었냐고 물을 때",
+  "why_ko": "여러 개 중 '제일'을 물을 때는 hard 가 아니라 the hardest 로 말합니다.",
+  "timecode": "01:10",
+  "example_en": "You speak three languages. Which one was the hardest to learn?",
+  "example_ko": "3개 언어를 하시네요. 어떤 게 제일 배우기 어려웠어요?",
+  "cloze_en": "Which one was the ___ to learn?",
+  "cloze_answer": "hardest",
+  "cloze_wrong": [
+   "hard",
+   "harder",
+   "hardly"
+  ],
+  "kind": "expr",
+  "date": "2026-10-22",
+  "vid": "9SD6embpMtg"
+ },
+ {
+  "en": "That makes me feel better",
+  "ko": "그 말 들으니 마음이 좀 놓여요",
+  "when_ko": "상대가 해준 말에 걱정이 가벼워졌을 때",
+  "why_ko": "'~하게 해준다'는 makes me 로 붙여 말하고, 뒤에는 feel 을 그대로 씁니다.",
+  "timecode": "01:44",
+  "example_en": "Thanks for saying that. That makes me feel better.",
+  "example_ko": "그렇게 말해줘서 고마워요. 마음이 좀 놓여요.",
+  "cloze_en": "That ___ me feel better.",
+  "cloze_answer": "makes",
+  "cloze_wrong": [
+   "make",
+   "made",
+   "making"
+  ],
+  "kind": "expr",
+  "date": "2026-10-22",
+  "vid": "9SD6embpMtg"
+ },
+ {
+  "en": "Can you tell me about it?",
+  "ko": "그거에 대해 얘기해 줄래요?",
+  "when_ko": "상대가 꺼낸 이야기를 더 듣고 싶을 때",
+  "why_ko": "tell me 다음에 그 주제를 붙일 때는 about 을 씁니다.",
+  "timecode": "03:14",
+  "example_en": "That sounds interesting. Can you tell me about it?",
+  "example_ko": "재미있을 것 같네요. 그거에 대해 얘기해 줄래요?",
+  "cloze_en": "Can you tell me ___ it?",
+  "cloze_answer": "about",
+  "cloze_wrong": [
+   "of",
+   "for",
+   "to"
+  ],
+  "kind": "expr",
+  "date": "2026-10-22",
+  "vid": "9SD6embpMtg"
+ },
+ {
+  "en": "I got really into it",
+  "ko": "저 그거에 완전히 빠졌어요",
+  "when_ko": "어떤 것에 푹 빠졌다고 말할 때",
+  "why_ko": "got 은 지난 일, get 은 요즘 늘 그렇다는 말이 됩니다.",
+  "timecode": "02:58",
+  "example_en": "I watched one episode and I got really into it.",
+  "example_ko": "한 편 봤는데 완전히 빠졌어요.",
+  "cloze_en": "I watched one episode and I ___ really into it.",
+  "cloze_answer": "got",
+  "cloze_wrong": [
+   "get",
+   "gets",
+   "getting"
+  ],
+  "kind": "expr",
+  "date": "2026-10-22",
+  "vid": "9SD6embpMtg"
+ },
+ {
+  "en": "I'm afraid of making a mistake",
+  "ko": "저는 실수하는 게 두려워요",
+  "when_ko": "틀릴까 봐 말이 안 나온다고 말할 때",
+  "why_ko": "afraid of 다음에는 making 처럼 -ing 꼴이 붙습니다.",
+  "timecode": "10:29",
+  "example_en": "I don't speak much because I'm afraid of making a mistake.",
+  "example_ko": "실수하는 게 두려워서 말을 많이 안 해요.",
+  "cloze_en": "I'm afraid of ___ a mistake.",
+  "cloze_answer": "making",
+  "cloze_wrong": [
+   "to make",
+   "make",
+   "made"
+  ],
+  "kind": "expr",
+  "date": "2026-10-22",
+  "vid": "9SD6embpMtg"
+ },
+ {
+  "en": "Thanks so much for having me",
+  "ko": "초대해 주셔서 정말 감사해요",
+  "when_ko": "누가 집이나 자리에 불러줘서 다녀올 때",
+  "why_ko": "for 다음에는 having 처럼 -ing 꼴이 붙습니다.",
+  "timecode": "11:37",
+  "example_en": "Dinner was great. Thanks so much for having me.",
+  "example_ko": "저녁 정말 좋았어요. 초대해 주셔서 감사해요.",
+  "cloze_en": "Thanks so much for ___ me.",
+  "cloze_answer": "having",
+  "cloze_wrong": [
+   "have",
+   "to have",
+   "has"
+  ],
+  "kind": "expr",
+  "date": "2026-10-22",
+  "vid": "9SD6embpMtg"
+ },
+ {
+  "en": "difficult",
+  "ko": "어려운",
+  "pos": "형용사",
+  "why_ko": "hard 도 어렵다는 뜻이지만 difficult 가 좀 더 점잖게 들립니다.",
+  "timecode": "02:08",
+  "example_en": "This class is too difficult.",
+  "example_ko": "이 수업은 너무 어려워요.",
+  "kind": "word",
+  "date": "2026-10-22",
+  "vid": "9SD6embpMtg"
+ },
+ {
+  "en": "helpful",
+  "ko": "도움이 되는",
+  "pos": "형용사",
+  "why_ko": "help 는 돕는 동작이고, helpful 은 '도움이 된다'고 설명할 때 씁니다.",
+  "timecode": "07:05",
+  "example_en": "Your advice was really helpful.",
+  "example_ko": "조언이 정말 도움이 됐어요.",
+  "kind": "word",
+  "date": "2026-10-22",
+  "vid": "9SD6embpMtg"
+ },
+ {
+  "en": "practice",
+  "ko": "연습하다",
+  "pos": "동사",
+  "why_ko": "study 는 앉아서 공부하는 것, practice 는 몸으로 해보는 것입니다.",
+  "timecode": "03:44",
+  "example_en": "I practice English every day.",
+  "example_ko": "저는 매일 영어를 연습해요.",
+  "kind": "word",
+  "date": "2026-10-22",
+  "vid": "9SD6embpMtg"
+ },
+ {
+  "en": "improve",
+  "ko": "나아지다",
+  "pos": "동사",
+  "why_ko": "change 는 그냥 바뀌는 것이고, improve 는 더 좋아지는 쪽입니다.",
+  "timecode": "02:13",
+  "example_en": "My listening improved a lot.",
+  "example_ko": "제 듣기가 많이 나아졌어요.",
+  "kind": "word",
+  "date": "2026-10-22",
+  "vid": "9SD6embpMtg"
+ },
+ {
+  "en": "abroad",
+  "ko": "외국에",
+  "pos": "부사",
+  "why_ko": "foreign 은 '외국의'라는 꾸미는 말이고, abroad 는 go abroad 처럼 뒤에 바로 붙습니다.",
+  "timecode": "05:14",
+  "example_en": "I want to go abroad.",
+  "example_ko": "저는 외국에 가고 싶어요.",
+  "kind": "word",
+  "date": "2026-10-22",
+  "vid": "9SD6embpMtg"
+ },
+ {
+  "en": "culture",
+  "ko": "문화",
+  "pos": "명사",
+  "why_ko": "country 는 나라 자체, culture 는 그 나라의 사는 방식입니다.",
+  "timecode": "06:20",
+  "example_en": "I like Korean culture.",
+  "example_ko": "저는 한국 문화를 좋아해요.",
+  "kind": "word",
+  "date": "2026-10-22",
+  "vid": "9SD6embpMtg"
+ },
+ {
+  "en": "opportunity",
+  "ko": "기회",
+  "pos": "명사",
+  "why_ko": "time 은 시간, opportunity 는 할 수 있게 열린 기회입니다.",
+  "timecode": "06:15",
+  "example_en": "It was a good opportunity.",
+  "example_ko": "좋은 기회였어요.",
+  "kind": "word",
+  "date": "2026-10-22",
+  "vid": "9SD6embpMtg"
+ },
+ {
+  "en": "method",
+  "ko": "방법",
+  "pos": "명사",
+  "why_ko": "way 도 방법이지만 method 는 정해진 공부법처럼 들립니다.",
+  "timecode": "05:19",
+  "example_en": "This method worked for me.",
+  "example_ko": "이 방법이 저에게 통했어요.",
+  "kind": "word",
+  "date": "2026-10-22",
+  "vid": "9SD6embpMtg"
+ },
+ {
+  "en": "probably",
+  "ko": "아마도",
+  "pos": "부사",
+  "why_ko": "maybe 보다 probably 가 더 그럴 것 같다는 느낌입니다.",
+  "timecode": "00:43",
+  "example_en": "I can probably get it.",
+  "example_ko": "아마 할 수 있을 거예요.",
+  "kind": "word",
+  "date": "2026-10-22",
+  "vid": "9SD6embpMtg"
+ },
+ {
+  "en": "songs",
+  "ko": "노래들",
+  "pos": "명사",
+  "why_ko": "music 은 음악 전체를 뭉뚱그린 말이고, song 은 한 곡씩 셀 수 있습니다.",
+  "timecode": "06:27",
+  "example_en": "I listen to English songs.",
+  "example_ko": "저는 영어 노래를 들어요.",
+  "kind": "word",
+  "date": "2026-10-22",
+  "vid": "9SD6embpMtg"
  }
 ]
