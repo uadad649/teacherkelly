@@ -8283,5 +8283,277 @@
   "kind": "word",
   "date": "2026-10-22",
   "vid": "9SD6embpMtg"
+ },
+ {
+  "en": "Let me get bundled up first.",
+  "ko": "먼저 옷 좀 두껍게 입을게요.",
+  "when_ko": "나가기 전에 옷 입고 나오겠다고 말할 때",
+  "why_ko": "let me 다음에는 바로 동작이 옵니다. first 는 문장 끝에 붙여 '먼저'를 나타냅니다.",
+  "timecode": "02:02",
+  "example_en": "It's cold outside. Let me get bundled up first.",
+  "example_ko": "밖이 추워요. 먼저 옷 좀 두껍게 입을게요.",
+  "cloze_en": "It's cold outside. Let me ___ bundled up first.",
+  "cloze_answer": "get",
+  "cloze_wrong": [
+   "take",
+   "make",
+   "put"
+  ],
+  "kind": "expr",
+  "date": "2026-10-26",
+  "vid": "LqPF1C8yc8U"
+ },
+ {
+  "en": "I think I'm good to go.",
+  "ko": "저는 준비된 것 같아요.",
+  "when_ko": "준비 다 됐다고 말할 때",
+  "why_ko": "good to go 는 세 낱말이 한 덩어리입니다. I'm 다음에 바로 붙습니다.",
+  "timecode": "02:25",
+  "example_en": "I have my bag and my phone. I think I'm good to go.",
+  "example_ko": "가방도 폰도 챙겼어요. 저는 준비된 것 같아요.",
+  "cloze_en": "I have my bag. I think I'm ___ to go.",
+  "cloze_answer": "good",
+  "cloze_wrong": [
+   "well",
+   "fine",
+   "ready"
+  ],
+  "kind": "expr",
+  "date": "2026-10-26",
+  "vid": "LqPF1C8yc8U"
+ },
+ {
+  "en": "Can you please pass the syrup?",
+  "ko": "시럽 좀 건네주시겠어요?",
+  "when_ko": "식탁에서 멀리 있는 것을 달라고 할 때",
+  "why_ko": "pass 는 손으로 건네주는 것입니다. 식탁에서는 give 보다 pass 를 씁니다.",
+  "timecode": "06:02",
+  "example_en": "Can you please pass the syrup?",
+  "example_ko": "시럽 좀 건네주시겠어요?",
+  "cloze_en": "Can you please ___ the syrup?",
+  "cloze_answer": "pass",
+  "cloze_wrong": [
+   "give",
+   "bring",
+   "send"
+  ],
+  "kind": "expr",
+  "date": "2026-10-26",
+  "vid": "LqPF1C8yc8U"
+ },
+ {
+  "en": "Sorry, where do I put this?",
+  "ko": "죄송한데, 이거 어디에 둘까요?",
+  "when_ko": "서류나 물건을 어디에 놓아야 할지 물을 때",
+  "why_ko": "where 로 시작하고 do I 가 붙습니다. 묻는 말이라 I put 순서는 그대로입니다.",
+  "timecode": "06:54",
+  "example_en": "Sorry, where do I put this?",
+  "example_ko": "죄송한데, 이거 어디에 둘까요?",
+  "cloze_en": "Sorry, ___ do I put this?",
+  "cloze_answer": "where",
+  "cloze_wrong": [
+   "what",
+   "how",
+   "when"
+  ],
+  "kind": "expr",
+  "date": "2026-10-26",
+  "vid": "LqPF1C8yc8U"
+ },
+ {
+  "en": "Can I ask you for a favor?",
+  "ko": "부탁 하나 드려도 될까요?",
+  "when_ko": "상대에게 작은 부탁을 꺼내기 전에",
+  "why_ko": "favor 앞에 a 가 꼭 붙고, ask you for 가 한 덩어리입니다.",
+  "timecode": "06:55",
+  "example_en": "Can I ask you for a favor?",
+  "example_ko": "부탁 하나 드려도 될까요?",
+  "cloze_en": "Can I ask you ___ a favor?",
+  "cloze_answer": "for",
+  "cloze_wrong": [
+   "to",
+   "of",
+   "with"
+  ],
+  "kind": "expr",
+  "date": "2026-10-26",
+  "vid": "LqPF1C8yc8U"
+ },
+ {
+  "en": "That hits the spot.",
+  "ko": "딱 좋네요.",
+  "when_ko": "먹거나 마신 것이 정말 만족스러울 때",
+  "why_ko": "hit 과 the spot 이 늘 같이 갑니다. 낱말 하나만 바꿔 쓰지 않습니다.",
+  "timecode": "06:13",
+  "example_en": "This coffee hits the spot this morning.",
+  "example_ko": "오늘 아침 이 커피 딱 좋네요.",
+  "cloze_en": "This coffee ___ the spot this morning.",
+  "cloze_answer": "hits",
+  "cloze_wrong": [
+   "hit",
+   "hitting",
+   "is hitting"
+  ],
+  "kind": "expr",
+  "date": "2026-10-26",
+  "vid": "LqPF1C8yc8U"
+ },
+ {
+  "en": "How much did it cost?",
+  "ko": "그거 얼마였어요?",
+  "when_ko": "가격을 물을 때",
+  "why_ko": "지난 일을 물으니 did 가 들어가고, 그래서 cost 는 그대로 둡니다.",
+  "timecode": "08:29",
+  "example_en": "That looks nice. How much did it cost?",
+  "example_ko": "좋아 보이네요. 그거 얼마였어요?",
+  "cloze_en": "That looks nice. How ___ did it cost?",
+  "cloze_answer": "much",
+  "cloze_wrong": [
+   "many",
+   "long",
+   "big"
+  ],
+  "kind": "expr",
+  "date": "2026-10-26",
+  "vid": "LqPF1C8yc8U"
+ },
+ {
+  "en": "We came to check it out.",
+  "ko": "구경하러 왔어요.",
+  "when_ko": "어떤 곳에 왜 왔는지 말할 때",
+  "why_ko": "check out 사이에 it 이 들어갑니다. check out it 이라고 하지 않습니다.",
+  "timecode": "07:52",
+  "example_en": "They're having a car show, so we came to check it out.",
+  "example_ko": "자동차 쇼를 한다고 해서 구경하러 왔어요.",
+  "cloze_en": "They're having a car show, so we came to ___ it out.",
+  "cloze_answer": "check",
+  "cloze_wrong": [
+   "look",
+   "see",
+   "watch"
+  ],
+  "kind": "expr",
+  "date": "2026-10-26",
+  "vid": "LqPF1C8yc8U"
+ },
+ {
+  "en": "walk",
+  "ko": "산책",
+  "pos": "명사",
+  "why_ko": "비슷한 말로 trip 이 있지만 walk 는 걸어서 잠깐 나가는 것입니다.",
+  "timecode": "01:59",
+  "example_en": "Ready for our walk?",
+  "example_ko": "산책 갈 준비 됐어요?",
+  "kind": "word",
+  "date": "2026-10-26",
+  "vid": "LqPF1C8yc8U"
+ },
+ {
+  "en": "quiet",
+  "ko": "조용한",
+  "pos": "형용사",
+  "why_ko": "비슷한 말로 calm 이 있지만 quiet 는 소리가 없을 때 씁니다.",
+  "timecode": "03:00",
+  "example_en": "This place is very quiet.",
+  "example_ko": "이곳은 아주 조용해요.",
+  "kind": "word",
+  "date": "2026-10-26",
+  "vid": "LqPF1C8yc8U"
+ },
+ {
+  "en": "beautiful",
+  "ko": "아름다운",
+  "pos": "형용사",
+  "why_ko": "비슷한 말로 nice 가 있지만 beautiful 이 훨씬 강한 칭찬입니다.",
+  "timecode": "03:05",
+  "example_en": "Beautiful morning out.",
+  "example_ko": "밖이 아름다운 아침이네요.",
+  "kind": "word",
+  "date": "2026-10-26",
+  "vid": "LqPF1C8yc8U"
+ },
+ {
+  "en": "huge",
+  "ko": "엄청 큰",
+  "pos": "형용사",
+  "why_ko": "big 보다 더 큰 느낌일 때 씁니다.",
+  "timecode": "08:09",
+  "example_en": "That is one huge truck.",
+  "example_ko": "저거 엄청 큰 트럭이네요.",
+  "kind": "word",
+  "date": "2026-10-26",
+  "vid": "LqPF1C8yc8U"
+ },
+ {
+  "en": "careful",
+  "ko": "조심하는",
+  "pos": "형용사",
+  "why_ko": "careful 은 지금 조심하는 태도, care 는 마음을 쓰는 것입니다.",
+  "timecode": "08:43",
+  "example_en": "You have to be very careful.",
+  "example_ko": "아주 조심해야 해요.",
+  "kind": "word",
+  "date": "2026-10-26",
+  "vid": "LqPF1C8yc8U"
+ },
+ {
+  "en": "ripe",
+  "ko": "잘 익은",
+  "pos": "형용사",
+  "why_ko": "cooked 는 불에 익힌 것, ripe 는 과일이 나무에서 익은 것입니다.",
+  "timecode": "09:15",
+  "example_en": "Are these ripe?",
+  "example_ko": "이거 잘 익었나요?",
+  "kind": "word",
+  "date": "2026-10-26",
+  "vid": "LqPF1C8yc8U"
+ },
+ {
+  "en": "local",
+  "ko": "그 지역의",
+  "pos": "형용사",
+  "why_ko": "near 는 거리가 가까운 것, local 은 그 동네에서 나거나 있는 것입니다.",
+  "timecode": "09:08",
+  "example_en": "This is a local market.",
+  "example_ko": "여기는 지역 시장이에요.",
+  "kind": "word",
+  "date": "2026-10-26",
+  "vid": "LqPF1C8yc8U"
+ },
+ {
+  "en": "nap",
+  "ko": "낮잠",
+  "pos": "명사",
+  "why_ko": "sleep 은 밤에 자는 것, nap 은 낮에 잠깐 자는 것입니다.",
+  "timecode": "10:34",
+  "example_en": "Is it nap time?",
+  "example_ko": "낮잠 시간인가요?",
+  "kind": "word",
+  "date": "2026-10-26",
+  "vid": "LqPF1C8yc8U"
+ },
+ {
+  "en": "flat",
+  "ko": "평평한",
+  "pos": "형용사",
+  "why_ko": "straight 는 선이 곧은 것, flat 은 면이 울퉁불퉁하지 않은 것입니다.",
+  "timecode": "09:57",
+  "example_en": "Keep this flat, please.",
+  "example_ko": "이거 평평하게 해 주세요.",
+  "kind": "word",
+  "date": "2026-10-26",
+  "vid": "LqPF1C8yc8U"
+ },
+ {
+  "en": "mix",
+  "ko": "섞다",
+  "pos": "동사",
+  "why_ko": "shake 는 흔드는 것, mix 는 두 가지를 하나로 섞는 것입니다.",
+  "timecode": "04:17",
+  "example_en": "I mix it all together.",
+  "example_ko": "전부 섞어요.",
+  "kind": "word",
+  "date": "2026-10-26",
+  "vid": "LqPF1C8yc8U"
  }
 ]
