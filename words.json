@@ -8555,5 +8555,277 @@
   "kind": "word",
   "date": "2026-10-26",
   "vid": "LqPF1C8yc8U"
+ },
+ {
+  "en": "Let's dig in.",
+  "ko": "자, 먹자.",
+  "when_ko": "음식이 나와서 이제 먹기 시작할 때",
+  "why_ko": "dig 뒤에 in 이 붙어야 '먹기 시작하자'가 됩니다. dig 만 쓰면 땅을 파는 말이 됩니다.",
+  "timecode": "01:59",
+  "example_en": "The food is here. Let's dig in.",
+  "example_ko": "음식 나왔어요. 자, 먹자.",
+  "cloze_en": "The food is here. Let's dig ___.",
+  "cloze_answer": "in",
+  "cloze_wrong": [
+   "out",
+   "up",
+   "on"
+  ],
+  "kind": "expr",
+  "date": "2026-10-30",
+  "vid": "5zVHgOd5bJY"
+ },
+ {
+  "en": "That was actually pretty good.",
+  "ko": "그거 생각보다 꽤 괜찮았어요.",
+  "when_ko": "기대 안 했는데 먹어 보니 맛있을 때",
+  "why_ko": "actually 를 넣으면 '예상과 달리'라는 느낌이 생깁니다. pretty 는 여기서 '예쁜'이 아니라 '꽤'입니다.",
+  "timecode": "02:11",
+  "example_en": "I didn't expect much, but that was actually pretty good.",
+  "example_ko": "별 기대 안 했는데, 그거 생각보다 꽤 괜찮았어요.",
+  "cloze_en": "I didn't expect much, but that was ___ pretty good.",
+  "cloze_answer": "actually",
+  "cloze_wrong": [
+   "exactly",
+   "absolutely",
+   "definitely"
+  ],
+  "kind": "expr",
+  "date": "2026-10-30",
+  "vid": "5zVHgOd5bJY"
+ },
+ {
+  "en": "It tastes like milk.",
+  "ko": "우유 맛이 나요.",
+  "when_ko": "먹어 보고 무슨 맛인지 말할 때",
+  "why_ko": "taste 뒤에 like 가 와야 '~같은 맛'이 됩니다. like 없이 쓰면 다른 뜻이 됩니다.",
+  "timecode": "05:34",
+  "example_en": "This candy tastes like milk.",
+  "example_ko": "이 사탕은 우유 맛이 나요.",
+  "cloze_en": "This candy tastes ___ milk.",
+  "cloze_answer": "like",
+  "cloze_wrong": [
+   "as",
+   "with",
+   "of"
+  ],
+  "kind": "expr",
+  "date": "2026-10-30",
+  "vid": "5zVHgOd5bJY"
+ },
+ {
+  "en": "It reminds me of potato chips.",
+  "ko": "감자칩 생각나게 해요.",
+  "when_ko": "먹은 것이 아는 다른 음식과 비슷할 때",
+  "why_ko": "remind 뒤에는 of 가 붙어서 '무엇을 떠올리게 하는지'를 말합니다.",
+  "timecode": "03:48",
+  "example_en": "This snack reminds me of potato chips.",
+  "example_ko": "이 과자는 감자칩 생각나게 해요.",
+  "cloze_en": "This snack reminds me ___ potato chips.",
+  "cloze_answer": "of",
+  "cloze_wrong": [
+   "to",
+   "with",
+   "about"
+  ],
+  "kind": "expr",
+  "date": "2026-10-30",
+  "vid": "5zVHgOd5bJY"
+ },
+ {
+  "en": "I'd give it eight out of 10.",
+  "ko": "10점 중에 8점 주겠어요.",
+  "when_ko": "맛이나 영화에 점수를 매겨 말할 때",
+  "why_ko": "'10점 중 8점'은 out of 로 이어 붙입니다. in 이나 from 은 쓰지 않습니다.",
+  "timecode": "02:14",
+  "example_en": "The food was good. I'd give it eight out of 10.",
+  "example_ko": "음식이 괜찮았어요. 10점 중에 8점 주겠어요.",
+  "cloze_en": "I'd give it eight ___ of 10.",
+  "cloze_answer": "out",
+  "cloze_wrong": [
+   "off",
+   "over",
+   "up"
+  ],
+  "kind": "expr",
+  "date": "2026-10-30",
+  "vid": "5zVHgOd5bJY"
+ },
+ {
+  "en": "I love the texture.",
+  "ko": "이 식감이 좋아요.",
+  "when_ko": "맛보다 씹히는 느낌이 마음에 들 때",
+  "why_ko": "texture 는 맛이 아니라 입에서 씹히는 느낌입니다. taste 와 다른 말입니다.",
+  "timecode": "01:24",
+  "example_en": "It's not very sweet, but I love the texture.",
+  "example_ko": "별로 달지는 않은데, 식감이 좋아요.",
+  "cloze_en": "It's not very sweet, but I love the ___.",
+  "cloze_answer": "texture",
+  "cloze_wrong": [
+   "taste",
+   "flavor",
+   "smell"
+  ],
+  "kind": "expr",
+  "date": "2026-10-30",
+  "vid": "5zVHgOd5bJY"
+ },
+ {
+  "en": "Have you tried Korean food before?",
+  "ko": "한국 음식 먹어 본 적 있어요?",
+  "when_ko": "상대가 그 음식을 먹어 봤는지 물을 때",
+  "why_ko": "try 는 '먹어 보다'이고, 해 본 적을 물을 때는 Have you 로 시작합니다.",
+  "timecode": "01:01",
+  "example_en": "Have you tried Korean food before?",
+  "example_ko": "한국 음식 먹어 본 적 있어요?",
+  "cloze_en": "Have you ___ Korean food before?",
+  "cloze_answer": "tried",
+  "cloze_wrong": [
+   "try",
+   "trying",
+   "tries"
+  ],
+  "kind": "expr",
+  "date": "2026-10-30",
+  "vid": "5zVHgOd5bJY"
+ },
+ {
+  "en": "It's a little too much.",
+  "ko": "좀 과해요.",
+  "when_ko": "맛이나 양이 조금 지나칠 때",
+  "why_ko": "too much 앞에 a little 을 붙이면 '조금 지나치다'로 부드러워집니다.",
+  "timecode": "05:15",
+  "example_en": "I like butter, but this is a little too much.",
+  "example_ko": "버터는 좋아하는데, 이건 좀 과해요.",
+  "cloze_en": "I like butter, but this is a little ___ much.",
+  "cloze_answer": "too",
+  "cloze_wrong": [
+   "so",
+   "very",
+   "really"
+  ],
+  "kind": "expr",
+  "date": "2026-10-30",
+  "vid": "5zVHgOd5bJY"
+ },
+ {
+  "en": "snack",
+  "ko": "과자, 간식",
+  "pos": "명사",
+  "why_ko": "food 는 밥 같은 끼니 전체를 말하고, snack 은 끼니 사이에 먹는 작은 것입니다.",
+  "timecode": "00:39",
+  "example_en": "I want a snack.",
+  "example_ko": "간식 먹고 싶어요.",
+  "kind": "word",
+  "date": "2026-10-30",
+  "vid": "5zVHgOd5bJY"
+ },
+ {
+  "en": "spicy",
+  "ko": "매운",
+  "pos": "형용사",
+  "why_ko": "hot 도 매운 뜻이 되지만 '뜨거운'으로도 들립니다. 매운 맛만 말하려면 spicy 가 분명합니다.",
+  "timecode": "02:22",
+  "example_en": "This soup is too spicy.",
+  "example_ko": "이 국은 너무 매워요.",
+  "kind": "word",
+  "date": "2026-10-30",
+  "vid": "5zVHgOd5bJY"
+ },
+ {
+  "en": "flavor",
+  "ko": "맛 (종류)",
+  "pos": "명사",
+  "why_ko": "taste 는 느끼는 맛이고, flavor 는 딸기맛·콘맛처럼 맛의 종류를 말할 때 더 씁니다.",
+  "timecode": "03:17",
+  "example_en": "What flavor is this?",
+  "example_ko": "이거 무슨 맛이에요?",
+  "kind": "word",
+  "date": "2026-10-30",
+  "vid": "5zVHgOd5bJY"
+ },
+ {
+  "en": "salty",
+  "ko": "짠",
+  "pos": "형용사",
+  "why_ko": "salt 는 소금이고, salty 는 맛이 짜다고 말할 때 씁니다.",
+  "timecode": "04:10",
+  "example_en": "The chips are too salty.",
+  "example_ko": "이 칩은 너무 짜요.",
+  "kind": "word",
+  "date": "2026-10-30",
+  "vid": "5zVHgOd5bJY"
+ },
+ {
+  "en": "crunchy",
+  "ko": "바삭한",
+  "pos": "형용사",
+  "why_ko": "hard 는 그냥 딱딱한 것이고, crunchy 는 씹을 때 소리 나며 바삭한 것입니다.",
+  "timecode": "04:32",
+  "example_en": "This bread is very crunchy.",
+  "example_ko": "이 빵은 아주 바삭해요.",
+  "kind": "word",
+  "date": "2026-10-30",
+  "vid": "5zVHgOd5bJY"
+ },
+ {
+  "en": "favorite",
+  "ko": "가장 좋아하는 것",
+  "pos": "명사",
+  "why_ko": "like 는 좋아하는 동작이고, favorite 은 그중 '제일'인 하나를 가리킵니다.",
+  "timecode": "02:52",
+  "example_en": "This is my favorite.",
+  "example_ko": "이게 제가 제일 좋아하는 거예요.",
+  "kind": "word",
+  "date": "2026-10-30",
+  "vid": "5zVHgOd5bJY"
+ },
+ {
+  "en": "rate",
+  "ko": "점수를 주다",
+  "pos": "동사",
+  "why_ko": "rating 은 그 점수 자체이고, rate 는 점수를 주는 동작입니다.",
+  "timecode": "01:24",
+  "example_en": "How would you rate it?",
+  "example_ko": "몇 점 주실래요?",
+  "kind": "word",
+  "date": "2026-10-30",
+  "vid": "5zVHgOd5bJY"
+ },
+ {
+  "en": "hungry",
+  "ko": "배고픈",
+  "pos": "형용사",
+  "why_ko": "thirsty 는 목이 마른 것이고, hungry 는 배가 고픈 것입니다.",
+  "timecode": "01:11",
+  "example_en": "Are you hungry now?",
+  "example_ko": "지금 배고파요?",
+  "kind": "word",
+  "date": "2026-10-30",
+  "vid": "5zVHgOd5bJY"
+ },
+ {
+  "en": "honest",
+  "ko": "솔직한",
+  "pos": "형용사",
+  "why_ko": "true 는 사실이 맞다는 말이고, honest 는 사람이 솔직하다는 말입니다.",
+  "timecode": "06:02",
+  "example_en": "Please be honest with me.",
+  "example_ko": "저한테 솔직하게 말해 주세요.",
+  "kind": "word",
+  "date": "2026-10-30",
+  "vid": "5zVHgOd5bJY"
+ },
+ {
+  "en": "bring",
+  "ko": "가져오다",
+  "pos": "동사",
+  "why_ko": "take 는 여기서 저쪽으로 가져가는 것, bring 은 이쪽으로 가져오는 것입니다.",
+  "timecode": "07:05",
+  "example_en": "I'll bring some snacks.",
+  "example_ko": "제가 과자 좀 가져올게요.",
+  "kind": "word",
+  "date": "2026-10-30",
+  "vid": "5zVHgOd5bJY"
  }
 ]
