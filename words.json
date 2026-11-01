@@ -8827,5 +8827,277 @@
   "kind": "word",
   "date": "2026-10-30",
   "vid": "5zVHgOd5bJY"
+ },
+ {
+  "en": "I'm moving in today.",
+  "ko": "저 오늘 이사 들어와요.",
+  "when_ko": "새 집이나 숙소에 들어가는 날, 관리자나 직원에게 말할 때",
+  "why_ko": "move 는 그냥 옮기는 것이고, move in 은 그 집에 들어가 살기 시작하는 것입니다.",
+  "timecode": "00:56",
+  "example_en": "Hi, I'm moving in today. Can I get the keys?",
+  "example_ko": "안녕하세요, 저 오늘 이사 들어와요. 키 받을 수 있을까요?",
+  "cloze_en": "Hi, I'm ___ in today. Can I get the keys?",
+  "cloze_answer": "moving",
+  "cloze_wrong": [
+   "move",
+   "moved",
+   "moves"
+  ],
+  "kind": "expr",
+  "date": "2026-11-02",
+  "vid": "FnfYVAF4Lmk"
+ },
+ {
+  "en": "I'm sorry for the hold up.",
+  "ko": "기다리게 해서 미안해요.",
+  "when_ko": "내가 늦어서 상대를 기다리게 했을 때",
+  "why_ko": "hold up 은 일이 멈춰서 기다리게 된 그 상황을 말합니다. 그래서 the 가 붙습니다.",
+  "timecode": "01:02",
+  "example_en": "I'm sorry for the hold up. The traffic was bad.",
+  "example_ko": "기다리게 해서 미안해요. 차가 많이 막혔어요.",
+  "cloze_en": "I'm sorry for the ___ up. The traffic was bad.",
+  "cloze_answer": "hold",
+  "cloze_wrong": [
+   "holding",
+   "held",
+   "holds"
+  ],
+  "kind": "expr",
+  "date": "2026-11-02",
+  "vid": "FnfYVAF4Lmk"
+ },
+ {
+  "en": "It's within walking distance.",
+  "ko": "걸어갈 수 있는 거리예요.",
+  "when_ko": "가게나 역이 걸어서 갈 만큼 가깝다고 말할 때",
+  "why_ko": "near 는 그냥 가깝다는 말이고, within walking distance 는 걸어서 갈 수 있다는 말입니다.",
+  "timecode": "02:35",
+  "example_en": "The station is within walking distance from here.",
+  "example_ko": "역은 여기서 걸어갈 수 있는 거리예요.",
+  "cloze_en": "The station is ___ walking distance from here.",
+  "cloze_answer": "within",
+  "cloze_wrong": [
+   "in",
+   "on",
+   "for"
+  ],
+  "kind": "expr",
+  "date": "2026-11-02",
+  "vid": "FnfYVAF4Lmk"
+ },
+ {
+  "en": "We're mostly looking for a sofa.",
+  "ko": "저희는 주로 소파를 찾고 있어요.",
+  "when_ko": "가게에서 직원이 무엇을 찾냐고 물었을 때",
+  "why_ko": "look 은 보는 것이고, look for 는 무언가를 찾는 것입니다.",
+  "timecode": "08:02",
+  "example_en": "We're mostly looking for a sofa, but we can look around.",
+  "example_ko": "저희는 주로 소파를 찾고 있는데, 좀 둘러볼게요.",
+  "cloze_en": "We're mostly looking ___ a sofa, but we can look around.",
+  "cloze_answer": "for",
+  "cloze_wrong": [
+   "to",
+   "at",
+   "on"
+  ],
+  "kind": "expr",
+  "date": "2026-11-02",
+  "vid": "FnfYVAF4Lmk"
+ },
+ {
+  "en": "You want a glass of water?",
+  "ko": "물 한 잔 드릴까요?",
+  "when_ko": "집이나 자리에 온 손님에게 물을 권할 때",
+  "why_ko": "water 는 셀 수 없어서 a water 가 아니라 a glass of water 로 묶어 말합니다.",
+  "timecode": "10:22",
+  "example_en": "You want a glass of water? I can pour you one.",
+  "example_ko": "물 한 잔 드릴까요? 한 잔 따라 드릴 수 있어요.",
+  "cloze_en": "You want a ___ of water? I can pour you one.",
+  "cloze_answer": "glass",
+  "cloze_wrong": [
+   "cup",
+   "bottle",
+   "piece"
+  ],
+  "kind": "expr",
+  "date": "2026-11-02",
+  "vid": "FnfYVAF4Lmk"
+ },
+ {
+  "en": "Let's dig in.",
+  "ko": "자, 먹읍시다.",
+  "when_ko": "음식이 다 나와서 이제 먹기 시작할 때",
+  "why_ko": "dig 만 쓰면 파는 뜻이고, dig in 이 되어야 먹기 시작하자는 말이 됩니다.",
+  "timecode": "11:09",
+  "example_en": "The food is here. Let's dig in.",
+  "example_ko": "음식 나왔네요. 자, 먹읍시다.",
+  "cloze_en": "The food is here. Let's dig ___.",
+  "cloze_answer": "in",
+  "cloze_wrong": [
+   "on",
+   "up",
+   "out"
+  ],
+  "kind": "expr",
+  "date": "2026-11-02",
+  "vid": "FnfYVAF4Lmk"
+ },
+ {
+  "en": "I'm pooped.",
+  "ko": "저 완전 녹초예요.",
+  "when_ko": "하루 일이 끝나고 몸이 아주 피곤할 때",
+  "why_ko": "tired 보다 더 센 말이고, 친한 사이에서 가볍게 씁니다.",
+  "timecode": "07:08",
+  "example_en": "I'm pooped. I just want to go to bed.",
+  "example_ko": "저 완전 녹초예요. 그냥 자고 싶어요.",
+  "cloze_en": "I'm ___. I just want to go to bed.",
+  "cloze_answer": "pooped",
+  "cloze_wrong": [
+   "poop",
+   "pooping",
+   "poops"
+  ],
+  "kind": "expr",
+  "date": "2026-11-02",
+  "vid": "FnfYVAF4Lmk"
+ },
+ {
+  "en": "Thank you for everything.",
+  "ko": "여러 가지로 고마워요.",
+  "when_ko": "도와준 사람과 헤어지면서 인사할 때",
+  "why_ko": "everything 하나로 받은 도움 전체를 묶는 말이라 뒤에 더 붙이지 않습니다.",
+  "timecode": "00:25",
+  "example_en": "Thank you for everything. I couldn't have done it alone.",
+  "example_ko": "여러 가지로 고마워요. 혼자서는 못 했을 거예요.",
+  "cloze_en": "Thank you ___ everything. I couldn't have done it alone.",
+  "cloze_answer": "for",
+  "cloze_wrong": [
+   "to",
+   "of",
+   "about"
+  ],
+  "kind": "expr",
+  "date": "2026-11-02",
+  "vid": "FnfYVAF4Lmk"
+ },
+ {
+  "en": "elevator",
+  "ko": "엘리베이터",
+  "pos": "명사",
+  "why_ko": "영국에서는 lift 라고 하지만, 미국에서는 elevator 를 씁니다.",
+  "timecode": "00:06",
+  "example_en": "There's no elevator here.",
+  "example_ko": "여기 엘리베이터가 없어요.",
+  "kind": "word",
+  "date": "2026-11-02",
+  "vid": "FnfYVAF4Lmk"
+ },
+ {
+  "en": "mattress",
+  "ko": "매트리스",
+  "pos": "명사",
+  "why_ko": "bed 는 침대 전체이고, mattress 는 그 위에 깔린 푹신한 부분입니다.",
+  "timecode": "06:21",
+  "example_en": "We bought a new mattress.",
+  "example_ko": "우리는 새 매트리스를 샀어요.",
+  "kind": "word",
+  "date": "2026-11-02",
+  "vid": "FnfYVAF4Lmk"
+ },
+ {
+  "en": "furniture",
+  "ko": "가구",
+  "pos": "명사",
+  "why_ko": "여러 개여도 furnitures 라고 하지 않고 늘 furniture 입니다.",
+  "timecode": "03:51",
+  "example_en": "We need to buy furniture.",
+  "example_ko": "우리는 가구를 사야 해요.",
+  "kind": "word",
+  "date": "2026-11-02",
+  "vid": "FnfYVAF4Lmk"
+ },
+ {
+  "en": "bathtub",
+  "ko": "욕조",
+  "pos": "명사",
+  "why_ko": "shower 는 서서 씻는 곳이고, bathtub 은 물을 받아 몸을 담그는 곳입니다.",
+  "timecode": "03:06",
+  "example_en": "This bathroom has a bathtub.",
+  "example_ko": "이 화장실에는 욕조가 있어요.",
+  "kind": "word",
+  "date": "2026-11-02",
+  "vid": "FnfYVAF4Lmk"
+ },
+ {
+  "en": "kitchen",
+  "ko": "주방",
+  "pos": "명사",
+  "why_ko": "cook 은 요리하는 동작이고, kitchen 은 요리하는 공간입니다.",
+  "timecode": "01:44",
+  "example_en": "The kitchen is pretty big.",
+  "example_ko": "주방이 꽤 커요.",
+  "kind": "word",
+  "date": "2026-11-02",
+  "vid": "FnfYVAF4Lmk"
+ },
+ {
+  "en": "expensive",
+  "ko": "비싼",
+  "pos": "형용사",
+  "why_ko": "cheap 의 반대말이고, 값이 많이 든다는 뜻입니다.",
+  "timecode": "05:40",
+  "example_en": "This sofa is too expensive.",
+  "example_ko": "이 소파는 너무 비싸요.",
+  "kind": "word",
+  "date": "2026-11-02",
+  "vid": "FnfYVAF4Lmk"
+ },
+ {
+  "en": "comfortable",
+  "ko": "편안한",
+  "pos": "형용사",
+  "why_ko": "convenient 는 쓰기 편리한 것이고, comfortable 은 몸이 편한 것입니다.",
+  "timecode": "08:27",
+  "example_en": "This chair is very comfortable.",
+  "example_ko": "이 의자는 아주 편해요.",
+  "kind": "word",
+  "date": "2026-11-02",
+  "vid": "FnfYVAF4Lmk"
+ },
+ {
+  "en": "hungry",
+  "ko": "배고픈",
+  "pos": "형용사",
+  "why_ko": "thirsty 는 목이 마른 것이고, hungry 는 배가 고픈 것입니다.",
+  "timecode": "10:48",
+  "example_en": "I'm hungry. Let's eat.",
+  "example_ko": "배고파요. 먹읍시다.",
+  "kind": "word",
+  "date": "2026-11-02",
+  "vid": "FnfYVAF4Lmk"
+ },
+ {
+  "en": "excited",
+  "ko": "설레는, 기대되는",
+  "pos": "형용사",
+  "why_ko": "exciting 은 그것이 재미있다는 말이고, excited 는 내 기분이 들뜬 것입니다.",
+  "timecode": "01:55",
+  "example_en": "I'm excited about the trip.",
+  "example_ko": "그 여행이 기대돼요.",
+  "kind": "word",
+  "date": "2026-11-02",
+  "vid": "FnfYVAF4Lmk"
+ },
+ {
+  "en": "order",
+  "ko": "주문하다",
+  "pos": "동사",
+  "why_ko": "buy 는 그냥 사는 것이고, order 는 식당이나 가게에 말해서 가져오게 하는 것입니다.",
+  "timecode": "10:49",
+  "example_en": "We ordered Chinese food.",
+  "example_ko": "우리는 중국 음식을 주문했어요.",
+  "kind": "word",
+  "date": "2026-11-02",
+  "vid": "FnfYVAF4Lmk"
  }
 ]
