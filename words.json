@@ -9371,5 +9371,277 @@
   "kind": "word",
   "date": "2026-11-03",
   "vid": "hfhBjln45WU"
+ },
+ {
+  "en": "Let's check it out.",
+  "ko": "가서 한번 보자.",
+  "when_ko": "새로 생긴 가게나 사람 많은 곳을 보고 가보자고 할 때",
+  "why_ko": "check 하나만 쓰면 확인하는 느낌이고, check it out 이 되면 가서 구경해 보는 말이 됩니다.",
+  "timecode": "03:18",
+  "example_en": "There's a new cafe here. Let's check it out.",
+  "example_ko": "여기 새 카페가 있네. 가서 한번 보자.",
+  "cloze_en": "There's a new cafe here. Let's ___ it out.",
+  "cloze_answer": "check",
+  "cloze_wrong": [
+   "see",
+   "look",
+   "watch"
+  ],
+  "kind": "expr",
+  "date": "2026-11-09",
+  "vid": "GOsoOJRaXTA"
+ },
+ {
+  "en": "Have a good one.",
+  "ko": "좋은 시간 보내세요.",
+  "when_ko": "가게에서 나오면서 직원과 짧게 인사하고 헤어질 때",
+  "why_ko": "이 인사는 Have 로 시작해서 상대에게 좋은 하루를 건네주는 말이 됩니다.",
+  "timecode": "03:47",
+  "example_en": "Thanks for your help. Have a good one.",
+  "example_ko": "도와줘서 고마워요. 좋은 시간 보내세요.",
+  "cloze_en": "Thanks for your help. ___ a good one.",
+  "cloze_answer": "Have",
+  "cloze_wrong": [
+   "Take",
+   "Get",
+   "Make"
+  ],
+  "kind": "expr",
+  "date": "2026-11-09",
+  "vid": "GOsoOJRaXTA"
+ },
+ {
+  "en": "I love your costume.",
+  "ko": "분장 옷 정말 멋있어요.",
+  "when_ko": "상대가 입은 옷이나 꾸민 모습을 칭찬할 때",
+  "why_ko": "costume 은 특별한 날에 꾸며 입은 옷이라 축제나 파티에서 이 말을 씁니다.",
+  "timecode": "01:42",
+  "example_en": "I love your costume. That is so cool.",
+  "example_ko": "분장 옷 정말 멋있어요. 너무 멋있네요.",
+  "cloze_en": "I love your ___. That is so cool.",
+  "cloze_answer": "costume",
+  "cloze_wrong": [
+   "clothes",
+   "dress",
+   "face"
+  ],
+  "kind": "expr",
+  "date": "2026-11-09",
+  "vid": "GOsoOJRaXTA"
+ },
+ {
+  "en": "No, not yet.",
+  "ko": "아니요, 아직이요.",
+  "when_ko": "해봤냐고 물을 때 아직 안 해봤다고 답할 때",
+  "why_ko": "yet 이 있어야 지금은 안 했지만 앞으로 할 거라는 느낌이 남습니다.",
+  "timecode": "07:07",
+  "example_en": "Have you tried the new drink? No, not yet.",
+  "example_ko": "새 음료 마셔 봤어요? 아니요, 아직이요.",
+  "cloze_en": "Have you tried it? No, not ___.",
+  "cloze_answer": "yet",
+  "cloze_wrong": [
+   "now",
+   "still",
+   "already"
+  ],
+  "kind": "expr",
+  "date": "2026-11-09",
+  "vid": "GOsoOJRaXTA"
+ },
+ {
+  "en": "Can we do an order of spring rolls?",
+  "ko": "스프링롤 하나 주문할 수 있을까요?",
+  "when_ko": "식당이나 포장 가게에서 음식을 주문할 때",
+  "why_ko": "do an order of 는 가게에서 한 접시를 주문하는 말로 통째로 씁니다.",
+  "timecode": "08:50",
+  "example_en": "Can we do an order of spring rolls?",
+  "example_ko": "스프링롤 하나 주문할 수 있을까요?",
+  "cloze_en": "Can we ___ an order of spring rolls?",
+  "cloze_answer": "do",
+  "cloze_wrong": [
+   "make",
+   "take",
+   "get"
+  ],
+  "kind": "expr",
+  "date": "2026-11-09",
+  "vid": "GOsoOJRaXTA"
+ },
+ {
+  "en": "That's all right.",
+  "ko": "괜찮아요.",
+  "when_ko": "조금 불편하거나 시간이 걸려도 상관없다고 말할 때",
+  "why_ko": "all right 는 두 낱말이 붙어서 괜찮다는 한 덩어리 말이 됩니다.",
+  "timecode": "06:24",
+  "example_en": "It's a long walk, but that's all right.",
+  "example_ko": "좀 멀지만 괜찮아요.",
+  "cloze_en": "It's a long walk, but that's ___ right.",
+  "cloze_answer": "all",
+  "cloze_wrong": [
+   "so",
+   "well",
+   "too"
+  ],
+  "kind": "expr",
+  "date": "2026-11-09",
+  "vid": "GOsoOJRaXTA"
+ },
+ {
+  "en": "I had so much fun tonight.",
+  "ko": "오늘 밤 정말 재미있었어요.",
+  "when_ko": "놀고 헤어질 때 오늘 즐거웠다고 말할 때",
+  "why_ko": "fun 은 하나 둘 세는 말이 아니라서 many 가 아니라 much 와 붙습니다.",
+  "timecode": "09:11",
+  "example_en": "I had so much fun tonight. Thank you.",
+  "example_ko": "오늘 밤 정말 재미있었어요. 고마워요.",
+  "cloze_en": "I ___ so much fun tonight.",
+  "cloze_answer": "had",
+  "cloze_wrong": [
+   "have",
+   "having",
+   "was"
+  ],
+  "kind": "expr",
+  "date": "2026-11-09",
+  "vid": "GOsoOJRaXTA"
+ },
+ {
+  "en": "Have you been busy tonight?",
+  "ko": "오늘 밤 바빴어요?",
+  "when_ko": "가게 직원이나 동료에게 짧게 말을 걸 때",
+  "why_ko": "been 이 들어가면 저녁 내내 어땠는지 묻는 말이 됩니다.",
+  "timecode": "06:49",
+  "example_en": "Have you been busy tonight?",
+  "example_ko": "오늘 밤 바빴어요?",
+  "cloze_en": "Have you ___ busy tonight?",
+  "cloze_answer": "been",
+  "cloze_wrong": [
+   "be",
+   "being",
+   "was"
+  ],
+  "kind": "expr",
+  "date": "2026-11-09",
+  "vid": "GOsoOJRaXTA"
+ },
+ {
+  "en": "candy",
+  "ko": "사탕",
+  "pos": "명사",
+  "why_ko": "비슷한 말로 snack 이 있지만 candy 는 달고 작은 사탕 종류만 가리킵니다.",
+  "timecode": "00:47",
+  "example_en": "The kids got a lot of candy.",
+  "example_ko": "아이들이 사탕을 많이 받았어요.",
+  "kind": "word",
+  "date": "2026-11-09",
+  "vid": "GOsoOJRaXTA"
+ },
+ {
+  "en": "neighborhood",
+  "ko": "동네",
+  "pos": "명사",
+  "why_ko": "town 은 도시 전체이고 neighborhood 는 내가 사는 집 주변입니다.",
+  "timecode": "00:45",
+  "example_en": "I walk around my neighborhood.",
+  "example_ko": "저는 동네를 걸어 다녀요.",
+  "kind": "word",
+  "date": "2026-11-09",
+  "vid": "GOsoOJRaXTA"
+ },
+ {
+  "en": "decorations",
+  "ko": "장식",
+  "pos": "명사",
+  "why_ko": "장식품은 보통 여러 개라서 끝에 s 를 붙여 씁니다.",
+  "timecode": "03:52",
+  "example_en": "They have good decorations.",
+  "example_ko": "장식이 정말 좋네요.",
+  "kind": "word",
+  "date": "2026-11-09",
+  "vid": "GOsoOJRaXTA"
+ },
+ {
+  "en": "huge",
+  "ko": "엄청 큰",
+  "pos": "형용사",
+  "why_ko": "big 보다 더 크다는 느낌이라 놀랐을 때 씁니다.",
+  "timecode": "00:00",
+  "example_en": "There's a huge line.",
+  "example_ko": "줄이 엄청 길어요.",
+  "kind": "word",
+  "date": "2026-11-09",
+  "vid": "GOsoOJRaXTA"
+ },
+ {
+  "en": "cute",
+  "ko": "귀여운",
+  "pos": "형용사",
+  "why_ko": "beautiful 은 아름답다는 말이고 cute 는 작고 사랑스러울 때 씁니다.",
+  "timecode": "01:17",
+  "example_en": "That bag is so cute.",
+  "example_ko": "그 가방 정말 귀여워요.",
+  "kind": "word",
+  "date": "2026-11-09",
+  "vid": "GOsoOJRaXTA"
+ },
+ {
+  "en": "light",
+  "ko": "불, 등",
+  "pos": "명사",
+  "why_ko": "lamp 는 등 기구 자체이고 light 는 켜져 있는 불빛도 말합니다.",
+  "timecode": "04:31",
+  "example_en": "Their light is on.",
+  "example_ko": "그 집 불이 켜져 있어요.",
+  "kind": "word",
+  "date": "2026-11-09",
+  "vid": "GOsoOJRaXTA"
+ },
+ {
+  "en": "takeout",
+  "ko": "포장 음식",
+  "pos": "명사",
+  "why_ko": "가게에서 먹는 것이 아니라 들고 나가는 음식일 때 이 말을 씁니다.",
+  "timecode": "08:48",
+  "example_en": "I want takeout tonight.",
+  "example_ko": "오늘 밤은 포장 음식이 먹고 싶어요.",
+  "kind": "word",
+  "date": "2026-11-09",
+  "vid": "GOsoOJRaXTA"
+ },
+ {
+  "en": "yell",
+  "ko": "소리치다",
+  "pos": "동사",
+  "why_ko": "say 는 그냥 말하는 것이고 yell 은 크게 소리 내는 것입니다.",
+  "timecode": "00:45",
+  "example_en": "The kids yell at the door.",
+  "example_ko": "아이들이 문 앞에서 소리쳐요.",
+  "kind": "word",
+  "date": "2026-11-09",
+  "vid": "GOsoOJRaXTA"
+ },
+ {
+  "en": "probably",
+  "ko": "아마",
+  "pos": "부사",
+  "why_ko": "maybe 보다 더 그럴 것 같을 때 씁니다.",
+  "timecode": "06:56",
+  "example_en": "He's probably at home.",
+  "example_ko": "그는 아마 집에 있어요.",
+  "kind": "word",
+  "date": "2026-11-09",
+  "vid": "GOsoOJRaXTA"
+ },
+ {
+  "en": "actually",
+  "ko": "사실은",
+  "pos": "부사",
+  "why_ko": "really 는 정말이라고 힘주는 말이고 actually 는 생각과 다르다고 짚어 줄 때 씁니다.",
+  "timecode": "00:35",
+  "example_en": "It's actually my first time.",
+  "example_ko": "사실 이번이 처음이에요.",
+  "kind": "word",
+  "date": "2026-11-09",
+  "vid": "GOsoOJRaXTA"
  }
 ]
