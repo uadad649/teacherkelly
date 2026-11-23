@@ -9643,5 +9643,277 @@
   "kind": "word",
   "date": "2026-11-09",
   "vid": "GOsoOJRaXTA"
+ },
+ {
+  "en": "I'm finally back.",
+  "ko": "드디어 돌아왔어요.",
+  "when_ko": "여행이나 출장을 마치고 돌아와 사람들에게 인사할 때",
+  "why_ko": "back 은 '원래 자리로 돌아온' 상태를 말합니다. finally 는 그 앞에 붙어 '드디어'라는 느낌을 더합니다.",
+  "timecode": "00:02",
+  "example_en": "I'm finally back home after a long trip.",
+  "example_ko": "긴 여행을 마치고 드디어 집에 돌아왔어요.",
+  "cloze_en": "I'm finally ___ home after a long trip.",
+  "cloze_answer": "back",
+  "cloze_wrong": [
+   "at",
+   "going",
+   "staying"
+  ],
+  "kind": "expr",
+  "date": "2026-11-23",
+  "vid": "sY1Lcs0-Jjk"
+ },
+ {
+  "en": "I'm here for the first time.",
+  "ko": "여기 처음 왔어요.",
+  "when_ko": "여행지에서 누가 처음 왔냐고 물을 때",
+  "why_ko": "'처음으로'는 the first time 처럼 first 앞에 the 를 붙여 한 덩어리로 말합니다.",
+  "timecode": "02:55",
+  "example_en": "I'm in New York for the first time.",
+  "example_ko": "뉴욕에 처음 와 봤어요.",
+  "cloze_en": "I'm in New York for the ___ time.",
+  "cloze_answer": "first",
+  "cloze_wrong": [
+   "last",
+   "second",
+   "only"
+  ],
+  "kind": "expr",
+  "date": "2026-11-23",
+  "vid": "sY1Lcs0-Jjk"
+ },
+ {
+  "en": "I'm running errands.",
+  "ko": "볼일 보는 중이에요.",
+  "when_ko": "장보기, 은행, 우체국처럼 이것저것 볼일을 보러 다닌다고 말할 때",
+  "why_ko": "여기서 run 은 달린다는 뜻이 아니라 볼일을 '돌며 처리한다'는 뜻으로, errands 와 늘 붙어 다닙니다.",
+  "timecode": "01:26",
+  "example_en": "I'm running errands this afternoon.",
+  "example_ko": "오늘 오후에 볼일 좀 보러 다녀요.",
+  "cloze_en": "I'm ___ errands this afternoon.",
+  "cloze_answer": "running",
+  "cloze_wrong": [
+   "making",
+   "taking",
+   "having"
+  ],
+  "kind": "expr",
+  "date": "2026-11-23",
+  "vid": "sY1Lcs0-Jjk"
+ },
+ {
+  "en": "You helped me out so much.",
+  "ko": "정말 많이 도와주셨어요.",
+  "when_ko": "곤란할 때 도와준 사람에게 고마움을 전할 때",
+  "why_ko": "help me 뒤에 out 을 붙이면 '어려운 상황에서 꺼내 주듯 도와줬다'는 느낌이 됩니다.",
+  "timecode": "01:37",
+  "example_en": "Thank you, you helped me out so much.",
+  "example_ko": "고마워요, 정말 많이 도와주셨어요.",
+  "cloze_en": "You helped me ___ so much.",
+  "cloze_answer": "out",
+  "cloze_wrong": [
+   "up",
+   "on",
+   "off"
+  ],
+  "kind": "expr",
+  "date": "2026-11-23",
+  "vid": "sY1Lcs0-Jjk"
+ },
+ {
+  "en": "We went out to dinner.",
+  "ko": "우리 저녁 외식했어요.",
+  "when_ko": "누구와 밖에서 저녁을 먹었다고 말할 때",
+  "why_ko": "지난 일이라 go 가 아니라 went 를 씁니다. went out 은 '밖에 나갔다'는 덩어리입니다.",
+  "timecode": "02:22",
+  "example_en": "We went out to dinner last night.",
+  "example_ko": "우리 어젯밤에 저녁 외식했어요.",
+  "cloze_en": "We ___ out to dinner last night.",
+  "cloze_answer": "went",
+  "cloze_wrong": [
+   "go",
+   "goes",
+   "going"
+  ],
+  "kind": "expr",
+  "date": "2026-11-23",
+  "vid": "sY1Lcs0-Jjk"
+ },
+ {
+  "en": "It was so nice seeing you.",
+  "ko": "만나서 정말 반가웠어요.",
+  "when_ko": "오랜만에 만난 사람과 헤어지며 인사할 때",
+  "why_ko": "nice 뒤에 '만난 일'을 말할 때는 seeing 처럼 -ing 꼴을 씁니다.",
+  "timecode": "04:31",
+  "example_en": "It was so nice seeing you again.",
+  "example_ko": "다시 만나서 정말 반가웠어요.",
+  "cloze_en": "It was so nice ___ you again.",
+  "cloze_answer": "seeing",
+  "cloze_wrong": [
+   "see",
+   "saw",
+   "seen"
+  ],
+  "kind": "expr",
+  "date": "2026-11-23",
+  "vid": "sY1Lcs0-Jjk"
+ },
+ {
+  "en": "I'm really looking forward to it.",
+  "ko": "정말 기대돼요.",
+  "when_ko": "앞으로 있을 여행이나 약속이 기다려진다고 말할 때",
+  "why_ko": "looking forward 뒤에는 늘 to 가 붙습니다. for 를 쓰기 쉬운데 to 가 맞습니다.",
+  "timecode": "05:00",
+  "example_en": "I'm really looking forward to the trip.",
+  "example_ko": "그 여행이 정말 기대돼요.",
+  "cloze_en": "I'm really looking forward ___ the trip.",
+  "cloze_answer": "to",
+  "cloze_wrong": [
+   "for",
+   "at",
+   "on"
+  ],
+  "kind": "expr",
+  "date": "2026-11-23",
+  "vid": "sY1Lcs0-Jjk"
+ },
+ {
+  "en": "I hope you're doing well.",
+  "ko": "잘 지내고 계시길 바라요.",
+  "when_ko": "메시지나 대화를 시작하며 안부를 물을 때",
+  "why_ko": "'잘 지내다'는 doing well 이 한 덩어리입니다. do 가 여기서는 '지내다'라는 뜻입니다.",
+  "timecode": "05:12",
+  "example_en": "Hi Sarah, I hope you're doing well.",
+  "example_ko": "안녕 사라, 잘 지내고 있길 바라요.",
+  "cloze_en": "Hi Sarah, I hope you're ___ well.",
+  "cloze_answer": "doing",
+  "cloze_wrong": [
+   "making",
+   "being",
+   "going"
+  ],
+  "kind": "expr",
+  "date": "2026-11-23",
+  "vid": "sY1Lcs0-Jjk"
+ },
+ {
+  "en": "together",
+  "ko": "함께",
+  "pos": "부사",
+  "why_ko": "반대말 alone 은 '혼자'입니다. together 는 여럿이 같이할 때 씁니다.",
+  "timecode": "00:46",
+  "example_en": "Let's eat together.",
+  "example_ko": "같이 먹어요.",
+  "kind": "word",
+  "date": "2026-11-23",
+  "vid": "sY1Lcs0-Jjk"
+ },
+ {
+  "en": "trip",
+  "ko": "여행",
+  "pos": "명사",
+  "why_ko": "비슷한 말 travel 은 주로 '여행하다'라는 움직임에 쓰고, trip 은 한 번 다녀오는 여행 하나를 말합니다.",
+  "timecode": "01:03",
+  "example_en": "How was your trip?",
+  "example_ko": "여행 어땠어요?",
+  "kind": "word",
+  "date": "2026-11-23",
+  "vid": "sY1Lcs0-Jjk"
+ },
+ {
+  "en": "experience",
+  "ko": "경험",
+  "pos": "명사",
+  "why_ko": "생김새가 비슷한 experiment 는 '실험'입니다. 겪어 본 일은 experience 입니다.",
+  "timecode": "01:09",
+  "example_en": "It was a great experience.",
+  "example_ko": "정말 좋은 경험이었어요.",
+  "kind": "word",
+  "date": "2026-11-23",
+  "vid": "sY1Lcs0-Jjk"
+ },
+ {
+  "en": "move",
+  "ko": "이사하다",
+  "pos": "동사",
+  "why_ko": "live 는 어디에 '사는' 것이고, move 는 사는 곳을 '옮기는' 것입니다.",
+  "timecode": "01:13",
+  "example_en": "We moved to Seoul.",
+  "example_ko": "우리는 서울로 이사했어요.",
+  "kind": "word",
+  "date": "2026-11-23",
+  "vid": "sY1Lcs0-Jjk"
+ },
+ {
+  "en": "husband",
+  "ko": "남편",
+  "pos": "명사",
+  "why_ko": "wife 는 아내입니다. husband 는 남편입니다.",
+  "timecode": "01:16",
+  "example_en": "My husband loves coffee.",
+  "example_ko": "제 남편은 커피를 좋아해요.",
+  "kind": "word",
+  "date": "2026-11-23",
+  "vid": "sY1Lcs0-Jjk"
+ },
+ {
+  "en": "busy",
+  "ko": "바쁜",
+  "pos": "형용사",
+  "why_ko": "hard 는 '힘든, 어려운'이고, busy 는 할 일이 많아 시간이 없을 때 씁니다.",
+  "timecode": "01:22",
+  "example_en": "I'm very busy today.",
+  "example_ko": "저 오늘 정말 바빠요.",
+  "kind": "word",
+  "date": "2026-11-23",
+  "vid": "sY1Lcs0-Jjk"
+ },
+ {
+  "en": "spend",
+  "ko": "(시간·돈을) 보내다, 쓰다",
+  "pos": "동사",
+  "why_ko": "use 는 물건을 쓸 때, spend 는 시간이나 돈을 쓸 때 씁니다.",
+  "timecode": "01:48",
+  "example_en": "I spend weekends with family.",
+  "example_ko": "저는 주말을 가족과 보내요.",
+  "kind": "word",
+  "date": "2026-11-23",
+  "vid": "sY1Lcs0-Jjk"
+ },
+ {
+  "en": "birthday",
+  "ko": "생일",
+  "pos": "명사",
+  "why_ko": "anniversary 는 결혼기념일 같은 '기념일'이고, birthday 는 태어난 날입니다.",
+  "timecode": "02:22",
+  "example_en": "Happy birthday to you!",
+  "example_ko": "생일 축하해요!",
+  "kind": "word",
+  "date": "2026-11-23",
+  "vid": "sY1Lcs0-Jjk"
+ },
+ {
+  "en": "nephew",
+  "ko": "(남자) 조카",
+  "pos": "명사",
+  "why_ko": "niece 는 여자 조카입니다. nephew 는 남자 조카입니다.",
+  "timecode": "02:55",
+  "example_en": "My nephew is five.",
+  "example_ko": "제 조카는 다섯 살이에요.",
+  "kind": "word",
+  "date": "2026-11-23",
+  "vid": "sY1Lcs0-Jjk"
+ },
+ {
+  "en": "cousin",
+  "ko": "사촌",
+  "pos": "명사",
+  "why_ko": "nephew 는 형제의 아이(조카)이고, cousin 은 삼촌·이모의 아이(사촌)입니다.",
+  "timecode": "03:31",
+  "example_en": "My cousin lives in Busan.",
+  "example_ko": "제 사촌은 부산에 살아요.",
+  "kind": "word",
+  "date": "2026-11-23",
+  "vid": "sY1Lcs0-Jjk"
  }
 ]
